@@ -160,6 +160,14 @@
   - Kemudian cara runningnya,`go run /app/main.go`, tapi kita harus memberitahu docker kalau ini dijalankan di commandline
   - `CMD ["go", "run", ""/app/main.go"]` perintahnya perlu dipisah dalam comma seperti array seperti process.argv
   - Built image dengan `docker build --tag app-golang:1.0 .` (berisi nama image dan tag/version)
+  ```
+  FROM golang:1.11.4
+
+  COPY main.go /app/main.go
+
+  CMD ["go", "run", "/app/main.go"]
+  ```
+  - 
   - Jalankan lagi `docker images` cek apakah image sudah ada
   - Kalau ada image golang lain bisa dihapus karena sudah jadi 1 dengan app-golang
   - Buat container `docker container create --name app1 -p 8080:8080 app-golang:1.0`
@@ -210,7 +218,7 @@
   - Maka harus dihubungkan dengan network antar container
   - Ingat container punya localhost sendiri2
   - Buat network 
-  - ![Screen Shot 2021-06-22 at 03.47.04](/Users/sofyansetiawan/Tutorial/Bootcamp/tutorial-main/codepolitan-docker/image.png)
+  - ![Screen Shot 2021-06-22 at 03.47.04](./image.png)
   - Kalau ingin memeriksa container masuk ke network mana lihat di `docker container inspect mongo `
   - Restart container untuk java-docker
   
@@ -240,9 +248,9 @@
 
   - Bisa juga networks diberi nama lalu setiap attribute container tadi 
 
-  - ![Screen Shot 2021-06-22 at 20.53.00](/Users/sofyansetiawan/Tutorial/Bootcamp/tutorial-main/codepolitan-docker/image3.png)
+  - ![Screen Shot 2021-06-22 at 20.53.00](./image3.png)
 
-    ![Screen Shot 2021-06-22 at 20.53.20](/Users/sofyansetiawan/Tutorial/Bootcamp/tutorial-main/codepolitan-docker/image2.png)
+    ![Screen Shot 2021-06-22 at 20.53.20](./image2.png)
 
   - Menjalankan running `docker-compose.yml`  ketikkan `docker-compose up -d ` (up: create dan start container, down: menghapus dan membuat lagi dan start - ini hati2)
 
