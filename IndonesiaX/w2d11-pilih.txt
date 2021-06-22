@@ -1,0 +1,50 @@
+Tadi di software development life cycle nya model-modelnya udah banyak kita bahasa tadi
+sampai prototype, waterfall, agile, V model, incremental, iterative hingga RAD models.
+Terus isu-isu apa sih yang biasanya terjadi di software development life cycle ini?
+Biasanya yang paling utama itu bagaimana mereka tuh bingung memilih model mana yang digunakan?
+Karna ini untuk kelangsungan project untuk kelangsungan perusahaan
+untuk kelangsungan semua elemen-elemen, semua stakeholder yang ada di project yang sedang kita kembangkan gitu.
+Ini sangat challenging banget dah sangat challenging sangat krusial untuk beberapa organisasi.
+Karna ketika salah pilih aja itu berabe kedepannya tapi mostly
+perusahaan-perusahaan di Indonesia sekarang banyak menggunakan model kalau enggak waterfall
+ya mereka pakai agile gitu. Nah untuk memilih software development life cycle model ini
+ada beberapa step yang perlu kita perhatikan. Yang pertama kita harus benar-benar
+mempelajari dan mendapatkan insight dari setiap model yang ada gitu.
+Jadi enggak kita enggak cuman tau aja nih ada model prototype, ada model RAD, ada model agile gitu.
+Jadi kita harus benar-benar mengetahui flow nya, proses-proses yang ada itu
+apa saja yang terjadi, gimana aja state nya apa aja, kelebihan nya apa, kekurangannya apa,
+kapan kita bisa menggunakan soft model yang ada terus ketika kita memilih
+modelnya itu kita harus benar-benar fokus dan belajar ke domain tersebut gitu
+karena kita juga harus belajar tentang bisnis kriterianya, bisnis objektif nya
+belum lagi teknikal kapabiliti dari tim yang ikut mengembangkan software yang ada gitu.
+Terus teknologi constraint nya dan juga konsen-konsen dari setiap stakeholder dari project yang ada.
+Terus biasanya nih kriteria-kriterianya ni ada size optim nya misal berapa orang gitu itu
+menentukan juga ini pemilihan model terus skill set nya apa saja gitu.
+Kalau misal project yang kita gunakan yang ingin kita kembangkan itu maunya cepat
+kita pakai model apa gitu kalau proyeknya itu long term kita pakai proyek apa.
+Jadi kita pakai model spiral itu untuk project yang jangka panjang terus teknologinya juga
+kita harus paham kualitas dari requirement nya terus tipe-tipe off project,
+Kebutuhan dokumentasi juga itu perlu diperhatikan ketika memilih model.
+Kalau agile kan seperti kita tahu enggak banyak dokumentasi yang dihasilkan dari model tersebut.
+Terus kompleksitas sistemnya, project management nya, cost nya juga ini penting banget.
+Jadi untuk menentukan itu sangat ribet sekali sih milihnya nah ada beberapa faktor
+tadi ada dilaptop saya sebentar saya cari dulu beberapa faktor yang bisa
+kita gunakan untuk menentukan model yang ingin kita gunakan.
+Misal faktor-faktor yang pertama nih faktor yang pertama itu unclear user requirement jadi kalau
+user requirement nya enggak bagus itu gimana gitu kalo untuk model waterfall
+itu nggak direkomendasikan terus kalau V model kalau requirement enggak jelas ini juga enggak direkomendasikan.
+Kalau prototyping masih bisa direkomendasikan tapi kurang baik
+nah yang lebih baik untuk faktor yang unclear of user requirement ini adalah
+model spiral dan model agile ini sangat direkomendasikan terus
+faktor berikutnya adalah unfamiliar technology, unfamiliar technology ini
+kalau kita menggunakan model waterfall, V model dan agileini enggak cocok kalau untuk unfamiliar technology.
+Yang paling cocok untuk faktor ini adalah model prototyping dan model spiral
+atau bisa juga menggunakan incremental dan iterative. Kalau kebutuhannya kompleks sistem
+faktornya sistemnya harus benar-benar komples ni nah yang bagus itu kita
+sebaiknya menggunakan model prototyping dan model spiral atau bagus juga menggunakan incremental dan iterative.
+Terus kalau faktor yang inginkan itu adalah relayable system nah ini satu-satunya yang paling bagus itu adalah spiral.
+Spiral itu kalau untuk long term yang relayable kan pengembangannya akan dilakukan terus-menerus di spiral ini itu bagus.
+Terus kalau untuk jangka pendek yang paling bagus itu incremental dan iterative juga agile.
+Nah itu adalah faktor-faktor dan cara pemilihan dari model yang ada di software development Life cycle.
+Semoga dengan pembelajaran di software development cycle di minggu kedua ini
+bermanfaat buat kalian. Sampai jumpa di minggu berikutnya. Bye

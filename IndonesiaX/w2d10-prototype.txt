@@ -1,0 +1,48 @@
+
+Iterative model udah, increment model sudah, V model sudah, waterfall sudah, agile juga sudah
+apalagi yang belum ya, RAD model juga sudah oh ya ada 1 ada
+prototype model, prototype model jadi di prototype model ini
+basic idea dari prototype ini sebenarnya itu mengutamakan prototype
+untuk lebih mengerti tentang requirement dari software yang dikembangkan itu.
+Jadi biar user biar developer dan biar seluruh stakeholder yang ada
+di dalam software development ini lebih tau tentang project yang dikembangkan
+harus dibuat prototype terlebih dahulu karna prototype itu ya sampel lah gitu contoh.
+Terus prototype biasa dikembangkan sesuai dengan requirement-requirement simpel yang ada
+dengan adanya prototype seperti yang saya bilang tadi klien dapat lebih merasakan bagaimana
+software yang dibuat itu bekerja dan menghasilkan software yang lebih baik
+karna nanti pasti ada feedback-feedback lagi udah liat nih dari awal oh gini contohnya.
+Saya mau seperti ini perubahannya seperti ini ditambahkan a ditambahkan b gitu.
+Tujuannya inti dari prototype ini adalah menghasilkan fungsional sistem sesuai dengan kebutuhan user
+fungsi-fungsi yang ada yang biasa dibutuhkan itu akan dihasilkan lewat model ini.
+Biasanya state yang ada itu kita mulai dari biasa requirement gathering ingat ya
+requirement gathering kita akan fokus dibahas di minggu ke-3 nanti. Terus setelah requirement gathering
+masuk ke quick design, setelah desain kita bangun nih prototype nya
+baru setelah prototype dibangun masuk ke customer evaluation setelah customer evaluation
+kita bisa refining prototype kalau prototype yang enggak sesuai atau nggak oke
+desain ulang desain ulang dong ganti-ganti kita balik lagi ke quick design tadi
+baru putar ke building prototype balik lagi ke customer evaluation sampai itu benar-benar oke
+baru kita masuk ke engineering the product kita bikin yg product yang benar-benar jadi.
+Setelah prototype nya sudah oke terus kelebihan utama dari prototype model ini
+adalah yang pertama itu user aktif berkontribusi terhadap pengembangan softwarenya
+karna dengan metodologi ini itu dapat menghasilkan prototype user dapat lebih mengerti
+sistem yang sedang dikembangkan itu seperti apa terus error dapat ditemukan lebih awal.
+Yang berikutnya adalah user feedback yang lebih cepat dapat menghasilkan solusi yang lebih baik.
+Yang terakhir kelebihannya adalah missing functionality dari software yang kita kembangkan
+itu dapat ditemukan lebih mudah dan lebih wall.
+Tapi pasti ada kelebihan dan kekurangan kan seperti model-model yang lainnya.
+Biasanya kekurangan dari model ini metodologi ini dapat menghasilkan software yang lebih kompleks
+karena scope of project nya memungkinkan untuk di ekspan dan jauh dari ekspektasi kita di awal.
+Lalu user biasanya bisa bingung ni yang mana aplikasi yang mana prototype.
+Ini prototype mana aplikasi yang jadi mana gitu jadi kadang bingung biasanya ada user yang seperti itu.
+Terus effort yang dilakukan untuk membuat prototype bisa jadi terlalu berlebihan jika tidak di monitor dengan baik.
+Karena tadi terlalu fokus bangun prototype produk yang aslinya sampai terbengkalai.
+Kapan kita bisa menggunakan prototype model ini?
+Yang pertama itu saat software yang dibuat itu membutuhkan banyak sekali interaksi dengan user.
+Terus biasanya online software atau web itu membutuhkan banyak interaksi dengan user.
+Jadi untuk menggunakan prototype model ini untuk pengembangan online software
+dan web itu sangat cocok gitu untuk prototype terus
+yang terakhir kapan kita harus menggunakan model ini adalah ketika end user
+akan selalu menguji softwarenya dan memberikan feedback pada prototype yang dibuat
+untuk menghasilkan usable system. Intinya harus kolaborasi di prototype model ini.
+Udah kita bahas semua tuh beberapa model-modelnya saya sudah ada di penghujung model yang prototype ini
+ini udah habis saya simpan dulu di dapur sampai ketemu di section berikutnya.

@@ -1,0 +1,19 @@
+Pernah terpikirkan nggak apa tugas dari seorang software developer? Dalam benak kita mungkin terlintas seseorang yang bertugas untuk mengembangkan dan memastikan sebuah aplikasi dapat digunakan dengan baik oleh pengguna.
+
+Lalu apakah mudah menjadi seorang software developer? Untuk menjadi seseorang yang membidangi dunia pengembangan perangkat lunak memang tidaklah mudah. Saat menjalani profesi sebagai software developer, kita dituntut untuk mengetahui dan mengikuti teknologi yang setiap hari makin berkembang agar tidak tertinggal.
+
+Selain itu, seorang software developer wajib mengetahui hal-hal teknis dalam pengembangan perangkat lunak itu sendiri. Mulai dari fundamental dan paradigma bahasa pemrograman yang digunakan, teknologi yang akan diterapkan, serta pengetahuan yang berhubungan lainnya. Terlihat sulit? Tentu tidak, ini merupakan disiplin dari seorang yang akan terjun ke bidang pengembangan perangkat lunak.
+
+Salah satu fundamental yang wajib dikuasai seorang software developer adalah pengetahuan tentang Software Design Principle. Apa itu? Software Design Principle merupakan serangkaian aturan yang akan membantu kita guna menghindari kebiasaan buruk dalam merancang sebuah pengembangan perangkat lunak. Principle ini diwujudkan oleh seorang Software Engineer asal Amerika bernama Robert C. Martin karena beberapa alasan berikut:
+
+Sebuah sistem yang sulit dipelihara karena setiap perubahan yang ada akan mempengaruhi bagian sistem yang telah ada.
+
+Saat melakukan perubahan, sangat berpotensi merusak sistem yang sudah berjalan.
+
+Sistem yang tidak bisa diterapkan pada aplikasi lain karena tidak dapat dipisahkan dari aplikasi saat ini.
+
+Nah, di kelas ini kita akan mencoba mempelajari beberapa aturan yang menjadi bagian dari Design Principle seperti Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, dan Dependencies Inversion.
+
+Namun sebelum itu, terlebih dahulu kita akan mempelajari kembali lebih dalam tentang OOP (Object Orientation Programming) yang merupakan paradigma yang mendasari penerapan beberapa aturan di atas dan yang menarik dari kelas ini, kita akan menggunakan beberapa bahasa pemrograman saat membahas studi kasus. Keren bukan?
+
+Harapan ketika kita menyelesaikan kelas ini adalah agar kita bisa menghindari hal-hal seperti ketergantungan sistem yang tidak ditangani dengan baik, sistem yang kaku karena sulit diperbarui dan dipelihara, dan tentunya meminimalisir kerusakan sistem yang tidak diinginkan dalam pengembangan perangkat lunak.

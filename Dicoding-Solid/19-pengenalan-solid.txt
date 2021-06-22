@@ -1,0 +1,26 @@
+Pada  beberapa modul sebelumnya kita telah belajar memahami Object Oriented Programming, dari definisi hingga pilar-pilarnya. Kini kita akan masuk ke pembahasan tentang SOLID ya.
+
+Apa itu SOLID
+SOLID merupakan kumpulan dari beberapa principle yang diwujudkan oleh engineer-engineer yang ahli dibidangnya. SOLID membantu kita  mengembangkan sebuah perangkat lunak dengan tingkat kekukuhan yang tinggi. Itu goal kita!
+
+Lantas apakah seseorang yang sudah menguasai dan menggunakan OOP perlu mempelajari SOLID? Tentu saja YA, karena pada dasarnya OOP dan SOLID merupakan 2 (dua) hal yang berbeda. OOP adalah sebuah paradigma untuk menuliskan program yang sudah diadaptasi oleh beberapa bahasa pemrograman, sedangkan SOLID merupakan sebuah principle yang sudah disebutkan sebelumnya. Sampai di sini kita pasti sudah bisa membedakannya ya. 
+
+Berbicara soal paradigma lebih dalam, paradigma sendiri bukanlah sebuah principle yang mengajarkan tentang bagaimana sebuah tanggung jawab suatu entitas yang berada di dalam sebuah perangkat lunak. Saat kita sudah berhasil menulis kode dengan mengikuti paradigma OOP, bukan berarti kita sudah mengikuti design principle yang sudah kita pelajari bersama di modul-modul sebelumnya.
+
+Jika kita mengilustrasikan prinsip SOLID, seperti inilah gambarnya:  
+
+20200423174030571cb61547b9019e47c4152062daa1c5.png
+
+Ilustrasi di atas menggambarkan bagaimana sekumpulan bola yang disusun sedemikian rupa dapat menciptakan bentuk yang kukuh. Padahal seperti yang kita ketahui, bola memiliki bentuk yang sangat mudah untuk bergerak. Analogi serupa dapat kita terapkan saat mengetik kode. Dalam mengembangkan sebuah perangkat lunak, jika kita bisa menuliskan kode dengan bentuk dan ukuran yang sama seperti halnya kumpulan bola di atas, kita pun dapat menciptakan sebuah sistem yang kukuh. Denga terciptanya sistem yang kukuh, kita dapat lebih mudah dan leluasa mengganti komponen dan memperluas sistem tanpa adanya gangguan.
+
+Tujuan SOLID
+Sudah paham kan penjelasan dari ilustrasi di atas? Kita jadi paham bahwa dengan mengikuti prinsip SOLID, kode yang kita buat dapat dengan mudah diekstensi (extended) dan dipertahankan (maintained).
+
+Prinsip SOLID bukanlah suatu hukum atau aturan tertentu yang wajib kita patuhi, melainkan sebuah prinsip yang dimaksudkan untuk membantu kita dalam menuliskan kode yang rapi. Bagaimana hal itu dapat diwujudkan? Berikut adalah tujuan dari prinsip SOLID dalam pembuatan struktur mid-level perangkat lunak:
+
+Toleran terhadap perubahan [2].
+Mudah dipahami [2].
+Komponen dasar dapat digunakan kembali dalam bentuk software system lainnya [2].
+Istilah mid-level yang merujuk pada prinsip SOLID ini diterapkan oleh engineer yang bekerja pada level module [2]. Prinsip ini diterapkan tepat di atas level kode. Manfaatnya, ia dapat membantu menentukan jenis struktur perangkat lunak yang digunakan dalam modul dan komponen. Setelah komponen tersebut dapat kita desain dengan baik menggunakan prinsip SOLID, maka selanjutnya kita dapat melanjutkan ke dalam prinsip-prinsip arsitektur tingkat tinggi (high-level architecture) [2]. 
+
+Di modul berikutnya kita akan sama-sama belajar lebih dalam lagi tentang masing-masing principle yang menjadi bagian dari SOLID itu sendiri.

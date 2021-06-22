@@ -1,0 +1,72 @@
+Tadi kita sudah membahas tentang yang MVC nah sekarang
+di dalam sebuah software arsitektur dan software desain itu
+perlu ada yang namanya security. Jadi software security ini
+sebenarnya ini non functional requirement dari sebuah server sistem.
+Biasanya tuh jarang sekali orang-orang yang memikirkan tentang
+software security ini, Kenapa? Karena
+banyak klien atau banyak orang-orang yang ingin aplikasinya serba jadi saja gitu
+jadi eh developer
+saya mau aplikasi saya dibikin dalam 2 minggu semua kelar gitu.
+Nah seorang bisnis dia enggak mikirin gitu
+kalau software tersebut harus dibangun security nya seperti apa.
+Kalau kaya gitu dibangun 2 minggu saja sudah kelar
+tanpa kita memperhatikan security ke depannya pasti akan banyak kasus-kasus seperti
+data leak jadi privacy-privacy user nya ke publish semua di internet
+itu karena software security nya yang kurang bagus ketika proses pengembangannya.
+Nah di software security ini sebenarnya
+minus nya kenapa orang-orang itu tidak suka
+karena ini meningkatkan maintenance cost nya.
+karna security itu ada hal yang wajib
+sebenarnya di dalam software di dalam kehidupan kita juga keamanan itu kita perlukan.
+Kalau di software itu per detik per jam ya
+per hari ya kapan pun itu kita pasti butuh
+yang namanya software security ini
+karena seperti kita tahu banyak sekali hacker-hacker
+yang berada di luar sana begitu blackhead, greyhead
+mereka iseng-iseng buat ngutak-ngatik software kita gitu.
+Karena kita nggak mikirin tersebut, hal tersebut keamanan sistem kita terganggu
+ya banyak sekali data leak gitu. Terus
+biasanya juga ada yang namanya sistem down time
+terus loss of productivity ini sering sekali terjadi.
+Kalau kita tidak mengimplementasikan software security
+kepada aplikasi yang kita kembangkan itu.
+Terus faktor-faktor yang ada ketika
+ingin mengembangkan information system security ini
+biasa seperti distributed system terus
+penggunaan internet sebagai solusi dari aplikasi yang kita gunakan
+terus the use of third party web service
+ini adalah hal-hal yang perlu diperhatikan juga gitu.
+Contoh ketika kita menggunakan third party kita ingin integrasi aplikasi
+kita dengan Facebook misalnya, dengan Google.
+Ketika kita melakukan integrasi tersebut itu kita perlu memikirkan juga keamanan dari sistem kita
+data user kita bagaimana apakah integrasi tersebut
+ada perlindungan datanya ataukah ada bug-bug yang ada
+di dalam proses integrasi software tersebut.
+Nah biasanya kalau di security itu
+itu ada namanya integrated arsitektur framework
+Nah di integrated arsitektur framework ini
+nanti saya akan berikan dokumen lengkapnya berupa pdf yang bisa kalian download
+di menu handout itu bisa kalian dapatkan
+grafik yang sangat kompleks bisa kalian baca dari situ.
+Terus contoh utamanya contoh ni untuk
+kita mengembangkan sebuah komponen yang tadi
+komponennya tentang komponen user
+di dalam user itu ada namanya user access management
+Kan kita taunya ya udah bikin aja gitu
+komponen user yang penting bisa log in
+yang penting bisa registrasi gitu. Biasanya kalau untuk
+software security itu kita perlu yang namanya bikin kaya privileges management nya
+user password management yang seperti apa misal menggunakan
+hash, menggunakan enkripsi apa kepada password kita jadi nggak sembarang
+untuk bikin user register sama user log in saja.
+Terus perlu yang namanya user access right management.
+Ini biasanya kalau untuk aplikasi yang lebih besar lagi,
+misal saya pernah mengembangkan aplikasi
+untuk financial disitu tuh ada beberapa user right access nya.
+Jadi ada mulai dari user biasa
+terus ada mulai dari maker nya terus ada taker nya terus ada lagi adminnya.
+Itu perlu di define juga fungsi-fungsinya security nya bagaimana
+agar ketika user mengakses aplikasi yang kita kembangkan
+tidak sembarangan menggunakan aplikasinya
+dan tidak sembarangan mengakses datanya.
+Jadi ketika kita mengimplementasikan software security aplikasi kita akan lebih aman.

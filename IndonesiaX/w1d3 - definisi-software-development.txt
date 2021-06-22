@@ -1,0 +1,33 @@
+Okey di section ke-2 ini kita akan membahas tentang definisi.
+Di software development itu prosesnya biasanya beragam nah itu tergantung dari
+perusahaan tersebut memilih software development models yang akan mereka gunakan
+untuk kebutuhan development aplikasi mereka biasanya ada berapa banyak faktor
+yang menentukan untuk pemilihan models ini seperti halnya tentang resource nya,
+kompleksifitas dari project nya, bug cost nya ataupun kebutuhan-kebutuhan lainnya
+yang bergantung pada pengembangan software ini. Biasanya di software development ini
+ada masuk yang namanya desain terus masuk juga produk manajemen terus ada juga project manajemen.
+Ini ada 3 hal berbeda nah setelah masuk ke proses tersebut biasanya itu ada yang namanya software development life cycle.
+Software development life cycle ini itu ada beberapa tahap lagi seperti yang sudah saya bahas sebelumnya.
+Tahap pertama yaitu tahap masuk ke requirement gathering terus masuk ke tahap ke-2 yaitu desain,
+lalu tahap berikutnya adalah implementasi, testing hingga Kita deployment ke production atau yang biasa kita sebut dengan go live.
+Baru nanti di terakhir kita masuk ke maintenance dari project yang sudah kita kembangkan.
+Terus di dalam software development ini ada beberapa metodologis, metodologis yang akan saya sebutkan ini
+itu akan kita bahas lebih lebih rinci di week ke-2 nanti diantaranya itu adalah model agial,
+waterfall, spiral development, prototyping, V model, iterative dan incremental development
+juga nanti kita akan bahas tentang RAD atau rapid application development.
+Pemilihan itu nanti bergantung lagi pada perusahaan yang mengembangkan software tersebut.
+Sekarang kita akan membahas tentang skenario dari sebuah project biasanya dalam skenario ini ada 2 kubu.
+Yang pertama adalah klien, yang ke-2 adalah dari kubu developer atau teknikal konsultan
+tapi di tengah-tengahnya nanti akan ada seorang solution arsitek yang akan menjadi penengah untuk pengembangan ini.
+Misalnya seperti case yang kita udah bilang tadi yaitu pengembangan e-learning development nanti dari end user itu kebutuhannya apa saja.
+Mereka akan sampaikan ke solution arsitek tersebut lalu solution arstitek tersebut menyampaikan kepada tim untuk pengembangan software nya.
+Ketika udah terjadi deal antara kedua belah pihak tersebut barulah ditentukan model-model yang akan digunakan untuk pengembangan software tersebut.
+Nah role-role yang ada di dalam software development ini antara lain adalah ada customer
+baru dari customer nanti mereka akan menghubungi seorang account manager
+terus ada project manager baru langsung ke solution arsitek nah dari solution arsitek nanti
+mereka akan lanjut ke team development nya atau project team nah di project team ini
+biasanya ada seorang content manager, ada development team, ada IT admin dan desain timnya.
+Itu udah mereka udah kumpulkan semua gathering requirement nya dari kliennya
+yang ingin membuat e-learning platform nah solution arsitek ini dia akan membantu membuatkan rencana
+dan akan membantu melakukan implementasi terhadap software yang dikembangkan
+hingga software tersebut bisa go live ke production sampai ke tahap berikutnya yaitu tahap maintenance.

@@ -1,0 +1,100 @@
+
+Hai IndoneXian, tadi udah belajar tentang fase-fase implementasi.
+Ada hal yang perlu kita pelajari juga ketika
+proses implementasi ini itu tentang version manajemen.
+Jadi ketika di awal kita udah menentukan rilis plan dari
+sebuah software yang kita kembangkan
+itu version manajemen adalah tools yang paling
+cocok untuk melakukan tracking beberapa rilis yang akan kita lakukan gitu.
+Jadi kenapa benar-benar perlu version manajemen ini?
+Baik itu dari sisi developer dan dari sisi klien
+jadi setiap kali software itu dikembangkan dan di issued
+atau dikasih lihat ke kliennya
+jadi mereka bisa tahu gitu
+ini versi keberapa ini versi pertama poin 2,
+ini versi pertama poin 3.
+Kenapa bisa ada versi-versi tersebut?
+Nah itu biasanya proses-proses tersebut
+itu namanya incremental kalau di software development.
+Jadi setiap versi akan berubah, jadi fitur-fitur diversi 1.1
+itu akan ada upgrade lagi diversi 1.2.
+Nah penambahan-penambahan dari fitur tersebut itu bisa kita lakukan tracking menggunakan
+version manajemen. Version manajemen biasa juga disebut
+dengan version control atau reversion control.
+Biasanya orang-orang itu menggunakan tools seperti CVS atau SVN
+yang merupakan salah satu tools juga
+untuk version manajemen jadi biasanya untuk menyimpan
+dan melakukan tracking terhadap perubahan-perubahan
+software yang sedang dikembangkan
+tapi di zaman sekarang ini orang-orang lebih banyak menggunakan
+tools ciptaan Linus Torvalds salah satu pencipta
+operating system Linux jadi dia mengembangkan
+sebuah protokol yang bernama Git
+terus oleh beberapa company itu dibuat dipermudah
+tools version manajemen berbasis web, berbasis aplikasi
+itu ada seperti Github ada juga ada
+Gitlab. Nah lewat version manajemen tool seperti ini
+itu akan mempermudah sekali orang-orang untuk
+tracking semua kerjaan mereka
+misal ketika kita ingin mengembangkan aplikasi web misal.
+Di web kan biasanya itu ada satu folder namanya image,
+ada satu folder lagi namanya JS, ada satu folder namanya styles,
+ada lagi file di luar yaitu index.html, ada config.xml.
+Jadi di versi pertama kita kasih misal nama 1.0.
+Versi pertama udah kita push ke repository untuk version manajemen ini.
+Di lokal kita ada perubahan gitu kita ada perubahan di lokal
+ada update untuk gambar misal ada update untuk library-library
+nah itu bisa kita langsung push gitu kita langsung push ke repository kita.
+Nah setelah di push itu di repository kita itu
+kita bisa menggunakan juga yang namanya continuous delivery
+yang udah kita bahas sebelumnya tadi.
+Jadi continuous delivery tools itu akan langsung ngecek otomatis tuh
+repository github kita apakah ada update
+kalau ada update jadi si continuous delivery
+ini itu akan otomatis narik datanya ke server dan software yang
+digunakan oleh user adalah software terbaru mengikuti update
+dari developer ini sangat berguna sekali bukan
+ketika kita mengembangkan aplikasi yang bisa itu besar
+aplikasi yang agile yang benar-benar
+perlu perubahan yang berkali-kali seperti "startup" lah.
+Jadi startup mengembangkan aplikasi itu banget
+perubahan bisa saja dalam 1 hari bisa selesai dalam 2 hari
+nah untuk tetap tracking gitu semua perubahan-perubahan ini
+nah itulah manfaat dari version manajemen ini.
+Nah terus yang ada di version manajemen ini biasanya itu
+yang contohnya saja itu di github
+Github kita pertama melakukan
+kita init dulu repository sebuah repository kita buat kita init
+itu masih kosong baru setelah kita init
+kita masukkan file-file codingan kita nah itu baru di lokal.
+Nah di github itu kita punya itu kita tinggal bikin aja masuk ke browser
+github.com/create/new, itu kita bikin repository di sana
+baru setelah bikin repository kita udah punya
+github repo secara online, itu biasanya disebutnya remote repository.
+Kalau punya kita yang di lokal itu nyebutnya local repository.
+Ketika kita ingin melakukan perubahan
+ketika kita sudah melakukan perubahan
+di lokal dan kita ingin melakukan
+perubahan juga di remote repository nya
+kita hanya tinggal melakukan git push saja
+jadi software-software codingan-codingan yang ada di laptop kita
+itu akan otomatis di push di upload ke remote repository.
+Nah remote repository
+itu bisa diakses oleh developer atau tim-tim kita
+yang ada di mana saja atau kapan saja gitu.
+Jadi semuanya bisa tetap di track
+perubahan-perubahannya melalui version manajemen ini.
+Terus bisa juga ada namanya terms-terms yang ada di git ini seperti
+staging itu biasanya buat development.
+Ada juga namanya commit, commit itu kalau di git
+kita ingin memberikan notifikasi memberikan informasi bahwa ada perubahan
+bahwa ada perubahan terhadap kode
+kode base yang aplikasi yang sedang kita kembangkan.
+Terus ada push untuk nge push atau upload
+terus ada pull ini bisa dibilang bahasa manusia itu ya download lah gitu.
+Untuk demonya nanti saya akan coba berikan demo bagaimana menggunakan Github
+juga akan saya lampirkan dokumentasi tentang menggunakan Github secara simple
+dan itu aja untuk minggu ke-5 implementasi ini
+Semoga kalian bisa lancar belajar implementasi software kalian.
+Semoga semua yang udah kalian kembangkan udah
+yang kalian pelajari bisa go live lah dengan lancar.

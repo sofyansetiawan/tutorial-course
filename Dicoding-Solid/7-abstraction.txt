@@ -1,0 +1,15 @@
+Kita lanjut. Seperti judulnya, kita akan membahas tentang apa itu abstraction. Abstraction adalah mekanisme saat proses dalam sebuah objek disembunyikan. Object tersebut hanya akan menyediakan apa yang benar-benar perlu digunakan..
+
+Definisi di atas terlihat mirip seperti Encapsulation. Lantas di mana bedanya? 
+
+Saat menerapkan abstraction, kita cukup fokus pada apa yang dilakukan suatu objek tanpa harus tahu bagaimana itu dilakukan. Sedangkan encapsulation adalah bagaimana ia menyembunyikan mekanisme suatu objek ketika melakukan sesuatu.
+Jika Encapsulation menyembunyikan data dengan menyediakan getter setter untuk mengaksesnya, maka abstraction menyembunyikan sebuah implementasi dengan memanfaatkan abstract class, interface, dan lain sebagainya.
+Abstraction Layer
+Abstraction layer atau abstraction level merupakan mekanisme yang memisahkan 2 (dua) kompleksitas sebuah sistem. Dalam proses komputasi, abstraction layer atau level merupakan cara menyembunyikan detail implementasi yang kompleks dari serangkaian fungsionalitas tertentu dengan tujuan agar dapat memisahkan masalah seperti interoperabilitas.
+
+Contoh abstraction di dunia nyata bisa kita lihat ketika ingin mengendarai mobil. Kita hanya perlu menekan pedal gas jika ingin mobil berjalan tanpa harus tau apa yang telah terjadi ketika pedal gas tersebut ditekan. Ini berlaku juga ketika kita ingin melakukan pengereman. 
+
+Mekanisme seperti di atas menghindarkan kita dari sebuah kompleksitas sistem. Bisa dibayangkan saat ingin menjalankan mobil, kita  harus tahu dulu tahu proses panjang yang harus kita lakukan sebelum menginjak pedal gas agar mobil tersebut dapat berjalan.
+
+Abstraction dalam OOP
+Objek dalam bahasa pemrograman dengan paradigma OOP menyediakan sebuah abstraction yang tentunya digunakan untuk menyembunyikan mekanisme internal. Seperti contoh di atas, kita hanya perlu tahu  fungsi apa saja yang tersedia untuk memicu sebuah proses tertentu. Sebaliknya, kita tak perlu paham  bagaimana proses dan tindakan apa yang harus dilakukan untuk mendapatkan hasil yang sesuai harapan.  

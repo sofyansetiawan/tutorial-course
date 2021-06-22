@@ -1,0 +1,92 @@
+Untuk mengetahui seperti apa penerapan Single Responsibility Principle (SRP), kita akan membuat sebuah contoh kasus tentang layanan product makanan dengan skenario berikut:
+
+Pada sebuah proyek kita mempunyai sebuah class yang bertanggung jawab untuk menangani pelayan dengan nama FoodService. Nah, Di dalamnya terdapat properti id, name, dan date. Berdasarkan skenario tersebut, contoh kodenya akan seperti di bawah ini:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+public class FoodService {
+ 
+  int id;
+  String name;
+  String date;
+ 
+  public FoodService(int id, String name, String date) {
+     this.id = id;
+     this.name = name;
+     this.date = date;
+  }
+ 
+  void addToStore() {
+     if(!isExpired()) {
+        //Add to store
+     }
+  }
+ 
+  private boolean isExpired() {
+     Date foodDate = new Date();
+     Date now = new Date();
+     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd", Locale.ENGLISH);
+     try {
+        foodDate = dateFormat.parse(this.date);
+     } catch(ParseException e) {
+        e.printStackTrace();
+     }
+     return foodDate.getTime() >= now.getTime();
+  }
+}
+Dari contoh kode di atas, kita bisa melihat beberapa fungsionalitas yaitu fungsi untuk memasukkan objek ke dalam store dengan nama addToStore() dan fungsi untuk mengecek kadaluarsa dari produk makanan dengan nama isExpired().
+
+Fokus pada fungsi isExpired(), di dalamnya terdapat beberapa baris kode untuk membandingkan tanggal guna mengetahui masa kadaluarsa. Kita juga bisa melihat jika di dalam fungsi tersebut terdapat baris kode untuk melakukan format tanggal berdasarkan pattern yang sudah ada dan tentunya kode untuk melakukan parse tanggal guna mendapatkan waktu kadaluarsa yang valid.
+
+Sampai di sini kita sudah bisa melihat terdapat 2 (dua) tanggung jawab yang berbeda tetapi tidak masalah karena ketika digunakan. Class FoodService akan berfungsi dengan semestinya. Tapi, bagaimana jika terjadi perubahan pada fungsi isExpired() seperti perubahan pattern atau locale (bahasa) pada platform? Tentunya kita bisa mengubahnya langsung di dalam kelas tersebut. Namun seperti yang kita ketahui, FoodService sendiri bertanggung jawab untuk menangani pelayanan makanan. Bukan untuk menangani waktu kadaluarsa produk.
+
+Untuk itu, kita harus memisahkan fungsi isExpired() ke dalam class tersendiri seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+public class FoodService {
+ 
+  int id;
+  String name, date;
+ 
+  public FoodService(int id, String name, String date) {
+     this.id = id;
+     this.name = name;
+     this.date = date;
+  }
+ 
+  void addToStore() {
+     if(!FoodExpiry.isExpired(date)) {
+        //Add to store
+     }
+  }
+}
+ 
+class FoodExpiry {
+ 
+  public static boolean isExpired(String date) {
+     Date foodDate = new Date();
+     Date now = new Date();
+     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd",  Locale.ENGLISH);
+     try {
+        foodDate = dateFormat.parse(date);
+     } catch(ParseException e) {
+        e.printStackTrace();
+     }
+     return foodDate.getTime() >= now.getTime();
+  }
+}
+Dengan memisahkannya ke dalam class tersendiri, kita tinggal fokus pada kelas yang memiliki tanggung jawabnya. Dengan memisahkannya seperti kode di atas, FoodExpiry dapat digunakan pada kelas lainnya yang membutuhkan tanpa harus bergantung pada kelas FoodService seperti pada contoh kode sebelumnya.
+
+Single Responsibility Principle (SRP) merupakan cara yang baik untuk mengidentifikasi class selama fase desain aplikasi, dan mengingatkan Anda untuk memikirkan semua cara agar class dapat dikembangkan tanpa adanya masalah berarti. 
+
+Pemisahan tanggung jawab yang baik dilakukan hanya ketika sebuah gambaran lengkap aplikasi secara keseluruhan tentang bagaimana aplikasi itu dapat bekerja, telah dibuat dan dipahami dengan baik. Sehingga kita dapat memisahkannya dengan rinci.
+
+Bagaimana? Sudah dapat gambaran poin-poin apa yang akan Anda terapkan pada proyek garapan? Eits, tunggu dulu. Kita lanjut ke modul selanjutnya yang akan membahas prinsip berikutnya. Contoh kasusnya pun tidak kalah menarik. Penasaran kan? Yuk kita lanjut!
+

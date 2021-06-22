@@ -1,0 +1,115 @@
+Sekarang kita lanjut ke pembahasan tentang implementasi tadi.
+Tadi kita udah bahas tentang apa saja best practice
+dan fase-fase yang ada di implementation ini.
+Perlu jelaskan lagi
+ketika masuk ke implementation phase ini
+setiap developer itu perlu mengerti beberapa hal juga
+itu yaitu yang pertama itu version manajemen
+tapi ini akan saya bahas lebih rinci di video berikutnya
+cuman version manajemen ini
+jadi bagaimana pengembangan aplikasi itu
+itu bisa dibuat untuk beberapa rilis.
+Jadi bisa ada rilis alpha, bisa ada rilis beta sampai bisa masuk ke final.
+Jadi ini perlu dilakukan manajemen,
+karena tanpa versioning yang jelas aplikasi yang kita guna
+yang akan kita kembangkan ini itu ga akan bagus.
+Ada lagi incident manajemen,
+incident manajemen ini perlu sekali
+kalau kalian tahu jira, kalian tahu bugs,
+kalian tahu error-error gitu yang ada di aplikasi
+itu saling berkesinambungan jira itu biasanya digunakan oleh
+developer bisa digunakan juga untuk
+oleh tim quality assurance atau tester
+dan klien-klien itu untuk melakukan report terhadap bug-bug yang ada gitu.
+Jadi ini incident manajemen ini perlu sekali
+karena ketika aplikasi yang dikembangkan ada masalah
+ada fungsi-fungsi yang gak sesuai semuanya itu bisa dilempar ke jira
+untuk ditangani lebih lanjut.
+Kita juga perlu mengetahui tentang risk manajemen gitu.
+Biasanya itu banyak dibutuhkan oleh
+seorang Project Manager atau tim leader.
+Jadi dia bagaimana melakukan manajemen terhadap
+kegagalan-kegagalan possibility apa yang akan terjadi
+diproses implementasi software ini.
+Terus documentation manajemen itu juga perlu
+karena kalau nggak ada
+dokumentasi yang jelas ketika fase implementasi ini berjalan
+itu tidak akan berjalan dengan lancar juga pengembangannya.
+Ada juga change manajemen.
+Jadi bagaimana setiap tim member itu
+itu ikut serta infalse di pengembangan tersebut
+gimana prosesnya itu ada perubahan
+respon developer itu gimana ini perlu juga.
+Jadi moral dari developer itu terhadap change manajemen ini juga
+itu perlu karena kalau developer yang gak kuat terhadap pergantian
+biasanya yang pergantian-pergantian software itu bisa melebihi dari 20%
+sesuai dengan yang ditargetkan
+dan itu kebanyakan developer itu pada stress ini gimana
+gak sesuai dengan perkiraan awal
+nah ini change manajemennya itu perlu dipelajari juga.
+Kita masuk ke fase-fase utama dari implementation ini.
+Yang pertama tadi saya udah jelaskan itu instalasi.
+Jadi instalasi ini kita ambil contoh yang e-learning platform.
+Untuk e-learning platform ini
+misal kita ingin mengembangkan aplikasi ini berbasis web itu.
+Berarti kita bisa menggunakan javascript, bisa menggunakan CSS, bisa menggunakan HTML
+atau untuk backend nya itu kita bisa menggunakan python ataupun javascript.
+Nah instalasi kita itu diperlukan untuk menginstal
+javascript library nya apa saja
+terus framework-framework untuk frontend yang digunakan itu apa saja
+web application framework nya apa aja
+yang akan digunakan untuk mengembangkan aplikasi tersebut.
+Nah contohnya kalau untuk javascript library kita bisa menggunakan kayak
+jack query, kita bisa menggunakan vue JS,
+kita bisa menggunakan reijs
+kalau untuk frontend nya kita bisa instalasi
+atau mengembangkan menggunakan HTML, CSS install library-library javascript yang ada
+terus kalau untuk web application framework
+yaitu ya kita bisa menggunakan framework-framework yang ada gitu.
+Instalasi juga itu perlu untuk kayak task running
+untuk task runner biasanya untuk melakukan automasi dari workflow pengembangan
+software ini itu dibutuhkan sebuah task runner
+nah ini di instal juga nih di awal nih ini perlu banget
+perlu juga yang namanya package manager
+package manager seperti NPM misal menggunakan JavaScript
+terus menggunakan pip dengan python
+terus menggunakan paket manajernya ruby
+kita juga perlu menginstal bahasa pemrograman yang akan digunakan
+untuk mengembangkan software tersebut.
+Terus database nya apa
+misal mysql atau nosql itu semua perlu diinstal.
+Web server yang akan kita gunakan apa misalnya apache atau nginx
+juga kita perlu melakukan set instalasi terhadap
+local development environment yang developer punya baik itu di
+ada laptop atau workstation yang ada di kantor-kantor developer.
+Setelah semua dilakukan instalasi nanti berikutnya adalah fase konfigurasi
+udah install bahasa pemrograman nya baru di konfig nih
+bahasa pemrogramannya di set nya ini untuk project data.
+terus di set nya bahasa pemrograman ini kita akan
+menggunakannya untuk pengembangan e-learning platform.
+Terus framework-framework yang apa library-library apa aja yang ada di dalam
+bahasa tersebut itu kita konfigurasi semuanya
+untuk memperlancar pengembangan software nya
+nah itu biasanya saya sebutnyasoftware configuration management gitu.
+Jadi itu sebuah disiplin di dalam software engineering
+untuk kita melakukan konfigurasi semuanya konfigurasi kebutuhan untuk pengembangan
+software tersebut gitu. Terus
+yang berikutnya adalah development.
+Development itu di fase ke-3 di implementation phase ini.
+Nah development ini udah mulai
+ini udah mulai developer itu udah mulai ngoding
+karena instalasi dan konfigurasi udah selesai
+udah waktunya developer buat kerja
+ngatur planning pekerjaan mereka bagaimana
+semua terjadi di development.
+Baru setelah masuk di development, part-part dari setiap aplikasi yang dibuat itu
+itu masuk ke tahap integrasi. Jadi tahap integrasi ini
+ini perlu juga di version manajemen juga menggunakan aplikasi seperti
+git atau github untuk menggabungkan seluruh part tersebut menjadi satu
+agar memudahkan deployment.
+Setelah masuk integrasi semuanya jadi satu nanti masuk ke tahap deployment ini.
+Nah setelah masuk dideployment ini udah enak
+jadi udah bisa rilis versi produksi atau masih beta dulu
+lalu diberikan ke tim quality assurance
+dan dicek semuanya oke kita bisa rilis aplikasi ini.
+Oke itu tentang pembahasan tentang fase-fase yang ada di implementation phase.

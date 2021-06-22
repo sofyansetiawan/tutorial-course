@@ -1,0 +1,50 @@
+Hai IndoneXian, Saya sangat senang sekali hari ini karena hari ini Kita akan memulai kursus Software Development Fundamentals with Python.
+Nah di minggu pertama ini Kita akan masuk kepada hal-hal yang paling basic fundamentals.
+Nah saya akan coba jabarkan tentang struktur utama dari kursus terlebih dahulu
+sebelum kita masuk ke poin-poin penting yang akan kita bahas di software development fundamentals.
+Karna kalian perlu memahami fase-fase yang ada di dalam kursus ini
+juga kalian perlu memahami tentang software development process logical dan temporal sequence
+terus relationship dan aktivitas-aktivitas yang ada di dalam software development process ini
+juga nanti setiap fasenya Saya akan coba jelaskan secara singkat tapi jelas
+apa saja yang ada di dalam setiap fase-fase di software development tersebut gitu.
+Nanti kita akan ambil theoritical dan practical example gitu. Jadi case studynya nanti kita
+akan menggunakan e-learning platform untuk software development kursus ini.
+Di minggu pertama nanti Kita akan membahas tentang definisi-definisi yang ada di software development
+terus Kita akan mempelajari tentang skenario-skenario apa saja yang biasanya terjadi di software development.
+Nah baru setelah itu nanti akan ada roles dan responsibility dari setiap orang yang ada di dalam proses software development ini.
+Nanti kita akan coba mempelajari juga bagaimana kita coba mengerti tentang requirement dari customer Kita
+terus nanti case study nya seperti apa itu juga akan dijelaskan di akhir minggu pertama ini.
+Nah di minggu ke-2 nanti kita akan belajar tentang software development models.
+Apa software development model itu terus software development life cycle itu apa saja
+seperti V model, agile, waterfall dan berbagai model yang bisa digunakan
+terus fase-fase yang ada di software development apa saja nanti kita akan belajar di minggu ke-2.
+Bagaimana cara memilih drive models, bagaimana menentukan models yang
+hendak akan kita gunakan untuk menentukan software development kita
+terus faktor-faktor apa saja yang mempengaruhi pemilihan dari software development itu nanti kita akan bahas juga di minggu ke-2.
+Nah di minggu ke-3 ini kita sudah masuk ke fase software development
+jadi proses utamanya kita akan mulai bahas di minggu ke-3 nanti mulai dari yang pertama itu adalah requirement gathering.
+Yang di dalamnya itu ada analisis, ada planning terus yang ke-2 itu akan Kita bahas itu di minggu ke-4 yaitu ada desain.
+Berikutnya kita masuk lebih dalam ke implementasi baru dari implementasi nanti kita bisa lepas masuk ke testing
+sampai nanti ke arah deployment dan maintenance. Nah di fase pertama
+atau di minggu ke-3 nanti Kita akan bahas yang saya bilang tadi requirement gathering.
+Jadi kita akan fokus kepada pembahasan apa aja sih requirement gathering, initial requirement nya yang
+ada di dalam requirement gathering yang biasa dilakukan oleh seorang solution arsitek kepada kliennya.
+Terus ketidakpastian yang ada di dalam teknologi pengembangan software development itu akan kita bahas juga di minggu ke-3.
+Case study nya Kita akan ambil seperti yang saya bilang tadi tentang e-learning development
+terus gimana kita mengidentifikasi solusi, menciptakan solusi dari masalah-masalah yang dimiliki oleh klien kita
+itu juga akan kita bahas bagaimana kita menganalisa requirement yang ada,
+bagaimana kita menentukan agreement dan sign off contract dengan klien-klien yang ada gitu itu di fase pertama.
+
+
+------
+
+software development process
+logical dan temporal process
+- definisi
+- skenario
+- roles
+software development lifecycle: vmodel
+cara menentukan drive model dan lifecycle
+requirement gathering
+impelementasi, testing, deployment dan maintenance
+agreement dan sign of contract

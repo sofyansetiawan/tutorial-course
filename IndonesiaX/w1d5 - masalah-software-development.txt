@@ -1,0 +1,46 @@
+Berikutnya adalah section tentang the problem, problem ini bagaimana kita mencoba mengerti
+customer requirement karena seringkali di software development itu kalau requirement dari klien itu
+enggak jelas nanti hasil dari software yang akan kita kembangkan itu akan berantakan itu pasti.
+Pasti enggak akan benar the hole process development nya biasanya itu karena ada masalah-masalah seperti ini
+jadi tim development itu jadinya oh ini gimana nih acak-acakkan wah project yang harusnya kita bisa kelar 2 bulan
+enggak jadi nih harus kita kerjakan selama 6 bulan dan lain sebagainya.
+Itu beberapa masalah-masalahnya terus belum lagi customer-customer menambah
+fitur-fitur di timeline yang udah kita tentukan maksudnya di luar timeline yang udah kita tentukan.
+Dia ingin ada fitur a dan b di software yang sebenarnya requirement nya udah ada sebelumnya ditentukan oleh mereka.
+Nah penambahan-penambahan seperti ini ini jadi masalah software development
+kunci dari sini adalah seorang account manager dan solution arsitek.
+Jadi ketika customer tadi berinteraksi dengan seorang account manager,
+account manager itu harus benar-benar paham komunikasinya dengan seorang customer itu harus benar-benar bagus.
+Karena jika tidak ada komunikasi yang bagus jadi requirement nya yang ada enggak jelas
+nanti seorang solution arsiteknya juga akan bingung gimana memberikan detail-detail teknikal ke project timnya.
+Karna biasanya seorang customer ini akan memberikan bisnis requiment gitu jadi
+bisnis detail aja seperti yang saya bilang tadi saya hanya ingin membuat website yang aman
+terus teknikal specifitacion nya itu di buat halaman login.
+Contoh-contoh lain dari masalah-masalah yang ada di software development ini
+terkait dengan customer requirement contohnya nih jadi Saya ingin manage video
+di dalam website yang terproteksi jadi enggak sembarang orang bisa mengakses video tersebut kalau dia tidak punya akses gitu.
+Teknikal specification akan menjadi di engineering timnya nanti dia akan bikin yang pertama
+new website with authentication, yang ke-2 ada login page nya,
+yang ke-3 ada database of video dimana database video itu baru bisa diakses kalau sudah login.
+Terus ada video atau file apa fungsionallity di dalamnya terus ada juga user profile page.
+Nah itu adalah cara mengkonversi customer requirement ke teknikal specification.
+Contoh lainnya ada klien ingin Saya ingin punya platform yang bisa
+mengirimkan broadcast email seperti mailchimp atau seperti tools-tools lainnya.
+Seorang customer seorang solution arsitek tadi dia akan menganalisa nih masalah-masalahnya
+barulah dibuatkan dibantu dibuatkan teknikal specification nya.
+Oh dia ini ingin bikin broadcast platform berarti kita harus develop yang pertama itu
+new email marketing tool terus kita harus bikin newsletter generator nya.
+Kita akan buat generator agar bisa mengirim newsletter sesuai dengan keinginan user atau secara berkala.
+Terus kita juga bisa buatkan database user atau customer terus di butuhkan juga test environment.
+Contoh lain itu adalah yang biasa kita gunakan misalnya jam tangan
+Saya ingin membuat aplikasi gitu di jam tangan gitu jadi itu kebutuhan user.
+Nah kebutuhan di teknikalnya gimana gitu?
+oke berarti kalau ingin membuat aplikasi di jam tangan kebutuhan-kebutuhan orang misalnya
+bisa melakukan track tentang cuaca jadi saya bisa langsung lihat di jam tangan saya.
+Terus ada blood pressure, terus ada melakukan tracking
+berapa kali kita stretching dalam satu hari.
+Terus kita jalan kita lari aktivitas-aktivitas tersebut bisa dimasukkan ke teknikal requirement,
+terus bisa juga kita membuat rutin atau menggunakan cron job atau menggunakan scheduler
+untuk membuat alarm yang otomatis mengingatkan kita gitu.
+Itu adalah contoh-contoh masalah dari bisnis requirement
+kebutuhan-kebutuhan user seperti apa yang di translate ke teknikal requirement.

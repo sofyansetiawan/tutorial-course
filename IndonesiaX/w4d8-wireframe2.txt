@@ -1,0 +1,64 @@
+Bisa langsung di situ aja.
+Nah itu untuk halaman dashboard ketika user yang log in.
+Misal ketika user ingin melihat kursusnya kita juga bisa tambahkan mockup nya gitu
+tinggal masukkan browser lagi balik di sini
+tambahkan browser lagi biasanya kalau di course itu informasi kursus itu
+nggak jauh beda konten yang ada itu
+paling itu ada gambar-gambar dari sebuah kursusnya
+gambar yang bisa kita buat gambar di sini
+terus informasi dari kursusnya misal kursusnya Indonesia X Mencari Bintang.
+Terus itu run ke berapa
+biasanya kalau di IndonesiaX itu seperti itu run 2019
+Nah kita di sini bisa masukkan juga nih
+dari hasil apa aja yang udah kita dapatkan dari bisnis requirement
+terus di convert teknikal requirement
+misal user nya butuh informasi kapan
+jadwal kursus itu dibuka itu kita tinggal tambahin aja detail-detailnya gitu sini.
+form tadi harusnya di sini biar lebih enak aja ini kelihatannya
+tarik aja di sini terus
+informasi sorry
+enrollment date nya kapan
+informasi di sini kita bisa nambahin juga kayak konten-kontennya seperti sebentar saya lihat dulu
+harusnya ada rectangle text area
+bring to backward oh sorry bring to
+nah ini berisi informasi-informasi
+di sini bisa aja kita masukkan di sini kan
+berupa masukin teks lagi
+untuk course description nya.
+Jadi di sini kita udah ketahuan nih oh tampilan dari
+course profile nya nanti kayak gini bisa masukin enroll
+bisa juga yang lainnya dimasukkan ke
+di sini bisa, di bawah aja sih lebih enak di sini
+nah ini untuk course information nya
+bagaimana untuk learning management system nya?
+Nanti untuk learning management system kita bisa bikinin
+wire frame lagi. Contohnya kalau untuk learning management system yaitu yang paling simple ya
+paling simple aja tuh biasanya itu orang-orang mana rectangle saya cari rectangle
+Ini untuk konten video
+bisa radio button jangan
+kita bisa menggunakan accordion sini untuk item-item kursus yang ada
+Jadi itu kursus apa gitu terus di bawah ini karena konten-konten video yang di sini
+media saya hapus ini jadi video player
+untuk medianya terus
+kita tambahkan juga bisa tambahkan di sini
+rule nya sebagai pembatas aja
+dari media di sini kita bisa nambahin menu-menu di sini
+misal
+course, discussion, instruktur, FAQ ini jadi menu nanti di sini.
+Jadi ini bisa diakses oleh user nya informasi-informasi di sini
+Oke saya tambahkan biar lebih bagus aja kita tambahkan teks
+block of text di sini
+ini untuk contoh learning management system nya jadi
+kita udah bikin dari log in nya terus dashboard user nya
+baru enrollment terus nanti
+ke yang terakhir itu untuk learning management system untuk
+user nya belajar. Nah semua ini
+yang kita buat ini nanti biasanya itu
+disatukan menjadi sebuah dokumen jadi dokumen untuk
+semua bisnis requirement nya semua ada di sini masukin detail-detail
+dikasih ke developer dan semua
+yang udah kita input tersebut dari wire frame teknikal specification itu kita
+jadikan satu dokumen dan itu adalah acuan
+oleh acuan buat developer untuk mengembangkan aplikasi tersebut sampai ke tahap terakhir nanti
+sampai deployment hingga ke tahap maintenance gitu.
+Itu tentang wire frame sampai jumpa di minggu berikutnya.

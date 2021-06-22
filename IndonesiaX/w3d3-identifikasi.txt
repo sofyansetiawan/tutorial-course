@@ -1,0 +1,53 @@
+
+Tadi kita sudah cari tahu cara bagaimana mengidentifikasi solusinya.
+Nah sekarang kita bagaimana mengidentifikasi skill dan teknologi yang
+dibutuhkan untuk membuat software yang kita kerjakan ini.
+Pertama adalah teknologi yang dibutuhkan itu apa. Tadi saya udah bilang sample nya itu
+ada mau kita buat website, mau kita buat mobile app, membership site,
+multimedia platform atau content management system. Contoh yang pertama yang website
+teknologi yang digunakan untuk membangun website itu biasanya adalah
+yang pertama itu hypertext markup language atau biasa disingkat HTML. Yang ke-2 adalah
+cascading style sheet. Yang ke-3 adalah javascript atau javascript framework lainnya seperti react,
+vuejs atau bisa juga menggunakan jack query itu untuk pengembangan website.
+Terus kalau kita ingin membangun mobile application nah untuk membangun mobile application
+yang populer itu ada 2 platform ada IOS, ada android kalau kalian ingin mengembangkan platform IOS
+berarti skill set dan teknologi yang dibutuhkan adalah swift programming language dan objective C.
+Terus kalau untuk android yang harus dipelajari atau teknologi yang digunakan adalah
+kotlin dan java untuk membership site karena ini ada membership
+berarti membutuhkan database. Database kita bisa menggunakan mysql,
+mongo db atau sequel database lainnya.
+Untuk backend nya biasanya membership site ini kita bisa menggunakan PHP,
+bisa menggunakan python, bisa menggunakan java, ruby atau C sharp.
+Terus untuk content management system ini banyak digunakan untuk blog atau website-website.
+Biasanya orang-orang menggunakan wordpress, orang-orang menggunakan jumlah atau drupal.
+Terus yang lebih kompleks lagi multimedia platform nah ini agak kompleks karena
+itu ada multimedia resource nya harus dari mana ini.
+Kita bisa menggunakan API application programming interface, kita menggunakan YouTube API
+untuk mengambil konten-konten YouTube, konten-konten video yang ada
+bisa menggunakan Facebook API terus kita bisa membuat video streaming application nya.
+Nah itu tentang melakukan identifikasi skill dan teknologi yang dibutuhkan.
+Berikut adalah world organization sebelum kita melakukan menentukan software project dan
+arsitektur yang digunakan kita harus melakukan organize proyek yang kita kerjakan.
+Nah yang pertama kita harus menentukan dulu wire framenya wire frame nya kayak gimana
+kita harus bisa membuat visual desain nya, yang berikutnya
+kita harus membangun database arsitekturnya,
+jadi database arsitekturnya kayak gimana itu harus kita buat juga tuh harus kita organize semuanya,
+harus dimanage terus ada juga kita membangun prototype terus bisnis logic atau workflow nya
+baik itu di high level design atau low level design. Nah itu dibutuhkan juga untuk
+kita membuat pekerjaannya lebih mudah gitu lebih tertata aja termanage lah gitu
+semua kerjaan development yang kita kerjakan gitu. Terus setelah hal-hal tersebut itu disebutnya
+teknikal briefing dari teknikal briefing tersebut itu muncullah testing specification.
+Di testing specification ini itu ada yang namanya test case, ada namanya testing environment description
+dan acceptance criteria. Nah di testing ini adalah yang menentukan
+kualitas dari software yang kita kembangkan
+akan jadi seperti apa nantinya dan itu harus kita tata sebelumnya di
+gathering require di proses gathering requirement ini.
+Semuanya harus lebih jelas.
+kita sudah melihat tadi cuplikan video bagaimana seorang developer
+atau seorang solution arsitek melakukan interview untuk mendapatkan
+detail-detail dari software yang ingin dikembangkan oleh kliennya. Dari situ dari pertanyaan-pertanyaan itu
+kita udah bisa tahu tuh gimana sih sebenarnya cara mengumpulkan requirement yang ada gitu.
+Itu saja untuk minggu ke-3 untuk pembahasan tentang software development ini.
+Kita akan berjumpa di minggu ke-4 yang akan kita bahas adalah tentang desain
+kita akan bahas lebh lanjut di sana mulai dari week ke-4 sampai week ke-5
+dan ke-6 kita akan lebih banyak ke praktikal. Sampai jumpa di minggu berikutnya.

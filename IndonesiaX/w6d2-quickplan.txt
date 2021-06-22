@@ -1,0 +1,57 @@
+Halo IndoneXian. Sekarang kita udah masuk di video terakhir
+dikursus software development fundamentals.
+Sekarang saya akan berbagi tips bagaimana untuk membuat
+planning sebuah project software development.
+Nah rencananya project ini akan ditempuh dalam waktu 6 bulan
+terus kita akan menggunakan beberapa main power di dalamnya
+untuk lebih detailnya kita langsung masuk ke layar laptop saja.
+Oke sekarang kita berada di software quick plan.
+Software ini bisa kalian download di app store.
+Sekarang kita kasih nama dulu project nya IndonesiaX E-learning misal.
+Notes nya Project for IX Course.
+Kita set di sini daily working hours nya berapa biasanya
+untuk development itu working hours kita bisa set 8 jam di sini.
+Terus default cost per hour nya berapa
+karena di sini simbol yang kita masukkan ke IDR
+kita masukin per jamnya misal 100.000,
+100.000 per jam untuk development.
+Title colour kita ganti ke warna biru aja.
+Terus estimasi untuk pengembangan software nya misalnya mulai dari Januari
+project finish date nya sampai
+Kita setnya ke 30 Juni.
+Sorry sebentar kita balik ke sini
+tadi kita masih di Januari 1 Januari
+kalendernya, resource. Resource nya
+kita bisa masukin siapa aja project member nya di sini
+misal yang pertama Rizky, Rizky@indonesiax.co.id
+cost rate nya berapa per hour misal 100.000.
+Tambahin lagi misal di sini
+Iman, Iman@indonesiax.co.id
+cost nya Iman misal 100.000 juga development per hour nya.
+Terus kita tambahin lagi untuk frontend misal frontend developer kita tambahin di sini.
+Dimas misal Dimas@indonesiax.co.id cost nya misal 50.000 per hour.
+Oke kita bisa set di sini link behaviour nya
+saya pakainya finish to start saja date policy nya
+kita bisa skip non working days kalau mau skip
+tapi saya nggak skip di sini.
+Date nya, project start date nya.
+Tadi balik ke 1 Januari sudah semua
+sekarang kita tinggal
+save saja balik ke 1 January
+Sekarang kita masuk ke pembuatan task-task yang ada gitu contoh di sini kan kita
+menggunakan e-learning platform brarti task-task kita membuatnya 3 komponen utama saja.
+Jadi yang pertama itu kita bisa user dulu ini komponen user nya.
+Terus saya tambahkan lagi yang ke-2 itu untuk instruktur,
+yang ke-3 itu untuk course nya
+course terus admin
+di course nya kita coba tambahkan lagi
+di user itu misal kita tambahkan registration.
+Setelah registration itu ada log in
+kita masukkin log in di sini setelah log in kita bisa
+misal akses role nya dari user kita tambahin akses role di sini
+Kita pindahkan ini
+semua di bawah user baru di bawah instruktur, instruktur juga di sini
+misal untuk akses course nya.
+Course management nya terus
+instruktur juga bisa melakukan student management di sini
+kita bisa langsung pindahkan ini save

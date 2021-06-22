@@ -1,0 +1,43 @@
+Ini saya stretching karna biasanya kalau developer itu yang digunakan itu tangan sama otak itu
+jadi tangan ini kadang keram gitu, keram karena lama ngetik-ngetik
+ngetik terus kerjaannya tiap hari udah ngetik aja depan laptop gitu.
+Jadi kita perlu stretching juga untuk tangan kita agar tetap sehat dan
+enggak kena penyakit penyakit ya sendi-sendi yang biasa terjadi di programmer lah yang sering terjadi itu.
+Nah untuk di section ini kita akan bahas tentang rapid application development model
+atau biasa kita singkat aja RAD model, RAD model ini adalah salah satu model yang
+biasa digunakan untuk project yang singkat. Jadi enggak harus,
+ini bagus untuk project singkat. Nah fokus utama dari RAD model ini adalah
+komunikasi mainten di model ini ini benar-benar harus komunikasi antara kedua belah pihak.
+Developer dan customer itu harus benar-benar komitmen karena
+akan ada Rapid Fire Activity aktivitasnya akan banyak banget rapid application development ini.
+Terus bagusnya lagi untuk RAD ini dapat memberikan preview ke end user
+dan bisa memberikan feedback secara langsung terus komponen atau
+function yang dikembangkan itu bisa secara paralel ini hampir mirip juga dengan incremental model gitu.
+Tetapi state yang ada untuk di RAD model ini biasanya itu yang berjalan secara paralel itu
+dari bisnis modelingnya, data modeling, proses modeling, application generation yang terakhir adalah testing dan turn over.
+Itu bisa dilakukan secara paralel itu bagusnya untuk rapid application development ini
+jadi cocok banget untuk short project, kelebihan utamanya dari RAD model ini
+development time itu itu bisa diminimalisir jadi bisa di reduce enggak harus membutuhkan waktu yang lebih banyak.
+Terus meningkatkan reusability untuk sebuah komponen atau modul yang ada di dalam aplikasi yang kita kembangkan.
+Terus ini mendorong customer untuk memberikan feedback terus-menerus
+kepada software atau kepada developer yang sedang mengembangkan software yang ada gitu.
+Jadi customer harus benar-benar kasih feedback yang bagus itu untuk kelancaran project ini.
+Terus integrasi yang dilakukan itu sejak awal dari setiap modul-modul unit-unit yang dikembangkan integrasi dilakukan dari awal.
+Tapi kekurangannya adalah untuk RAD model ini dia sangat bergantung pada tim dan individual performance
+untuk melakukan identifikasi pada bisnis requirement jadi kalau salah satu orang
+yang bertanggung jawab untuk melakukan identifikasi kepada bisnis requirement itu
+enggak bekerja dengan baik itu kemungkinan bisa membuat project tersebut gagal.
+Terus hanya sistem yang bisa modular yang dapat menggunakan model ini kalau enggak bisa modular
+kalau cuman satu aja ya udah kita enggak bisa menggunakan RAD model ini.
+Terus ini sih kelemahan paling enggak enaknya dari RAD model itu benar-benar harus membutuhkan developer yang jago.
+Jadi kalau developer nya enggak benar-benar jago, enggak benar-benar mengerti tentang proyek
+yang akan dikembangkan jangan harap untuk proyek yang dikerjakan itu berjalan dengan lancar.
+Itu kelemahannya. Kapan menggunakan RAD model ini?
+Kalau saya bilang sih kita bisa menggunakan RAD model ini
+bagus untuk software yang ingin dikembangkan dalam waktu yang singkat
+baik itu 1 2 atau 3 bulan itu bisa menggunakan RAD model ini.
+Terus resource dengan high bisnis knowledge tersedia dan
+ada kebutuhan software dapat dikembangkan dalam waktu yang lebih singkat seperti yang saya bilang
+di poin pertama tadi ingat ya kalau mau pakai RAD model harus cari developer yang
+bener-bener jago terhadap proyek tersebut yang punya pengalaman.
+Itu pembahasan tentang RAD model.

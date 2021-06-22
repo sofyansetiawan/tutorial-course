@@ -1,0 +1,124 @@
+Sama seperti contoh kasus sebelum-sebelumnya, kita akan memulai dengan skenario yang menyalahi aturan dalam penerapan. Lebih lanjut, kita akan coba membahas bagaimana mengubah penerapannya agar sesuai dengan prinsip Liskov’s substitution. Untuk itu, berikut adalah contoh kode dari skenario yang akan kita gunakan:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+abstract class Product {
+    abstract String setName();
+    abstract Date setExpiredDate();
+ 
+    /**
+     * Function to get all of information about product
+     */
+    public void getProductInfo() {
+        // some magic code
+    }
+}
+ 
+class Vegetable extends Product {
+ 
+    @Override
+    String setName() {
+        return "Broccoli";
+    }
+ 
+    @Override
+    Date setExpiredDate() {
+        return new Date();
+    }
+}
+Pada contoh kode di atas kita memiliki sebuah kelas abstract bernama Product yang di dalamnya terdapat pula beberapa member abstract . Kelas tersebut diwariskan oleh kelas lain yaitu kelas Vegetable. Untuk saat ini, kelas tersebut dapat berjalan dengan baik sesuai dengan fungsinya.
+
+Selanjutnya kita membutuhkan sebuah kelas produk baru. Katakanlah produk smartphone. Untuk itu, kita tinggal membuat kelas baru yang mewarisi kelas Product karena kelas tersebut merupakan abstraksi dari sebuah kelas produk. Kurang lebih kodenya akan seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+abstract class Product {
+    abstract String setName();
+    abstract Date setExpiredDate();
+ 
+    /**
+     * Function to get all of information about product
+     */
+    public void getProductInfo() {
+        // some magic code
+    }
+}
+ 
+class Vegetable extends Product {
+ 
+    @Override
+    String setName() {
+        return "Broccoli";
+    }
+ 
+    @Override
+    Date setExpiredDate() {
+        return new Date();
+    }
+}
+ 
+class Smartphone extends Product {
+ 
+    @Override
+    String setName() {
+        return "Samsung S10+ Limited Edition";
+    }
+ 
+    @Override
+    Date setExpiredDate() {
+        return new Date(); // ???????
+    }
+}
+Pada kode di atas hubungan antara kelas Product dan kelas Vegetable sudah benar dan dapat berjalan dengan baik. Tapi jika kita perhatikan pada kelas Smartphone, di dalamnya terdapat member yang nilainya adalah masa kedaluwarsa produk yang harus kita tentukan. Namun seperti yang kita ketahui, sebuah smartphone tidaklah mempunyai masa kedaluwarsa. Dalam kasus ini kelas Product menjadi tidak relevan untuk diwariskan ke kelas Smartphone dan ini tentunya melanggar aturan SubClass yang sudah kita pelajari di modul sebelumnya.
+
+Untuk mengatasi kasus di atas, kita perlu melakukan substitusi fungsi yang tidak relevan tersebut ke dalam kelas abstraksi sendiri dan diwariskan pada kelas yang relevan. Namun, Perubahan ini tetap menjadikan kelas Product sebagai SuperClass dari hirarki yang ada saat ini. Kurang lebih perubahannya akan seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+abstract class Product {
+    abstract String setName();
+ 
+    /**
+     * Function to get all of information about product
+     */
+    public void getProductInfo() {
+        // some magic code
+    }
+}
+ 
+abstract class FoodProduct extends Product{
+    abstract Date setExpiredDate();
+}
+ 
+class Vegetable extends FoodProduct {
+ 
+    @Override
+    String setName() {
+        return "Broccoli";
+    }
+ 
+    @Override
+    Date setExpiredDate() {
+        return new Date();
+    }
+}
+ 
+class Smartphone extends Product {
+    @Override
+    String setName() {
+        return "Samsung S10+ Limited Edition";
+    }
+}
+Dengan perubahan kode seperti di atas, kita sudah memenuhi aturan yang ada. Mudah bukan? Liskov’s Substitution principle merupakan prinsip yang dapat meningkatkan design dari sistem yang kita kembangkan. Sehingga ketergantungan antar klien dapat disubstitusikan tanpa klien tahu perubahan yang ada.
+
+Sudah paham belum tentang penggunaannya? Jika belum, silakan tanya di forum diskusi kelas ya. Ayok kita lanjut  ke modul berikutnya.
+

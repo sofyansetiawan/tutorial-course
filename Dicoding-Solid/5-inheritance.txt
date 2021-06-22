@@ -1,0 +1,122 @@
+Kita mulai dengan membahas Inheritance atau yang akan kita sering dengar dengan istilah pewarisan. Dalam object oriented programming, inheritance merupakan salah satu konsep penting. Kenapa? Karena kita bisa meminimalisir penulisan berulang pada fungsi, properti, dan variable.
+
+Kok bisa? Inheritance memungkinkan kita untuk mendefinisikan sebuah class (induk) ke class baru (anak) dan memberi kita kesempatan untuk menggunakan member dari class yang diwariskan tersebut. Inheritance dapat didefinisikan juga sebagai proses di mana suatu objek memperoleh sifat dan perilaku dari objek lainnya. 
+
+Ketika ingin membuat class dengan fungsi yang sudah tersedia pada class lain, kita tidak perlu lagi menulis ulang kode tersebut di dalam class yang kita buat. Cukup dengan mewarisi class tersebut maka kita bisa langsung mengaksesnya.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class Superclass {}
+ 
+class SubClass extends Superclass {}
+
+Saat menggunakan inheritance, kita dapat dengan mudah menggunakan kembali, menyesuaikan dan memelihara kode yang sudah dibuat. Keren kan? Kita jadi bisa lebih cepat dan lebih efisien dalam menuliskan kode. Waktu pengembangan suatu program jadi ringkas! 
+
+Dalam penerapan inheritance, kita akan sering mendengar beberapa istilah berikut:
+
+SuperClass
+Sebuah class yang fitur-fiturnya akan diwariskan. Kelas seperti ini biasa dikenal juga dengan istilah Induk, Base, atau Parent Class.
+
+SubClass
+Anak/Children class yang akan mewarisi member milik Super Class. Namun, class ini tetap dapat memiliki membernya sendiri selain yang diwarisi dari SuperClass-nya.
+
+Jenis-jenis inheritance (pewarisan)
+Jika kita ingin menerapkan inheritance, terdapat beberapa cara yang bisa kita gunakan. Mari kita bahas satu per satu.
+
+Single Inheritance
+202004082056196718098881d5b29382a142eba8fe75f8.png
+
+Yang pertama adalah cara terumum yang mana class yang dibuat hanya mewarisi satu class. Contohnya adalah seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+open class Animal {
+    open fun walk() {
+        println("${javaClass.simpleName} walk!")
+    }
+}
+ 
+class Cat : Animal(){
+    override fun walk() {
+        println("Yeay! ${javaClass.simpleName} walked!")
+    }
+}
+Multilevel Inheritance
+20200408205751d7ef58eeaabd83393dcd9dd954143530.png
+
+Lanjut dengan multilevel inheritance. Cara ini mengacu pada mekanisme OOP, di mana SubClass dapat mewarisi SuperClass yang di mana merupakan sebuah SubClass dari SuperClass lain. Contohnya seperti kode di bawah ini:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+open class Animal{
+   fun walk(){
+     println("${javaClass.simpleName} walk!")
+   }
+}
+ 
+open class Carnivore: Animal(){
+   fun eat(){
+     println("${javaClass.simpleName} eat!")
+   }
+}
+ 
+class Cat: Carnivore()
+Multiple Inheritance
+2020040821041262f2422cb20e50aeff72c7b4303723df.png
+
+Sama seperti sebelumnya, multiple inheritance mengacu pada konsep OOP di mana sebuah class dapat mewarisi lebih dari satu SuperClass. Namun perlu diketahui bahwa beberapa bahasa pemrograman seperti Java tidak mendukungnya secara penuh, dengan alasan suatu SubClass harus bisa mengatur ketergantungan dari 2 (dua) SuperClass-nya.
+
+Tapi jika ingin menerapkannya, kita dapat memanfaatkan interfaces seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+interface Ovipar
+ 
+interface Vivipar
+ 
+interface Ovovivipar: Ovipar, Vivipar
+ 
+class Snake: Ovovivipar
+Multiple inheritance sendiri sangat jarang digunakan dalam pengembangan perangkat lunak karena sering menyebabkan permasalahan, terutama pada hirarki class yang berpotensi menyebabkan terjadinya kompleksitas tinggi. Worst case scenario-nya, permasalahan ini malah menghambat pengembangan. 
+
+Hierarchical Inheritance
+20200408210220d8c169491bd88f973229ac2542453dd2.png Sama seperti penerapan inheritance pada umumnya, jenis ini merupakan sebuah SuperClass yang diwarisi oleh beberapa SubClass. Misalnya seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+open class Animal{
+   fun walk(){
+      println("${javaClass.simpleName} walk!")
+   }
+}
+ 
+open class Carnivore: Animal(){
+   fun eat(){
+      println("${javaClass.simpleName} eat!")
+   }
+}
+ 
+class Cat: Carnivore()
+ 
+class Lion: Carnivore()
+ 
+class Dog: Carnivore()
+Hybrid Inheritance
+202004082102419f3803b42624a300f3ef4d56c4aea7f1.png
+
+Terakhir, jenis inheritance yang merupakan kombinasi dari beberapa inheritance yang sudah dibahas sebelumnya. Jika kita melihat bagan di atas, sudah pasti kita membutuhkan interfaces jika ingin menerapkannya apalagi saat menggunakan bahasa pemrograman seperti Java. 

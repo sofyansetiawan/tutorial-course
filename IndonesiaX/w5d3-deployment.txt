@@ -1,0 +1,81 @@
+
+Di video ini saya ingin bahas lebih jelas tentang deployment proses.
+Tadi kita udah belajar tentang fase-fase yang ada di implementation.
+Kenapa saya ingin membahas khusus tentang development proses ini?
+Karena deployment proses ini bisa dibilang
+ini resep utama dari cara kita mempublish aplikasi kita ke public.
+Jadi tanpa proses deployment yang bagus
+software yang akan kita kembangkan itu
+tidak bisa diterima dengan mudah oleh user
+dan juga akan ada kemungkinan kemungkinan ke depannya
+yang bisa mengakibatkan development
+aplikasi yang sedang berjalan itu broken gitu.
+Nah kenapa kita mulai dari proses-proses yang ada di deployment itu sendiri.
+Yang pertama setelah integrasi tadi
+aplikasi sudah di integrasi menjadi satu
+itu perlu dilakukan yang namanya planning.
+Kita pelajari semuanya kita udah
+dapat satu aplikasi yang jadi kita pelajari dulu nih environment dari
+aplikasi yang akan kita deploy gitu.
+Terus kita juga perlu arsitektur yang jelas
+desainnya gimana untuk deployment nya
+Baru setelah planning itu kita siapkan juga
+kita prepare setelah itu kita deploy.
+Nah setelah kita deploy itu belum tentu
+itu bisa langsung kita rilis juga ke public user.
+Kita perlu melakukan yang namanya validasi gitu.
+Jadi validasi misal user admin nya udah benar enggak gitu.
+User-user yang ada, konfigurasi yang ada
+di dalam aplikasi tersebut itu sudah jelas enggak.
+Terus perlu dilakukan verifikasi juga
+fungsi utama dari aplikasi yang sudah di deploy itu berjalan dengan baik apa enggak.
+Itu biasanya menggunakan deployment nya menggunakan test case.
+Baru setelah dilakukan proses validasi tersebut
+Itu perlu dilakukan manajemen lagi misal
+beberapa fungsi sebelumnya itu ada kekurangan baru kita bisa nambah
+roles, menambahkan policy, menambahkan user misalnya.
+Baru setelah manajemen selesai deployment nya juga selesai
+tetapi ketika di jalan deployment nya gagal
+itu bisa kita balik putar ke proses validasi
+balik lagi ke manajemen, balik lagi ke deployment.
+Putar terus begitu nah proses perputaran ini
+itu bisa kita permudah dengan yang namanya continuous integration.
+Jadi ada namanya CI dan ada namanya CD,
+ada continuous integration dan ada continuous delivery.
+Jadi ini untuk memudahkan kita proses deployment nya agar developer itu nggak capek nanti gitu.
+Jadi nggak harus ngecek server terus gitu. Oh ini
+servernya down, servernya deployment gagal gitu
+enggak harus kayak gitu kalau kita udah bisa menyiapkan continuous integration dan
+continuous delivery kita tinggal duduk aja sambil ngeliatin konsol kita laptop kita
+software deployment nya itu bisa berjalan sendiri.
+Itu sangat bagus juga buat developer untuk
+menghemat energi mereka ya agar tidak mubazir lah energi
+lebih efisien kita sebagai developer gitu.
+Nah biasanya di continuous delivery ini proses yang terjadi itu
+itu sama kita harus develop dulu, kita integrasi
+Kita deliver terus kita deploy
+itu berputar terus berputar terus menerus
+itu udah bisa dia otomasi kalau begitu tinggal duduk aja
+udah santai-santai saja tapi ada hal yang perlu diperhatikan
+ketika kita menggunakan continuous delivery dan continuous integration ini.
+Kita perlu membuat yang namanya deployment checklist.
+Jadi ceklis apa saja nih yang perlu di cek oleh
+tools deployment kita ini terus
+Kita perlu memilih juga tools apa yang cocok misal kita bisa menggunakan
+CI CD seperti jenkins gitu itu cocok nggak buat
+software yang kita kembangkan agar itu otomatis deployment nya.
+Terus kita juga bisa memilih kaya continuous integration server.
+Terus kita juga melakukan monitor membuat KPI nya.
+Jadi kita bisa monitoring performance dari
+continuous delivery dan continuous integration yang kita lakukan
+agar kita bisa santai seperti yang saya bilang tadi kita tinggal ngelihat aja
+dan yang paling utama juga itu kita perlu yang namanya rollback strategy.
+Jadi rollback strategy ini
+ketika deployment nya di tengah-tengah itu broken jalan tidak jalan gitu
+ini gimana nih aplikasi juga yang diproduksi kan tadi kan otomatis broken juga nih.
+Nah kita harus punya rollback strategy untuk balik ke misal versi
+sebelumnya jadi untuk meminimalisir
+hal-hal yang tidak diinginkan ketika melakukan proses deployment ini
+itu aja tentang deployment karena itu proses yang sangat
+penting banget ketika kita publish server ke public.
+Terima kasih.

@@ -1,0 +1,79 @@
+Halo IndoneXian Selamat datang kembali di kursus software development fundamentals.
+Kemarin di minggu ke-3 kalian sudah menyaksikan diskusi antara seorang developer dengan kliennya.
+Di situ seorang developer itu bertanya apa saja kebutuhan dari kliennya.
+Mulai dari aplikasinya sebesar apa, aplikasi yang akan digunakan oleh siapa saja
+dan berbagai bisnis requirement yang dibutuhkan oleh klien
+agar dia bisa menghasilkan aplikasi yang diinginkan.
+Nah dari situ developer itu harus menghimpun semuanya.
+Semua kebutuhan di situ nanti itu dirubah dari bisnis requirement menjadi teknikal requirement.
+Setelah itu, kita baru bisa membuat yang namanya software arsitektur dan desain.
+Nah terkait hal itu itu akan kita bahas semua di minggu ke-4 ini.
+Yang pertama kita bahas tentang software arsitektur.
+Jadi software arsitektur ini sebenarnya itu
+bagaimana kita membuat layout dari sebuah sistem yang ingin kita bangun.
+Jadi kalau kita misal bikin rumah, di rumah itu kita kebutuhannya ada berapa kamar.
+Jadi, saya butuh rumah dengan 2 kamar tidur,
+1 kamar tamu dan 1 kamar mandi. Secara simpelnya software arsitektur itu seperti itu.
+Jadi blueprint dari sebuah sistem dijelaskan atau digambarkan
+secara singkat saja ya bisa disebut ini high level design dari software
+yang akan kita kembangkan. Setelah itu cara
+biasanya cara seorang developer membuat software arsitektur ini ada berbagai pilihan.
+Biasa digunakan itu ada 3 yang pertama itu menggunakan UML atau unified modeling language.
+Jadi, ini merupakan sebuah solusi untuk object oriented biasanya
+di dalam membuat modeling untuk software
+dan juga untuk membuat desain-desain software yang kita kembangkan.
+Terus ada juga yang ke-2 yaitu arsitektur V model atau biasanya 4+1 V model.
+Jadi ini biasanya itu enggak represent fungsi dan non functional requirement
+dari software yang kita kembangkan.
+Yang ke-3 itu itu arsitektur description language atau ADL.
+Jadi ini biasanya itu kita menjelaskan software itu secara keseluruhan
+arsitekturnya bagaimana itu secara formal dan secara semantik
+Terus software desain, software desain itu masuk lebih dalam lagi.
+Dari tadi kita hanya membahas tentang rumah gitu,
+ada berapa kamar nah kalau software desain ini lebih ke dalam kita bahas tentang
+proses-proses yang ada di dalamnya apa saja yang ada di dalam sebuah kamar tidur.
+Nah ini software desain di dalam kamar tidur itu bisa saja ada sebuah meja,
+sebuah kasur, ada sebuah kursi, ada sebuah cermin di dalamnya dijelasin lagi gitu.
+Cermin itu terdiri dari apa aja gitu. Cermin itu dibuatnya dari bahan
+kayu dari bahan kaca apa secara simpelnya software desain itu seperti itu.
+Terus software desain ini kalau kelebihannya itu
+itu untuk memudahkan seorang stakeholder dari software yang kita kembangkan
+untuk berkomunikasi dengan developer.
+Terus nanti ke depannya juga akan membantu seorang sistem analis
+untuk melakukan verifikasi kepada sistem yang dikembangkan apakah itu tuh
+suatu aplikasi tersebut memenuhi kriteria dari
+software yang dikembangkan atau tidak.
+Software desain ini juga bermanfaat ketika kita
+mengembangkan aplikasi yang sangat besar atau large scale.
+Nah jadi biasanya di arsitek arsitektur dari sebuah sistem yang lebih besar itu
+itu memiliki banyak sekali komponen, banyak komponen, banyak package di dalamnya.
+Jadi ketika kita menggunakan software desain yang lebih bagus
+menggunakan software arsitektur yang lebih bagus ini akan mempermudah kita ke depannya
+untuk mengembangkan terus untuk project planning juga akan lebih mudah
+ketika kita mengimplementasikan software arsitektur dan software desain ini
+juga termasuk diproses quality assurance
+quality atribut yang ada di dalamnya nanti itu akan sangat bermanfaat.
+Terus untuk di software desain, software desain itu
+biasanya memiliki beberapa proses gitu.
+Proses yang pertama yang dilakukan ketika developer atau seorang analis
+membuat software desain itu dibutuhkan yang namanya software requirements specifications.
+Di situ tuh jelasin semuanya tentang functional atau non functional requirement nya
+harus dijelaskan secara clear gitu harus jelas semuanya di situ
+baru nanti dari software requirement specification nya
+itu dibuat yang namanya high level design nya.
+High level design dibuat terus
+nanti dibuat lagi yang namanya detailed design.
+Jadi dari spesifikasi masuk ke high level design terus masuk ke detail design.
+Yang menjelaskan tentang aktivitas-aktivitas yang ada
+apa aja yang ada di dalam software yang kita kembangkan.
+Terus relasi antara software arsitektur dan software desain
+seperti yang udah dibilang tadi relasi keduanya ini sangat perlu sekali
+karena software arsitektur itu menjadi bagian utama
+dari kebutuhan kita untuk mengembangkan software.
+Baru setelah kita masuk ke software arsitektur tersebut kita akan bisa lebih mudah masuk
+ke dalam software desain seperti yang saya bilang tadi
+ketika kita membangun rumah kita harus define dulu kamarnya ada berapa
+terus contohnya kamar tidur ada 2, kamar mandi ada 1, garasi ada 1
+baru setelah itu kita menjelaskan tentang kebutuhan-kebutuhan apa saja yang ada di dalam
+kamar tidur seperti kasur, meja, jendela apa saja atribut yang ada di dalam
+sebuah kamar tersebut nah itu gambaran singkat tentang software arsitektur dan software desain.

@@ -1,0 +1,144 @@
+Berbeda dengan modul-modul sebelumnya, kita akan memulai contoh penerapan dari Dependency Inversion dengan penjelasan singkat dari hierarki kelas di bawah ini.
+
+202004061045114485e0544f3d45306d40612a72780852.jpeg
+
+Hirarki di atas adalah gambaran fitur sebuah transaksi yang digunakan untuk berinteraksi dengan database. Jika kita perhatikan, di dalam hirarki di atas terdapat class PaymentService yang digunakan untuk melakukan pembayaran dan class MySQLDatabase yang bertanggung jawab menyimpan data tersebut ke dalam database. Pada sistem ini juga akan terdapat fungsi-fungsi untuk menambah atau menghapus data pembayaran. Untuk melakukan pembayaran kita akan membutuhkan class yang merupakan high-level yaitu class PaymentService. 
+
+Jika kita melihat penerapan pada class tersebut, permasalahan yang ada adalah class tersebut bergantung pada class database dan memiliki referensi langsung pada class tersebut sebagai propertinya. Akibatnya, mustahil kita mengganti tipe data dari class tersebut atau ketika kita ingin menambahkan database baru. Kecuali, class-class yang akan kita tambahkan merupakan SubClass dari class MySQLDatabase. 
+
+Namun, dengan menambahkan class baru tersebut, kita dapat menyalahi prinsip Liskov Substitution. Kenapa? Sebabnya, kita membutuhkan perubahan lagi pada class PaymentService yang berarti kita menyalahi aturan lainnya yaitu Open/Close Principle.
+
+Masalah lainnya yang akan timbul adalah ketika kita membutuhkan perubahan pada class MySQLDatabase, di mana perubahan yang ada pada class tersebut dapat mempengaruhi class di atasnya yaitu PaymentService. Hal ini juga memungkinkan kita untuk mengubah class-class lainnya yang berada pada hierarki di atasnya, ketika sistem kita terus berkembang, permasalahan ini akan tetap terus ada dan semakin membuat kita kesusahan dalam mengembangkan sistem yang kukuh.
+
+Dengan menerapkan prinsip Dependency Inversion, kita dapat menyelesaikan permasalahan-permasalahan ini dengan menghapus ketergantungan langsung antar class. Bagaimana caranya? Kita dapat mengubah ketergantungan antar class dengan membuat class-class tersebut bergantung pada abstraksi, seperti interface atau abstract class. Pada lower-level, class-class yang ada dapat mengimplementasikan interfaces, atau mewariskan fungsi-fungsi dari abstract class. Dengan begitu, perubahan yang ada pada class-class di lower-level tidak akan mempengaruhi hirarki di atasnya, dengan syarat kita tidak mengubah abstraksi yang dibutuhkan.
+
+Manfaat lainnya dari penggunaan atau penerapan prinsip ini dapat meningkatkan kekukuhan dan fleksibilitas dari sistem yang kita kembangkan. Tanpa penerapan prinsip Dependency,Inversion, hanya class-class lower-level saja yang mudah digunakan kembali.
+
+Agar lebih jelas memahami contoh di atas, mari kita coba mengubah contoh kode yang menyalahi aturan tersebut dan menjelaskan perubahannya agar sesuai dengan prinsip Dependency Inversion. Contoh di bawah ini merupakan kode dari hierarki pada class di atas:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class PaymentService {
+ 
+   private MySQLDatabase database = new MySQLDatabase();
+ 
+   void paymentIsValid() {
+       // Implementation code
+   }
+ 
+   void openDatabase() {
+       // Implementation code
+   }
+ 
+   void addNewPayment() {
+       // Implementation code
+   }
+ 
+   void removePaymentByID() {
+       // Implementation code
+   }
+ 
+   void updatePaymentByID() {
+       // Implementation code
+   }
+}
+ 
+class MySQLDatabase {
+ 
+ 
+   void insert() {
+       // Implementation code
+   }
+ 
+   void update() {
+       // Implementation code
+   }
+ 
+   void delete() {
+       // Implementation code
+   }
+}
+Untuk memperbaiki contoh kode di atas agar sesuai dengan prinsip Dependency Inversion, kita dapat menghapus ketergantungan langsung class PaymentService terhadap class MySQLDatabase. Kita akan menambahkan abstract class baru sehingga nantinya ketika kita menambahkan implementasi baru untuk database, kita hanya akan mewariskan dari class Database. Sehingga hierarki dari kode yang akan kita perbaiki menjadi seperti berikut.
+
+2020040610510835998319833072e8f02f1489525746db.jpeg
+
+Class abstract yang akan kita tambahkan, yaitu class Database, akan berada pada high-level dari hierarki class. Sedangkan class MySQLDatabase dan MongoDatabase akan menjadi SubClass dari class tersebut sehingga tidak ada ketergantungan langsung pada class yang menjadi implementasi database. Hal ini akan memudahkan kita untuk menambahkan atau mengganti kode pada class di bawahnya tanpa mempengaruhi class pada hirarki di atasnya. Untuk lebih jelasnya kita dapat melihat implementasinya pada potongan kode berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class PaymentService {
+ 
+   private Database database;
+ 
+   public PaymentService(Database database) {
+       this.database = database;
+   }
+ 
+   void paymentIsValid() {
+       // Implementation code
+   }
+ 
+   void openDatabase() {
+       // Implementation code
+   }
+ 
+   void addNewPayment() {
+       // Implementation code
+   }
+ 
+   void removePaymentByID() {
+       // Implementation code
+   }
+ 
+   void updatePaymentByID() {
+       // Implementation code
+   }
+}
+ 
+abstract class Database {
+   abstract void insert();
+   abstract void update();
+   abstract void delete();
+}
+ 
+class MySQLDatabase extends Database {
+ 
+   @Override
+   void insert() {
+       // Implementation code
+   }
+   @Override
+   void update() {
+       // Implementation code
+   }
+   @Override
+   void delete() {
+       // Implementation code
+   }
+}
+ 
+class MongoDatabase extends Database {
+   @Override
+   void insert() {
+       // Implementation code
+   }
+   @Override
+   void update() {
+       // Implementation code
+   }
+   @Override
+   void delete() {
+       // Implementation code
+   }
+}
+Dependency Inversion Principle merupakan prinsip ke-5 dan terakhir dari S.O.L.I.D. Dalam prinsip ini dikenalkan abstraksi sebagai antarmuka antara komponen yang memilik hierarki tinggi (higher-level) dan komponen yang memiliki hierarki rendah (lower-level) untuk menghilangkan ketergantungan antara kedua hierarki tersebut.
+
+
+
+Setelah mempelajari semua modul hingga tahap ini, Anda dapat banyak pengetahuan mulai dari pendalam Object Orientation Programming sampai pengertian dan studi kasus dari beberapa prinsip-prinsip SOLID. Modul selanjutnya adalah modul paling seru! Anda akan menyelesaikan exam untuk menguji seberapa paham materi-materi yang sudah dipelajari. Sudah siap? Baca kembali materi, jika belum.

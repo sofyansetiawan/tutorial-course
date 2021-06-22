@@ -1,0 +1,9 @@
+Pada modul sebelumnya kita telah belajar mengenal 4 pilar dari OOP (Object Oriented Programming) yaitu inheritance, encapsulation, abstraction, dan polymorphism . Pada modul ini kita akan belajar mengenai hubungan antar objek agar kita dapat menuliskan kode dengan mudah, bersih, dan bisa digunakan kembali (reusable). 
+
+Kenapa penting memahami hubungan antara objek di OOP? Jika paham, kita dapat lebih mudah memahami dan mengurangi kompleksitas sistem yang akan kita kembangkan.
+
+Hubungan antar objek merupakan hal yang sangat mendasar di dalam pemrograman berorientasi objek. Hubungan antar objek juga mendefinisikan bagaimana objek-objek tersebut akan berinteraksi atau berkolaborasi satu sama lainnya. Dalam hubungan antar objek terdapat 3 kategori:
+
+Association : memiliki hubungan “has-a” yang menyatakan bahwa sebuah kelas memiliki hubungan dengan kelas lainnya.
+Dependency : hubungan ini memiliki arti bahwa sebuah kelas memiliki ketergantungan terhadap kelas lain.
+Generalization : memiliki hubungan “is-a” dari kelas yang spesifik ke kelas yang lebih umum.

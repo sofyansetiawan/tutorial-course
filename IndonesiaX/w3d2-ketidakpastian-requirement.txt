@@ -1,0 +1,73 @@
+Setelah kita mendapatkan informasi dari gathering requirement
+ada beberapa hal lagi yang tidak pasti itu biasanya disebut dengan teknikal uncertainty
+atau ketidakpastian dari sebuah teknikal things.
+Jadi ini biasanya itu berasal dari kita menggunakan teknologi yang tepat
+tetapi kita gagal accomplish gol yang sudah ditentukan di requirement
+penyebab-penyebabnya apa? Biasanya itu lack of knowlede atau
+skill atau tidak pede untuk mengembangkan aplikasinya gitu.
+Terus tim resource nya atau resource-resource yang mengembangkan software tersebut
+mereka enggak punya pengalaman dengan teknologi yang digunakan di proyek tersebut.
+Misal dokumentasi API yang kurang, bahasa-bahasa pemrograman yang tidak bisa dimengerti oleh mereka
+ini kan enggak begitu paham terus penggunaan IDI mereka gak terlalu ngerti
+jadi itu adalah hal-hal di teknikal uncertainty terus biasanya itu akibat dari hal-hal ini tuh
+teknik ketidakpastian teknikal itu biasanya itu API nya gagal
+terus ketidakmampuan untuk membangun algoritma untuk software yang dikembangkan.
+Karena kalau algoritmanya tidak kita mengerti gimana jadinya software yang kita kembangkan gitu.
+Nanti bakal banyak waktu lagi untuk belajar algoritma nya banyak waktu lagi untuk ngerubah
+ngerubah sistemnya bagaimana gitu tapi biasanya organisasi yang matur itu perusahaan yang matur itu menggunakan
+kebanyakan itu production API ini contoh untuk API nya tapi ini enggak menutup kemungkinan.
+Itu jauh dari kata software yang cacat enggak kemungkinan ketika menggunakan
+production API ini jadi ketika sebuah organisasi menggunakan nonproduction API
+atau biasa kita sebut staging bisa juga alfa atau beta untuk development jadi kita juga bisa
+di situ tuh bisa ngelihat nanti oh API yang gagal itu seperti apa gitu itu akan lebih muda ketika berada di staging.
+Terus beberapa risk associated with the technology gitu jadi risk that efective the API itu
+itu akan mencoba mencari API-API yang lain gitu terus
+enggak bisa menentukan solusi yang tepat untuk project yang sedang dikembangkan.
+Nah itu hal-hal itu kadang tidak pasti itu ketika pengembangan itu itu terjadi karena
+ketika kita mengumpulkan gathering requirement itu itu enggak jelas gitu
+Kita harus menghindari ketidakpastian terhadap teknologi yang ada.
+Kenapa software yang dihasilkan oleh perusahaan-perusahaan besar seperti Microsoft,
+Google atau seperti Apple itu sangat bagus gitu.
+Kenapa? Karena mereka sebelum memulai mengembangkan software tersebut
+mereka tentunya melakukan identifikasi terhadap solusi yang ada
+sebelum mereka melakukan deliver ke final solution nya. Nah biasanya itu gimana sih
+biar kita tahu itu identify the solution of a problem ada beberapa pertanyaan
+ini biasanya dilakukan di interview gathering requirement misal pertanyaannya adalah
+what is your final product? Terus which tehnology di WeChat teknologi do you need?
+Teknologi apa aja nih misal mau menggunakan teknologi yang menggunakan bahasa pemrograman python,
+menggunakan golang, menggunakan ruby, java itu mulai menganalisa di sini.
+Terus what are the main building block of your project? Jadi apa aja yang akan dibangun gitu di
+dalam project tersebut terus which are you deliverable?
+biasanya deliverable nya gimana nih untuk project nya
+terus pertanyaan lainnya itu how to organize your work to specific the requirement?
+Itu contohnya juga terus pertanyaan-pertanyaan lain yang sering masuk ketika kita
+melakukan identifikasi terhadap sebuah masalah untuk menemukan solusi ini
+contohnya ini aplikasi desktop apa mobile, ini aplikasi web apa gimana.
+Ini platform as a service, software as a service atau as a service lainnya gitu
+harus responsif enggak bisa diakses dari mobile,
+bisa diakses dari desktop dan bisa diakses dari device apa aja.
+Butuh data protection enggak pertanyaan-pertanyaan yang sering dilakukan
+untuk mengidentifikasi problem-problem yang ada untuk menemukan solusinya.
+Nah biasanya final product itu yang dibikin itu bisa itu website,
+bisa itu mobile app, bisa itu membership site seperti Facebook,
+Linkedin, Twitter yang punya fitur membership site, bisa itu multimedia platform
+seperti YouTube terus bisa juga content management system seperti jumlah.
+Main building block yang ada di dalam software final product tersebut di antaranya adalah
+ada frontend, ada backend, ada admin area terus di dalamnya akan ada interfaces,
+terus ada juga web services yang dibutuhkan untuk aplikasi itu berjalan.
+Nah the hole building blocks itu kita harus bisa identifikasi juga
+karena item-item yang ada di dalam building blocks itu juga
+itu akan banyak lagi gitu contoh di frontend, frontend ini biasanya
+ini untuk website contohnya itu tampilan depan paling depan yang diakses oleh enduser
+Ini biar responsif gimana nih kita bisa menggunakan framework apa,
+kita bisa menggunakan reactJS, kita bisa menggunakan vueJS, atau kita cuman menggunakan jack query aja.
+Terus di backend nya, backend kebutuhannya mereka butuh cepat enggak gitu kalau
+cepat kita bisa pakai python kalau lama stable dan low risk
+mungkin bisa pakai java mau yang lebih ekstrem gak?
+Kita bisa pakai rust atau pakai golang untuk pengembangan backend nya.
+Terus admin areanya nanti di dalamnya ada fungsi-fungsi misal untuk manajemen user nya,
+untuk membuat, mengupdate, menghapus dan beberapa aktivitas pengolahan user
+dan konten di dalam sebuah platform tersebut.
+Terus web service nya apa, infrastrukturnya gimana
+itu harus benar-benar kita lakukan identifikasi dari awal
+dan semua proses itu terjadi di gathering requirement ini.

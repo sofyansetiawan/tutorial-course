@@ -1,0 +1,45 @@
+Sekarang kita sudah masuk di penghujung week pertama.
+Di penghujung week ini Kita akan membahas tentang case study.
+Jadi case study yang akan saya gunakan di sini adalah bagaimana kita membuat
+e-learning platform? Jadi Saya di sini akan berakting sebagai seorang solution arsitek.
+Jadi kebutuhan apa saja yang ada untuk pengembangan e-learning platform ini akan saya coba jelaskan.
+Nah yang pertama, yang pertama itu pasti login atau registration ini pasti dibutuhkan
+untuk webiste e-learning ini di dalamnya nanti itu akan ada manajemen registrasi,
+manajemen user baik itu create, read, update ataupun diklat informasi user.
+Terus ada profile page, profile page ini adalah informasi tentang user
+misal user nya udah berapa mengambil sertifikat, user nya sudah berapa mengambil kursus,
+dia sosial medianya apa dan ini bisa dimasukkan ke profil page ini.
+Yang berikutnya adalah modul course. Modul kursus ini itu berisi tentang
+the hole sistem yang mengatur kursus-kursus yang ada di dalam e-learning platform kita.
+Baik itu upload kursus, manajemen kursus itu ada semua di modul kursus.
+Terus di dalam modul-modul kursus ini biasanya ada lecturer
+terus lecturer ini itu tugasnya adalah konten-konten yang ada di dalam kursus tersebut
+atau biasanya kalau di IndonesiaX itu konten-kontennya disebut sebagai week 1 section nya apa,
+week 2 section nya apa, week 3 section nya apa seperti itu.
+Nah di dalam itu kita bisa masukkan per section nya itu satu video ataupun satu konten.
+Itu tergantung user nya yang manage kursus tersebut.
+Nah di akhir week itu biasanya ada exam, exercise atau biar bisa kita bilang tes aja lah gitu.
+Jadi biasanya di mooc atau e-learning itu ada exam atau tes ini.
+Nah ini bisa kita masukin modul untuk cek level under level of understanding dari setiap user.
+Terus itu dari sisi frontend nya kalau dari back layer nya itu tentu ada
+instruktur studio nah atau ya kita sebut aja teacher admin biar lebih enak
+teacher admin karna ini e-learning terus ada lagi app admin. Nah di teacher admin ini
+adalah konten manajemen yang digunakan untuk mengelola kursus-kursus yang ada,
+mengelola konten-konten baik itu dari konten kursus per section ataupun konten-konten exam nya,
+tes dan lain sebagainya. Mengatur grading dan beberapa unsur-unsur yang ada di dalam sebuah kursus.
+Untuk app admin, app admin ini digunakan untuk mengatur keseluruhan sistem
+dimulai dari sistem itu ingin memiliki kategori apa saja
+ingin memiliki banner di halaman depannya apa saja
+itu di manage itu di app admin bisa juga untuk manajemen-manajemen user.
+Nah biasanya di yang pertama yang di login dan registrasi.
+Login dan registrasi itu kebutuhannya enggak jauh beda detail-detail informasi-informasi umum dari user nya.
+Terus untuk di halaman informasi kursus itu biasanya item-item yang ada itu biasanya kalau di e-learning itu ada video.
+Video introduction, ada image tentang instrukturnya nanti ada paragraf
+seorang solution arsitektur tuh harus benar-benar mengerti
+apa elemen-elemen apa saja yang ada di dalam sistem yang dikembangkan.
+Nah selain itu ketika semuanya udah dibikin nanti seorang solution arsitek tersebut
+bisa mengatur the hole desainnya baik itu high level design atau low level design nya.
+Nanti akan bebas mengaturnya, menganalisa sesuai kebutuhan-kebutuhan user
+baru nanti development nya akan berjalan dengan lancar nah untuk praktis coding nya
+nanti kita akan menggunakan phyton dan kita akan fokus pembahasan tersebut di week ke 4 dan week ke 5.
+Sekarang kita sudah menyelesaikan week pertama terima kasih sampai jumpa di week berikutnya.

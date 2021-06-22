@@ -1,0 +1,34 @@
+Rangkuman
+
+
+Berikut adalah rangkuman dari beberapa materi yang telah dibahas pada module ini:
+
+SOLID adalah kumpulan dari beberapa principle yang diwujudkan oleh para engineer yang ahli di bidangnya dan membantu mengembangkan sebuah perangkat lunak dengan tingkat kekukuhan yang tinggi. 
+
+Ada beberapa tujuan dari prinsip SOLID, yaitu toleran terhadap perubahan, mudah dipahami dan komponen dasar dapat digunakan kembali dalam bentuk software system lainnya.
+
+SOLID adalah sebuah singkatan. Yang setiap hurufnya dapat dipecah lagi agar bisa memahami isinya. Masing-masing pecahannya adalah
+
+Single Responsibility Principle (SRP), merupakan sebuah principle yang digunakan untuk mengatur tanggung jawab dari sebuah entitas yang berada di dalam sebuah proyek. Entitas dalam hal ini adalah sebuah module/class untuk memenuhi kebutuhan actor. Sedangkan Actor sendiri merupakan kumpulan "user" atau "stakeholder" yang menginginkan perubahan pada perangkat lunak.
+
+Open / Close Principle, sebuah principle yang mengatur di mana artefak perangkat lunak harus terbuka untuk ditambahkan tetapi tertutup untuk dimodifikasi. 
+
+Liskov Subtitution Principle, sebuah principle yang mengatur desain hirarki pewarisan. Aturan - aturan tersebut antara lain 
+
+Contravariant & Covariant,
+Contravariant adalah kondisi di mana parameter dari sebuah fungsi yang berada pada SubClass harus memiliki tipe dan jumlah yang sama dengan fungsi yang berada pada SuperClass-nya. Sedangkan Covariant, adalah kondisi pengembalian nilai dari fungsi yang berada pada SubClass dan SuperClass.
+
+Precondition & PostCondition,
+Precondition adalah tindakan yang harus ada sebelum sebuah proses dijalankan. Sedangkan postcondition sebaliknya, yaitu tindakan yang harus ada ketika sebuah proses selesai dijalankan.
+
+Invariant, adalah penjelasan dari kondisi suatu proses yang benar sebelum proses tersebut dimulai dan tetap benar setelahnya.
+
+Constraint, adalah pembatasan yang ditentukan oleh SuperClass terhadap perubahan keadaan sebuah obyek.
+
+Interface Segregation Principle, sebuah principle yang bertujuan untuk mengurangi jumlah ketergantungan sebuah class terhadap interface class yang tidak dibutuhkan.
+
+Dependency Inversion Principle, sebuah principle yang mengatur ketergantungan antar module. Terdapat 2 aturan dalam dependency inversion principle, yaitu 
+
+High-level module tidak diperbolehkan untuk bergantung pada low-level module. Keduanya harus bergantung pada abstraction.
+
+Abstraksi tidak diperbolehkan untuk bergantung pada detail. Detail harus bergantung pada abstraksi.

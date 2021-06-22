@@ -1,0 +1,66 @@
+Jadi developer itu kalau enggak ngopi enggak bakal bisa begadang karena biasanya
+developer begadangnya sama kopi udah.
+Nah kalau udah ngopi gini udah segar ni bisa ngelanjutin aktivitas ngodingnya
+jadi makin lancar deh nanti kita ngodingnya.
+Sekarang kita akan masuk ke model berikutnya.
+Model ini modelnya spiral jadi kayak kita ngaduk-ngaduk kopi kita gitu spiral.
+Model spiral ini itu selalu dimulai
+dengan desain goal dan selalu diakhiri dengan client review.
+Ada 4 hal yang paling penting di spiral model ini.
+Yang pertama adalah identification, yang ke-2 adalah desain,
+yang ke-3 adalah development atau build
+atau kita juga bisa nyebutnya construction nah gitu.
+Terus yang terakhir adalah evaluation dan risk analysis.
+Software yang dikembangkan dalam spiral model ini
+nanti bentuknya itu inkremental rilis.
+Jadi ada series of release, ingat spiral yang pertama ketika identification
+misal nih kita udah dapat bisnis requirement entar ke identification
+lanjut ke yang ke-2 di fase desain baru dibuat di sana desain itu
+arsitektur desain. Terus di development itu kita bisa membuat dulu proof of concept
+dari sebuah aplikasi nanti masuk ke stage berikutnya masuk ke management risk.
+Nah setelah masuk ke fase ke-4 tersebut ke terakhir
+di fase evaluation dan risk analysis nanti muter lagi tuh
+masuk ke fase identifikasi lagi lanjut ke fase desain lanjut ke fase development
+mutar lagi ke fase evaluation dan risk analysis begitu seterusnya mutar makanya dinamakan spiral.
+Kelebihan utama dari spiral model ini
+jadi untuk update dan penambahan fungsi itu bisa dilakukan di akhir setiap stage.
+Setelah kita berada di akhir stage nanti kan berputar lagi itu
+mulai lagi di identification di hal-hal baru jadi
+untuk ada penambahan fungsi pun its oke kita tetap bisa
+menambahkan fungsi tersebut ke aplikasi yang kita kembangkan.
+Terus estimasi cost nya itu lebih mudah dan cepat
+ini untuk seorang manajer enak nih
+bisa lebih cepat dan lebih mudah untuk manajemennya.
+Terus development untuk spiral model ini itu
+memakan waktu yang lebih cepat juga.
+Terus ya dari space untuk customer feedback
+ketika user nya butuh feedback dia bisa melakukannya kapan aja di spiral model ini.
+Nah kekurangannya adalah besar kemungkinan biasanya
+perusahaan yang menggunakan spiral model ini
+itu tidak sesuai dengan schedule dan budget development.
+Kadang minim kadang bengkak selalu terjadi di spiral model ini.
+Terus ini nggak cocok untuk proyek yang kecil.
+Kalau kecil ya udahlah ya kita pilih yang model-model yang sebelumnya aja.
+Terus untuk biaya itu pasti akan bengkak untuk yang proyek-proyek yang kecil ini.
+Makanya nggak bagus. Terus kekurangannya
+kesuksesan dari proyek ini itu bergantung pada stage yang terakhir.
+Jadi kalau stage yang ke-4 tadi
+yang di evaluation dan risk analysis di stage tersebut nggak bagus
+karna akan berlanjut ke stage identifikasi lagi.
+Kalau di situ nggak bagus itu bisa menghancurkan proses development nya.
+Kelebihan dan kekurangan dari spiral model sudah kita bahas tadi sekarang
+kapan sih kita bisa menggunakan spiral model ini? Saran saya
+waktu untuk menggunakan spiral model ini yang pertama ketika cost dan risk evaluation
+itu benar-benar sangat penting untuk development nya.
+Kita tahu nih cost ini penting banget nih kalau sampai jelek
+untuk risk evaluation nya, cost planning nya itu enggak bagus
+itu enggak bagus untuk spiral model ini.
+Terus ini juga bagus untuk medium to high risk project
+dan kompleks requirements nya itu lebih kompleks.
+Spiral model ini juga bagus untuk pengembangan new produk jadi ketika kalian
+punya perusahaan atau sedang bekerja dengan perusahaan ingin mengembangkan new produk lain
+itu bagus menggunakan spiral model ini. Terus
+yang terakhir adalah kapan kita menggunakan spiral model itu ketika ada significances.
+Jadi kalau ada perubahan yang banyak gitu
+yang terjadi dalam pengembangan software kita dan kita harus melakukan riset dan eksplorasi
+Kita bisa menggunakan spiral model ini.

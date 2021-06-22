@@ -1,0 +1,66 @@
+Indonexian sekarang kita masuk di pengunjung week ke-4.
+Dimana kita akan langsung praktek bagaimana membuat wire frame untuk aplikasi e-learning platform.
+Di wire frame sangat berguna sekali untuk developer terutama
+sekali untuk seorang frontend developer untuk mengetahui seperti apa aplikasi yang akan
+kita buat nanti itu. Jadi hasil akhir yang diinginkan oleh seorang klien itu bagaimana
+itu bisa dibuat menggunakan wire frame ini jadi gambaran dulu lah gitu sketch-sketch
+biasanya itu bisa menggunakan gambar langsung menggunakan kertas atau
+biasa saya menggunakan software yang namanya basalmiq jadi kita coba mulai membuat
+e-learning platform nya kita gambar dari awal kita tarik dulu untuk browser nya ini untuk browser
+kita tarik di sini sederhana kita buat dulu kayak lebih enak itu
+log in ya kita cari field di sini
+log in kita buat di sini
+kita bisa masukkan di sini misalnya username
+username di sini terus kita clone aja ini
+terus ganti jadi password
+terus biasanya setelah username, logi n itu ada button-button buat log in
+Ini bisa kita desain seperti apapun tapi biasanya intinya ada username sama log in
+untuk log in coba kita tambahkan gambar mungkin
+gambarnya itu ada di sini
+kita bisa tambahkan beberapa teks mungkin di bawahnya
+teks link gitu di sini.
+Jadi desain di sini agreement
+user agreement
+text user agreement
+terus biasanya kan ada di situ checkbox
+checkbox bisa kita tambahkan di sini
+tarik aja di sini
+text box nya dihapus
+ini kita rubah jadi I have agree user agreement
+biasanya seperti ini aja simple untuk log in nya.
+ini untuk halaman log in nya.
+berikutnya setelah user log in kita buat mockup barunya
+log in user akan masuk ke dashboard yang mereka itu
+masuk ke dashboard nya
+kita perbesar sampai sini
+Kalau software ini bagus ini bisa langsung interaksi langsung misal masukin juga URL di sini
+Indonesiax.co.id
+kita bisa nambahin misal di sini masuk langsung ke profile user nya
+profile user biasanya kan ada gambar tuh
+ini misalnya gambar
+terus kita bisa tambahkan
+yang common sama label mungkin di sini
+misal IndonesiaX user
+ini profile user nya
+sebagai pembantu kita tambahin lagi di sini informasi kaya
+join date misal 17 Agustus 2020.
+Terus kita cari pembatas di sini batas di sini
+pembatas misal antara informasi user ini di bawahnya ini kita bisa tambahkan
+lagi mana image nya sebentar
+menambahkan button di sini misal view course atau bisa juga
+get sertifikat mungkin
+kita tambahkan informasi di sini kaya nama user nya
+bisa bukan nama user sorry nama kursusnya kursus IndonesiaX Mencari Bintang mungkin.
+tambahkan kita bisa perbesar open
+sorry kayanya teks nya tadi agak
+kita pindahin ke sini dulu
+ini untuk list kursusnya IndonesiaX Mencari Bintang yang bisa kita duplikat aja
+atau kita bisa tambahin lagi di sini mungkin image
+jadi ini kursus rekomendasi misal ini ada kursus A.
+Terus jadi lewat wire frame ini akan memudahkan developer
+wah tampilan ke depannya untuk IndonesiaX itu akan seperti ini ternyata gitu.
+Jadi ini yang diinginkan oleh klien kita gitu. Jadi tinggal mengikuti apa yang ada di dalam wire frame ini.
+Kursus A, Kursus B, Kursus C, Kursus D
+bisa juga kita tambahkan mungkin di sini ada button gitu profile
+di sini profile user masukkan di atas ini biasanya buat di toolbar untuk
+user yang mengakses profil-profil dari mereka itu.

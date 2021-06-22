@@ -1,0 +1,124 @@
+Association
+20200408220115ba016e06c411662a267ee82957c09b81.png
+
+Asosiasi didefinisikan sebagai hubungan yang terstruktur, yang secara konsep memiliki arti bahwa dua komponen saling terhubung satu sama lain. Jika dilihat pada gambar di atas, hubungan asosiasi digambarkan dengan garis tidak putus-putus dan tidak memiliki anak panah pada kedua ujungnya. Apa pasal? Jawabannya, setiap objek memiliki siklus hidupnya sendiri dan tidak memiliki “ownership” antara kedua objek tersebut. Semisal kasus gambar di atas berupa hubungan antara kelas User dan Seller. Dilihat dari kardinalitasnya, satu User dapat membeli barang dari berbagai Seller. Apabila class Seller dihilangkan, class User masih bisa digunakan karena hubungan antara kedua class tersebut lepas alias tidak saling memiliki.
+
+Kardinalitas
+Hubungan asosiasi sendiri memiliki hubungan one-to-one, one-to-many, many-to-one, dan many-to-many atau yang biasa disebut sebagai kardinalitas. Kardinalitas adalah hubungan maksimum yang terjadi dari himpunan entitas yang satu ke himpunan entitas yang lain, demikian sebaliknya. Mari kita lihat bagaimana setiap kardinalitas pada hubungan asosiasi.
+
+One-to-one relationship
+Hubungan satu ke satu terjadi ketika satu objek A memiliki referensi dari satu objek B. Sebaliknya, satu objek B memiliki referensi dengan satu dari objek A. Sebagai contoh, kelas User hanya memiliki satu data diri dan tidak lebih. Berikut ini gambarannya. 
+
+2020040822081007d3f5107d6ad6c41c8287e3499beb1a.png
+
+One-to-many relationship
+Hubungan satu ke banyak ini diartikan dengan hubungan antara dua objek A dan B di mana objek A terhubung dengan lebih dari satu objek B, tetapi anggota dari objek B hanya terhubung dengan satu anggota A. Sebagai contoh, seorang pembeli dapat memiliki atau memesan minimal satu hingga beberapa pesanan. Semisal, class User dapat memiliki hubungan one-to-many terhadap class Order. Jika digambarkan akan menjadi seperti berikut:
+
+20200408220941e5064708e11dcae84073f25e6158db35.png
+
+
+Many-to-many relationship
+Hubungan banyak ke banyak merupakan hubungan antara dua buah objek A dan B, di mana setiap anggota dari objek A maupun B memiliki hubungan lebih dari satu objek A dan B. Sebagai contoh, seorang pengguna dapat membeli beberapa barang, tetapi satu buah barang juga dapat dibeli oleh beberapa pengguna. Jika class User memiliki hubungan many-to-many terhadap class Product maka hubungan antar class tersebut dapat diilustrasikan seperti berikut:
+
+20200408221052f1c7e15a1183a40b3b99336fd19b1b38.png
+
+Bagus, kita sudah tahu beberapa jenis kardinalitas dalam hubungan asosiasi. Tetapi bagaimana penerapannya dalam sebuah kode? Biar lebih mudah memahaminya mari kita lihat pada skenario dibawah ini.
+
+Seorang pengguna memiliki hubungan one-to-many terhadap penjual. Pada contoh di bawah sebuah pengguna dapat membeli barang dari satu atau beberapa penjual. Oleh karena itu, pada class pengguna kita dapat menambahkan variabel daftar penjual sebagai tanda bahwa kedua kelas ini memiliki hubungan one-to-many.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class Seller {
+   private String id;
+   private String name;
+}
+ 
+class User {
+   private String id;
+   private String name;
+   private List<Seller> sellers;
+}
+Dalam hubungan asosiasi antara dua objek, terdapat dua bentuk relasi yaitu, agregasi dan komposisi. Apa bedanya? Kedua bentuk hubungan asosiasi ini dibedakan berdasarkan aturan khusus yang berlaku pada bentuk hubungan tersebut. Jangan bingung, yuk kita lihat satu per satu penjelasan bentuk hubungan asosiasi ini.
+
+
+Aggregation
+2020040822143239c50cc5834456bfb351ddbee1eb246b.png
+
+Bentuk hubungan pertama dari asosiasi adalah agregasi yang digambarkan dengan dengan garis yang tidak putus-putus dengan ujung simbol diamond putih yang mengarah pada class yang memiliki. Meskipun sama-sama berupa hubungan yang “memiliki,”  perbedaan dengan bentuk hubungan komposisi adalah bentuk hubungan ini tidak terikat, yang berarti setiap class dapat berdiri sendiri. Seperti contoh pada gambar di atas, meskipun kelas Shop dihancurkan, class Seller masih dapat digunakan. Tapi tidak sebaliknya. Jika class Seller tidak ada, maka class Shop sudah tidak relevan lagi untuk digunakan. Mari kita lihat contoh kode untuk bentuk hubungan agregasi sebagai berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class Shop {
+   private String id;
+   private String name;
+   private Seller seller;
+ 
+   public Shop(String id, String name) {
+       this.id = id;
+       this.name = name;
+   }
+ 
+   public void setSeller(Seller value) {
+       this.seller = value;
+   }
+ 
+   public final Seller getSeller() {
+       return seller;
+   }
+}
+ 
+class Seller {
+   private String id;
+   private String name;
+}
+Jika diperhatikan, kedua kelas dapat dibuat secara independen tanpa harus terdapat class lain saat pembuatannya. 
+
+
+Composition
+202004082215452de88d6950ab3a492945bd009a09e967.png
+
+Bentuk hubungan kedua yaitu komposisi, sebuah hubungan dapat dikatakan komposisi jika sebuah kelas “memiliki” class lainnya. Aturan yang berlaku untuk hubungan ini adalah ketika kelas yang “memiliki” class lainnya dihancurkan maka class yang “dimiliki” oleh kelas tersebut akan hancur juga atau tidak dapat digunakan. Untuk lebih mudah memahaminya mari kita contohkan lewat kasus seperti gambar di atas.
+
+Sebuah class User memiliki bentuk hubungan komposisi dengan class Address yang ditandai dengan adanya anak panah dengan ujung diamond hitam penuh, yang mengarah pada class yang “memiliki” objek tersebut. Ketika class User hancur, maka class Address yang memiliki hubungan dengan class User tersebut akan ikut hancur dan tidak bisa digunakan lagi. Agar lebih jelas lagi, mari kita lihat penerapan kodenya dalam kelas-kelas di bawah ini.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+public static final void main(String[] args) {
+   ...
+   User user = new User("1234", "Khrisna", new Address("123", "Bandung"));
+}
+ 
+class User {
+   private String id;
+   private String name;
+   private Address address;
+ 
+   public User(String id, String name, Address address) {
+       this.id = id;
+       this.name = name;
+       this.address = address;
+   }
+}
+ 
+class Address {
+   private String id;
+   private String location;
+ 
+ 
+   public Address(String id, String location) {
+       this.id = id;
+       this.location = location;
+   }
+}
+Perhatikan kode pada fungsi main() di atas, ketika kita membuat sebuah objek dari class User maka kita juga membuat sebuah objek baru dari class Address. Apabila objek user kita hapus, maka objek class address akan terhapus juga. Begitulah ilustrasi dari bentuk hubungan komposisi.
+
+20200408221938befc8a123256ab7fa8a05d7efccfd2a9.pngBentuk hubungan komposisi lebih kuat dibandingkan dengan agregasi. Kita dapat melihat gambar di atas bahwa hubungan komposisi adalah bentuk hubungan terkuat dari ketiganya dan agregasi merupakan hubungan yang lebih umum lagi. Kedua bentuk hubungan ini merupakan bentuk hubungan antar objek yaitu asosiasi, hubungan asosiasi dapat dikatakan komposisi jika hubungan tersebut adalah hubungan “memiliki” dan dapat dikatakan hubungan agregasi jika terdapat objek yang “menggunakan” objek lainnya.

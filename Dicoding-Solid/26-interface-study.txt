@@ -1,0 +1,229 @@
+Untuk contoh kasus kali ini, kita akan menggunakan skenario sebuah fitur pembayaran. Sama seperti modul-modul sebelumnya, kita akan memulai dengan contoh yang menyalahi aturan dan kemudian kita akan sesuaikan sehingga memenuhi aturan prinsip interface segregation. 
+
+Contoh kode dari skenario kita kali ini adalah sebagai berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+interface IPayment {
+   void setPaymentName();
+   void setAmount();
+   void bankID();
+   void virtualBankID();
+   void accountID();
+}
+ 
+class Gopay implements IPayment {
+   @Override
+   public void setPaymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void setAmount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void bankID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void virtualBankID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void accountID() {
+       // Implementation code
+   }
+}
+ 
+class Mandiri implements IPayment {
+   @Override
+   public void setPaymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void setAmount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void bankID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void virtualBankID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void accountID() {
+       // Implementation code
+   }
+}
+ 
+class BNI implements IPayment {
+   @Override
+   public void setPaymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void setAmount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void bankID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void virtualBankID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void accountID() {
+       // Implementation code
+   }
+}
+Jika kita perhatikan kode di atas, terdapat sebuah class interface dengan nama IPayment yang diimplementasi oleh class Gopay, Mandiri, dan BNI. Di mana class-class tersebut memiliki semua fungsi yang ada pada class interface IPayment. Semua class tersebut membutuhkan interface IPayment untuk mengurangi pembuatan fungsi yang berulang di setiap kelas tersebut dan mempermudah kita untuk mengatur dependensi. Namun seperti yang kita ketahui, class Mandiri dan BNI bukanlah sebuah metode pembayaran EWallet seperti halnya class Gopay. 
+
+Nah dalam kasus ini, kita akan mendapati beberapa kontrak yang tidak digunakan di masing-masing class yang mana ini merupakan sebuah kondisi yang melanggar aturan dari prinsip Interface Segregation. Untuk menyelesaikan kasus di atas, kita akan sedikit mengubah beberapa potongan kode sebelumnya dengan memecah beberapa kontrak yang tidak digunakan pada interface IPayment menjadi sebuah interface tersendiri yang tentunya sesuai dengan kebutuhan masing-masing class.
+
+Okay, yang pertama kita lakukan tentunya adalah memecah interface IPayment menjadi 3 (tiga) interface tersendiri seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+interface EWalletProvider {
+   void accountID();
+   void walletProviderID();
+}
+ 
+interface PaymentProvider {
+   void paymentName();
+   void amount();
+}
+ 
+interface BankProvider {
+   void bankID();
+   void virtualAccount();
+}
+Bisa kita perhatikan, interface IPayment yang sebelumnya memiliki beberapa kontrak, sekarang sudah menjadi beberapa interface tersendiri sesuai dengan apa yang dibutuhkan.
+
+Langkah selanjutnya adalah mengubah implementasi dari beberapa kelas yang sebelumnya mengimplementasi interface IPayment. Untuk class Gopay diubah menjadi class yang mengimplementasi interface EWalletProvider dan PaymentProvider. Sedangkan class Mandiri dan BNI diubah menjadi class yang mengimplementasi interface BankProvider dan PaymentProvider.
+
+Contoh kode dari perubahan di atas kurang lebih akan seperti di bawah ini:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class Gopay implements EWalletProvider, PaymentProvider {
+   @Override
+   public void paymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void amount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void accountID() {
+       // Implementation code
+   }
+   @Override
+   public void walletProviderID() {
+       // Implementation code
+   }
+}
+ 
+class Mandiri implements BankProvider, PaymentProvider {
+   @Override
+   public void paymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void amount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void bankID() {
+       // Implementation code
+   }
+   @Override
+   public void virtualAccount() {
+       // Implementation code
+   }
+}
+ 
+class BNI implements BankProvider, PaymentProvider {
+   @Override
+   public void paymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void amount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void bankID() {
+       // Implementation code
+   }
+   @Override
+   public void virtualAccount() {
+       // Implementation code
+   }
+}
+Cukup mudah bukan? Dengan memecah interface menjadi beberapa interface kecil, kita dapat dengan mudah menyesuaikan kebutuhan masing-masing class. Kita juga dapat dengan mudah menambahkan class-class baru yang mengimplementasi interface yang sesuai. Semisal kita ingin menambahkan class EWallet baru yaitu OVO. Maka kita hanya perlu membuat class OVO mengimplementasikan interface EWalletProvider dan PaymentProvider. Contohnya seperti berikut:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class OVO implements EWalletProvider, PaymentProvider {
+   @Override
+   public void paymentName() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void amount() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void accountID() {
+       // Implementation code
+   }
+ 
+   @Override
+   public void walletProviderID() {
+       // Implementation code
+   }
+}
+Dengan menerapkan Interface Segregation Principle dapat membantu kita untuk mengembangkan sistem yang kukuh dan mudah dipelihara. Kita dapat mencegah pembuatan interface yang memiliki banyak fungsi untuk kepentingan yang berbeda-beda. Apa akibatnya jika tidak demikian? Tentu kita akan kesusahan karena interface yang memiliki banyak tanggung jawab sangat mudah berganti-ganti. Proses pemeliharaan sistem pun menjadi tidak efisien.
+
+
+
+Tidak sabar untuk lanjut ke modul berikutnya? Kita akan belajar tentang bagaimana mengatur dependensi di dalam sebuah perangkat lunak berdasarkan prinsip Dependencies Inversion. Tetap semangat. Mari lanjut ! 
+

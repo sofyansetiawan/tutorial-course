@@ -1,0 +1,45 @@
+Agile agile agile agile itu yang pasti kalian dengar zaman sekarang itu di kantor kalian.
+Kamu harus kerja yang agile dong itu harus gesit, cepat gitu aja gitu, agile gitu.
+Ada software development moduls yang disebut agile. Mungkin istilah-istilah yang tadi itu yang
+mungkin dari perkantoran dari kantor kalian itu dapatnya dari sini agile agile agile gitu.
+Agile model ini sebenarnya untuk fase yang ada di dalam itu simpel aja sebenarnya.
+Misal ada planning, requirement analysis, ada desain, ada building dan testing
+tapi di agile ini ada hal yang lebih membuat saya tertarik ada yang namanya iterasi di agile ini.
+Tapi sebelum masuk ke hal-hal tersebut biasanya untuk software yang dikembangkan
+secara agile ini modelnya itu hampir mirip juga dengan incremental dan
+cycle nya itu terjadi bisa terus-menerus jadi akan ada interaksi terus menerus.
+Biasanya untuk agile ini bagus untuk individual interaction terus bagus juga untuk customer collaboration
+terus untuk perubahan-perubahan yang ada itu itu bagus perubahan-perubahan yang cepat itu bagus menggunakan agile ini.
+Fasenya tadi yang saya udah bilang dari planning sampai testing jadi ketika kita ingin membuat beberapa modul.
+Beberapa modul jadi kita mau bikin aplikasi e-learning tadi saya mau bikin modul registrasi,
+saya mau bikin modul login, saya mau bikin modul kursus tetapi secara bersamaan
+dan itu bisa dilakukan dengan model agile ini. Bagusnya adalah ketika kita melakukan planning di setiap modul tersebut
+melakukan requirement analysis sampai ke tahap desain terus kita buat sampai testing
+kalau itu enggak bagus dan enggak benar-benar fit sesuai dengan perencanaan yang kita lakukan kita lakukan iterasi.
+Biasanya ada sprint di dalam sini di dalam agile ini ada sprint kita kelarkan project ini selama 3 minggu gitu
+Oke kelar udah diputar lagi kalau belum selesai selalu ada iterasi itu namanya agile.
+Jadi kalau belum kelar masih ada iterasi ada customer feedback, ada user feedback
+itu terus menerus terjadi. Kelebihan dari agile model ini itu sangat fleksibel buat developer dan mudah digunakan
+Terus fungsi-fungsi yang ada itu dapat dikembangkan secara rapid terus bagus juga untuk team work.
+Jadi untuk kolaborasi agile ini sebenarnya sangat powerfull
+makanya agile ini banyak digunakan di startup-startup atau perusahaan-perusahaan yang berkembang saat ini.
+Terus banyak yang bilang agile ini the realistic approach to software development katanya si seperti itu.
+Kalau ada perubahan-perubahan yang agak telat ya its oke di agile karena
+perubahan itu kita open masuk nanti kita masukkan ke fase-fase pengembangannya
+kalau enggak sesuai tetap akan terjadi iterasi terus kekurangan,
+kekurangan dari agile ini itu bergantung banget pada customer iteration.
+Jadi kalau iterasinya enggak bagus dari customer feedback nya enggak enggak sesuai,
+enggak benar, pokonya enggak bagus aja itu akan mengakibatkan software nya nggak bagus juga nanti.
+Jadi kalau software nya salah tim yang mengembangkan software tersebut kemungkinan juga akan salah kita itu di agile.
+Terus ini membutuhkan high individual depedency karena tidak banyak dokumentasi yang dihasilkan.
+Untuk model ini terus transfer knowledge nya juga kadang susah karena biasanya di agile ini
+kebanyakan iterasi iterasi iterasi kadang dokumentasi sering di lupakan di agile.
+Kapan menggunakan model ini? Model ini bisa kita gunakan ketika software yang dikembangkan
+membutuhkan perubahan baru update dapat diimplementasikan dengan cost yang lebih murah.
+Terus untuk implementasi fitur baru developer hanya akan kehilangan pekerjaannya ya
+beberapa hari lah atau mungkin beberapa jam untuk melakukan role back dan implementasi
+terhadap perubahan-perubahan yang ada. Jadi enggak butuh waktu banyak juga terus
+kalau kalian punya limited planning kalian juga bisa menggunakan agile model ini.
+Karena pasti akan ada perubahan nah kalian tertarik enggak pakai agile model ni dibandingkan model-model yang lain
+saya sih kalau untuk untuk startup atau yang ingin belajar tentang agile model ini
+penerapannya di software indusrty ini bagus. Coba deh belajar lebih lagi tentang agile model ini.

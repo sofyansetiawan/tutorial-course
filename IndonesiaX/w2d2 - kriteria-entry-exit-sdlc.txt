@@ -1,0 +1,44 @@
+
+Stage berikutnya itu adalah requirement gathering, requirement gathering itu entry point nya adalah
+requirement-requirement yang ada atau perubahan-perubahan yang terjadi apa saja gitu dalam software development nya.
+Terus untuk exit kriterianya bagaimana agar kita bisa keluar dari fase requirement gathering ini.
+Nah agar bisa keluar output nya adalah kita membuat yang namanya software requirements specification document.
+Baru itu dilempar ke stage berikutnya yaitu stage analisis.
+Nah di stage analisis ini entry point nya adalah yang tadi software requirement specification documents
+atau bisa juga entry point nya perubahan-perubahan yang terjadi di dalam software tersebut.
+Sesuai dengan kebutuhan klien baru nanti exit kriterianya itu
+setelah itu dibuatlah namanya software requirement spec document = software requirement gathering tadi.
+Baru itu pindah ke stage desain nah di stage desain ini entry point nya yang tadi
+software requirements specification document, exit kriterianya apa?
+Desain ini exit kerjanya adalah dibuatnya sebuah desain specification document.
+Jadi udah jadi desain specification document nya kita udah bisa masuk ke tahap development.
+Tahap development setelah entry point nya udah ada yang tadi desain specification document
+baru kita buat aplikasinya di situ di buat semua tim itu fokusnya di develop aplikasinya
+udah dibuatnya dari frontend nya, backend nya, fungsi fungsionallity yang ada,
+modul-modul yang dibutuhkan software tersebut semuanya bikin di sini.
+Setelah dibuat unit-unit yang udah jadi itu nanti akan menjadi output
+atau exit kriteria dari development stage ini. Barulah itu kita bisa masuk ke stage testing tadi.
+Nah di stage testing ini entry point nya ada unit, modul atau fungsi-fungsi yang udah jadi di fase development.
+Jadi yang udah jadi itu dikumpulkan jadi satu itu diintegrasikan
+nah mereka akan membuat yang namanya test case di dalamnya nih.
+Jadi ini yang biasanya tuh developer bilang test case nya gimana, testing nya gimana.
+Ini testing nya pakai apa gitu pakai behavior, pakai user testing, pakai testing yang model seperti apa
+pasti sering dengar di sosial media tentang ya gimana developer melakukan testing nya.
+Testing itu sering terjadi di fase testing dan integrasi ini itu output nya
+baru output nya ketika udah tidak ada software yang cacat apa fungsi-fungsi yang cacat udah enggak ada modul-modul yang cacat
+testing nya semua lancar all clear baru masuk ke state development nya.
+State developer nya itu exit point nya apa gitu, exit point untuk deployment ini
+itu biasanya adalah build deployment into production nah ini sering banget nih
+orang nanya nih, orang nanya ke saya Ki gimana progres yang kemarin udah kelar belum?
+saya pasti bilang oh sudah di server development udah tinggal di push ke production
+itu berarti itu udah selesai dan tinggal go live saja itu artinya
+nah pasti sering tuh teman-teman kalau ngelihat developer atau engineer itu
+ada chat-chat di dalam grup whatsapp, grup telegram atau grup select nya pasti ada hal-hal kaya gitu.
+Artinya software yang udah jadi di software development nya
+tinggal masuk ke server production nya gitu. Nah yang terakhir adalah operation and maintenance.
+Nah di sini untuk operation dan maintenance itu nah itu dikumpulkan tuh
+software bukan dikumpulkan sorry. Jadi software yang udah jadi itu di tes
+tuh oleh enduser dicoba-coba oleh enduser mereka pakai kadang kalau mereka menemukan masalah
+nanti langsung dilapor, lapornya kemana? ke support tim atau support manager yang sempat kita bahas di week berikutnya.
+Karna dia akan manage bug fixing isu dan beberapa kendala yang ada di software yang kita kembangkan.
+Nah itu pembahasan singkat tentang software development life cycle, exit kriteria dan entry kriterianya

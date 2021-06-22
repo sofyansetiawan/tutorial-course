@@ -1,0 +1,67 @@
+Ketika kita belajar tentang software arsitektur dan software desain.
+Di dalam itu ada beberapa hal lagi yang perlu kita pelajari.
+Nah itu akan saya bahas di video berikut. Yang pertama adalah komponen.
+Jadi ketika kita membangun sebuah aplikasi itu kita
+harus membagi aplikasi kita ke beberapa komponen.
+Ketika kita membuat komponen itu akan memudahkan kita
+untuk mengembangkan aplikasi yang lebih besar
+atau yang lebih scalability nya lebih bagus ke depannya.
+Tapi di komponen ini ada beberapa hal yang perlu juga dibutuhkan
+atribut-atribut nya apa aja.
+Yang pertama adalah replaceable.
+Replaceable ini maksudnya komponen yang kita buat itu bisa diganti
+sedemikian rupa dan bisa diganti kapanpun ketika inginkan.
+Misal ketika kita ingin membuat sebuah komponen di dalam aplikasi kita komponen namanya
+komponen user gitu. Di dalam komponen user itu
+ada atribut apa aja di dalamnya nanti misal
+ada first name, ada last name, ada e-mail.
+Nah itu komponen tersebut bisa kita rubah kapan aja
+itu possible untuk pengembangan ke depannya.
+Yang berikutnya adalah independen.
+Jadi biasanya kalau di object oriented programming
+itu komponen itu bisa diekspresikan dengan objek gitu.
+Jadi ketika kita membuatnya itu objek tersebut benar-benar
+independen gitu di dalam sebuah komponen tersebut.
+Terus komponen tersebut harus bersifat serializable.
+Yang berikutnya reusable sama dengan yang replaceable tadi
+tapi reusable ketika komponen tersebut ingin digunakan lagi
+baik itu untuk koneksi dengan komponen lainnya, integrasi dengan aplikasi yang berbeda
+itu bisa digunakan kembali. Terus
+komponen ini harus bersifat non context spesifik dan juga harus bersifat extensible.
+Extensible ini maksudnya kita bisa mengembangkan komponen tersebut
+semau kita ke depannya entah kita mau
+ngembangin komponen itu lebih luas lagi seperti contohnya yang
+komponen user tadi. Jadi ada penambahan
+field-field seperti field city, field country
+itu pengembangan-pengembangan berikutnya dari komponen.
+Sifat extensible ini itu sangat diperlukan.
+Nah software komponen itu akan lebih efektif kalau seorang developer itu
+bisa membuat dokumentasinya lebih baik. Nah ini perlu banget buat developer
+kalau dokumentasi dari setiap komponen di dalam aplikasi kita tidak bagus
+itu komponen tersebut tidak akan bisa digunakan lagi atau
+developer-developer lain yang ingin menggunakan
+komponen tersebut itu akan mengalami kesulitan kedepannya.
+Jadi diperlukan dokumentasi yang benar-benar jelas.
+Terus kalau menggunakan komponen best design ini
+itu benefitnya apa sih buat developer, buat orang businessman, buat seorang klien
+Jadi benefitnya itu ini mudah untuk dikembangkan
+mudah juga untuk dilakukan deployment.
+Terus untuk mengurangi juga meminimalisir biaya-biaya yang ada.
+Karna lewat komponen ini akan mempermudah developer dan klien.
+Terus reusable seperti yang saya bilang tadi sebelumnya terus
+modification of technical complexity nya ini juga
+bagus banget ketika kita menggunakan komponen best design
+dan yang berikutnya adalah reliability, reliability dari komponen best design ini
+ini sangat bagus banget. Terus sistem maintenance dan evolution nya
+bersifat independen dan juga itu better ketika tes ability nya.
+Jadi ketika dilakukan quality assurance
+ketika dilakukan uji coba komponen best design ini sangat bagus
+untuk developer dan untuk seorang klien.
+Nah itu benefit tentang komponen best design.
+Terus guideline gimana untuk membuat komponen desain ini
+lebih bagus gitu biasanya itu kalau untuk komponen itu bikin naming convention lebih baik.
+Terus connect arsitektur komponennya
+dengan domain-domain aplikasi yang kita kembangkan.
+Terus spesifikasi dependensi antara komponen yang ada gitu
+itu harus tersambung gitu tersambung dengan baik.
+Itu saran dari saya untuk membuat komponen best design.

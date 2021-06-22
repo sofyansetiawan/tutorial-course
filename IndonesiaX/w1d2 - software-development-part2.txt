@@ -1,0 +1,58 @@
+Nah di fase ke-2 tadi minggu ke-4 nanti kita akan mulai belajar tentang desain.
+Desain ini kita mulai belajar seperti unified modeling language atau UML.
+Jadi nanti saya akan coba jelaskan tentang introduction nya, tipe-tipe diagramnya,
+class diagram yang ada, relationship yang ada, package nya,
+structure dan beberapa usecase-usecase modeling di UML akan saya jelaskan nanti.
+Masih di minggu ke-4 itu kita akan bahas tentang software arsitektur dan desain definition.
+Jadi apa yang dimaksud dengan software arsitektur dan apa yang dimaksud dengan software desain?
+Karena ini berbeda hal antara software arsitektur dan software desain ini adalah 2 hal yang berbeda.
+Nah dari basic nya mulai dari low level design sampai high level design akan kita pelajari di fase ke-2 tersebut.
+Di fase ke-2 juga kita akan belajar tentang database arsitektur, apa itu database,
+relational database bagaimana, bagaimana kita menentukan melakukan define terhadap sebuah database,
+primary key apa, foreign key apa, case study tentang database structure
+akan kita jelaskan juga di fase ke-2 ini terus di fase ke-2 yang terakhir itu kita akan belajar tentang technical requirement.
+Technical requirement ini sangat menentukan karena ini adalah translate dari bisnis recruitment.
+Nah nanti kita akan bahas case study nya dengan menggunakan e-learning yang Saya bilang tadi.
+Masuk ke fase ke-3, fase ke-3 ini kita akan belajar tentang implementation.
+Nah di sini nih fokus ke development nya sudah mulai, jadi para engineer
+akan masuk ke dalam satu tim jadi mereka akan berunding dengan solution arsitek
+bagaimana mereka akan mengguna menciptakan aplikasi berdasarkan technical requirements yang sudah dibuat di fase sebelumnya
+juga nanti bagaimana kita bisa menggunakan git atau github juga
+untuk manajemen versi bagaimana kita me manage repository, manage brand dan
+software versioning itu akan kita bahas juga difase ke-3 nanti.
+Terus nanti kita juga akan bahas tentang implementation dan risk assessment.
+Jadi bagaimana software is identification, analisis, planning serta monitoring nya.
+Nah di fase ke-4 nanti kita akan belajar tentang testing dan quality assurance
+karena tadi setelah fase implementasi itu setiap unit yang kita buat
+dari software yang kita kembangkan itu akan diintegrasi menjadi satu baru disiapkan testing nya.
+Nanti akan dilakukan uji coba setelah diintegrasi baru dilakukanlah quality assurance jadi untuk menentukan
+software itu masuk standar sesuai kebutuhan klien apa tidak gitu.
+Terus di situ juga akan ada verifikasi verifikasi terus di fase ke-5 nanti Kita akan masuk ke fase go live.
+Setelah testing sudah oke ini fase yang ditunggu-tunggu itu fase go-live.
+Jadi kita akan push ke production untuk bisa diakses oleh klien.
+Nah dari fase dari fase ke-5 ini yang fase go-live ini Kita akan masuk ke fase yang terakhir yaitu fase maintenance.
+Fase ini biasanya dilupakan oleh software developer kenapa?
+biasanya juga klien datang jadi mereka cuman datang mas bisa tolong bikinkan aplikasi e-learning gitu.
+Oh bisa setelah itu setelah mereka go live udah go live aja tanpa ada maintenance
+tanpa ada support sementara di software yang kita kembangkan nanti kemungkinan ada bug,
+kemungkinan ada celah-celah, kemungkinan ada kerusakan itu pasti akan terjadi
+atau pengembang-pengembang fitur berikutnya itu pasti ada di maintenance ini gitu.
+Nah yang terakhir di minggu terakhir nanti kita akan belajar tentang karir page seorang developer.
+Bagaimana kita bisa menentukan karir kita sebagai developer
+mulai dari seorang associate developer sampai menjadi seorang VIP of Engineering atau bisa jadi seorang shift technology officer.
+Saya enggak sabar nih untuk masuk ke kursus-kursus pembahasan-pembahasan yang ada di week pertama ini.
+Okey itu pembahasan tentang struktur kursusnya Kita akan lanjut ke section berikutnya.
+
+-----------
+
+sofrware architecture dan software design
+low level design high level design
+impelementasi
+engineer berunding dengan solution architect
+manage repo dan versioning
+risk assesment
+testing dan quality assurance
+integrasi
+go live push production
+maintenance
+karir path

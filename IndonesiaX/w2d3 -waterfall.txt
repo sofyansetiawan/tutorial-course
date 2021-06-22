@@ -1,0 +1,58 @@
+Oke tadi kita udah bahas tentang software development life cycle
+sekarang kita masuk ke model-model yang ada di software development.
+Yang pertama yang ingin saya bahas adalah waterfall model
+nah poin yang akan saya bahas di setiap modelnya nanti itu ada tentang kelebihannya sebuah model itu apa,
+kekurangannya apa terus kenapa kita membutuhkan model tersebut untuk digunakan di software development proses kita.
+Untuk waterfall model biasanya itu yang pertama yang stage yang dilakukan itu adalah requirement analysis,
+system design, implementation, testing, deployment hingga maintenance.
+Yang pertama itu requirement itu dikumpulkan dalam satu dokumen specification.
+Jadi semua dikumpulkan dulu di awal untuk waterfall diawal dikumpulkan semuanya apa aja
+spesifikasi tentang kebutuhan user untuk software yang mau dibuat itu semua ditulis di situ.
+Terus masuk ke tahap berikutnya nah untuk pindah ke stage berikutnya ini
+itu harus benar-benar selesai untuk waterfall model ini jadi ketika requirement itu udah benar-benar selesai
+baru pindah ke sistem desain nah di sistem desain itu, itu berisi spesifikasi requirement untuk sistem,
+untuk hardware atau semua yang dibutuhkan untuk membangun proyek yang sedang dikembangkan.
+Setelah semua di sistem desain itu selesai udah dapet nih semuanya itu spesifikasinya, requirment nya udah jelas semua
+baru masuk tahap implementasi nah fase ini di stage ini adalah pengembangan untuk aplikasi.
+Jadi seperti biasa untuk pengembangan dipisah per unit atau modul baru nanti masuk ke testing
+di testing itu dilakukan integrasi untuk unit-unit yang sudah dibuat baru dilakukan testing
+kalau sudah selesai di testing baru bisa pindah ke deployment.
+Nah di deployment ini aplikasi akan diimplementasikan ke production
+dan bisa diakses oleh enduser terus setelah deployment itu udah benar-benar selesai
+itu baru bisa pindah ke maintenance nah kalau kita lihat di grafik untuk waterfall ini
+untuk bisa masuk ke stage berikutnya itu ingat ya harus benar-benar selesai di stage sebelumnya.
+Kalau tidak bisa selesai kita tidak bisa pindah ke stage berikutnya. Itu kunci utama dari model waterfall ini.
+Nah kelebihan dari waterfall ini apa? Kelebihannya adalah yang pertama itu simpel dan mudah digunakan
+juga ini sangat mudah banget dimengerti baik itu dari mahasiswa yang baru lulus
+atau dari SMK juga untuk mengerti waterfall ini atau
+orang awam juga itu gampang banget ngerti tentang waterfall ini.
+Karena suatu proses harus benar-benar selesai baru bisa pindah ke proses berikutnya.
+Terus mudah untuk dilakukan manajemen, kenapa? Karena setiap fasenya memiliki proses review.
+Nah inget lagi enggak boleh pindah ke fase berikutnya kalau belum benar-benar selesai.
+Terus setiap fasenya ini kelebihannya itu diselesaikan dalam satu waktu
+jadi enggak ada berantakan harus ngerjain fase yang lainnya dulu gitu.
+Nah terus stage-stage yang adanya itu itu pasti di waterfall ini requirement nya juga
+lebih mudah dipahami dan dimengerti tapi ada kekurangannya untuk waterfall ini.
+Waterfall ini kekurangan yang pertama adalah dia tidak bagus untuk long project.
+Jadi kalau project yang ingin kita buat itu 1 tahun dan sebenarnya software itu bisa di selesaikan dalam waktu 1, 6 bulan
+ataupun 3 bulan dengan model yang lain itu enggak bagus.
+Jadi enggak bagus untuk long time project waterfall ini terus
+untuk proyek yang kompleks juga yang kompleksitasnya rumit banget ini enggak bagus untuk menggunakan waterfall ini.
+Terus tidak bagus juga untuk project yang memiliki requirement yang berubah-rubah
+karena biasanya klien itu ketika di tengah jalan maunya berubah-rubah
+saya harusnya fitur ini fitur a harusnya punya fitur b, fitur c, fitur d
+ini enggak bisa kalau di waterfall itu akan merusak proses development yang ada.
+Nah berikutnya adalah saat proyek berada di fase testing itu sangat sulit untuk merubah apa yang sudah dibuat.
+Nah jadi ketika udah testing tuh udah udah enggak bisa ngapa-ngapain itu mau dirubah gimanapun
+Kita udah sampai sejauh ini mau gimana nih di rubah pasti bakal hancur pasti bakal gagal software yang kita kembangkan
+dan yang terakhir adalah tidak bagus untuk object oriented programming itu kekurangan untuk waterfall ini.
+Terus oke udah tahu nih kelebihan sama kekurangan waterfall terus kapan kita menggunakan waterfall ini?
+Oke kita menggunakan waterfall apabila yang pertama requirement nya sudah fix
+udah enggak akan berubah-rubah lagi project yang singkat,
+itu bisa menggunakan waterfall product definition yang stable terus
+teknologi yang digunakan untuk proyek tersebut dimengerti dengan baik.
+Karena kalau kita enggak mengerti stek dari project yang akan kita kembangkan itu ya percuma kan
+apa menggunakan waktu yang lebih lama untuk mengembangkan project dengan waterfall model ini.
+Terus enggak boleh ada requirement yang ambigu sama sekali di waterfall.
+enggak boleh itu karena akan merusak proses development di tengah jalan nantinya.
+Nah itu tentang software development models dengan waterfall.

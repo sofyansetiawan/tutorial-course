@@ -1,0 +1,68 @@
+202004082238223224938bd82b19f46c692debc6125ed5.png
+Kita pasti pernah mendengar kata seperti SuperClass, SubClass, dan inheritance ketika kita membuat sebuah aplikasi atau sistem dengan menggunakan pendekatan berorientasi objek. Konsep ini sangat penting ketika kita berhadapan dengan pemrograman berorientasi objek seperti java atau kotlin. Mengapa? Karena tentu lebih mudah bagi kita untuk menirukan objek-objek yang ada di dunia nyata ke dalam sistem yang akan kita kembangkan.
+
+
+Generalization
+202004082249296809bdbabc85f6dfd3aec55d00d67823.png
+
+Dalam hubungan generalisasi terjadi proses memisahkan karakteristik dari dua atau lebih class dan menggabungkannya jadi satu class yang lebih umum atau biasa kita sebut SuperClass. Karakteristik ini bisa seperti atribut, hubungan asosiasi, atau fungsi pada beberapa class. Pada gambar di atas kita dapat melihat bahwa class Product merupakan SuperClass dari beberapa class lainnya. Sebabnya, class HealthProduct, ElectricProduct, dan ConsumeableProduct memiliki beberapa kesamaan yang bisa berupa atribut ataupun fungsi dari class-class tersebut dan dapat disatukan menjadi sebuah class yang lebih umum yaitu class Product.  
+
+
+Specialization
+202004082252495ac4f060f90fbaadcc03530a8ab4601b.png
+
+Berbanding terbalik dengan generalisasi, hubungan spesialisasi berarti membuat sebuah SubClass dari class yang sudah ada. Bagaimana kita mengenali bahwa kita dapat membuat class baru dari class yang sudah ada? Cara termudah adalah ketika atribut, asosiasi atau fungsi pada sebuah class hanya mengarah pada satu objek di class tersebut. Dengan ini kita dapat membuat sebuah class tersendiri untuk objek tersebut. 
+
+Pada gambar di atas jika kita membuat sebuah class Product yang memiliki beberapa atribut ataupun fungsi yang tidak diperlukan oleh class lainnya, maka kita dapat memecah class Product tersebut menjadi beberapa class lainnya. Misal, ketika pada sistem yang kita kembangkan akan menjual produk seperti baterai dan makanan ringan. Jika kita hanya membuat satu class saja yaitu class Product maka akan terdapat atribut seperti batteryCapacity yang tidak dibutuhkan oleh produk makanan ringan.
+
+class yang paling umum biasa kita sebut sebagai superclass. Saat akan digambarkan ia terletak paling atas dari sebuah diagram. class yang lebih spesifik atau biasa disebut sebagai SubClass umumnya diletakkan pada bagian bawah dari superclass-nya. Jika kita perhatikan contoh di atas, class Product merupakan sebuah superclass dari beberapa SubClass di bawahnya. Terdapat atribut yang ada pada class Product dan dapat digunakan pada SubClass dari class Product tersebut atau biasa disebut dengan shared element.
+
+class SubClass memiliki beberapa atribut yang hanya dimiliki oleh class tersebut dan tidak ada pada class SubClass yang lainnya. Contoh, pada class ConsumableProduct terdapat atribut expirationDate di mana class ElectronicProduct tidak memilikinya. Mari kita lihat penerapan generalisasi dan spesialisasi pada contoh kode di bawah ini.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+abstract class Product {
+   private String id;
+   private String name;
+   private String price;
+ 
+   public Product(String id, String name, String price) {
+       this.id = id;
+       this.name = name;
+       this.price = price;
+   }
+}
+ 
+class ElectronicProduct extends Product {
+   private String id;
+   private String name;
+   private String price;
+   private String productionDate;
+ 
+   public ElectronicProduct(String id, String name, String price, String productionDate) {
+       super(id, name, price);
+       this.id = id;
+       this.name = name;
+       this.price = price;
+       this.productionDate = productionDate;
+   }
+}
+ 
+class ConsumableProduct extends Product {
+   private String id;
+   private String name;
+   private String price;
+   private String expirationDate;
+ 
+   public ConsumableProduct(String id, String name, String price, String expirationDate) {
+       super(id, name, price);
+       this.id = id;
+       this.name = name;
+       this.price = price;
+       this.expirationDate = expirationDate;
+   }
+}
+Pada contoh kode di atas, class Product memiliki beberapa atribut umum yang ada pada sebuah produk. Sehingga, SubClass ElectronicProduct dan ConsumableProduct akan memiliki atribut turunan dari class Product dan class SubClass dapat memiliki beberapa atribut spesifik yang dibutuhkan oleh class tersebut.

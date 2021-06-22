@@ -1,0 +1,85 @@
+Halo IndoneXian sekarang kita sudah masuk ke minggu ke-5
+untuk kursus software development fundamentals.
+Di minggu ke-4 kita sudah membahas tentang software arsitektur dan desain
+kita juga sudah belajar bagaimana membuat arsitektur
+baik itu dari high level dan low level termasuk
+kita sudah membuat sebuah wireframe untuk e-learning platform.
+Nah sekarang di minggu ke-5 ini
+kita akan banyak belajar tentang fase implementasi.
+Fase implementasi ini itu termasuk juga
+di dalam software development life cycle yang sudah dijelaskan di minggu pertama.
+Ini adalah fase-fase yang sangat menegangkan
+bisa dibilang ketika masuk ke fase ini dimana
+semua refinement semua bisnis requirement yang udah di konversi menjadi
+teknikal requirement semua bisnis-bisnis proses yang sudah kita buat
+di minggu-minggu sebelumnya itu kita implementasikan semuanya di sini.
+Ada beberapa fase biasanya di proses implementasi ini
+proses-proses tersebut itu harus diikuti dengan baik oleh
+developer agar menghasilkan produk yang lebih bagus.
+Fase pertama itu biasanya itu adalah instalasi.
+Jadi fase instalasi ini dimana semua aplikasi yang dibutuhkan
+tools, infrastruktur apa aja yang dibutuhkan
+untuk mengembangkan software yang akan kita kembangkan
+itu diinstal semuanya di sini.
+Yang berikutnya adalah konfigurasi.
+Ketika kita selesai melakukan instalasi misal contohnya
+server, instalasi server sudah selesai
+tapi masih banyak hal-hal yang perlu kita konfigurasi di server tersebut
+karena itu tidak akan berjalan langsung dengan lancar
+tanpa dilakukan konfigurasi bisa saja software yang kita
+kembangkan nanti nggak kompatibel dengan
+server yang kita konfigurasikan.
+Setelah instalasi dan konfigurasi selesai development sudah bisa dimulai
+dan sebenarnya itu bisa berjalan secara paralel juga
+instalasi konfigurasi dan development ini
+tapi tim nya harus dibagi ke beberapa tim
+ya bisa dibilang kita bisa menggunakan metode yang namanya metode agile.
+Ketika kita ingin mengembangkan ini ke beberapa modul atau ke beberapa tahap.
+Nah di development ini semua fungsional fungsional yang
+akan dibuat di dalam aplikasi kita
+itu akan masuk di sini. Jadi ini adalah fase codingan nya.
+Semua ngoding, konfigurasi terus
+pokoknya mempersiapkan semua aplikasi kita
+itu di fase ini. Setelah development selesai
+aplikasi yang sudah kita buat tadi
+sebelum itu terbagi menjadi beberapa part, nah part-part tersebut
+seperti yang sudah dibahas di minggu pertama itu di software development life cycle
+part-part tersebut itu akan diintegrasikan menjadi satu
+menjadi satu aplikasi yang lebih besar.
+Baru setelah integrasi selesai aplikasi itu udah jadi satu
+barulah kita masuk ke namanya tahap deployment.
+Nah di tahap deployment ini tahap paling menegangkan biasanya
+karna bisa saja ketika kita deploy
+begitu beta atau final pasti ada saja kendala-kendala nya ketika kita
+deploy ke server apalagi ketika kita di deploy tersebut banyak
+tools atau server yang kita kembangkan itu
+nggak kompetibel gitu nggak sesuai dengan perkiraan kita
+ketika kita melakukan instalasi dan konfigurasi di awal tadi.
+Berikut ini kita akan membahas tentang
+di fase ini apa aja sih yang dibutuhkan
+best practice nya gitu yang diperlukan oleh tim kita
+sebelum masuk ke dalam tahap implementasi ini gitu.
+Jadi developer benar-benar harus siap ketika masuk ke fase implementasi ini.
+Yang pertama itu developer itu wajib memiliki multi skill.
+Jadi developer itu ya misalnya minimal harus tahu tentang integrasi,
+harus tahu tentang bagaimana melakukan testing aplikasi,
+terus bagaimana melakukan administrasi untuk aplikasi yang dikembangkan
+karena ketika proses implementasi ini
+banyak proses-proses yang terjadi gitu.
+Nah ini dibutuhkan multi skill baik itu dari developer
+baik itu dari quality assurance tim gitu.
+Terus programing style nya nah di sini kita
+tim membernya itu harus menggunakan naming encoding convention yang jelas juga gitu jadi
+style codingan-nya kayak gimana
+harus ditentukan di sini gitu dan semua developer yang ada
+di tim yang akan mengembangkan aplikasi tersebut
+harus beradaptasi dengan programming style yang akan digunakan di
+pengembangan software ini. Yang terakhir adalah training,
+kenapa training sangat dibutuhkan di implementasi ini?
+Karna kalau developer yang mengembangkan aplikasi tersebut
+tidak di train dengan baik tidak mendapatkan pengetahuan yang jelas
+tentang produk yang akan dikembangkan dan
+skill-skill yang dibutuhkan untuk dikembangkan
+ke depannya software yang dikembangkan bisa jadi akan gagal gitu.
+Nah itu untuk materi pertama di video ke-5 ini
+kita akan lanjut ke video berikutnya.

@@ -1,0 +1,44 @@
+Setelah Kita membuat skenario tadi berikutnya adalah role dan responsibility dari orang-orang yang ada di dalam software development proses ini.
+Yang saya bilang tadi yang pertama orang yang akan bertanggung jawab terhadap semua requirement itu adalah
+seorang solution arsitek dan dia akan bertugas berkomunikasi dengan customer dan project timnya.
+Tetapi sebenarnya di dalam proses development ini masih banyak orang-orang yang ikut berkontribusi
+terhadap pengembangan software tersebut. Misalnya yang pertama adalah
+seorang account manager, yang ke-2 ada seorang project manager, ada quality manager,
+ada seorang requirement manager, ada juga support manager,
+konten koordinator, dan project tim di dalamnya. Nah tugas seorang account manager yang pertama adalah
+Dia menjadi point of contact dengan customer nya jadi dia itu menjadi frontline dari pengembangan project tersebut.
+Jadi tanggung jawab dia itu menghubungi klien, bisnis requirement yang dibutuhkan
+yang diinginkan oleh klien itu apa saja account manager ini akan bertanggung jawab.
+Nah yang ke-2 adalah seorang project manager tanggung jawab dari seorang project manager ini
+dia adalah menentukan timeline dari pengembangan software yang dikembangkan.
+Dia bertanggung jawab atas keseluruhan proyek tersebut. Yang ke-3 adalah quality manager,
+quality manager ini bertugas untuk melakukan quality assurance terhadap project dan produk yang dikembangkan.
+Jadi dia mengatur kualitas dari sebuah software yang kita kembangkan
+terus untuk accepted user baik itu internal ataupun eksternal dia juga yang bertugas untuk mengatur segalanya.
+Me manage semua yang ada tentang kualitas dari software yang dikembangkan.
+Berikutnya adalah requirement manager nah requirement manager ini dia bertugas untuk
+membuat technical requirement dari yang tadinya account manager dapatkan
+dari seorang klien terkait dengan bisnis requirement seorang requirement manager ini dialah yang bertugas untuk melakukan translate.
+Jadi dari bisnis requirement ke teknikal specification itu ada tugas dia misal seperti ini
+Seorang klien Saya ingin membuat website yang aman tugas dia bagaimana
+mengkonversi bahasa klien tersebut ke bahasa teknikal oke berarti translate nya kalau ingin membuat website yang aman
+berarti dipasang SSL atau HTTPS secure socket layer nya terus ada login
+terus dipasang beberapa proteksi-proteksi keamanan. Itu akan dimasukkan ke
+teknikal specification oleh seorang requirement manager ini. Yang berikutnya adalah support manager,
+support manager ini dia bertugas untuk melakukan manajemen isu-isu yang ada.
+Jadi ketika development terjadi baik itu sudah masih dalam tahap pengembangan
+atau software yang sudah jadi dia yang bertugas untuk melakukan
+melakukan pengecekan terhadap bugs yang ada, isu-isu apa yang ada yang muncul di dalam software nya
+dia yang menganalisa dan menginformasikannya ke tim developer terus ada konten koordinator.
+Konten koordinator ini dia bertugas untuk manajemen konten manajemen sistem untuk project yang dikembangkan.
+Jadi dia yang akan fokus semuanya untuk mengurus konten-konten nya.
+Nah yang terakhir adalah project tim di dalam project tim itu itu banyak sekali
+jadi ada konten koordinat, ada konten manajer terus ada development tim, ada IT admin, ada desain tim.
+Nah the hole people di dalam ini tuh mereka biasanya disebut sebagai project tim
+bisa juga biasanya di dalam itu ada QA engineer atau software-software engineer.
+Terus orang yang terakhir di dalam software development itu biasanya adalah solution arsitek.
+Dia ini yang paling penting di dalam pengembangan software karena dia harus mengerti konsep software nya,
+dia harus benar-benar mengerti tentang requirement nya, definisi-definisi apa aja kebutuhan klien
+Dia harus mengerti melakukan bisnis analisis, melakukan project management
+dan dia juga yang akan ngebantu tim untuk quality assurance.
+Nah itu adalah role dan responsibility dari tim-tim yang ada di software development.

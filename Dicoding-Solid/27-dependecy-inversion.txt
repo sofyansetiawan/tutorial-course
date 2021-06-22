@@ -1,0 +1,16 @@
+Setelah kita membahas mengenai empat prinsip sebelumnya, kini kita akan membahas mengenai prinsip terakhir dari S.O.L.I.D, yaitu Prinsip Dependency Inversion. Pada prinsip Dependency Inversion terdapat dua pernyataan atau aturan yang perlu kita ketahui, yang pertama adalah high-level module tidak diperbolehkan untuk bergantung pada low-level module. Keduanya harus bergantung pada abstraction. Pernyataan yang kedua, abstraksi tidak diperbolehkan untuk bergantung pada detail. Detail harus bergantung pada abstraksi.
+
+Dependency Inversion Principle (DIP)
+
+
+"High-level modules should not depend on low-level modules. Both should depend on abstractions." (Robert Cecil Martin)
+
+
+
+Prinsip Dependency Inversion hampir sama dengan konsep layering dalam aplikasi, di mana low-level modules bertanggung jawab dengan fungsi yang sangat detail dan high-level modules menggunakan low-level classes untuk mencapai tugas yang lebih besar. Hal ini bisa dicapai dengan bergantung pada sebuah abstraksi, ketika ada ketergantungan antar kelas seperti interface, daripada referensi langsung ke kelas lainnya.
+
+Apa yang dimaksud dengan high-level modules dan low-level modules? Agar lebih mudah memahaminya, kita dapat mengkategorikan kelas-kelas menjadi sebuah hirarki. High-level modules adalah kelas-kelas yang berurusan dengan kumpulan-kumpulan fungsionalitas. Pada hirarki tertinggi terdapat kelas-kelas yang mengimplementasikan aturan bisnis sesuai dengan desain yang telah ditentukan. Low-level modules bertanggung jawab pada operasi yang lebih detail. Pada level terendah memungkinkan modul ini untuk bertanggung jawab dalam menulis informasi ke database atau menyampaikan pesan ke sistem operasi. 
+
+
+
+Bagaimana? Sudah paham dengan konsep Dependency Inversion? Yuk kita simak modul selanjutnya agar paham penerapannya pada sebuah studi kasus.

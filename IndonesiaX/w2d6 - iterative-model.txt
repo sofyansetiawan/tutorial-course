@@ -1,0 +1,53 @@
+
+Tadi gua udah bahas eh gue lagi gue ngomong
+Tadi tadi saya udah bahas incremental model, incremental oh berarti harus bahas iterative juga.
+Kita coba bahas iterative model juga di software development model lainnya.
+Iterative model ini biasanya itu enggak harus dimulai dengan full specification recruitment.
+Terus development untuk iterative ini menggunakan model itu,
+itu dapat dimulai dari bagian kecil dari software yang kita kembangkan.
+Karna proses pengembangan ini dapat terjadi berulang kali jadi ada banyak versi nanti di iterative ini.
+Berulang kali untuk menghasilkan versi baru dari software yang kita kembangkan tersebut,
+contoh untuk iterative pakai contoh apa ya?
+Mobil gimana bisa jadi sebuah mobil? Coba bayangkan gimana bisa jadi mobil.
+Pasti kita harus mikirin dulu gimana cara untuk berkendara dulu agar bisa mobil itu berlari dulu
+engga harus langsung bikin mobil bisa kita mulai bangun sekuter. Sekuter misalnya
+dari sekuter ya udah kita melakukan requirement dulu cari requirement apa aja kita planning,
+kita desain kita bikin sekuternya setelah sekuternya jadi kita bisa masuk ke tahap berikutnya.
+Kita bisa bikin sepeda karena kita udah tahu cara sekuter itu berjalan sepeda.
+Sepeda ini kita bikin lagi nih mulai dari requirement nya, analisanya dan lain sebagainya.
+Kita bikin desainnya juga kita bikin ngedevelop sepedanya udah, udah jadi sepeda.
+Baru setelah jadi sepeda gimana biar lebih bagus lagi kita bikinlah motor.
+Nah dari motor ini tetap dilakukan yang namanya requirement analisis
+tetap dengan lakukan yang namanya planning, development sampai go live tadi.
+Setelah motornya jadi baru kita bisa pikirkan nih pengembangan yang lebih bagus untuk berikutnya.
+Kita bisa bikin mobil nah itu untuk iterative jadi mulai dari hal yang kecil dulu
+itu bisa dilakukan secara bertahap untuk memproduksi software yang lebih besar atau lebih baik.
+Kalau kalian lihat diagramnya berikut di diagram tersebut kalian bisa lihat simple nya adalah
+di diagram yang O itu ada desain 0 terus ada implement 0 terus analisis 0 itu yang pertama.
+Diagram selanjutnya itu ada desain 1, implement 1, analisis 1 begitu seterusnya sampai
+design n, implement n atau analisis n. Itu tetap terjadi berulang-ulang iterative.
+Itulah namanya iterative model sampai kita mendapatkan software yang lebih baik.
+Kelebihan utama dari iterative model ini kita bisa membuat high level design dari sebuah aplikasi
+yang kita buat sebelum benar-benar kita membangun product dan menentukan design solution dari software yang kita buat.
+Terus kita bisa menemukan kecacatan dari sebuah software yang kita kembangkan lebih awal.
+Kita bisa meminimalisir cacat yang ada di mobil karena kita udah bisa menemukan cacatnya di motor.
+Sistem kerjanya pasti sama nanti kedepannya mobil itu merupakan improvement dari motor tersebut.
+Nah banyak waktu dan desain juga untuk desain dan sedikit waktu untuk dokumentasi ini jeleknya iterative.
+Karna kita fokusnya desain, kita bikin bikin bikin bikin bikin terus aja bikin.
+Kita bisa menggunakan resuable user feedback ketika bikin sekuter kita bisa dapat feedback dari user
+ketika kita bikin sepeda tadi kita tetap dapat feedback nya,
+ketika kita bikin motor kita dapat feedback nya lagi nah itu bisa resuable terus sampai benar-benar software nya bagus.
+Tapi ada kekurangannya, kekurangannya untuk mengembangkan iterative model ini
+untuk jangka panjang itu mahal banget jadi costly banget gitu.
+Enggak bagus untuk ya company yang memiliki cost yang minim gitu.
+Terus banyak resource yang dibutuhkan jadi resource untuk iterative model ini harus benar-benar banyak
+dan ini enggak bagus untuk semua project karena ini jangka panjang dan untuk proyek yang lebih besar.
+Terus untuk manajemennya itu benar-benar dibutuhkan manajemen attention
+karena kalau rusak dari awal cacat dari awal aplikasinya di skuter tadi mobil yang kita bikin juga di masa depan itu akan cacat juga.
+Kapan menggunakan iterative model ini? Ya digunakan kalau project nya high scale
+benar-benar proyek yang besar terus ketika requirement of complete sistem itu
+clearly defined dan Kita benar-benar udah mengerti tentang kompleksitas dari project itu seperti apa.
+Terus mayor requirement harus ditentukan dari awal
+walaupun di depan nanti itu bisa berubah-rubah fokus kepada mayor requirement nya dulu.
+Nah itu tentang iterative model semoga kalian enggak pusing ni
+kayaknya makin ke sini makin berat ni pembahasan kayaknya gitu yaudah itu iterative model.

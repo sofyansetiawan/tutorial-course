@@ -1,0 +1,88 @@
+Hai IndoneXian sorry banget
+kayaknya kita belum berpisah dulu
+saya ada sedikit lupa saya lupa sedikit
+saya belum bahas tentang go live sama maintenance.
+Kita sudah belajar tentang implementasi di minggu sebelumnya
+sampai deployment belum itu belum kelar semua.
+Jadi sekarang case nya software kita sudah jalan
+software yang udah kita kembangkan di development selesai, deployment udah selesai.
+Sekarang go live, go live software yang kita kembangkan itu
+ya bisa dibilang 80% selesai tetapi kita masih ada hal-hal yang perlu diperhatikan
+juga gitu agar software yang udah kita deploy tadi
+itu bisa jalan lancar klien kita juga happy
+nah itu proses-proses yang perlu dilakukan itu apa aja
+itu saya akan coba bahas di sini.
+Nah biasanya di go live proses ini
+proses yang sering terjadi itu pertama adalah go live preparation.
+Terus user training itu perlu
+karena biasanya klien-klien itu nggak mau
+langsung bikin oh rilis party ni software kita sudah rilis itu
+sudah tersedia public kalian bisa menggunakannya
+tetapi tim yang meng handle aplikasi tersebut itu belum ready.
+Jadi gimana kalau timnya belum ready itu ya go live nya nggak akan lancar gitu
+terus user training setelah user training itu udah selesai kita train semua
+seluruh stakeholder dari aplikasi tersebut siapa aja yang
+perlu di training semua selesai deployment udah oke
+terus biasa ada juga cut over. Nah setelah cut over itu
+baru kita udah enak go live gitu kita udah bisa masuk go live
+tapi di go live ini biasanya banyak sekali kendala.
+Kendala-kendala yang sering terjadi itu
+Fungsi log in gagal nggak bisa registrasi mas gitu
+terus nggak bisa enroll, nggak bisa download videonya misal,
+nggak bisa diakses nih mas konten kursusnya.
+Itu beberapa contoh-contoh ketika go live itu gagal gitu.
+Jadi ketika kita rilis software tersebut udah go live
+tanggung jawab kita nggak sampai di situ
+kita perlu ada yang namanya maintenance.
+Nah maintenance ini
+masih tetap berhubungan dengan proses
+diimplementasi yang tadi jadi itu akan terus berputar
+dari maintenance nanti masuk lagi ke proses implementasi
+masuk ke deployment terus kita go live balik lagi ke maintenance.
+Nah biasanya di maintenance ini
+ada banyak sekali kendala-kendala juga gitu
+yang sering terjadi ketika proses maintenance
+yang dilakukan oleh kebanyakan developer gitu
+karena aplikasi yang dikembangkan itu
+memiliki beberapa masalah gitu.
+Proses di software maintenance ini
+biasanya itu terbagi menjadi 3 hal 3 proses.
+Yang pertama itu preparation, yang ke-2 itu request,
+yang ke-3 itu analisis. Jadi sebelum kliennya itu memberikan
+apa ke report dan request gitu ke developer nya
+itu mereka nggak boleh sembarangan itu harus ada proses-proses
+prosedur-prosedur bagaimana melakukan reporting yang baik
+dan benar gitu agar developer ketika melakukan maintenance itu analisanya lebih gampang
+biasanya ketika submit salah satu isu gitu.
+Jadi how to reproduce nya gitu.
+How to reproduce the issue misal
+error nya itu nggak bisa enroll
+nggak bisa enroll kursus IndonesiaX103 misal.
+Nah gimana user itu bisa sampai ke error tersebut
+Prosesnya cara menulisnya adalah yang pertama
+user mengakses website www.indonesiax.co.id,
+yang ke-2 user log in, yang ke-3 user menuju halaman course list
+yang ke-3 yang ke-4 sorry user memilih kursus lalu
+setelah memilih kursus user melakukan klik enroll button.
+Setelah enroll button diklik itu muncullah error atau warning
+Nah itu bagaimana contoh membuat how to reproduce the issue gitu.
+Jadi lewat hal tersebut developer itu akan lebih mudah melakukan analisa
+terhadap masalah-masalah yang ada gitu.
+Jadi setelah melakukan analisa
+baru developer itu melakukan identifikasi gitu
+ini komponen yang mana nih yang rusak nih komponen yang error apa nih
+kayaknya ini komponen enrollment nya gitu.
+Terus developer nya balik lagi nih mempelajarin
+komponen enrollment udah dibikin sampai mana gitu.
+Posibilitis nya apa aja nih yang membuat
+user ini nggak gagal untuk enroll gitu.
+Ketika sudah ditemukan sistem yang lama diubah
+terus diganti dengan update kode base yang baru
+balik lagi melakukan implementasi lakukan deployment
+baru update terbaru tersebut itu baru bisa go live.
+The hole process dari go live and maintenance ini perlu diperhatikan
+sangat serius gitu jangan sembarangan project kelar
+anda udah bisa lari dengan ya happy-happy lah gitu.
+Udah project selesai oh kita happy nih udah kelar
+sebenarnya maintenance masih ada dan itu adalah proses yang sangat penting
+di software development life cycle.

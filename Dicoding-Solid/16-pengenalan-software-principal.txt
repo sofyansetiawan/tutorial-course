@@ -1,0 +1,5 @@
+Seringkali kita mendengar bahwa dalam mengembangkan sebuah perangkat lunak, kita membutuhkan architecture dan design. Lantas apakah makna dari kedua kebutuhan tersebut?
+
+Di dunia nyata, contohnya dalam membangun sebuah rumah, architecture akan menentukan seperti apa bentuk dari rumah yang akan dibangun, baik itu visual eksterior maupun interior. Sedangkan design lebih mengarah pada hubungan antar komponen-komponen yang berada di dalamnya. Design untuk interior misalnya, adalah tentang estetika antara komponen di dalam ruangan seperti pemilihan warna cat, perabotan dan lain sebagainya.
+
+Dalam pengembangan sebuah perangkat lunak, architecture berada pada tingkat tertinggi atau yang dikenal dengan istilah high-level, di mana definisinya merupakan sebuah pola arsitektur yang menentukan bentuk dan struktur keseluruhan  perangkat lunak. Sedangkan desain memiliki posisi di tingkat rendah atau istilahnya adalah low-level di bawah architecture. Desain juga memiliki definisi yaitu interkoneksi antara modul dan beberapa entitas perangkat lunak seperti packages, components, dan classes.

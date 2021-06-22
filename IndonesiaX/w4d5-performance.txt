@@ -1,0 +1,46 @@
+Software arsitektur sudah kita bahas di video sebelumnya.
+Sekarang kita masuk ke software arsitektur performance,
+modifiability, reusability dan reliability.
+Jadi ketika kita membangun arsitektur sebuah software
+ini sebenarnya adalah sebuah fundamental
+dari kita membuat sebuah software gitu.
+Nah jadi itu menentukan quality atribut, ada quality atribut
+ada 4 yang saya sebutkan tadi yang pertama adalah modifiability.
+Jadi atribut yang modifiability ini itu dibutuhkan di dalam sebuah software arsitektur.
+Kenapa? Karna ketika kita mengembangkan sebuah software
+itu ketika kita hand over lagi project tersebut ke developer lain
+itu possible enggak untuk developer tersebut melanjutkan project yang sedang kita kembangkan tersebut.
+Kalau nggak berarti modifiability dan software tersebut
+arsitekturnya itu tidak bagus.
+Terus yang berikutnya adalah reusability, reusability ini
+itu biasanya ketika software yang kita kembangkan
+itu ingin digunakan lagi atau ingin diintegrasikan dengan software-software lainnya.
+Nah ketika hal tersebut tidak memenuhi kebutuhan berarti reusability dari
+sebuah software arsitektur tersebut itu tidak memenuhi kriteria dari quality atribut
+yang disebutkan. Terus yang berikutnya adalah reliability.
+Jadi reliability ini menentukan reliable gak sih
+software yang sedang kita kembangkan
+kalau benar-benar tidak reliable berarti gak bagus dong
+untuk developer berikutnya atau untuk proses integrasi
+atau software tersebut untuk jangka panjang
+berarti tidak bagus gitu.
+Yang paling utama adalah kalau menurut saya itu itu performance.
+Jadi performance dari sebuah software arsitektur
+sebuah software desain dan terutama sebuah software itu
+sangat dibutuhkan karena ketika performance dari sebuah aplikasi
+misalnya aplikasi yang kita kembangkan ini e-learning gitu.
+Jadi ketika e-learning tersebut performance tidak bagus sering down
+berarti itu akan membuat moral dari user kita
+pelajar-pelajar yang ada di e-learning platform tersebut itu kecewa
+dan kebanyakan dari mereka akan meninggalkan platform atau aplikasi tersebut
+dan pindah ke aplikasi lain. Terus
+produktivitas dari user atau pelajar yang
+menggunakan platform kita itu akan berkurang
+dan pastinya revenue dari aplikasi yang kita kembangkan tersebut itu akan berkurang juga.
+Terus untuk performance ini kenapa benar-benar penting
+karna ya seperti itu biasanya kalau developer nya
+mood-mood an untuk mengembangkan aplikasinya
+sehingga performance dari aplikasi tersebut tidak bagus
+ya benar-benar rugi jadinya kliennya gitu.
+Nah itu untuk quality atribut di dalam software arsitektur.
+Jadi ada yang namanya modifiability, reusability, reliability dan performance.

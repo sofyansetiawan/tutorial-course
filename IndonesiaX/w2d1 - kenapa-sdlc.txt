@@ -1,0 +1,43 @@
+Akhirnya kita masuk ke minggu ke-2. Hai selamat datang di minggu ke-2 ini
+sekarang kita akan fokus tentang software development models sebelum kita masuk software development models ini
+kita akan bahas dulu tentang software development life cycle. Jadi simple war itu kita sebutnya aja SDLC.
+SDLC software development life cycle jadi ini sebenarnya adalah set of proses yang digunakan untuk mengembangkan sebuah software.
+Proses-proses yang apa aja yang ada di dalamnya kita akan fokus bahas di sini
+dan model-modelnya apa saja kita akan fokus di sini.
+Terus direkomendasikan untuk menggunakan dan mengikuti SDLC ini
+ketika proyeknya sedang berjalan atau dalam tahap development terus bagus juga SDLC ini
+untuk komunikasi antara hal-hal yang teknikal dan nonteknikal activity.
+Jadi tujuan utamanya sebenarnya untuk menghasilkan software yang benar-benar bagus gitu itu tujuan utamanya.
+Nah kenapa SDLC ini benar-benar diperlukan nah seperti yang tadi itu benar-benar diperlukan
+karena untuk meningkatkan kualitas software terus untuk menentukan goals.
+Jadi developer itu tahu sebenarnya yang mereka kembangkan itu apa
+yang user benar-benar inginkan dari sebuah software yang dikembangkan itu apa.
+Jadi developer ini bisa mengerti gitu terus mengurangi juga kemungkinan kelemahan sistem.
+Biasanya kalau metode yang kita gunakan enggak bagus untuk software development ini
+asal bikin aja jadi asal jadi nanti bisa-bisa software nya memiliki banyak vulnerability
+terus bagus juga dan perlu juga SDLC ini untuk management control.
+Jadi untuk manage dari tim nya kita agar organisasi kita lebih baik dalam pengembangan software.
+Terus bisa juga untuk dokumen yang lebih efektif dan memastikan arsitektur dan desain yang lebih aman.
+Yang terakhir adalah kenapa SDLC ini benar-benar diperlukan?
+Agar software yang kita buat itu sesuai dengan ekspektasi dari klien.
+Nah stage nya udah sempat saya utarakan di week pertama.
+Stage yang biasa yang terjadi di software development life cycle ini yang pertama adalah
+project kick off atau inisiasi nah inisiasi dilakukan ketemu antara dua belah pihak yang ingin mengembangkan software tersebut
+terus mereka melakukan requirement gahering setelah requirement gathering
+mereka melakukan analisa setelah analisa masuk ke tahap desain baik dari sisi arsitektur dan sistem desainnya.
+Baru masuk ke tahap development pengembangan utama dari software tersebut.
+Setelah tadi yang saya bilang development itu dilanjutkan dengan integrasi dan testing.
+Baru setelah testing tersebut dilakukan deployment atau go live nah setelah go live
+semuanya nanti di software development life cycle itu dilakukan operation dan maintenance.
+Jadi setelah operation dan maintenance tersebut kalau ada update-update lagi
+nanti akan terjadi kick off atau inisiasi lagi nah life cycle nya begitu terus
+berputar terus seperti itu sampai software yang dibuat itu benar-benar bagus dan
+sesuai dengan requirement bisnis dari user dan developer juga lebih happy gitu.
+Nah di software development life cycle ini ada poin-poin pentingnya.
+Yang pertama itu entry kriteria nya, yang ke-2 exit kriteria jadi 2 poin penting ini
+sangat menentukan ketika perputaran life cycle di software development ini.
+Misal yang pertama di kick off stage atau initiating tadi yang inisiasi.
+Jadi entry point nya itu adalah input dari user atau requirement-requirement yang dimiliki oleh user
+dikumpulkan, dikumpulkan semuanya dari user nya dari stakeholder dari aplikasi yang kita kembangkan
+itu jadi input di kick off tersebut nah output nya itu yang akan jadi exit kriteria
+itu adalah acception dari project planning, acception tersebut nanti pindah ke fase berikutnya atau stage berikutnya.

@@ -1,0 +1,46 @@
+
+Berarti saya tinggal nunggu meeting berikutnya aja ya untuk kelanjutan project nya.
+Oke sip-sip. Sorry banget nih soalnya lagi syuting soalnya oke bye.
+Sorry banget soalnya tadi ada telepon mau bahas tentang project yang sedang saya kerjakan.
+Sekarang kita lanjut ke model berikutnya, model ini udah mulai excited nih saya nih
+di model ini model ini namanya incremental model. Jadi model ini biasanya itu digunakan di saat requirement yang udah ada itu
+itu wall understood jadi udah benar-benar dimengerti baik itu dari sisi solution arsiteknya baik itu dari sisi kliennya
+baik itu dari sisi kita sebagai developer gitu. Terus ada kebutuhan untuk ngedeliver
+modul ya multiple modul jadi misal ada beberapa fitur yang ingin dikembangkan tetapi secara bersamaan.
+Kalau kita lihat di model-model berikutnya itu kita hanya fokus aja kesatu modul baru bisa lanjutkan modul lainnya.
+Incremental model ini itu bagus jadi kita bisa set multiple dari delivery jadi mau berapa mau modul bisa kita set.
+Biasanya stage yang dilakukan itu stage yang pertama itu communication.
+Setelah communication itu masuk ke stage planning dari planing nanti akan terjadi modeling,
+terus terjadi stage contraction baru masuk ke deployment.
+Nah ketika di fase planning tadi kalau kita ingat setelah fase communication
+ada namanya fase planning baru itu bisa dikembangkan modul yang lainnya jadi secara bersamaan secara paralel
+itu bisa dibuat bisa dimulai komunikasi komunikasi tentang modul berikutnya apa nih
+oke komunikasi dimulai planning dilakukan modeling juga dilakukan construction dilakukan
+deployment juga dilakukan terus ketika masuk ke tahap planning dari modul yang ke-2 tadi
+itu komunikasi juga sudah mulai bisa dilakukan jadi secara berkelanjutan atau nested gitu.
+Jadi setelah communication, planning, modeling, construction sampai deployment nah itu bisa
+sambil berjalan modul-modul yang lainnya itu dikembangkan. Ini sangat bagus sekali untuk kita achieve
+banyak modul dalam satu project kelebihan-kelebihannya dari incremental model ini
+yang pertama menghasilkan prototype dari software lebih cepat karna prototype sudah dibuat lebih awal.
+Kalau V model sama waterfall model yang saya jelaskan sebelumnya itu belum ada prototype di awal.
+Baru bisa dicoba di akhir terus incremental model ini modul itu fleksibel bisa dikembangkan kapan aja gitu.
+Tergantung kita kebutuhannya gimana terus biasanya ini yang disenangi sama orang-orang lebih murah untuk biaya delivery softwarenya.
+Biasanya untuk model ini murah banget lah gitu terus management risk dari incremental model ini
+lebih gampang juga karna kita tadi pengerjaannya secara paralel untuk manajemen risknya
+untuk organize semuanya itu lebih gampang jadinya tapi ada kekurangannya
+kekurangan yang untuk incremental model ini itu harus ada planning dan desain yang baik,
+karena kalau enggak ada planning dan desain yang baik kita mengembangkan banyak modul tadi.
+Modulnya banyak nih banyak banget dah 4 5 6 modul kalau itu enggak di planning dengan baik itu bisa hancur.
+Berikutnya adalah membutuhkan clear and complete definition untuk seluruh project sebelum dibuat.
+Terus cost nya untuk yang incremental model ini dia lebih mahal dibandingkan dengan waterfall.
+Karna ya tadi ada beberapa modul yang dikembangkan secara bersamaan gitu.
+Kapan kita bisa menggunakan incremental model ini? Kita bisa menggunakan model ini saat requirement dari
+sistem sudah clear dan dimengerti dengan baik terus mayor requirement-requirement nya
+requirement yang paling besar yang paling dibutuhkan harus sudah pasti
+walaupun beberapa details dari sistem yang dikembangkan dapat berubah sewaktu-waktu.
+Its oke di incremental model ini terus kita bisa menggunakan new teknologi juga
+enggak papa pakai aja teknologi baru dari hasil riset kita, hasil eksplorasi kita di model ini. Its oke.
+Terus resource dengan skill set yang dibutuhkan itu enggak tersedia misalnya wah ini belum ada nih
+yang bisa pakai golang atau yang bisa pakai python enggak papalah gitu kita pakai incremental model dulu gitu
+untuk menutupi ini bisa pakai bahasa pemrograman lain dulu gitu
+terus high risk feature dan high risk terhadap golnya nah itu saat kita menggunakan incremental model ini.

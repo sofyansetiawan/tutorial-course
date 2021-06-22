@@ -1,0 +1,85 @@
+Sekarang untuk course nya.
+Course nya bisa langsung ditambahkan course management.
+Terus Kita tambahkan juga mungkin modulnya course setting
+untuk melakukan setting seluruh kursusnya.
+Jadi untuk manajemen ini beda kita mungkin kayak
+ngatur gambar kursusnya, ngatur informasi kursusnya, ngatur deskripsi kursus,
+siapa aja yang berhak enroll terus kalau di course setting ini kita bisa
+ngatur kayak kursusnya itu public apa enggak.
+Terus kapan start date, end date nya
+jadi lebih advance dari course management kalau disini.
+Kalau untuk di admin kita bisa tambahkan misal user admin.
+bisa course admin karena kita start nya di sini dari 26 Desember 2019
+di sini kita udah bisa nentuin nih siapa yang ngerjain gitu
+dan durasi berapa lama misal kita milih
+working days nya itu untuk registration kita kasih anggap 5 hari.
+Oke terus untuk log in kita kasih 5 hari juga
+terus siapa yang akan ngerjain project ini?
+Kita bisa milih kita bisa milih di project tim yang udah kita buat tadi
+misal Rizky saja kita buat lagi
+Rizky@indonesiax.co.id cost per hour nya
+100.000, Rizky yang akan bertanggung jawab
+yang akan bertanggung jawab untuk mengembangkan modul registrasi tersebut.
+Kontaknya, labor cost nya berapa, mathematical cost semua
+itu udah bisa dimasukkan ke sini.
+Nah kita bisa nambahin menambahkan lagi user di sini
+misal Rizky di sini atau Iman atau yang lain nanti.
+Jadi software ini akan langsung otomatis mentata
+development dari project kita jadi semua planning kita kita tinggal edit saja di sini
+misal mau edit lagi tanggal mulainya kapan
+bisa tanggal 27 terus mau finish date kapan, week-week days nya berapa lama durasi
+itu semua itu bisa kita masukkan ke sini.
+Kalau kita lihat detailnya di sini kita bisa langsung lihat gantt chart nya di sini
+informasi-informasi time line gantt chart nya
+itu akan langsung muncul di sini Kita juga bisa langsung narik
+bisa estimasi semuanya di sini melihat kontennya.
+Keseluruhan dari hasil dari
+quick plan ini nanti akan saya konversi ke PDF
+dan itu bisa kalian pelajari saya akan lampirkan lewat hand out kursus ini
+jadi semuanya akan ada di situ karena
+ini akan membutuhkan waktu yang lumayan lama untuk menyelesaikan
+semua konten yang ada di dalam software week plan ini.
+Semoga dengan adanya hand out itu kalian bisa lebih mengerti lagi tentang membuat
+perencanaan software development.
+Kita sudah mempelajari semua fase-fase
+dari mulai dari software development life cycle,
+mulai dari design, planning nya kita bagaimana.
+terus kita juga sudah mulai ke bahas tentang
+software arsitekturnya, desain dari software yang kita kembangkan
+kita juga udah belajar tentang implementasi, udah belajar tentang development nya gimana
+deployment nya gimana hingga kita sudah mempelajari juga tentang
+go live dan maintenance dari software development.
+Nah itu adalah hal-hal yang sering terjadi
+di software development di seluruh dunia gitu
+kegiatan-kegiatan itu biasa terjadi dan sebenarnya
+itu bisa kita improve lagi dan semua konten kursus yang ada
+yang sempat saya sampaikan di sini
+belum semuanya membahas tentang software development
+karena 1 jam, 2 jam ataupun 3 jam saja itu tidak cukup untuk
+membahas tentang software development ke secara keseluruhan.
+Saya saja pernah gitu ditawari gitu mas
+bisa nggak gitu ngajarin karyawan kita gitu
+5 hari kursus tentang network engineering gitu.
+Wah kalau 5 hari kursus seperti itu bisa kalau untuk basic nya saja
+tapi kalau mau sampai ke level advance itu 5 hari itu tidak cukup gitu
+itu minimal 1 bulan penuh kita intens untuk belajarnya.
+Jadi untuk lebih memahami tentang software development ini
+itu diperlukan praktis yang lebih banyak
+Pengalaman juga perlu kalian yang baru memulai karirnya sebagai software development
+sering-sering saja baca dokumentasi
+baik itu programming language, setup infrastruktur
+atau library-library terbaru seperti javascript yang rilis setiap
+hari gitu leluconnya sih seperti itu.
+Jadi kalian tetep belajar practice terus
+kalau misal kalian ingin diskusi tentang software development
+kalian bisa gunakan forum diskusi di platform IndonesiaX
+saya bersama tim IndonesiaX akan
+bersedia untuk menjawab diskusi anda di situ.
+Jadi apa saja keluhan anda nanti selama belajar
+apa saja yang ingin anda pelajari atau konten-konten yang
+ter update yang ingin anda ketahui
+Kita bisa diskusi semuanya di sana.
+Setelah kursus ini semoga anda mendapatkan manfaat tentang
+software development fundamentals sampai jumpa di kursus berikutnya
+semoga kalian bisa menjadi the next developer heroes
+dan kalian bisa jadi the next heroes of Indonesia. Sampai jumpa.

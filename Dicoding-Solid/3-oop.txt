@@ -1,0 +1,151 @@
+Saat mengembangkan sebuah perangkat lunak, tentu kita harus mengetahui terlebih dahulu paradigma dalam dunia pemrograman. Mungkin kita sudah pernah mendengar beberapa paradigma seperti imperative, object-oriented, procedural, dan functional. Paradigma pemrograman itu apa sih? Paradigma pemrograman adalah gaya atau cara kita menulis program. Pada Modul ini kita akan membahas mengenai paradigma OOP (object-oriented programming.) 
+
+Nah, sebelum membahas mengenai paradigma OOP, sebaiknya kita juga harus tahu mengenai hubungan antara prinsip S.O.L.I.D ini di dalam konsep OOP. Jadi prinsip S.O.L.I.D ini merupakan panduan bagi kita saat kita akan mengembangkan sebuah sistem dengan pendekatan OOP. Jika kita mengikuti prinsip-prinsip ini kita dapat membuat sebuah sistem yang mudah kita gunakan dan kembangkan kembali, kokoh, dan tidak rapuh. Pada modul ini kita akan mempelajari apa itu OOP dan pilar-pilar utama dalam pendekatan OOP seperti encapsulation, abstraction, inheritance, dan polymorphism yang akan kita bahas pada modul berikutnya. 
+
+Pada pemrograman dengan menggunakan pendekatan OOP kita akan menemui beberapa istilah atau pembahasan seperti Class, Attribute dan Function. Perlu kita ingat, bahwa setiap bahasa pemrograman memiliki istilah-istilah tersendiri . Makna-makna istilah tersebut hampir sama atau bisa sangat berbeda. Seperti contohnya, properti atau atribut yang memiliki makna yang sama meskipun tersendiri namanya berbeda. Biasanya programmer lebih sering menggunakan atribut untuk istilah yang berkaitan dengan hal yang mengarah ke mekanisme atau proses yang dilakukan oleh objek dan menggunakan istilah property untuk mendeskripsikan karakteristik dari sebuah objek.
+
+Mengapa Object Oriented Programming? OOP (Object Oriented Programming) masih merupakan salah satu paradigma atau teknik pemrograman yang populer dalam pengembangan aplikasi. Dengan paradigma OOP kita dapat dengan mudah memvisualisasikan kode karena OOP sendiri mirip dengan skenario kehidupan nyata. Dalam penerapan OOP kita menggabungkan kumpulan-kumpulan fungsi atau atribut yang memiliki kesamaan dalam sebuah unit yang kita sebut sebagai objek.
+
+Class merupakan sebuah blueprint yang dapat dikembangkan untuk membuat sebuah objek. Blueprint ini merupakan sebuah template yang di dalamnya menjelaskan seperti apa perilaku dari objek itu (berupa properti ataupun function).
+
+202004081610044e0e18799a32ee7d458f1ca15b9693f6.png
+
+Visualisasi di atas mencontohkan gambaran umum dari konsep OOP, di mana terdapat sebuah blueprint Kucing, atribut yang dimiliki Kucing, dan kemampuan yang dapat dilakukan oleh Kucing. Dalam paradigma Object-Oriented Programming (OOP), class merupakan sebuah blueprint yang dapat dikembangkan untuk membuat sebuah objek. Blueprint ini merupakan sebuah template yang di dalamnya menjelaskan seperti apa perilaku dari objek itu (berupa properti ataupun function). Dalam dunia pemrograman khususnya dalam paradigma OOP, kita sering membuat banyak objek dengan jenis yang sama. Dengan membuat blueprint ini kita dapat mengurangi duplikasi kode dalam membuat objek yang serupa.
+
+Class
+Seperti yang telah dijelaskan dalam pembahasan objek, class merupakan sebuah blueprint. Di dalam class ini kita mendefinisikan sesuatu yang merupakan atribut ataupun behaviour.  
+
+  Kucing
+
+  - String color
+
+  - Double height
+
+  - Double length
+
+  - Double weight
+
+  + playing()
+
+  + sleep()
+
+  + eat()
+
+  + puring()
+
+
+Pada contoh sebuah class Kucing atributnya berupa warna, tinggi, lebar, dan berat. Sedangkan untuk behaviour-nya bisa bermain, tidur, makan, bersuara dsb.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+public class Kucing {
+   private String color;
+   private Double height;
+   private Double length;
+   private Double weight;
+ 
+   public Kucing() {
+   }
+  
+   public Kucing(String color, Double height, Double length, Double weight) {
+       this.color = color;
+       this.height = height;
+       this.length = length;
+       this.weight = weight;
+   }
+ 
+   public String getColor() {
+       return color;
+   }
+ 
+   public void setColor(String value) {
+       this.color = value;
+   }
+ 
+   public Double getHeight() {
+       return height;
+   }
+ 
+   public void setHeight(Double value) {
+       this.height = value;
+   }
+ 
+   public Double getLength() {
+       return length;
+   }
+ 
+   public void setLength(Double value) {
+       this.length = value;
+   }
+ 
+   public Double getWeight() {
+       return weight;
+   }
+ 
+   public void setWeight(Double value) {
+       this.weight = value;
+   }
+}
+Mari kita coba membuat beberapa instance dari class Kucing ini. Pada dasarnya Instance dan Object adalah hal yang sama. Karena ketika membahas sebuah objek, kita tahu bahwa sebuah object adalah instance dari sebuah class yang kita buat, atau singkatnya adalah objek yang merupakan hasil realisasi dari sebuah blueprint. Object yang terbentuk dari sebuah class akan memiliki hak akses terhadap keseluruhan isi class. Eits masih bingung? Mari kita lihat contoh membuat instance pada potongan kode di bawah.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+fun main() {
+    val persian = Kucing()
+    persian.color = "Putih"
+    persian.height = 24.0
+    persian.length = 46.0
+    persian.weight = 2.0
+    val bengal = Kucing("Coklat", 22.0, 39.0, 2.3)
+    val anggora = Kucing("Abu-abu", 25.0, 41.0, 2.4)
+}
+Cukup mudah kan? Kita dapat mengulangi contoh kode tadi dengan parameter yang berbeda untuk membuat instance lainnya.
+
+
+Property
+Property (atau disebut juga dengan atribut) adalah data yang terdapat dalam sebuah class. Sebuah class tentu memiliki property dan mempresentasikan karakteristik dari class tersebut. Masing - masing class memiliki property yang berbeda. Contoh sebelumnya pada class Kucing, property yang dimiliki berupa color, height, length dan weight. 
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class Kucing (
+    private var color: String,         
+    private var height: Double, 
+    var length: Double,
+    var weight: Double
+)
+Pada potongan kode di atas, kita dapat melihat property yang ada pada sebuah class. Umumnya, setiap property memiliki struktur dasar seperti terdapat modifier, tipe data, nama konstanta dan nilai.
+
+
+Function
+Function atau fungsi merupakan sebuah prosedur yang memiliki keterkaitan dengan pesan dan objek. Ketika kita memanggil sebuah fungsi maka sebuah mini-program akan dijalankan. Fungsi sendiri bisa diartikan sebagai cara sederhana untuk mengatur program buatan kita. Contoh, hewan memiliki beberapa behavior atau fungsi yang dapat ia lakukan seperti makan, berjalan, atau berkomunikasi dengan hewan lainnya. 
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class Kucing (
+    var color: String,         
+    var height: Double, 
+    var length: Double,
+    var weight: Double
+) {
+    
+    fun purring() {
+        println("Meow ..")
+    }
+    
+    fun eat() {
+        weight = weight + 1
+    }
+}
+Okay, jika kita perhatikan, sebuah fungsi dapat membuat object tersebut untuk menampilkan teks “Meow ..” atau dalam kasus ini membuat kucing bersuara. Sebuah fungsi juga dapat mengubah nilai dari salah satu property seperti pada contoh yaitu weight ketika kucing tersebut makan. Oleh karena itu sebuah fungsi dapat menjadi salah satu akses untuk memodifikasi property yang dimiliki oleh objek.

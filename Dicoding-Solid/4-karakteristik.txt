@@ -1,0 +1,13 @@
+Di modul sebelumnya kita sudah mengetahui apa itu OOP dalam pemrograman. Di modul ini kita akan lanjut mempelajari hal yang tidak kalah penting. Apa itu?
+
+Kebayang nggak bagaimana perusahaan sebesar Google mengatur ratusan bahkan ribuan karyawannya? Dalam hal ini tentunya Google punya serangkaian aturan dan kebijakan yang tepat agar mencapai tujuan dan output. Selaras dengan hal tersebut, ketika kita mengembangkan sebuah perangkat lunak, pastinya kita akan memiliki jumlah sistem yang banyak. Maka dari itu kita wajib menerapkan sebuah aturan dan kebijakan dalam pengembangan tersebut guna menghindari kompleksitas. 
+
+Untuk mencapainya, terdapat beberapa teknik yang dikelompokkan menjadi beberapa pilar yang bisa kita gunakan, di antaranya:
+
+Inheritance 
+Encapsulation
+Abstraction 
+Polymorphism
+Sebenarnya, secara tidak langsung kita telah menerapkannya ketika kita mengembangkan sebuah perangkat lunak. Namun jika kita ditanya tentang masalah teknis dari beberapa pilar tersebut, kadang sulit bagi kita untuk menjelaskannya. 
+
+Nah, di modul ini kita akan sama-sama belajar beberapa pilar di atas seperti apa, bagaimana, dan kapan menerapkan pilar OOP dalam pengembangan perangkat lunak.

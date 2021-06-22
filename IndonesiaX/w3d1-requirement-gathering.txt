@@ -1,0 +1,37 @@
+Saya udah di makeup ni udah, suaranya juga oke.
+Sekarang kita masuk di week ke-3 dari kursus software development fundamentals.
+Di week ke-3 ini kita akan fokus tentang gathering requirement.
+Ini adalah hal yang paling utama front down nya dari proses software development yang kita lakukan.
+Kalau sampai proses-proses yang terjadi di gathering requirement ini enggak bagus
+nanti impact nya ke software yang kita hasilkan kalau enggak bagus nanti enggak bagus juga.
+Email, workshop bisa juga gathering requirement nya dari dokumentasi jadi biasanya
+kita tanya nih yang mau dibikin apa saja tolong dibuatkan dalam satu dokumen
+atau bisa juga lewat conference call jadi komunikasi dua arah saling ngobrol
+di conference call saling tanya menanya melakukan diskusi tentang software yang akan dibuat.
+Intinya di sini adalah mendapatkan bisnis requirement nya untuk mengetahui
+lebih jelas tentang the hole business proccess dari software yang dikembangkan sehingga nanti
+output dari gathering requirement ini adalah teknikal specification
+baru nanti kita bisa sign off kontraknya oke kita bisa deal dan
+lanjutkan project nya. Biasanya itu bisnis requirement contohnya nih
+contohnya itu saya ingin akses website yang aman gitu teknikal specification nya
+seperti sempat saya bilang di minggu pertama itu ada login page nya,
+ada database of user nya, ada password, email terus ada authentication proses
+hingga kita bisa menggunakan sertifikat dan SSL. Contoh lainnya adalah Saya ingin mengupload
+media image gambar atau video ke profil saya gitu.
+Nah itu teknikal specification kayak gimana? Kita bikin tuh butir-butirnya
+oh ini bikin membership website, terus ada user authentication, ada profile page nya,
+ada database user, ada gallery, ada upload function dan ada banyak
+dan upload function dan ada display foto itu untuk technical specification sampelnya.
+Ketika itu udah oke nanti customer dan solusition arsiter atau orang yang diberikan
+mandat untuk mengurus proyek tersebut dari perusahaannya akan melakukan sign kontrak.
+Sign kontrak oke nanti bisnis requirement nya kita pindahkan ke teknikal specification
+baru bisa dibuat wireframe nya setelah wireframe oke kita udah bisa bikin project plan
+dan organization plan nya baru dijabarkan tuh di dalam diagram proses description usecase nya apa,
+detail-detail dari proses-proses yang apa yang ada itu apa saja.
+Untuk pembuatan diagram tersebut itu akan kita bahas di minggu berikutnya.
+Biasanya itu seorang solution arsitek ketika mendapatkan hasil dari gathering requirement ini
+dia udah bisa make sure nih timeline dan milestones akan bagaimana deliverable nya kayak gimana
+Terus dia udah bisa mulai menentukan roles dan responsibility dari setiap orang yang ada di project tersebut.
+Terus dia juga bisa membuat NDA, quality level dari sebuah project
+dan yang terakhir bisa membuat reporting dan desain
+review untuk melanjutkan ke tahap yang berikutnya.

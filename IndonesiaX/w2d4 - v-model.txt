@@ -1,0 +1,34 @@
+Model berikutnya adalah V model, V model ini merupakan extension dari waterfall model yang sudah saya bahas di section sebelumnya.
+Tapi ada hal yang paling penting di V model ini yaitu adanya verifikasi dan validasi
+Tetap stage yang ada di dalam V model ini yang pertama itu requirement analysis,
+yang ke-2 itu system design terus arsitektur desain, modul desain, dan coding.
+Nah tetapi nanti akan ada 2 seperti yang bisa lihat di grafik ini.
+Jadi di grafik gitu kalau kita lihat di bagian kiri itu ada verifikasi, yang di sebelah kanan itu ada validasi
+seperti acception testing, system testing, integration testing dan unit testing.
+Konsepnya sama seperti waterfall cuman ada verifikasi dan validasi.
+Kelebihan dari V model ini dibandingkan dengan model-model yang lainnya adalah
+yang pertama V model ini sangat fleksibel terus yang ke-2 aktivitas seperti planning, test, test design
+itu dilakukan sebelum coding sehingga itu lebih menghemat waktu dan itu lebih better
+dari model yang sebelumnya saya bahasa itu model waterfall.
+Terus V model ini juga sangat mudah dimengerti untuk orang yang baru terjun di software development.
+Terus kelebihan yang terakhir adalah V model ini sangat bagus untuk proyek-proyek Kecil.
+Nah kekurangannya apa kekurangannya ini hampir sama juga dengan waterfall model
+jika terjadi perubahan di tengah development, tes dokumen dan require dokumennya itu harus di update.
+Jadi mau enggak mau nih ketika terjadi perubahan itu ya benar-benar harus di update semuanya
+tapi bedanya kalau di waterfall seperti yang kita tahu kalau udah mentok di testing
+mau berubah mau kembali ke fase stage berikutnya itu kan susah enggak akan bisa melanjutkan project nya.
+Terus kekurangan lainnya dari V model ini software yang dibuat pada saat fase coding atau implementasi.
+Itu jadinya itu enggak ada early prototype karena biasanya ada klien yang membutuhkan prototype
+ya mungkin mereka buat ditunjukkan kepada CEO nya mereka, CTO nya mereka
+ataupun orang-orang yang berkepentingan terhadap project tersebut.
+Itu minus nya enggak ada early prototype jadi enggak ada hasil yang sudah ada di muka lah gitu.
+Nah kapan kita harus menggunakan V model ini?
+Sebenarnya simple aja kalau ingin menggunakan V model ini
+itu saat requirement dari project yang small to medium lah itu benar-benar sudah fix
+itu baru kita bisa menggunakan V model ini kalau semua requirement udah oke kita pakai aja V model gapapa
+dan project nya enggak terlalu besar juga gitu. Terus cost kita harus biasa benar-benar memastikan
+high confidence lah ke customer nya bahwa tidak ada prototype yang dihasilkan selama proses development.
+Jadi kalau klien nya oke ga ada prototype, ga ada contoh-contoh
+software yang akan kita gunakan apa nanti ketika tahap development
+mereka oke ya udah gapapa kita pakai aja V model ini toh ini mudah dimengerti
+lebih cepat juga dan bagus buat aplikasi yang kecil sampai medium. Itu tentang V model

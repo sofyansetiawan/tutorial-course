@@ -1,0 +1,70 @@
+Nah sekarang kita masuk ke case study e-learning platform.
+Tadi saya udah sempat bahas tentang high level design dan low level design menggunakan
+contoh rumah nah sekarang gimana contoh langsungnya untuk
+platform e-learning yang kita kembangkan. Nah
+biasanya yang pertama itu kita lihat dari sisi student nya.
+Ini ada e-learning platform buat student
+nah biasanya itu untuk komponen yang ada
+itu ada yang pertama itu profile page,
+terus yang ke-2 itu ada course list, ada student dashboard.
+Ini yang paling simpel gitu untuk di e-learning platform.
+Nah di profile page ini
+nanti ini belum dijelaskan semuanya tentang low level design nya
+karena ini masih di high level design
+ini masih berupa fitur utamanya saja yang
+kelihatan dari luar gitu belum sampai ke dalam-dalamnya.
+Setelah profile page tadi ada yang namanya course list.
+Course list ini itu berisi beberapa konten-konten lagi di dalamnya seperti course overview.
+Course overview, ada lagi course content
+untuk konten-konten kursus yang diakses oleh student
+baru ada komponen berikutnya yaitu student dashboard
+dari sini user akan mengakses semua informasi pribadi tentang user
+yang sudah enroll e-learning platform kita.
+Nah berikutnya itu untuk ini saya jelaskan dulu buat
+enaknya tuh buat instruktur. Jadi instruktur itu lebih banyak.
+Biasanya tuh yang pertama profile of course
+pasti ada profil untuk setiap aplikasi ini untuk memudahkan student
+menggunakan struktur melihat status profil mereka itu
+mereka mau gonta-ganti profile juga bisa di sini.
+Terus ada instruktur dashboard
+dashboard ini digunakan oleh instruktur untuk mengatur
+stats nya, untuk melihat student stats terus melihat juga course stats.
+Terus komponen berikutnya adalah course admin. Jadi lewat sini
+instruktur juga bisa melakukan manajemen kursusnya.
+Nah biasanya untuk course admin ini kontennya ada course management
+di dalam course management ini berisi
+banyak sekali kursus-kursus atau kursus yang dibuat lah di dalamnya itu.
+Baru di update lah semuanya gitu di course content management ini
+nah itu dari instruktur dan juga student
+gimana kalau dari sisi backend nya dari sisi adminnya.
+Jadi admin biasanya sederhana aja kalau di aplikasi yang simpel seperti ini
+ya kita tinggal bikin instruktur admin komponennya
+terus bikin user admin juga baru berikutnya
+di dalam user admin itu ada user management nya.
+Jadi di user management ini semua kegiatan untuk mengolah user itu
+itu dilakukan di situ baik itu buat user, update informasi tentang user
+hapus user pokoknya semua tentang user dimanipulasi di sini.
+Terus ada instruktur admin, jadi ini instruktur admin ini untuk mengolah instruktur juga
+saya tambahkan sedikit untuk instruktur admin saya tambahkan di instruktur admin
+course management terus bisa di sini instruktur manajemen
+harusnya seperti ini biar
+tapi terpisah lagi yang ada di dalam instruktur admin bisa
+management course di dalam course nya ada course kontennya.
+Terus instruktur admin juga untuk me manage semua instruktur-instruktur yang ada.
+Nah ini high level design nya contohnya
+kalau untuk low level design itu gimana?
+Sekarang kita masuk contoh level level design misal kita ngambil
+log in satu-satu case satu case namanya log in.
+Jadi ini proses yang ada di dalam komponen log in di yang paling detail nya
+Jadi ketika user log in terus dia ngelihat course list
+terus setelah dia ngelihat user ngelihat course list
+baru user nya klik enroll jadi setelah user enroll
+di sini ada diagram baru di sini gitu
+course completion nya.
+Jadi kalau user nya selesai course completion nya yes
+nanti akan dapat notifikasi course end gitu.
+Terus kalau gagal dia akan mengikuti course rerun
+secara singkat untuk high level design sama low level design.
+Intinya perbedaannya kalau high level design tadi lebih masih ke general
+kalau low level design itu lebih detal lagi
+fungsi-fungsi yang ada di dalam aplikasi yang kita kembangkan.

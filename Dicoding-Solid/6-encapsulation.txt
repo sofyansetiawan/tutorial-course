@@ -1,0 +1,30 @@
+Setelah selesai dengan Inheritance, mari kita lanjut membahas pilar kedua yaitu Encapsulation. Encapsulation merupakan proses di mana sebuah penanganan data ditempatkan di dalam wadah tunggal yang disebut sebagai class. Saat menggunakan encapsulation, data dapat diisolasi dan tidak dapat diakses langsung dari luar. Dengan begini, kita cukup menggunakan data tersebut tanpa harus tahu bagaimana proses yang terjadi sampai data tersebut bisa digunakan.
+
+Dalam dunia nyata, encapsulation bisa digambarkan seperti smartphone. Saat menggunakan smartphone kita tidak perlu tahu bagaimana proses yang berjalan di belakang, seperti  menampilkan sesuatu pada layar, menyediakan jaringan seluler, dan lain sebagainya. Kita cukup menggunakannya sebagaimana mestinya sebuah telepon genggam. Seperti itulah encapsulation bekerja.
+
+Menggunakan Encapsulation
+Seperti apa encapsulation itu? Berikut adalah contoh penerapan kode sederhananya:
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+class DataRepository {
+   private List data = new ArrayList();
+  
+   public void setData() {
+       Response response = /* tons of logical code to retrieve data */
+       data.clear();
+       data.addAll(response.data);
+   }
+ 
+   public List getData() {
+       return data;
+   }
+}
+Dari contoh kode di atas, apa alasan kita untuk menggunakan encapsulation? Karena kita akan lebih leluasa dalam melakukan perubahan nilai tanpa harus mengakses propertinya secara langsung, cukup gunakan fungsi setter yang tersedia.   
+
+Selain itu, kode yang berada di dalam aplikasi diringkas berdasarkan bagiannya sehingga dapat dengan mudah diubah tanpa mempengaruhi bagian lainnya. Kode yang sudah dienkapsulasi tersebut dapat digunakan kembali di seluruh bagian aplikasi.
+
+Yang perlu diketahui, encapsulation bukan menyembunyikan sebuah data. Tetapi, encapsulation yang menyebabkan data tersebut tersembunyi.

@@ -1,0 +1,27 @@
+20200421084545f9a0da91f2b1678cca8e657fc298c0e5.png
+Hubungan realisasi atau implementasi adalah hubungan abstraksi khusus antara dua kelas, satu mewakili interface yang menjadi spesifikasinya (ProductService) dan yang lainnya mewakili kelas implementasi yang menjadi realisasinya (ProductServiceImpl). Realisasi dapat digunakan dalam beberapa hal seperti untuk menyempurnakan sebuah kelas, optimasi, transformasi, template, model sintesis, komposisi kerangka kerja, dll. Jika melihat gambar di atas, hubungan realisasi ditandai dengan garis putus-putus yang memiliki simbol segitiga putih pada ujungnya yang mengarah pada kelas yang direalisasikan (supplier). 
+
+Interface realization adalah hubungan realisasi khusus antara classifier dan interface. Hubungan ini menandakan bahwa classifier mengimplementasikan kontrak yang telah ditentukan oleh kelas interface. Kelas classifier dapat mengimplementasikan satu atau beberapa kelas interface. Classifier yang mengimplementasikan interface mendukung serangkaian fitur yang dimiliki oleh kelas interface. Selain mendukung fitur, kelas classifier harus mematuhi batasan yang dimiliki oleh kelas interface. Mari kita lihat implementasi pada kode berikut.
+
+Kotlin
+Java
+Swift
+JavaScript
+Dart
+interface ProductService {
+   public void getProduct(String id);
+   public void calculateProductPrice();
+}
+ 
+class ProductServiceImpl implements ProductService {
+   @Override
+   public void getProduct(String id) {
+       // Implementation code
+   }
+ 
+   @Override
+   public void calculateProductPrice() {
+       // Implementation code
+   }
+}
+Pada contoh kode diatas kelas ProductServiceImpl merupakan kelas classifier yang mengimplementasikan kontrak dari kelas interface-nya yaitu kelas ProductService. 

@@ -1,0 +1,46 @@
+Berikutnya Saya ingin membahas tentang interaction oriented arsitektur.
+Jadi ini adalah salah satu modeling approach untuk memisahkan
+interaksi antara user dari data abstraction dan data prosesinya.
+Sekarang Anda sudah berada dalam layar laptop saya.
+Sesi ini Saya ingin membahas tentang interaction oriented arsitektur.
+Arsitektur ini adalah sebuah modeling approach untuk memisahkan interaksi
+dari seorang user, dari data abstraction dan bisnis data processing.
+Nah biasanya ada terima your part yang memisahkan di interaction oriented arsitektur ini.
+Yang pertama yaitu data modul. Data modul ini
+dia akan memprofit data abstraction, data extraction sorry
+dan semua bisnis logic. Terus ada yang ke-2 itu kontrol modul.
+Kontrol modul itu dia akan mengidentifikasi flow apa aja yang ada.
+Jadi akan mengolah flow-flow yang ada di dalam
+sistem semua konfigurasi akan diolah oleh kontrol modul.
+Baru yang ke-3 itu adalah view modul
+View modul itu merupakan persentasi.
+Jadi itu apa yang akan dilihat oleh user nanti.
+Nah biasanya untuk interaction oriented arsitektur itu
+ada 2 mayor style. Yang pertama yaitu model view controller
+dan yang ke-2 presentation abstraction control atau PAC.
+Tapi kita akan membahas MVC saja di sini
+Pembahasan software developer fundamentals ini
+karena MVC ini adalah interaction oriented arsitektur yang
+paling banyak digunakan oleh developer. Yang pertama itu ada namanya model di sini.
+Jadi model di sini itu berisi tentang data, logic, constraint dari
+seluruh aplikasi kita. Nah dari model ini
+dia akan meng update jadi model akan meng update ke view.
+Nah view ini itu akan menghasilkan tampilan yang bisa dilihat oleh user.
+Jadi ini view ini bisa saja berupa form,
+berupa sebuah halaman website, bisa sebuah grafik dan sebagainya.
+Yang jelas itu yang akan dilihat oleh user.
+Lalu ketika user berinteraksi dengan aplikasi kita
+apa aja yang dilakukan oleh user gitu, input-input apa saja misal user nya melakukan input
+terhadap form. Jadi secara tidak langsung
+user itu menggunakan yang namanya controller.
+Jadi controller ini dia yang akan mengolah seluruh data
+yang mengkonversi input dari user terus dimasukkan ke model
+Nah circle ini akan terus berlanjut.
+Ini adalah namanya MVC, circle ini akan terus berlanjut
+di software yang kita kembangkan dan proses-proses ini tidak akan berhenti
+sampai user berhenti menggunakan aplikasi kita.
+Jadi dari model update ke view user melihat lalu user yang menggunakan
+mereka mengakses controller lalu controller mengolah dan
+menghasilkan output ke model yang di mana yang lagi
+akan dilihat secara langsung oleh user.
+Itu sederhananya tentang MVC ini.
