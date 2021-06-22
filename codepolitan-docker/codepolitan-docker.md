@@ -160,6 +160,7 @@
   - Kemudian cara runningnya,`go run /app/main.go`, tapi kita harus memberitahu docker kalau ini dijalankan di commandline
   - `CMD ["go", "run", ""/app/main.go"]` perintahnya perlu dipisah dalam comma seperti array seperti process.argv
   - Built image dengan `docker build --tag app-golang:1.0 .` (berisi nama image dan tag/version)
+  
   ```
   FROM golang:1.11.4
 
@@ -167,7 +168,7 @@
 
   CMD ["go", "run", "/app/main.go"]
   ```
-  - 
+  
   - Jalankan lagi `docker images` cek apakah image sudah ada
   - Kalau ada image golang lain bisa dihapus karena sudah jadi 1 dengan app-golang
   - Buat container `docker container create --name app1 -p 8080:8080 app-golang:1.0`
