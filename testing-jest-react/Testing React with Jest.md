@@ -289,7 +289,7 @@
       - Berpindah page
       - Validasi input user
     - Pelajari
-      - waitFOrElementToBeRemoved
+      - waitForElementToBeRemoved
         - await
         - misalnya modal
       - Tidak harus selalu TDD
@@ -301,8 +301,6 @@
       - Misal di react bootstrap terdapat class invalid pada inputnya
       - Gunakan toHaveClass()
       - Untuk props yang perlu ditulis tapi tidak ingin error gunakan jest.fn()
-    - Server Mock error
-      - 
 
   
 
