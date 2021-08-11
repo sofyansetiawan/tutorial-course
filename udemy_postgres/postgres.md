@@ -1,0 +1,94 @@
+## PostgreSQL
+
+
+
+- PostgreSQL bisa menyimpan data geometri, linear dan array yang manipulatif tidak hanya type data umum
+- pgAdmin lumayan rekomen untuk semua OS (mac ada postico)
+- Menjalankan postgre CLi -> `$ psql postgres`
+- Melihat list database -> `$ \l` atau `$\list` berisi detail owner dan access prvileges
+- Keluar dari postgre CLI -> `$\q` atau `$\quit`
+- Setup postgresql untuk user dan host `$ psql -U postgres -d postgres -p 5432 localhost`
+- Membuat user `create user usersaya with password '12345';`
+- Melihat daftar tabel `$ \dt` untuk melihat tabel
+- Tipe data geometri bisa untuk membuat point, lingkaran pada GIS
+- Tipe data JSON untuk menyimpan bentuk data JSON
+- Smallint lebih sedikit, numeric bisa dengan desimal (maksimal), real bisa desimal lebih banyak
+- Money tipe data untuk format uang dalam default dollar
+- Create enum dengan range nilai lalu ketika membuat tabel gunakan tipe sebagai jenis tipe data kolom
+- Kita bisa membuat tipe tipe custom untuk postgresql dan digunakan sebagai tipe data kolom
+- Tipe data point untuk area (x, y) misal value -> `(1,20)`
+- Tipe data line adalah garis formatnya (x1, y1)(x2, y2) misal value -> `(1,20)(1,20)`
+- Tipe data polygon untuk luas 2D formatnya bisa 4 point (kubus) atau lebih formatnya `(x1, y1)(x2, y2)(x3, y3)(x4, y4)...(xn,  yn)`
+- Tipe data circle untuk lingkaran format penulisan `((20, 50)2)`
+- Tipe data JSON -> berisi data misal array, array of object atau object dan setiap key harus menggunakan double-quote
+  - Untuk mendapatkan data JSON misal gunakan query -> `select json_kolom->'alamat'->>'toko 1' from tb_barang`
+  - Untuk where `select json_kolom->'alamat'->>'toko 1' from tb_barang where json_kolom->'alamat'->>'toko 1' = 'jl. manggis'`
+- Umumnya GUI perlu refresh kalau ada perubahan di data, tabel dan database
+- Ketika update, create menggunakan reference foreign key tapi id tersebut tidak ada di tujuan, maka akan error not present
+- `on delete restrict` di tabel conjuntion, (ini adalah defaultnya) maka kita tidak bisa menghapus row dari parent, jika child nya masih ada yang pakai FK nya (maka hapus dulu childnya) sifatnya (dependensi ke bawah). `on delete cascade` di table conjuntion, maka kita tidak bisa menghapus parent, maka semua child nya akan terhapus (dependensi ke atas)
+  - Kasus restrict ketika sudah ada pembelian maka barang tidak boleh dihapus
+- On delete cascade menghapus semua tabel yang berelasi dengan tabel induk
+- On delete restrict mencegah tabel yang berelasi dihapus ketika isinya tinggal satu
+- Operator `!=` bisa diganti `<>`
+- Check Contrain ditulis di kolom ketika pembuatan tabel, untuk melakukan validasi constrain misal `pembelian_perbulan numeric check(pembelian_perbulan > 0)`. `check(pembelian_perbulan > diskon)` jika di insert tidak sesuai aturan maka error
+- Kita bisa memasukkan data insert dengan operator misal `insert into tb_aritmatika values ("Sofyan", 14 * 20)` bisa memasukkan faktorial `5!` atau root/akar `|/25`
+- Operator pattern like misal `'S_%_%_%_%_%'` -> bisa dapat `Sofyan` ( _ harus diisi huruf bebas, % bisa depan belakang mengandung)
+- Operator in seperti range array `WHERE umur in ('23', 24, 25)`
+- `explain select * from table where nama = 'sofyan'`  misal kecepatan 1.9 digunakan untuk mengukur kecepatan query (coba bandingkan dengan membuat index)
+- Membuat index (seperti index pencarian di windows, kalau sudah terindex maka lebih cepat)
+  - `create index idx_nama on tabel_siswa (nama)`
+  - Cek di struktur tabel ada index
+  - Jalankan explain lagi select nama, maka 1.09 lebih cepat
+  - Suatu kasus ketika mengakses sebuah tabel biasanya DBMS akan membaca seluruh tabel baris perbaris hingga selesai. Ketika baris sangat banyak dan hasil dari query hanya sedikit, maka hal ini sangat tidak efisien. Seperti halnya ketika kita membaca sebuah buku dan ingin mencari kata atau istilah tertentu dalam buku maka biasanya akan di cari dengan membuka setiap halaman dari awal sampai akhir. Dengan adanya indeks buku maka kita cukup dengan membuka indeks, sehingga akan cepat dalam pencarian kata tersebut. PostgreSQL tidak bisa membuat indeks dengan otomatis, sehingga user dapat membuat indeks tersebut untuk seringkali digunakan kolom, biasanya dalam clause
+- View digunakan sebagai tabel virtual untuk menyimpan kode SQL, seperti URL shorthener diberi nama dan ketika nama itu dipanggil mengarahkan atau menjalankan SQL tertentu
+  - View ada di struktur database bisa dilihat viewnya dan kita bisa menyimpan banyak view
+  - Biasanya view digunakan kalau kita menyimpan kode SQL kompleks diberi label maka cukup panggil label itu daripada menulis ulang lagi
+  - `create view <namaview> as <kodesql rumit>`
+  - Cara panggil `select * from namaview`
+  - Kita bisa hapus degan DROP VIEW
+- Union All (menggabungkan query tabel tanpa menghilangkan hasil duplikasi) kalau Union (menghilangkan hasil duplikasi)
+  - Union berbeda dengan join, karena tidak perlu ada FK atau perbandingan kesamaan value di antara 2 kolom antar tabel
+  - Tapi Union all umumnya dipakai untuk menggabungkan tampilan 2 tabel yang dijoin dengan 2 tabel yang dijoin lainnya yang berguna untuk menampilkan info secara lengkap. Kalau union tidak ada duplikasi data (misal duplikasi nama)
+  - Bisa digabungkan dengan clausa where
+- Subquery
+  - Umumnya subquery digunakan untuk query child mendapatkan data misal range atau value 1 an hasil query lalu returnnya digunakan oleh query parent 
+  - Sifat subquery ini seperti substitusi
+  - Biasanya sebagai subtitusi untuk WHERE dengan kondisi >, =, in, dsb
+  - Subquery harus mengembalikan nilai menggunakan select atau kalau update, delete insert harus returning
+  - Subquery digunakan kalau kita memang tidak tahu data yang pasti karena berasal dari nilai dinamis dari tabel lain
+- Array tipe data
+  - Misal `create table tb_penjualan ( id integer primary key, nama text, jumlah integer[], keterangan text[][])` 
+  - Penulisan ketika insert maka gunakan format object `{nilai, nilai}` jika 2 dimensi `{{nilai,nilai}, {nilai, nilai}}`
+  - Array di postgre tidak dimulai dari 0 tapi dari 1
+  - Ambil data misal `select harga[2] from tabel where harga[1]<>harga[2]`
+  - Cara mengetahui dimensi array `select array_dims(harga) from tabel` berisi dimensi dan jumlah data
+  - Untuk update data berarti menimpa dengan akses indexnya, misal `set harga[3]=2000`
+  - Menambahkan dengan `array_append` misal `set harga = array_append(2000)` kalau lebih dari 1 item gunakan `array_cat`, misal `set harga = array_cat(harga, 2000)`. Untuk hapus gunakan `array_remove`
+- Procedure
+  - Digunakan untuk menyimpan query2 yang sering dipakai, seperti function punya paremeter dengan jenis data
+  - Untuk value berisi nilai dari parameter procedure tapi procedure tidak mereturn sesuatu
+  - Cara panggilnya`call pesanan(5,4)`
+- Function (seperti procedure tapi ada return)
+  - Di function decrere nama variabel dan tipe datanya lalu begin dan end sebagai badan function berisi perintah sql atau kode perhitungan
+  - Pemanggilannya `select jumlah_karyawan()`
+- Parameter in-out
+  - Parameter in sudah ada `IN` di function (sebagai input, tidak bisa sebagai output)
+  - Parameter out sudah ada `OUT` di function (sebagai output, tidak bisa sebagai input)
+  - Ditulis di parameter function dan diberi nama dan tipe data untuk customnya
+  - Kita bisa memanggil function2 bawaan SQL di function
+  - Ketika dijalankan maka OUT akan menjadi return
+  - Parameter INOUT bisa menjadi input dan output
+- If Else
+  - Gunakan `do $$` untuk memulai penulisan kode logic seperti pada bahasa pemrograman lain declare variabel dan untuk mengakhiri bisa gunakan begin dan end, akhirnya dengan `end $$`
+  - Untuk console.log() di SQL adalah `raise notice`
+- Trigger (adalah automatic function)
+  - Function yang dijalankan secara otomatis ketika terjadi action tertentu pada SQL
+  - Biasanya dijalankan ketika ada banyak input tertentu yang lebih baik dihandle otomatis (jangan dihandle oleh manusia secata manual) misal ketika hari libur/libur panjang, sesuatu yang tidak dapat dijangkau oleh database operator/administrator
+  - Misalnya lagi studi kasus ketika ada perubahan profil pada user, maka trigger digunakna untuk mengimpan perubahan profil user ke dalam tabel perubahan_profil sebagai log
+  - List Trigger berada di Trigger function di database
+  - Buat function lalu buat trigger `create trigger berubah before update on tb_karyawan for each row execute procedure berubah();`
+  - Trigger juga bisa diubah namanya atau di disable/enable dan di drop
+- Transaction
+  - Dibagi begin, commit dan rollback
+  - Begin untuk memulai transaction, Commit kalau query ingin tetap dijalankan, Rollback kalau query tidak dijalankan (action akan dikembalikan ke sediakala (Undo) )
+  - Jadi eksekusi `begin;` lalu querynya (maka hasil query sementara di hold selama transaction, kemudian `rollback;` untuk undo query query yang dijalankan selama begin. Kalau `commit;` maka sudah menjalankan query tersebut tanpa bisa di rollback
