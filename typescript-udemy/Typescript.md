@@ -207,4 +207,4 @@
   - Agar third party library dikenali oleh typescript buatkan/pasang type baru untuk object librarynya misal `@types/googlemaps`
   - Question mark ? sebagai properti di type atau parameter, itu maksudnya opsional
   - Selalu klik pada parameter class yang akan kita butuhkan untuk tahu struktur parameter yang dibutuhkan
-
+  - Pemanggilan method langsung dari instance yang dihasilkan library (oleh kita atau developer lain) bisa merusak tatanan aplikasi (terlihat aneh). Cara untuk mengatasi hal ini batasi method yang dipanggil misalnya membuat Class baru misal (CustomMap) hanya bisa buat instance saja dan addMarker (sisa method lain tidak boleh diakses) dengan cara private
