@@ -1,5 +1,7 @@
 # Typescript
 
+
+
 - Typescript = Javascript + Type System
   - Karena javascript lumayan aneh dengan debug error yang sulit
 - Type System => Mempermudah menangkap error, validasi dan meningkatkan kualitas kode
@@ -197,6 +199,7 @@
   - di scr berisi index.ts dengan child User.ts, Map.ts, Company.ts
   - Penulisan nama file menggunakan PascalCase karena convention file jika export 1 class
   - Gunakan faker `npm install faker` gunakan API address
+    - (Gunakan faker untuk typescript. Kalau yang diatas tidak untuk typescript)
   - Biasanya kita mendapatkan error message ketika import, ketika kode typescript import library kode javascript yang tidak punya type definition
   - Gunakan type definition file maka dia akan jadi adaptor yang memberitahu type untuk kode
   - Biasanya ada sudah ada type naming schema yang dibuat oleh developer developer dengan `@types/{library name}` misal `@types/faker` di npm
@@ -208,3 +211,35 @@
   - Question mark ? sebagai properti di type atau parameter, itu maksudnya opsional
   - Selalu klik pada parameter class yang akan kita butuhkan untuk tahu struktur parameter yang dibutuhkan
   - Pemanggilan method langsung dari instance yang dihasilkan library (oleh kita atau developer lain) bisa merusak tatanan aplikasi (terlihat aneh). Cara untuk mengatasi hal ini batasi method yang dipanggil misalnya membuat Class baru misal (CustomMap) hanya bisa buat instance saja dan addMarker (sisa method lain tidak boleh diakses) dengan cara private
+    - Supaya engineer tidak memanggil langsung class GoogleMap, tapi panggil CustomMap
+    - Kita anggap jangan sampai engineer lain mengakses class definition
+  - Class bisa dijadikan type variable, jadi ketika variabel / param function dipanggil maka berupa instance dari class tersebut 
+  - Jika terdapat kode yang dirasa duplikat, misal ada method dengan fitur hampir sama dengan beda params dan value cukup 1 method, maka gunakan 
+    - conditional tipe data pada parameter dengan tanda | (ini bukan yang terbaik, karena tidak fleksible dalam pemanggilan properti, karena penentuan type class mana yang digunakan. Ini bisa error undefined)
+      - Bisa terjadi condition dengan banyak type ke dalam params
+    - Mapping sesuai properti yang dibutuhkan, misal gunakan interface (best). Jadi setiap class yang jadi type params, maka harus memenuhi setiap requirement interface mapping
+  - Setiap argument yang mana function menerapkan interface sebagai parameter, maka argument tersebut harus memuat semua properti dari interface. Jika tidak maka akan ada error. Misal interface terdapat method yang return string, maka terapkan method itu di instance yang jadi argument.
+    - Cara yang lebih baik jika menggunakan keyword `implement ` supaya class yang menggunakan interface harus menerapkan semua prop dan method
+    - Implement tidak harus selama class menerapkan semua prop, tapi memudahkan karena typscript akan menunjukkan sumber errornya ketika tidak menerapkan interface secara penuh pada class
+
+- Tsconfig.json 
+
+  - Bisa digunakan untuk mengatur source ts dan build didirectory berbeda
+  - Kostumisasi compiler ts sesuai kebutuhan project
+  - Generatenya `tsc --init` -> maka akan ada file tsconfig.json
+  - Settingnya beberapa di comment
+  - Untuk mengatur directory src dan build, uncomment `outDir` dan `rootDir` (relative path)
+    - jalankan `tsc` atau
+    -  `tsc -W` build ulang berdasarkan watch recompile dengan otomatis (seperti nodemon)
+
+- Automate code running
+
+  - install nodemon dan concurrently
+  - Concurrently membantu menjalankan beberapa script secara bersamaan
+  - Bisa tambahkan scripts di package.json `start:build` (build ts ke js )dan `start:run` (menjalankan js di build)
+  - Tambahkan `start` (menjalankan build lalu run)
+  - Jalankan `concurrently npm:start:*`
+
+- Jika ada argument yang mengisi parameter method dalam sebuah class (tidak dipakai di method atau properti lain), kita tidak harus menulis properti nya di dalam class (luar constructor). Bisa dengan menulis `public` di param methodnya
+
+  - Atau jika menggunakan constructor, tulis public maka tidak perlu menulis `this.properti` di dalam constructor (shorthand). Dengan ini maka properti dari public params bisa diakses oleh method lain, properti dan instancenya
