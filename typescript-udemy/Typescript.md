@@ -230,7 +230,7 @@
   - Settingnya beberapa di comment
   - Untuk mengatur directory src dan build, uncomment `outDir` dan `rootDir` (relative path)
     - jalankan `tsc` atau
-    -  `tsc -W` build ulang berdasarkan watch recompile dengan otomatis (seperti nodemon)
+    - `tsc -W` build ulang berdasarkan watch recompile dengan otomatis (seperti nodemon)
 
 - Automate code running
 
@@ -243,3 +243,13 @@
 - Jika ada argument yang mengisi parameter method dalam sebuah class (tidak dipakai di method atau properti lain), kita tidak harus menulis properti nya di dalam class (luar constructor). Bisa dengan menulis `public` di param methodnya
 
   - Atau jika menggunakan constructor, tulis public maka tidak perlu menulis `this.properti` di dalam constructor (shorthand). Dengan ini maka properti dari public params bisa diakses oleh method lain, properti dan instancenya
+
+  
+
+- Di method typescript kita gunakan (atau |) disebut `union operator` pada parameternya jika salah masih ada alternatif. Misal `constructor(public collection: number[] | string)`
+
+- Gunakan type guard jika diperlukan misal dengan `instanceof` atau `typeof`
+
+- Ada cara yang lebih baik daripada menggunakan kombinasi `union` dan `type guard` (karena kurang dinamis dan potensi redundan)
+
+  - Bisa menggunakan helper class sesuai type dengan method yang sama. Nanti di class pemanggil cukup memanggil method method di class helper. Kasus logic misal nya ditangani class pemanggil, kasus type ditangani class helper
