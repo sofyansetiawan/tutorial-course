@@ -253,3 +253,7 @@
 - Ada cara yang lebih baik daripada menggunakan kombinasi `union` dan `type guard` (karena kurang dinamis dan potensi redundan)
 
   - Bisa menggunakan helper class sesuai type dengan method yang sama. Nanti di class pemanggil cukup memanggil method method di class helper. Kasus logic misal nya ditangani class pemanggil, kasus type ditangani class helper
+
+- Di Interface untuk method yang nanti akan diturunkan harus mempunya argument sebagai param dengan type dan return typenya
+
+- Tipe data untuk variabel atau properti class di typescript bisa menggunakan tipe Class itu sendiri, misal `next: Node | null = null` Bentuk ini berguna ketika mau pakai LinkedList atau rekursif
