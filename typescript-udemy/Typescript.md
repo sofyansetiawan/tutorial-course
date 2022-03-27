@@ -401,3 +401,25 @@
 
 - Jika bingung menentukan type apa yang akan di return oleh method, sementara bisa pakai `any` lalu ubah jika sudah clear returnnya. `any` akan membuat program tidak error karena umum
 
+
+
+- Type Assertion
+
+  - Menggunakan jenis type data baik string, number, enum, instance menggunakan keyword `as` jika tidak sesuai maka akan error
+  - Jika menggunakan enum, maka akan ditentukan apakah value nya salah satunya 
+
+- Untuk jenis return pada method, jika menggunakan type array dengan isinya tipe data yang bisa salah satu maka bisa gunakan contohnya `(Date | string | number | MatchResult)[]` sebagai type guard
+
+  - Untuk case ini lebih baik gunakan tuple -> berurutan sesuai tipe data
+  - Bisa gunakan contoh: `type MatchData = [Date, string, string, number, number, MatchResult, string] `
+  - Untuk variabel yang menampung return tersebut gunakan contoh: `data: MatchData[] = []`
+
+- Jika ada case untuk membuat refaktor pada class yang lebih spesifik, gunakan abstract pada sebuah class yang general lalu child-childnya sebagai class spesifik. Contoh class csv reader tapi karena csv punya banyak bentuk data.
+
+  
+
+- Generic digunakan untuk membuat tipe parameter pada class menjadi dinamis. Bisa menerima tipe data, class, interface, dll dan bisa diturunkan ke membernya method, properti, dll
+
+  - Kebalikan dari kebiasaan menentikan tipe data pada param method atau properti di class. Jika data yang diapply ke class nya beda bisa error.
+  - Sifat generic seperti argument tanpa tipe di js biasa, tapi ini diterapkan di class. Seperti membuat duplikat class dengan instance tipe yang beda beda
+  - Umumnya gunakan `<T>` sebagai genericnya sebagai TypeOfData
