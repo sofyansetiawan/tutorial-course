@@ -1,0 +1,23 @@
+Mengenal Repository
+Di materi sebelumnya, kita banyak menyinggung atau menyebut kata repository. Di materi sebelumnya juga telah dijelaskan sedikit mengenai apa itu repository. Repository atau dalam bahasa Indonesia repositori, jika diartikan yaitu gudang; tempat penyimpanan. Dari arti ini, kita sudah bisa mengerti arti dari repository itu sendiri sehingga dalam dunia Git, repository bisa diartikan sebagai tempat penyimpanan atau direktori dari sekumpulan file/berkas yang mana dalam repository ini Git bisa merekam setiap perubahan berkas dan menyimpannya  di dalam riwayat commit. Istilah ini akan sering muncul karena sejatinya Git memang digunakan untuk melakukan manajemen versi pada direktori ini. Setidaknya ada dua jenis direktori yang harus dipahami, yaitu Online Repository dan Local Repository.
+
+Remote Repository
+Remote Repository merupakan tempat penyimpanan berkas-berkas pekerjaan atau kenangan yang kita miliki di dalam server. Anda bisa menggunakan berbagai layanan penyimpanan berbasis cloud yang sangat populer seperti GitHub, Gitlab, dan BitBucket. Selain itu, jika Anda memiliki server sendiri, Anda juga dapat menginstal layanan Git ke dalam server Anda. Dengan menggunakan Remote Repository, orang lain dapat mengakses repository yang kita simpan dengan mudah.
+
+Local Repository
+Local Repository merupakan tempat penyimpanan lokal yang berada di komputer kita. Local repository ini dapat kita ubah-ubah (hapus, modifikasi, tambah) sesuai dengan keinginan kita sebelum akhirnya nanti di-push ke remote repository.
+
+Pertanyaannya, mengapa repository ini harus ada? Jawabannya adalah agar lebih memudahkan kita dalam mengubah atau memodifikasi, apalagi dalam keadaan offline atau di saat tidak ada jaringan internet. Jadi, kita masih bisa melakukannya secara luring (offline) sampai ada jaringan internet dan nantinya akan di-push ke remote repository.
+
+Local Repository ini terhubung ke Online Repository melalui remote URL. Remote URL merupakan alamat yang merujuk pada lokasi di mana online repository kita berada. Remote URL inilah yang menghubungkan local repository kita dengan online repository online. Sehingga memungkinkan kita untuk mengirim perubahan yang sudah dilakukan di local repository ke online repository atau mengambil perubahan yang ada di remote repository untuk memperbarui local repository kita.
+Berbicara tentang repository, salah satu penyedia layanan, yaitu Github, menyediakan repository secara cloud di mana kita bisa membuat repository yang dapat memuat berbagai file dan melakukan penambahan, perubahan, ataupun penghapusan file secara online dan dilakukan langsung dari web GitHub.
+
+202107051308493bb44e9005e4dc3f9c5ca134439f00dd.png
+
+Di dalam Repository, kita dapat menyimpan berbagai jenis file/berkas, mulai dari dokumen txt, pdf, doc, xls, dkk. Kita juga bisa menyimpan file berbentuk compressed seperti .zip atau .rar, bahkan berkas gambar atau audio pun bisa. Namun tidak semua berkas bisa dikenali oleh GitHub atau tampil dalam mode preview. Contohnya adalah berkas readme.md dengan berkas markdown akan muncul dalam tampilan preview.  Untuk lebih detailnya, silakan pelajari lebih lanjut di sini.
+
+20210705130927f15fd5e33ff726f84b9dbededf1f9244.png
+
+Selain itu, pada Repository juga support terhadap file/berkas berbentuk source code program. GitHub memiliki kemampuan untuk menganalisis bahasa pemrograman apa saja yang menyusun suatu proyek yang berada dalam repository seperti yang ditampilkan kotak merah pada gambar 10.
+
+Dari sini kita bisa memahami seperti apa itu repository, yaitu direktori kerja yang menyimpan semua berkas–berkas dari proyek, baik dokumen, gambar, audio, maupun source code program. Untuk lebih mendalami tentang repository, mari kita berlatih untuk membuat repository di GitHub pada modul selanjutnya.

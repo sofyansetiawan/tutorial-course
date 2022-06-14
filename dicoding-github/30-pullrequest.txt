@@ -1,0 +1,61 @@
+Apa itu Pull Request
+Istilah Pull Request mungkin akan membuat bingung bagi sebagian orang. "Apa sebenarnya yang saya minta untuk ditarik (pull)?" Pertanyaan bagus. Sebuah Pull Request dalam GitHub adalah kegiatan yang memungkinkan Anda memberitahu antar anggota tim tentang perubahan yang telah didorong ke cabang repository GitHub. Setelah pull request dibuat, Anda dapat mendiskusikan dan meninjau potensi perubahan dengan kolaborator. Mereka juga dapat menambahkan commit baru sebelum perubahan tersebut digabungkan ke cabang tujuan (destination branch). Adapun dalam bentuknya yang paling sederhana, Pull Request adalah mekanisme bagi pengembang untuk memberi tahu anggota tim lain bahwa mereka telah menyelesaikan sebuah fitur. Setelah cabang sumber (source branch) siap dan selesai, pengembang dapat mengajukan pull request melalui akun GitHub mereka. Dengan begitu, semua orang yang terlibat dalam proyek repositori akan mendapat notifikasi. Sehingga mereka perlu meninjau kode dan menggabungkannya ke dalam cabang tujuan (destination branch).
+
+20210712092645d80a8a58d5f999b96f78f49be16b8e6c.png
+
+Namun, pull request lebih dari sekadar pemberitahuan. Pull request adalah forum khusus untuk mendiskusikan fitur yang diusulkan. Jika ada masalah dengan perubahan yang dilakukan, anggota tim lain dapat memberikan feedback pada pull request tersebut. Semua aktivitas tersebut dapat dilacak secara langsung melalui pull request.
+
+
+Bagaimana Pull Request Bekerja
+Pull Request dilakukan dengan menginisialisasi permintaan tarik (Pull Request), Anda akan melihat halaman ulasan yang menunjukkan gambaran umum tentang perubahan yang dilakukan dari cabang satu (source branch) ke cabang tujuan (destination branch). Anda dapat menambahkan ringkasan perubahan yang diusulkan, meninjau perubahan, menambahkan label, penerima tugas, dan pemberi tugas. Anda juga dapat menyebutkan akun kontributor atau anggota tim lain ke dalam deskripsi pull-request menggunakan @mention.
+
+202107112126156b4686013354332b39613a91cead6bfa.jpeg
+
+Setelah membuat pull request, Anda dapat melakukan perubahan baru (commit) dan mendorong  (push) commit tersebut dari cabang sumber (source branch) ke cabang tujuan (destination branch) untuk menambahkan perubahan. Semua commit yang dilakukan akan muncul dalam urutan kronologis atau pekerjaan pull-request. Untuk informasi yang lebih detail dari perubahan tersebut, dapat Anda lihat dalam tab "Files changed".
+
+2021071121265410b5801d83cc0ab9471033b3faaa849d.jpeg
+
+Kontributor lain dapat meninjau perubahan yang diusulkan, menambahkan komentar ulasan, berkontribusi pada diskusi pull request, dan bahkan menambahkan commit baru ke pull request tersebut.
+
+20210711212711b1955828a06feace14cf73fb96db43a8.jpeg
+
+Anda dapat melihat berbagai informasi dan aktivitas dalam pull request pada tab "Conversation".
+
+Setelah perubahan yang diusulkan sudah sesuai, Anda atau anggota tim lain yang memiliki akses dapat menggabungkan perubahan dari cabang sumber (source branch) ke cabang tujuan (destination branch) dalam pull request.
+
+Perlu Anda tahu bahwa ketika membuat sebuah Pull-Request, GitHub akan memeriksa apakah perubahan tersebut menyebabkan conflict atau tidak. Sehingga Anda harus memastikan agar status pemeriksaan tersebut terpenuhi dengan indikator berwarna.
+
+20210711212748aa8e2ba40686dc7f3bc5460e026b8c52.jpeg
+
+Bagaimana jika tidak tidak terpenuhi? Ketika terjadi conflict atau ada hal yang tidak sesuai dari setiap perubahan, Anda dapat berdiskusi dengan anggota tim lain atau pemilik repository. Tujuannya agar mereka memberikan komentar dan masukan mengenai setiap perubahan yang dilakukan pada fitur “File Changed”. Sehingga Anda dapat menyesuaikannya agar perubahan yang dilakukan dapat terpenuhi.
+
+
+Workflow Git Branch
+Sebelumnya kita telah membahas banyak mengenai Git Branch, mulai dari pembuat branch hingga menggabungkan dua branch secara langsung menggunakan Pull Request. Implementasi Git branch lebih terasa meringankan  penyimpanan daripada model sistem kontrol versi lainnya. Alih-alih menyalin keseluruhan project dari direktori ke direktori lain, Git menyimpan branch/cabang sebagai referensi commit. Ini berarti, ketika Anda membuat branch baru dari branch tertentu, maka history dari branch tersebut akan melekat pada branch baru.
+
+Contohnya Anda mempunyai branch main dengan commit a, b, dan c yang telah dilakukan. Kemudian dari branch tersebut dibuatlah branch baru darinya bernama branch fitur-baru. Sehingga branch fitur-baru akan memiliki commit yang sama dengan main. Lalu jika Anda menambahkan satu commit baru (comit d) ke dalam branch fitur-baru, maka saat ini branch tersebut akan memiliki history commit a, b, c, dan d. Lalu bagaimana jika menggabungkannya ke master? Anda dapat menggunakan git merge (jika menggunakan GitHub perlu menggunakan Pull Request) untuk menggabungkan dua buah commit Sehingga hasilnya adalah a, b, c, d, dan d1 (d1 adalah hasil dari proses merger).
+
+20210711212824920a2fb93021dfbe7ed70fb2d43eafb1.jpeg
+
+Oleh karena itu, branch mewakili serangkain commit yang telah dilakukan, bukan sebagai wadah untuk commit-nya. Sebab branch merupakan sebuah alur atau proses commit dari awal hingga akhir. Mari kita jabarkan urutan proses yang lazim dipakai dalam Git Branch, mulai dari membuat branch hingga menggabungkan ke branch tujuan:
+
+Membuat Branch atau Cabang Baru dalam  Repository Git 
+Ketika membuat branch atau cabang baru, penting untuk dipahami bahwa branch baru bertujuan untuk membuat jalur lain dari branch yang sudah ada. Contohnya, Anda memiliki branch A berisi File 1 dan File 2 dengan commit 1, 2, 3, dan 4. Ketika Anda menjadikan branch A sebagai dasar dalam pembuatan branch baru (branch B), maka ia akan memiliki pointer commit (termasuk history commit) yang sama dengan branch A. Lalu, sewaktu Anda melakukan perubahan data pada File 1 atau File 2 dalam branch B, ia akan memiliki pointer commit yang berbeda dengan branch A.
+
+202107172206345a7ebe81a2cde4538bfd258bd68f515e.png
+Berpindah Dari Satu Branch ke Branch Lainnya
+Branch dalam Git sangatlah ringan, maksudnya yaitu untuk pindah dari tiap branch sangat cepat. Contohnya ketika ingin berpindah dari branch A ke branch B, Anda cukup klik ke branch yang dimaksud (dalam GitHub) dan seketika itu juga langsung berpindah.
+
+Ketika Anda berpindah dari satu branch ke branch lain, semua history (working tree/line commit) dari branch akan berubah. Contohnya branch A memiliki history commit 1, 2, dan 3, sedangkan branch B memiliki history commit 4, 5, dan 6. Nah, ketika Anda berpindah dari branch A ke branch B, history commit akan menyesuaikan ke branch yang dipilih, yakni menjadi commit 4, 5, dan 6. Oleh karena itu, semua data atau informasi dari branch sebelumnya akan berubah menjadi branch yang dituju.
+
+20210717220534d1bcf700523b592d7437852d510dc7e3.png
+Menggabungkan Suatu Cabang (Source Branch)  ke Cabang Tujuan (Destination Branch)  
+Merge branch atau penggabungan cabang merupakan perintah untuk menggabungkan urutan riwayat commit menjadi satu padu. Penggunaan Git Merge biasa digunakan untuk menggabungkan dua cabang. Ketika Anda menggunakan GitHub, untuk melakukan Git Branch harus menggunakan Pull Request. Seperti yang dibahas dalam materi sebelumnya, Pull Request memudahkan Anda untuk berkolaborasi dengan anggota tim lain atau orang lain sewaktu menggabungkan perubahan dalam cabang satu ke cabang lainnya.
+
+2021071722071514100001a1f7bff3cb1c5daee14ea5bd.png
+Memperbaiki Conflict yang Terjadi Ketika Menggabungkan Branch
+Apa itu conflict? Conflict adalah kondisi ketika Anda menggabungkan branch satu ke branch lainnya terdapat masalah dalam satu baris yang sama pada suatu file.. Biasanya isi/codingan di dalam kedua branch berbeda. Ketika terjadi conflict, kita perlu menyesuaikan mana yang seharusnya dipertahankan dan mana yang perlu dihapus.
+
+Misal, Anda mempunyai dua buah branch, yakni Branch A dan B. Di dalam dua branch tersebut memiliki satu berkas yang sama bernama file 1. Kemudian file 1 dalam branch A Anda ubah teks di dalamnya menjadi “Halo Dunia”. Di waktu yang bersamaan teman Anda melakukan perubahan pada file 1 di branch B menjadi “Hello World”. Ketika Anda ingin melakukan merge dari branch B ke branch A, Anda perlu menentukan kata mana yang ingin dipertahankan. apakah tetap menggunakan “Halo Dunia” atau “Hello World”. Pada akhirnya, tergantung keinginan/kebutuhan Anda sebagai orang yang akan menyelesaikan konflik (resolve conflict) tersebut.
+20210711213107ca9c455e4b5996efa4db5a33c11b34a6.jpeg
+Mari kita lanjut ke materi selanjutnya untuk melatih pemahaman Anda mengenai git merge, pull request, dan resolve conflict. Semangat belajar!

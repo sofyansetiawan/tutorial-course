@@ -1,0 +1,61 @@
+Menangani Pull Request
+Sebagai pemilik sayembara, tentunya akun pertama (Dicoding Reviewer) harus selalu memeriksa setiap peserta yang mendaftar. Karena telah menetapkan standar yang ada, seharusnya proses ini menjadi lebih mudah. Mari ingat kembali peraturan yang telah dibuat sebelumnya.
+
+* Nama Lengkap, [Nama Portofolio](Alamat Portofolio).
+
+Lalu, bagaimana cara menangani peserta yang mendaftarkan dirinya pada sayembara ini? Kali ini kita akan beralih menggunakan akun pihak pertama (Dicoding Reviewer) untuk menangani PR yang masuk. Jika Anda sudah beralih akun, masuk ke repository yang telah dibuat sebelumnya. Perhatikan pada bagian Pull requests.
+
+2021070116513381e182fa7336d199589aa4a4cf546cc8.jpeg
+
+
+
+Jika Anda lihat, terdapat angka satu pada tab Pull requests. Ini berarti ada satu PR atau pull request yang masuk. Jika Anda ingat kembali, PR ini berasal dari permintaan yang dilakukan oleh akun kedua (Gilang) sebagai calon peserta volunter. Mari kita tekan tab tersebut untuk melihat detailnya.
+
+202107011651337674a493d05652fa7ae7fcdca2dbc3f8.jpeg
+
+
+
+Lihat, di sini terdapat satu PR yang telah dibuat sebelumnya. Lalu, bagaimana menangani PR tersebut? Tentunya sebelum menerima atau menolak, Anda perlu memeriksa terlebih dahulu perubahan yang dilakukan. Selanjutnya, klik judul dari PR tersebut ya, yakni “Mendaftarkan Diri sebagai Volunter”.
+
+2021070116513335b8c2c526f79ed9ad967c8e31dc4828.jpeg
+
+
+
+Di sini, kita bisa mengetahui berbagai informasi yang dilakukan oleh pihak kedua (Gilang) sebagai calon peserta volunter seperti perubahan yang dilakukan, maksud dari perubahan tersebut, serta bagian mana yang diubah. Anda bisa mengomentari jika sekiranya ada yang perlu disampaikan. Mari kita lihat commit yang dilakukan akun kedua (Gilang) dengan cara menekan nama commit tersebut, yakni “Mendaftarkan Diri sebagai Volunter”.
+
+20210701165133e268654595567becae33bd0b1e011fa3.jpeg
+
+Selain melihat perubahan yang terjadi, Anda juga bisa memberi komentar pada perubahan tersebut. Hal ini biasa disebut dengan code review. Menarik ya.
+
+
+
+Oke, katakanlah pihak Dicoding sepakat untuk menerima pendaftaran dari pihak kedua (Gilang) sebagai volunter. Lalu, apa yang harus dilakukan? Kembalilah ke halaman sebelumnya. Kemudian, klik Merge pull request. 
+
+20210701165132c47ae06f05af5ae91d538c8033c7bba0.jpeg
+
+
+
+Kemudian, Anda diminta untuk mengisi pesan dan deskripsi perubahan yang dilakukan. Namun, Anda tak perlu khawatir karena GitHub secara otomatis akan mengisinya. Anda juga bisa mengubah informasi tersebut, tetapi pastikan sesuai konteks perubahaan saat ini ya. Contohnya "Menyetujui pendaftaran volunter dengan akun gilangadhan". Jika sudah, klik Confirm merge untuk menyetujui perubahan yang dilakukan.
+
+20210721100128b9ad5d541c6d5fc26a95509faff76002.png
+
+
+
+Anda bisa menggunakan fitur Revert untuk mengembalikan perubahan sebelum dilakukan PR jika terdapat kesalahan dalam menangani PR. 
+
+202107211000233281420d697c39ede5ad56a4ad49fdac.jpeg
+
+
+
+Dengan begitu, nama pihak kedua (Gilang) sudah ada dalam repository pihak pertama (Dicoding Reviewer) sebagai penyelenggara. Mari kita lihat hasilnya pada repository pihak pertama yuk.
+
+202107011651333be595b185acd75f777212f5fd670835.jpeg
+
+Lihatlah dengan saksama, apa bedanya sebelum akun pihak kedua mendaftar? Baik, ada beberapa perbedaan ya.
+
+Di sebelah tombol Fork tampil angka 1 karena pihak kedua (Gilang) sudah menyalin repository tersebut.
+Teks dalam volunter di berkas README.md yang diterima bertambah sesuai yang dilakukan oleh pihak kedua (Gilang).
+Jumlah kontributor bertambah karena pihak kedua (Gilang) ikut serta dalam perubahan tersebut.
+Menarik ya, Anda sudah belajar bagaimana berkolaborasi dengan tim pada sebuah repository. Pahamilah materi ini karena Anda akan sering menjumpai implementasinya di lapangan. Semakin Anda memahaminya, maka semakin mudah pula dalam berkolaborasi dengan tim. 
+
+Bagaimana jika Anda masih belum paham? Tak perlu khawatir ya, sebab tim kami akan memberi tantangan kepada Anda mengenai Pull-Request. Wah, pasti menarik ya. Simak lebih lengkapnya.

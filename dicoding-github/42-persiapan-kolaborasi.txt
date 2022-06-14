@@ -1,0 +1,37 @@
+Persiapan Studi Kasus Kolaborasi dengan Tim
+
+
+Tujuan
+Studi Kasus Kolaborasi dengan Tim bertujuan untuk memperdalam materi tentang Git branch dan berkolaborasi dengan tim. Beberapa bagian dari studi kasus ini akan menjawab beberapa pertanyaan umum mengenai perintah dasar Git, seperti:
+
+Bagaimana menambahkan perubahan pada repository orang lain?
+Bagaimana menyalin repository orang lain ke repository pribadi?
+Bagaimana melakukan PR atau Pull-Request?
+Bagaimana agar PR dapat approved atau diterima?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam studi kasus berkolaborasi dengan tim:
+
+Membuat public repository baru di GitHub.com.
+Menambahkan berkas readme ke dalam repository.
+Menambahkan aturan pada berkas readme.
+Melakukan forking atau menyalin repository orang lain ke repository pribadi.
+Mengubah berkas readme.
+Melakukan pull-request.
+Menangani pull-request.
+Sudah mulai penasaran? Mari kita langsung praktikkan agar ilmunya melekat dalam otak Anda.
+
+
+
+Latihan Berkolaborasi dengan Tim
+Sebagai seorang developer, kita akan sering berkolaborasi dengan tim. Salah satunya adalah ketika mengembangkan produk atau aplikasi. Ketika bekerja sebagai tim, Anda dapat mengembangkan sebuah produk dengan lebih cepat. Mengapa demikian? Sebab pekerjaan yang dilakukan dapat dibagi menjadi lebih spesifik. Selain itu, Anda juga dapat belajar banyak hal dari rekan tim Anda. 
+
+Dalam mengembangkan produk atau aplikasi, tentu banyak tools yang bisa Anda manfaatkan. Salah satunya adalah GitHub yang mempermudah kita dalam berkolaborasi. GitHub memungkinkan kita mengembangkan project atau aplikasi dengan banyak orang dalam waktu yang bersamaan. 
+
+Nah, bagi Anda yang belum familier bekerja dengan tim, tak perlu khawatir. Pada studi kasus kali ini, kita akan berlatih bagaimana seorang developer berkontribusi pada sebuah public repository. Untuk mewujudkannya, kita akan menggunakan skenario seperti ini:
+
+Ceritanya Dicoding saat ini sedang membutuhkan volunter untuk mengembangkan aplikasi pembelajaran pada peranti mobile atau versi Android dan iOS. Kemudian, tim Dicoding membuka sayembara menggunakan repository GitHub untuk mendapatkan volunter tersebut. Tentunya, siapa saja bisa mendaftar menjadi volunter. Syaratnya cukup melakukan PR pada repository tersebut. 
+
+Dengan menjalankan skenario di atas, kita akan mempelajari bagaimana mengubah berkas dalam repository, tetapi kita tidak memiliki akses untuk mengubahnya. Sudah mulai penasaran dengan apa yang akan kita praktikkan? Yuk, kita lakukan tahap demi tahap dalam latihan berikut.
+

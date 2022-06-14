@@ -1,0 +1,12 @@
+Pengantar Git Branches
+Pada materi sebelumnya kita sudah menyebutkan tentang Git branch, lalu sebenarnya sepenting apa sih fitur cabang (branch) ini dalam pengelolaan file? Mari kita bayangkan ada suatu aplikasi yang sudah beroperasi di server production, dan tim developer-nya ingin melakukan suatu update ke aplikasi tersebut. Pertanyaannya, apakah developer bisa langsung melakukan update ke server production? Tentu tidak. Bisa Anda bayangkan jika pengguna komplain atau bahkan sampai berhenti memakai aplikasi karena sistem ada kemungkinan mengalami bug serius yang disebabkan oleh fitur terbaru yang langsung ditambahkan ke server production.
+
+Pada dasarnya, sebelum melakukan perubahan yang sifatnya kritis (critical), ada baiknya kita melakukannya di environment (lingkungan) yang memang aman. Dalam hal pengembangan aplikasi, server production bukanlah lingkungan yang digunakan untuk coba-coba atau testing. Nah, karena itulah, para developer salah satunya menggunakan fitur branch untuk mengatasi kondisi ini.
+
+Simpelnya, Git branch (cabang) mampu membuat cabang terpisah baru selain dari cabang utama. Dalam pengembangan aplikasi, umumnya ada cabang production atau bisa sebut sebagai stable version (versi stabil) yang dinikmati oleh pengguna, kemudian ada cabang baru bernama development yang isi awalnya sama dengan production. Di cabang development inilah perubahan atau fitur baru aplikasi bisa dites terlebih dahulu. Seperti yang Anda ketahui, update aplikasi pasti rawan dengan adanya bug. Namun, karena sudah dipisahkan dari production, meskipun terjadi bug di cabang development, itu tidak akan merugikan pengguna aplikasi.
+
+Setelah developer yakin bahwa fitur terbarunya itu dapat berjalan dengan baik, maka cabang development akan dilakukan penggabungan (merge) ke cabang production. Proses merge ini berarti semua update terbaru akan digabungkan ke cabang production dan dapat segera dinikmati oleh pengguna.
+
+Pemakaian Git branch tak hanya untuk pemisahan cabang production dan development saja, kita juga bisa menggunakannya untuk membagi pengerjaan sejumlah fitur oleh beberapa tim. Misalnya, ada 2 fitur yang sedang dikerjakan oleh tim yang berbeda, nah kita bisa membuat cabang fitur1 dan cabang fitur2. Dengan pemisahan ini, developer yang mengerjakan fitur 1 tidak perlu takut untuk bertabrakan dengan pengerjaan fitur 2.
+
+Nah, sekarang sudah paham kan pentingnya branching dalam pengelolaan file.

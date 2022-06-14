@@ -1,0 +1,43 @@
+Merilis Dokumentasi Pengalaman Belajar
+Terakhir, yang akan kita lakukan adalah memublikasikan hasil belajar yang telah dibuat sebelumnya. Katakanlah Anda sudah lulus dari kelas Dicoding dan mendapatkan sertifikat kompetensi. Untuk menunjukkan kebolehan Anda di dunia pemrograman Java, tentunya orang lain harus tahu. 
+
+Dengan bantuan release dari GitHub, kita dapat memublikasikan sesuatu sehingga orang lain dapat menemukannya dengan mudah. Penasaran? Yuk langsung kita coba.
+
+Yang perlu Anda lakukan adalah pergi ke halaman repository, kemudian fokus pada bagian kanan di sub Release. Lalu, silakan klik create a new release untuk memublikasikan dokumentasi belajar. 
+
+202107011516383640cc7352fd4bd0aff63493729c69f3.jpeg
+
+Setelah itu, Anda diminta untuk memasukkan beberapa informasi seputar publikasi pengalaman belajar. Karena sebelumnya kita belum pernah memublikasikan sesuatu, maka gunakanlah versi 1.0. Judul dari publikasi kali ini adalah “Lulus kelas Memulai Pemrograman Dengan Java di Dicoding”.
+
+Sebagai pembuktian bahwa kita benar-benar lulus dari kelas tersebut, maka kita lampirkan sertifikat tersebut ke dalam deskripsinya. Anda bisa upload sertifikat baik dalam bentuk gambar maupun pdf dengan cara drag and drop. Setelah itu, Anda akan mendapatkan teks seperti ini:
+
+20210701151638ee3d58325020ef91529c778cc5c4e019.jpeg
+
+Perlu Anda tahu bahwa teks tersebut merupakan tautan dari apa telah kita upload. Format yang digunakan sudah disesuaikan dengan Markdown. Kurang lebih seperti inilah formatnya:
+
+[Nama URL](Alamat URL)
+
+Agar nama url mudah dibaca, maka kita bisa mengubahnya menjadi seperti ini:
+
+[Sertifikat Kompetensi Memulai Pemrograman Dengan Java.pdf] (https://github.com/dicodingacademy/PengalamanBelajar/files/6647768/sertifikat_course_60_11531_190521165919.pdf)
+
+Tentunya url yang ada disesuaikan dengan berkas yang telah diunggah ya. Terakhir, agar lebih ciamik, mari kita tambahkan informasi lainnya. Ubah teksnya menjadi seperti ini:
+
+Hari ini aku lulus kelas Memulai Pemrograman Dengan Java di Dicoding. 
+
+Sertifikatnya: [Sertifikat Kompetensi Memulai Pemrograman Dengan Java.pdf](https://github.com/dicodingacademy/PengalamanBelajar/files/6647768/sertifikat_course_60_11531_190521165919.pdf)
+Sehingga dalam halaman Release akan jadi seperti ini:
+
+2021070115163910b80445aed0d4cf12e27d0e5b039c80.jpeg
+
+Jika sudah merasa yakin dengan informasi yang diberikan, Anda bisa klik Publish release untuk memublikasikannya.Sehingga publikasi yang ada akan jadi seperti ini:
+
+20210701151639ea912a94abad4d0a98d66f00b1f6e027.jpeg
+
+Di halaman Repository pun akan ada informasi mengenai publikasi yang telah Anda lakukan.
+
+20210701151638df87a65bc6907e04b284992b8083c5d0.jpeg
+
+Dalam skenario lain, Anda dapat memperbarui versi release dengan pencapaian lain, contohnya lulus dari kelas Android di Dicoding atau yang lainnya.
+
+Menarik ya, Anda sudah belajar berbagai hal seputar perintah Git dasar, seperti Commit, melihat history, dan melakukan publikasi. Anda juga belajar bagaimana mengatur format Markdown agar hasilnya menjadi menarik. Tentunya, materi mengenai Git akan jauh lebih bervariasi ke depannya. Ini hanya sebagian kecil mengenai Git. Jadi, mari kita menyibak ke materi selanjutnya untuk mempelajarinya. Selamat belajar!

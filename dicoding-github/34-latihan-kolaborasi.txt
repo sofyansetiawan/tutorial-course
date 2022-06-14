@@ -1,0 +1,124 @@
+Latihan Berkolaborasi dengan Tim
+
+
+Tujuan
+Latihan Berkolaborasi dengan Tim bertujuan untuk mengajarkan Anda cara termudah dalam berkolaborasi dengan orang lain. Caranya yaitu dengan menambahkan akun kolaborator ke dalam project repository yang dibuat.
+
+Beberapa bagian dari latihan ini akan menjawab sejumlah pertanyaan mengenai kolaborasi melalui GitHub, seperti:
+
+Apa itu kolaborator?
+Bagaimana berkolaborasi menggunakan GitHub dengan orang lain?
+Apa yang perlu disiapkan sebelum berkolaborasi dengan orang lain?
+Bagaimana cara menambahkan akun GitHub orang lain ke dalam project repository?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam Latihan Berkolaborasi dengan Tim:
+
+Membuka project repository yang dibuat.
+Membuka bagian settings project repository.
+Masuk ke bagian Manage Access/Mengelola Akses Project Repository.
+Menambahkan akun GitHub orang lain.
+Menerima email invitation menjadi kolaborator repository.
+Melakukan perubahan dalam repository yang dilakukan oleh kontributor (kolaborator yang memiliki akses untuk mengubah repository).
+Melakukan Pull Request oleh kontributor.
+Mengelola Pull Request yang diterima.
+Melihat perbedaannya.
+
+
+Latihan Berkolaborasi dengan Tim
+Latihan kali ini kita akan menambahkan anggota tim ke dalam repository yang dikelola sehingga mereka dapat bergabung dan mengerjakan proyek bersama. Untuk memulai menambahkan anggota tim, pastikan Anda adalah pemilik repository atau seorang kolaborator dengan status admin. Tugas collaborator adalah mengelola repository, baik milik pribadi atau organisasi. Hanya pemilik repository dan anggota organisasi dengan hak istimewa (admin) yang dapat menambahkan orang lain sebagai kolaborator baru ke repository. Untuk informasi selengkapnya, lihat "Menyetel izin untuk menambahkan kolaborator luar". 
+
+Berikut adalah tahapan yang dapat dicoba untuk menambahkan akun GitHub orang lain agar dapat berkolaborasi di dalam repository:
+
+Tentukan repository mana yang akan digunakan untuk berkolaborasi. Terlihat repository ini menggunakan jenis repository private, yaitu repository yang hanya dapat dilihat oleh pembuat dan kolaborator yang telah ditambahkan ke dalam repository.
+2021071317431724ed4f9fa57e39431b986b2a827f165c.jpeg
+
+Setelah memilih repository mana yang akan digunakan, pilih menu Settings pada tab repository. Pada halaman Settings terdapat berbagai pengaturan mengenai repository yang bisa Anda atur. Karena kita bertujuan untuk menambahkan akun GitHub orang lain, pilihlah menu Manage access.
+202107131743574c7deb5ef6b6a51b6a37ccbf2d947331.jpeg
+
+Setelah Anda memilih menu Manage access akan tampil halaman konfirmasi.  Anda akan diminta untuk memasukkan password dari akun GitHub yang digunakan. Proses ini bertujuan untuk menyakinkan GitHub bahwa Anda memang pemilik akun tersebut.
+20210713174502a2943acf0cd257dd8dbc7f3e292897e7.jpeg
+
+Setelah proses konfirmasi, Anda diperkenankan untuk mengakses menu Manage access. Pada halaman tersebut terdapat informasi bahwa repository hanya dapat dilihat oleh kolaborator yang memiliki akses. Selain itu, dapat Anda lihat saat ini repository masih terdapat 0 kolaborator. Artinya, hanya pemilik akun lah yang dapat melihat dan mengelola repository. Pada halaman ini juga terdapat tombol Invite collaborator untuk menambahkan kolaborator baru ke dalam repository.
+20210713174517d7e0dcf43549e3695328d9b2c5571137.jpeg
+
+Mari kita tambahkan kolaborator baru dengan cara mengeklik tombol Invite collaborator, lalu akan tampil popup dialog untuk mencari akun dari akun kolaborator yang akan ditambahkan. Pada popup tersebut Anda dapat melakukan pencarian berdasarkan username, full name, atau email dari akun GitHub calon kolaborator.
+20210713174602a5d251739f979419ab8518cf4437ee35.jpeg
+
+Katakanlah Anda memasukkan akun bernama “rifan”. Setelah memasukkan akun kolaborator,  akan terdapat dropdown-select yang dapat Anda pilih berdasarkan hasil pencarian tersebut.
+202107131746331c02acda779a9eb05774fbd7bbf8ef03.jpeg
+
+Setelah memilih salah satu dari hasil pencarian, klik Add “Nama akun GitHub” to this repository.
+20210713174703e84707d9c07241a643ffccadfa631d36.jpeg
+
+Proses menambahkan akun kolaborator ke dalam project repository telah selesai, tetapi ia belum dapat melihat repository karena statusnya masih dalam kondisi tertunda (Pending Invitation). Oleh karena itu, pemilik akun calon kolaborator harus melakukan konfirmasi melalui email invitation yang dikirim oleh GitHub.
+20210713174736c6843d265e0b3ea34c28de66f76e0790.jpeg
+
+Sebagai calon kolaborator, mereka akan mendapatkan email invitation yang digunakan untuk mengonfirmasi ajakan kolaborasi. Perlu diingat bahwa email invitation ini ada masa kadaluarsa, yakni 7 hari sejak undangan tersebut diterima. Jika lebih dari itu, email konfirmasi tersebut tidak dapat digunakan.
+20210713174804caaa5ecfc8ce280905503dff77858a51.jpeg
+
+Setelah mengonfirmasi undangan kolaborasi, calon kolaborator akan diarahkan ke halaman invitation. Untuk menerima undangan kolaborasi, klik Accept Invitation. Namun jika ingin menolaknya, silakan klik Decline.
+20210713175035ee97751d3f20ca4a4e59252444af5d74.jpeg
+Catatan : Sebelum mengakses tautan yang didapatkan dari email invitation, Anda harus mengakses halaman tersebut, mereka harus login terlebih dahulu menggunakan akun GitHub.
+
+Setelah menerima undangan kolaborasi, kolaborator yang sudah ditambahkan akan bisa melihat repository dan melakukan kontribusi di dalamnya.
+20210713175133cdcdc8f6e75a7c2d02f0c6c88024fbd0.jpeg
+
+Menambahkan akun GitHub lain sebagai kolaborator dalam repository dapat dilakukan lebih dari satu kali. Alurnya sama dengan alur yang sudah dilakukan sebelumnya. Untuk menghapus akun kolaborator yang telah ditambahkan, Anda dapat menggunakan tombol hapus (ikon tempat sampah) yang berada pada bagian Manage access. Perlu Anda tahu juga bahwa untuk akun kolaborator yang sudah ditambahkan tidak dapat ditambahkan kembali karena telah masuk ke daftar kolaborasi.
+20210713175213687b4ab6b4d8eb9fbb86f851906c626e.jpeg
+Saat menambahkan akun kolaborator ke dalam repository, secara default dapat melakukan read & write. Artinya, mereka dapat melihat isi dari repository, serta melakukan perubahan di dalam repository.
+
+Kolaborator dapat sekaligus merangkap menjadi kontributor dalam repository yang sudah dibuat. Mari kita simulasikan bagaimana berkolaborasi antar tim dalam private repository.
+20210713175259ed309f37263b05b2ae17f8627586145a.jpeg
+
+Pada repository sebelumnya, siapkan terlebih dahulu dua branch, yakni branch main (cabang utama) dan branch development (cabang untuk tim melakukan perubahan terhadap file dalam repository).
+202107131753305bcfbcd4837f67141502c110d7537c3c.png
+Catatan: Untuk melihat bagaimana cara membuat branch, silakan lihat kembali modul git branch.
+
+Sebagai kolaborator, Anda bisa berpindah branch dari main ke development atau sebaliknya.
+202107131754400192c87cb31b20b1e37315e4a4ed2401.jpeg
+
+Kemudian buka salah satu berkas untuk melakukan perubahan.
+202107131755091fc8950c5ce88f70d98abe18317cb67e.jpeg
+
+Terdapat informasi mengenai kapan terakhir berkas tersebut diperbarui, serta kontributor yang terlibat dalam melakukan perubahan pada file tersebut. Oke, mari kita lakukan perubahan dengan cara menekan ikon pensil.
+20210713175545b3b5321e0258632d2d8642ada6f069bd.jpeg
+
+Lakukan perubahan file kemudian Commit changes untuk menyimpan perubahan.
+202107131756403584e68be7b5e57da53e899c65dac564.jpeg
+
+Pilih tab Pull request kemudian klik New pull request.
+20210713175707e10a725c1d180c132db7c6509652e4a3.jpeg
+
+Pilih development untuk compare dan main untuk base. Pada skema ini kita akan melakukan compare atau membandingkan antara branch development dan main.
+2021071317573743f26ae9be66176ecbec7470fe161e18.jpeg
+Terlihat terdapat informasi perubahan pada file repository hello.txt. Jika Anda merasa perubahan yang dilakukan sudah sesuai, mari buat pull request dengan cara menekan Create pull request. 
+20210713175801887b46394a7c356efd87278f20a051c5.jpeg
+
+Silakan masukkan commit message beserta commit description. Kemudian klik Create pull request.
+2021071317590222cfcbcb5e15906791f71a1256801603.jpeg
+
+Setelah selesai melakukan Pull-Request dari akun kolaborator, anggota lain dalam tim dapat melihat antrian permintaan pada tab Pull request. Mereka dapat memilih dan melihat detail dari antrian tersebut.
+20210713175931b022e6f5e324a6dadd5acc39519f9a87.jpeg
+
+Pada posisi ini, perubahan belum digabungkan ke branch main, tetapi masih masuk ke dalam antrian untuk melakukan merge. Sehingga, Anda harus menunggu perubahan yang Anda lakukan direviu oleh anggota tim. Namun, jika tidak memerlukan proses reviu, Anda bisa langsung menggabungkan perubahan ke branch utama dengan cara menekan Merge pull request.
+20210713180003109fda28d629224a3d2d94cbf5d292a5.jpeg
+
+Sebelum menekan "Merge pull request", perhatikanlah dropdown di bagian kanan tombol tersebut. Perlu Anda tahu, sebenarnya ada beberapa macam cara untuk menggabungkan perubahan ke branch/repository utama.
+20210716165554c10631de25aa93d2b6da26059c65a7a3.pngKetiga item tersebut sama-sama berfungsi untuk menggabungkan commit ke dalam branch utama. Namun, terdapat perbedaan hasil dari masing-masing opsi tersebut. Berikut untuk detailnya:
+Create a merge commit:  Commit yang dilakukan akan dicatat dan dimasukkan ke dalam history commit branch tujuan. Selain itu, ada satu commit baru yang menginformasikan bahwa telah terjadi proses penggabungan.
+Squash and merge: Commit yang dilakukan akan digabungkan dan dicatat menjadi satu commit dalam history commit branch tujuan.
+Rebase and merge: Commit yang dilakukan akan dipindahkan ke dalam history commit commti tujuan. Namun tidak akan membuat commit baru untuk menginformasikan proses pencatatan.
+
+Kali ini kita akan menggunakan Create a merge commit ya, lalu klik Confirm merge untuk melanjutkan.
+202107131841585d6d8148f96a41c061d342c4210c2b42.jpeg
+Jika Anda ingin mengubah commit message dan commit description, tidak mengapa.
+
+Dengan begitu, proses Pull request berhasil dilakukan dan penggabungan antara branch development ke branch main sukses.
+202107131854532336a8e298196904abb56bd8e11a8d60.jpeg
+Lihatlah perbedaan antara branch main dengan branch development. Keduanya saat ini memiliki data yang sama setelah dilakukan pull request.
+20210713185743fc500b6940ca2a65f34b5677816cdeb0.png
+
+Dengan adanya fitur menambahkan kolaborator baru ke dalam project repository, Anda dapat membuat tim dengan orang lain. Selain itu, ada juga fitur pull-request yang membuat Anda menjadi lebih fokus pada pekerjaan yang dilakukan, tanpa harus menunggu dan mengganggu pekerjaan orang lain. Mengapa demikian? Sebab, pull-request memungkinkan Anda menggabungkan dua cabang pekerjaan  menjadi satu. Sehingga Anda dan rekan tim Anda dapat bekerja dengan lebih efisien dalam membangun produk aplikasi atau sejenisnya.
+

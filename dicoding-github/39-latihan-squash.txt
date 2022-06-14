@@ -1,0 +1,56 @@
+Latihan Melakukan Squashing Changes
+
+
+Tujuan
+Latihan melakukan squashing change bertujuan untuk menggabungkan beberapa commit menjadi satu sewaktu pull request dengan menggunakan Squash and Merge. Beberapa bagian dari latihan ini akan menjawab sejumlah pertanyaan mengenai cara bagaimana menggabungkan commit sewaktu melakukan pull request, seperti:
+
+Apa itu squashing change?
+Bagaimana cara menggabungkan beberapa commit sewaktu melakukan pull request?
+Apa yang perlu diperhatikan sewaktu melakukan squashing change?
+Bagaimana menggunakan Squash and Merge?
+Bagaimana cara melihat hasil dari hasil Squash and Merge pada Network graph.
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan squashing changes:
+
+Membuka Repository
+Membuat Branch
+Melakukan Commit minimal 3
+Melakukan Pull Request
+Menerima Pull Request dan memilih Squash Changes oleh pengelola repository.
+Melihat hasilnya pada network graph.
+
+
+Latihan Melakukan Squash Changes
+Untuk memulai Squash changes, ada beberapa tahapan yang dapat dilakukan. Ikutilah langkah demi langkah berikut:
+
+Buatlah commit terlebih dahulu pada repository di dalam branch development  dengan jumlah minimal 3 commit. Kontributor dapat berasal dari anggota tim atau dari kolaborator (baik pemilik repository atau orang yang memiliki hak akses untuk mengelola). Contohnya seperti ini:
+2021071320024519a36b8c8948a1b77cc2145e1f1be796.jpeg
+
+Setelah melakukan commit, lanjutkan dengan membuat pull request baru.
+202107132003141b9eb03fb4ea000db970b6414990a332.jpeg
+
+Kemudian masuk ke halaman pull requests pada dashboard repository kolaborator da buka detail dari pull request tersebut. Lanjutkan melakukan merge menggunakan Squash and merge untuk melakukan penggabungan.
+20210713200403b1dd043f01a9496f0a76d886fdf64c30.jpeg
+Jika dilihat pada bagian Squash and merge terdapat informasi, "The 6 commits from this branch will be combined into one commit in the base branch.” Artinya, 6 commit dari branch development akan digabung menjadi satu commit di base branch (branch utama). Informasi tersebut dapat membantu Anda untuk mengetahui jumlah commit yang akan digabungkan.
+
+Setelah memilih Squash and merge, daftar commit yang telah dilakukan akan tampil di kolom komentar. Di sini kita masih bisa mengedit informasi tersebut sesuai keinginan.
+20210713200509e0daf55152bea178db41a86722378160.jpeg
+Kemudian klik Confirm squash and merge sehingga perubahan yang Anda lakukan terkirim dan digabungkan ke branch utama.
+
+Selanjutnya Anda dapat melihat hasil dari squash and merge pada Network graph. Caranya, buka repository terlebih dahulu dan pilih tab Insights. Kemudian pada menu sebelah kiri klik  Network.
+2021071320062657b365842ebf946f89e9e8ed961ffffa.jpeg
+
+Network graph atau jalur history merupakan hasil dari merge menggunakan Squash and merge. Di dalam riwayat ini, tidak ada commit yang tercatat. Seperti yang diketahui sebelumnya, kita sudah mengerjakan sebanyak 6 commit dan melakukan pull request beserta merge.
+
+Squashing change dilakukan untuk membersihkan jalur dari perubahan-perubahan yang dirasa tidak perlu dicatat pada halaman history jalur. Sehingga hanya akan ditampilkan hasil akhir yang telah dilakukan saja.
+202107132006579323d3bfaae5ae46bda7ec3d8557060b.jpeg
+
+Untuk melihat lebih detail dari apa saja perubahan yang telah dilakukan, klik dot yang berwarna hitam. Selanjutnya akan tampil halaman detail dari perubahan tersebut. Sehingga, Anda dapat melihat deskripsi dan catatan perubahan yang telah dikerjakan.
+202107132007221c556c94cee2a14ad78fd3b2f3b615c5.jpeg
+
+Sedangkan jika dilihat pada Merge commit, setiap commit akan tercatat di dalam jalur dan perubahannya akan dinaikan ke branch utama. Sehingga, untuk melihat setiap melihat deskripsi atau catatan perubahan, Anda harus membuka satu per satu commit pada network graph. Contohnya pada titik berwarna biru, yang merupakan history commit
+2021071320082054b1ebaf7a70ad021574297a6b4133b6.jpeg
+Mantap! Anda sudah mempraktikkan squashing change dalam latihan. Sehingga, Anda dapat membedakan antara menggunakan Merge commit dengan Squash and merge dalam menanggapi pull request. Mari kita lanjut ke materi selanjutnya untuk mempelajari code review. Semangat!
+

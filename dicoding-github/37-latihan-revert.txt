@@ -1,0 +1,67 @@
+Latihan Melakukan Revert
+
+
+Tujuan
+Latihan Melakukan Revert bertujuan untuk mengetahui cara mengembalikan kode/data dalam repository pada commit tertentu. Biasanya revert digunakan ketika Anda melakukan perubahan (commit), tetapi justru menimbulkan masalah/bug pada project repository. Beberapa bagian dari latihan ini akan menjawab sejumlah pertanyaan mengenai cara mengembalikan kode/data pada commit tertentu, seperti:
+
+Apa itu revert?
+Bagaimana cara menanggulangi commit yang salah atau menimbulkan bug?
+Apa yang harus dilakukan ketika melakukan git revert?
+Apa dampak setelah melakukan git revert?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan revert:
+
+Membuka repository.
+Membuka halaman riwayat commit.
+Membuka salah satu detail commit.
+Melakukan revert.
+Menghapus branch yang terbentuk dari revert.
+
+
+Latihan Berkolaborasi pada Public Repository (Open Source)
+Git revert dapat dianggap sebagai perintah ‘undo’. Mengapa demikian? Sebab, Git revert adalah cara terbaik untuk mengembalikan perubahan (commit) yang telah dilakukan, kemudian membuat commit baru dengan riwayat perubahan commit yang telah dipilih. Hal ini bertujuan agar kita tidak kehilangan riwayat perubahan pada proyek selama berkolaborasi. Berikut adalah perbedaan antara Reset dengan Revert.
+
+202107172208069e9fbbc937d342b931d81053cc7af789.png
+
+Penting untuk dipahami bahwa git revert akan membatalkan beberapa commit, bukan "mengembalikan" status proyek pada commit tertentu dan menghapus semua commit setelahnya. Jika Anda ingin menghapus beberapa commit yang dilakukan, maka dapat menggunakan git reset.
+
+Revert memiliki dua keuntungan dibandingkan ketika menggunakan reset. Pertama, revert tidak akan mengubah riwayat proyek. Sehingga, operasi yang dilakukan tergolong "aman" untuk commit yang telah dipublikasikan ke remote repository. Kedua, git revert mampu menargetkan commit individu pada titik yang diinginkan dalam riwayat.
+
+Sedangkan git reset hanya dapat bekerja mundur dari commit saat ini. Misalnya, jika ingin membatalkan commit yang telah dilakukan dengan git reset, Anda harus menghapus semua commit yang terjadi setelah commit target, kemudian menghapusnya, dan melakukan commit kembali.
+
+Oke, mari kita praktikkan bagaimana melakukan revert pada perubahan file dalam repository. Ikutilah beberapa langkah berikut ya:
+
+Buka salah satu repository yang sudah Anda praktikkan. Pilih tab Pull request dan lanjutkan dengan menekan tombol closed.
+20210713194054af8180486c1b7de0fafb07f8b71968fa.jpeg
+
+Dalam daftar "Pull request", klik salah satu pull requests yang ingin dikembalikan.
+20210713194119972c5d474f8514c06fa9a79b7b15e460.jpeg
+
+Pada bagian bawah pull request, tekan Revert.
+2021071319420367c8d7a0156e73e9928ad40b19b86ae8.jpeg
+
+Kemudian masukkan deskripsi pada kolom Write, lalu klik Create pull request.
+202107131942294ae5a72e2e83eec0931e5bd1654815f4.jpeg
+
+Selanjutnya klik Confirm merge untuk melanjutkan.
+2021071319425657e79c1400d62662a3a63987b242e29f.jpeg
+
+Proses revert telah berhasil dilakukan sehingga data/kode pada riwayat sebelumnya telah dikembalikan. Selain itu, Anda juga telah membuat satu commit baru yang berisi data/kode hasil revert.
+202107131943228bbcf76c4a8aa13a53c0061290666df4.jpeg
+
+Setelah melakukan revert, akan ada branch baru. Branch ini merupakan riwayat yang telah Anda buat sebelumnya. Anda dapat menghapus branch ini jika dirasa tidak memerlukannya.
+202107131943587ac59b0e871f76420a5607f2976c8ed1.jpeg
+
+Untuk menghapus branch, klik Closed untuk melihat daftar pull request. Kemudian klik pull request yang terkait dengan cabang yang ingin Anda hapus.
+202107131944274754c97a2cb0e9db7be90c03ffc1342e.jpeg
+
+Pada bagian bawah pull request, klik Delete branch. Tombol ini tidak tampil jika  saat ini ada antrian pull request pada branch.
+20210713194452dffd3963443edcdf4dee026f6ac2d197.jpeg
+
+
+Untuk mengembalikan branch yang telah terhapus, Anda dapat menekan Restore branch.
+2021071319453367efc0e0af1223e6725f0d8e107baca9.jpeg
+
+Seperti itulah revert dalam git. Setiap riwayat perubahan (history commit) pada repository dapat dilakukan pengembalian (revert). Sehingga, anggota tim tidak perlu merasa khawatir ketika mengalami masalah atau bug.

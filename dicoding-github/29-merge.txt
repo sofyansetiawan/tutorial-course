@@ -1,0 +1,27 @@
+Apa itu Merge
+Setelah kita memahami bagaimana cara membuat branch baru dan sedikit mempelajari tentang bagaimana fungsi merge atau penggabungan, maka di sini kita akan membahas lebih dalam lagi tentang apa itu merge beserta fungsinya.
+
+Merge adalah cara Git untuk menggabungkan histori dari branch (cabang). Kita tahu bahwa pemisahan cabang dapat dilakukan dengan Git branch, dan pastinya akan ada satu waktu di mana kita ingin perubahan pada suatu cabang baru dapat kita terapkan pada cabang utama (main). Teknisnya adalah cabang baru yang berisi semua commit terbaru akan kita gabungkan kembali ke dalam cabang utama (main) menjadi satu.
+
+Pada dasarnya, merge berfungsi sebagai penggabungan beberapa urutan commit menjadi satu riwayat terpadu. Ia biasa digunakan untuk menggabungkan dua branch yang berbeda menjadi satu branch. Ketika Anda menggabungkan dua branch menjadi satu, merge akan membuat sebuah commit baru yang menginformasikan penggabungan dari kedua branch tersebut. Selain itu, histori dari kedua branch juga akan menjadi satu alur.
+
+Mari kita gunakan ilustrasi untuk mempermudah memahami proses merge. Misalnya, kita memiliki cabang baru bernama Fitur yang dibuat berdasarkan branch Main. Kemudian kita ingin menggabungkan kedua branch tersebut.
+
+202107112122452701551b36c93320d77e90b88f5e9e06.png
+
+Ketika kita ingin melakukan merge atau penggabungan dari branch tertentu, semisal branch Fitur, maka kita akan masuk ke dalam branch Main (branch kita saat ini). Terlihat seperti pada ilustrasi di bawah ini.
+
+202107112123032f84c05606334e4fd1851e4b1fca3653.png
+
+Proses penggabungan setiap commit memiliki kode uniknya sendiri, seperti pada contoh Branch Fitur memiliki kode F dan Main memiliki kode unik M. Sehingga ketika kita menggabungkan dua branch menjadi satu, branch tersebut akan membuat commit karena commit tersebut dianggap unik oleh branch lainnya, dan pada saat ini prosesnya akan dilakukan oleh GitHub secara otomatis untuk menggabungkan riwayat commit yang terpisah menjadi satu pada repo tersebut untuk kita.
+
+Jika pada saat melakukan proses merge terdapat perbedaan perubahan di satu line code yang sama pada file yang sama pada kedua history atau riwayat commit yang telah dibuat di masing-masing branch, maka GitHub tidak dapat melakukan merge otomatis. Kondisi ini mengakibatkan gagalnya merge, jika hal ini terjadi, artinya file yang sama dengan perbedaan line code tersebut di dalam kedua branch perlu proses perbaikan yang dilakukan oleh pengguna agar merge dapat dilanjutkan, proses yang terjadi ketika merge gagal ini disebut sebagai conflict.
+
+Conflict terjadi dikarenakan dalam satu repository terdapat dua orang yang mengerjakan satu baris yang sama pada satu file yang sama dan akan digabungkan cabangnya. Contohnya, saya mengerjakan file bernama hello.txt dan tim lainnya juga mengubah hello.txt di branch lain. Kami berdua telah melakukan commit di branch masing-masing dan saya ingin mengambil beberapa fungsi yang telah dikerjakan oleh teman saya tersebut. Nah, ketika saya melakukan merge, maka diproses itu akan terjadi conflict.
+
+Agar tidak terjadi kesalahan dalam melakukan merge, maka ada beberapa persiapan yang bisa kita lakukan, yaitu seperti berikut:
+
+Melakukan pemeriksaan terlebih dahulu pada branch penerima dan juga pada branch yang akan dipilih.
+Kemudian lakukan proses merge atau penggabungan dua branch.
+Jika terjadi conflict, itu artinya perlu dikaji ulang data mana yang dapat digunakan secara utuh tanpa bug atau kesalahan. Setelah itu akan dibuat commit baru agar jadi data baru yang tidak memiliki conflict.
+Kita sudah bisa melakukan penggabungan antara dua branch menjadi satu commit baru, tetapi belum lengkap rasanya jika belum praktik secara langsung. Oleh karena itu, ayo ke materi selanjutnya mengenai Latihan Melakukan Merge.

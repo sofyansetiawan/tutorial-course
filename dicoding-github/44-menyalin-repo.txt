@@ -1,0 +1,22 @@
+Menyalin Repository
+Setelah pihak Dicoding mengumumkan sayembara beserta aturannya, tentunya siapa saja bisa mendaftarkan diri. Sayangnya, mereka belum dapat akses untuk mengubah berkas README.md tersebut. Yang perlu kita lakukan adalah menyalin repository ‘VolunterPembuatanAplikasi’ ke repository pribadi. Caranya cukup mudah, yakni dengan melakukan forking.
+
+Kita akan berganti akun menggunakan akun satunya, atau dalam kasus ini berarti Gilang Ramadhan ya. Kemudian, masuk ke halaman repository ‘VolunterPembuatanAplikasi’ pada akun pertama, atau dalam kasus ini berarti di halaman https://github.com/dicodingacademy/VolunterPembuatanAplikasi. 
+
+202107011627540dc977773c2f49d26620311b6f5170a9.jpeg
+
+Perhatikan kembali lagi ya, kali ini kita menggunakan akun kedua (Gilang) sebagai calon peserta dan masuk ke repository akun pertama (Dicoding Reviewer) sebagai penyelenggara. Agar akun kedua (Gilang) memiliki akses pada repository tersebut, maka tekanlah tombol fork pada bagian kanan atas.
+
+20210701162753d0dc22810f8cce9d818998f413eb44e8.jpeg
+
+Jika sudah, tunggulah proses menyalin tersebut.
+
+2021070116275415b8189ef2a4db1fa0b63402aa383115.jpeg
+
+Setelah proses menyalin selesai, repository VolunterPembuatanAplikasi sudah berada dalam repository akun kedua (Gilang) sebagai calon peserta. Bagaimana cara mengetahuinya? Perhatikan kolom merah dalam gambar berikut:
+
+20210701162754d0828e0fafbd37b673acb58fe6fa386c.jpeg
+
+Ini berarti, repository VolunterPembuatanAplikasi sudah berada dalam akun gilangadhan sebagai pemilik akun kedua sebagai calon peserta, sedangkan tulisan “forked from dicodingacademy/VolunterPembuatanAplikasi” artinya repository tersebut berasal dari dicoding academy sebagai penyelenggara. 
+
+Mengapa bukan dicoding reviewer? Sebab kita telah menetapkan lokasi dari pembuatan repository tersebut berada dalam dicoding academy. Beda cerita jika Anda menempatkan pembuatan repository pada akun pertama (dicoding reviewer), tulisan tersebut akan menjadi “forked from dicodingreviewer/VolunterPembuatanAplikasi”.

@@ -1,0 +1,97 @@
+Latihan Melihat Portofolio para Developer
+Tujuan
+Latihan Melihat Portofolio para Developer bertujuan untuk menambah referensi portofolio menggunakan GitHub. Beberapa bagian dari studi kasus ini akan menjawab sejumlah pertanyaan portofolio para developer, seperti:
+
+Bagaimana membuat portofolio yang menarik?
+Apa saja yang perlu dipersiapkan?
+Adakah referensi atau contoh mengenai portofolio yang menarik?
+Bagaimana cara menerapkan berbagai referensi yang telah didapatkan?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melihat portofolio para developer:
+
+Mengevaluasi berbagai referensi portofolio menggunakan GitHub.
+Memilih salah satu profile untuk melihat detail dari portofolio.
+Mengimplementasikannya pada akun GitHub pribadi.
+
+
+Latihan Melihat Portofolio para Developer
+Ikutilah beberapa tahap berikut untuk mengikuti latihan melihat portofolio pada developer:
+
+Tim kami telah melakukan eksplorasi untuk mendapatkan berbagai referensi portofolio yang bisa Anda gunakan. Hasilnya, kami memutuskan untuk mengarahkan Anda menggunakan kedua repository berikut:
+GitHub coderjojo/creative-profile-readme
+GitHub abhisheknaiidu/awesome-github-profile-readme
+
+Namun, untuk latihan kali ini kita akan menggunakan salah satu referensi dari tim Dicoding. Anda dapat mengaksesnya di github.com/dimasmds.
+202107011714404cf4da89c1eb51b9bdd57db7d7e3c53d.jpeg
+
+Sepertinya, statistik yang ada dalam portofolio Dimas Maulana sangat menarik ya. Mari kita lihat detailnya dengan cara menekan repository yang muncul di halaman profil seperti ini:
+2021070117143556624809c788f53cf52d0942855b6a81.jpeg
+
+Jika sudah, masuklah ke detail berkas Readme tersebut.
+20210701171435e3737b4111b89038b37788a80dc724b6.jpeg
+
+Kemudian, klik “Raw” untuk melihat kode markup dalam berkas readme.
+202107011714364bc5f9ecb310d5df9f01382fa0f6856c.jpeg
+
+Sampai sini, Anda sudah mempunyai kode dari berkas readme. Silakan amati terlebih dahulu ya.
+20210701171440e08a587e533b0b3e362cf50c7fea1f5f.jpeg
+
+Jika diperhatikan, kode markup yang menunjukkan gambar statistik adalah sebagai berikut:
+<p align="left">
+<a href="https://github.com/dimasmds">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dimasmds&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dimasmds&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
+
+Ingat, saat ini kita berada di akun “Dimas Maulana” dengan id dimasmds. Kemudian perhatikan sumber dari statistik di atas ya, Anda bisa detailnya di https://github.com/anuraghazra/github-readme-stats. Oke, mari kita implementasikan statistik pada akun GitHub dan bahasa pemrograman yang digunakan ke dalam dalam berkas readme.
+20210706094222b6b31dfb967d84468a5b18f4f83230ff.jpeg
+
+Silakan masuk ke profile Anda dan bukalah berkas readme yang telah dibuat pada latihan sebelumnya.
+20210701171430e071b89fc69ebde1f843c1bf312b4b44.jpeg
+
+Silakan tambahkan kode berikut pada baris terakhir:
+<p align="left">
+<a href="https://github.com/gilangadhan">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=gilangadhan&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gilangadhan&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
+
+Silakan ganti username “gilangadhan” dengan username akun GitHub Anda. Keseluruhan berkas Readme akan jadi seperti ini:
+# Halo semua! 
+Perkenalkan nama saya **Gilang Ramadhan**.\
+Saya seorang **Curriculum Developer** di [Dicoding](https://www.dicoding.com/).\
+Saya bertanggung jawab pada kualitas materi iOS dengan dibekali [sertifikasi dari University of Toronto](https://www.coursera.org/account/accomplishments/specialization/CLKJD8XBXJ3M).\
+Saya juga memiliki gelar [Google Associate Android Developer](https://www.credential.net/h5deoi5h) sejak 2019.\
+Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](https://www.linkedin.com/in/gilang-adhan/)ku ya.
+ 
+<p align="left">
+<a href="https://github.com/gilangadhan">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=gilangadhan&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=gilangadhan&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
+
+Seperti inilah tampilan GitHub Anda saat ini:
+20210701171439ffa35281b02046215f6bde46449c121d.jpeg
+Jika sekiranya Anda ingin menambahkan informasi lain, tentu tidak mengapa.
+
+Sekali lagi, untuk memastikan apa yang telah Anda tulis sesuai dengan keinginan, silakan untuk menekan fitur preview.
+20210701171438996452e4918d10f47f77ea74152bf941.jpeg
+Jika sudah yakin dengan perubahan yang dilakukan, silakan klik Commit changes untuk menyimpannya.
+
+Mari kita pergi ke halaman profil dan lihatlah apa yang akan terjadi.
+20210701171440e60da679ec6a556eef776848cb1c4b9a.jpeg
+Selamat! Anda sudah berhasil memodifikasi akun Anda dengan referensi yang ada.
+
+Bedah Kode
+Anda telah menggunakan berkas Readme untuk membangun portofolio. Melalui Markdown, Anda bisa membangun portofolio semenarik mungkin. Namun, untuk membangun sebuah portofolio yang baik, jangan terpaku pada satu referensi saja ya. Anda bisa menggunakan berbagai referensi lain yang telah disediakan sebelumnya. 
+
+https://github.com/coderjojo/creative-profile-readme
+https://github.com/abhisheknaiidu/awesome-github-profile-readme
+Jika ada referensi lain yang sekiranya menarik, Anda bisa membagikannya melalui forum diskusi Daftar Referensi GitHub sebagai Porotofolio. Jika ada referensi yang menarik, Anda dapat mendiskusikannya di forum tersebut agar mendapat "feedback" dari siswa lainnya. Tim kami juga dengan senang hati akan menerima setiap masukan yang Anda berikan.
+
+Tentunya masih banyak hal yang bisa Anda tingkatkan. Silakan ulik lebih dalam mengenai portofolio menggunakan GitHub ini ya. Selamat belajar!

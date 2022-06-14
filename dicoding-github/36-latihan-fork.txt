@@ -1,0 +1,82 @@
+Latihan Berkolaborasi pada Public Repository
+
+
+Tujuan
+Latihan Berkolaborasi pada Public Repository bertujuan untuk mengetahui cara berkolaborasi dengan orang/organisasi lain ketika tidak memiliki akses (kolaborator). Beberapa bagian dari latihan ini akan menjawab sejumlah pertanyaan mengenai cara berkolaborasi dengan orang/organisasi lain menggunakan GitHub, seperti:
+
+Bagaimana cara melakukan perubahan pada public repository yang tidak memiliki akses (kolaborator)?
+Apa bedanya melakukan perubahan pada public repository ketika memiliki akses (kolaborator) maupun tidak (sekadar kontributor)?
+Bagaimana menyalin repository public repository ke dalam repository pribadi?
+Bagaimana seorang admin atau pemilik repository mengelola PR yang masuk?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan latihan berkolaborasi pada public repository:
+
+Menyalin repository oleh kontributor.
+Melakukan perubahan oleh kontributor.
+Melakukan pull request ke repositori asal (original repository) oleh kontributor.
+Mengelola pull request yang masuk oleh admin atau pemilik akun.
+Melihat perbedaan sebelum dan sesudah pull request dilakukan.
+
+
+Latihan Berkolaborasi pada Public Repository 
+Untuk menambah pengetahuan tentang berkolaborasi pada public repository, silakan ikuti beberapa langkah dalam latihan berkolaborasi pada public repository berikut:
+
+Ketika ingin berkolaborasi pada public repository (open source), hal yang perlu Anda lakukan adalah menjalankan git fork atau menyalin repository tersebut. Menyalin sebuah repository milik organisasi atau orang lain (fork repository) sangatlah mudah.
+
+Mari kita tentukan terlebih dahulu repository manakah yang akan disalin. Jika sudah menentukannya, bukalah repository tersebut.
+2021071319092045b61de7d8b80c720c9a03b279de104c.jpeg
+
+Kemudian klik Fork untuk menyalin repository tersebut ke repository pribadi.
+20210713191049dcdfdb65dbeb1152572912c0daf8802c.jpeg
+
+Setelah itu, Anda dapat melihat hasilnya bahwa nama dari pemilik repository sudah berganti sesuai username GitHub yang digunakan. Selain itu, Anda juga dapat melihat bahwa repository itu adalah hasil fork dari sebuah repository.
+2021071319110761d6ff783072b1db7c3809e7f9572f6b.jpeg
+
+Setelah berhasil melakukan fork, Anda dapat melakukan perubahan terhadap repository tersebut secara leluasa. Jumlah Watch, Star, Form, dan Pull Request otomatis direset setelah Anda melakukan fork, hanya jumlah fork saja yang tidak ter-reset.
+202107131912039b44d3034e058f717ba3e7ccf18505c6.jpeg
+Catatan: Perlu diingat, ketika Anda mengubah repository tersebut tidak akan mengubah repository asal (original repository).
+
+Sebelumnya, Anda telah melakukan Pull request secara langsung pada repository asal. Hal itu bisa dilakukan karena Anda memiliki akses atau diundang menjadi salah satu kolaborator dalam repository tersebut. Karena saat ini kita tidak memiliki akses, Anda perlu melakukan pull request melalui fork.
+
+Masih dalam akun kontributor (orang yang akan berkontribusi pada repository), bukalah repository dari hasil fork yang telah dilakukan sebelumnya.
+20210713191335fcf7a39718f5fe20ef25e44a4fac1238.jpeg
+
+Kemudian lakukan perubahan pada file di dalam repository pada branch main.
+20210713191512bd71256b94024b9dbf2c0a3a81286199.jpeg
+
+Setelah itu buat commit pada perubahan tersebut, dan lanjutkan membuat permintaan New pull request.
+20210713191642cfb424cf15a5909c1b3fe052b442043f.jpeg
+
+Anda akan diarahkan menuju halaman form pull request dari repository asal (original repository). Di sini kita akan membuat pull request untuk melakukan permintaan penggabungan antara fork repository menuju original repository (repositori asal).
+
+Pilih compare main pada sebelah kanan (fork repository) dan pilih base main pada sebelah kiri (original repository). Pada bagian ini, Anda akan melihat berbagai perubahan yang dilakukan antara branch compare main (fork repository) dengan base main (original repository). Lanjutkan dengan klik Create pull request.
+20210713191736c91a869f0be6d0f4d9c3d4a9a2fe2e1e.jpeg
+
+Masukkanlah commit message dan commit description pada form pull-request. Kemudian klik Create pull request.
+2021071319180981ce1b6a84b1d0e879c36dd92445f02e.jpeg
+
+Jika perubahan pull request ingin direviu kodenya terlebih dahulu, klik bagian bilah sebelah kanan, kemudian pilih siapa yang akan melakukan reviu terhadap pull request sebelum dilakukan merge.
+2021071319191098b41621eeacaf3e6cb5f5472b41be53.png
+
+Kita tidak dapat melakukan merge pull request karena pada repository asal (original repository) menerapkan reviu terlebih dahulu sebelum penggabungan dilakukan. Setelah pengelola repository (baik pemilik maupun anggota tim yang memiliki hak akses) melakukan reviu, mereka dapat menjalankan perintah merge untuk menggabungkan perubahan tersebut.
+2021071319201595bc84de9d57d94867a833120e29b5fe.png
+
+Lalu, bagaimana cara mengelola pull request dari sisi pemilik repository atau kolaborator yang memiliki hak akses?
+
+Katakanlah Anda saat ini menjadi pemilik/pengelola dari repositori asli (Original repository). Kemudian masuk ke halaman Pull requests dengan akun tersebut. Saat ini, terlihat ada satu permintaan perubahan/pull request yang dilakukan oleh kontributor.
+202107131921060f5fd8c5315807eefc8079d0d5ecac9a.png
+
+Biasanya seorang pengelola akan melakukan reviu pada pull request sebelum menjalankan merge ke branch utama. Setelah melakukan review, Anda bisa menekan Merge pull request untuk memulai penggabungan.
+
+
+Setelah melakukan review, masukkanlah commit description dalam Pull Request (PR) tersebut. Sebelum melakukan pull request, klik Use your administrator privileges to merge this pull request,. Fitur ini merupakan hak prerogatif yang dimiliki pengelola atau hak administrator untuk menggabungkan sebuah pull request. Jika sudah, klik Confirm merge untuk melanjutkan merge.
+20210713192516b2d95c2a77d9dfc2834fe119a3ca372c.png
+
+Tada! Penggabungan berhasil tanpa ada kendala.
+2021071319254943c0c8d32b378dad9d997f82d3409992.png
+
+Pastikan merge berhasil dilakukan dengan cara cek branch main di repository asal (original repository). Seperti inilah perbandingan antara repositori asal (original repository) dengan repositori salinan (fork repository) setelah perintah merge berhasil dijalankan melalui Pull requests.
+202107131927254557721dc18d08069ded3af8accbcb19.png
+Selamat. Anda telah memahami cara menyalin repository dengan fork dan melakukan perubahan dalam repositori salinan (fork repository) menggunakan pull request.

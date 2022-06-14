@@ -1,0 +1,50 @@
+Tujuan
+Latihan Mengenal GitHub Dashboard untuk mengenalkan Anda mengenai apa saja fitur yang disediakan dalam halaman GitHub Dashboard. Beberapa bagian dari latihan ini akan menjawab beberapa, seperti:
+
+Apa itu GitHub Dashboard?
+Apa saja fitur yang disediakan dalam halaman GitHub Dashboard?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan mengenal GitHub Dashboard:
+
+Membuka halaman dashboard GitHub.
+Menganalisis berbagai fitur yang ada dalam halaman dashboard GitHub.
+
+
+Latihan Mengenal GitHub Dashboard
+Setelah mengeksplorasi proyek GitHub, mari kita pelajari setiap bagian pada dashboard GitHub serta mencoba fitur-fitur utama yang ada di dalamnya. Ikutilah beberapa tahap berikut untuk mengikuti latihan mengenal GitHub Dashboard:
+
+Bukalah halaman github.com, maka halaman dashboard akan tampil. Jika Anda sudah terlanjur mengakses halaman lain, tekanlah logo Octocat (icon kucing) pada bagian kanan atas. .
+202107021646183f21e8018faefa1940891cf55d665f43.jpeg
+Pada bagian tengah terdapat instruksi awal untuk memulai membuat sebuah project baru dan membuat sebuah deskripsi Readme pada GitHub.
+
+Di dalam dashboard utama ini, Anda juga dapat melihat semua aktivitas yang Anda lakukan. Contohnya melakukan aktivitas mengikuti repository, melakukan perubahan pada proyek GitHub, atau memberikan komentar/tanggapan di dalam repository.
+202107021646187451d53c5ffb1f1571c80eb54ce25c46.jpeg
+Catatan: informasi aktivitas tersebut hanya dapat dilihat setelah Anda mulai aktif dalam menggunakan GitHub.
+
+Pada bagian dashboard terdapat bilah Toolbar di bagian atas sebelah kiri. Bilah ini terdiri dari Octocat (Icon GitHub) dan Input Pencarian. Kemudian di sebelahnya terdapat menu Pull requests, Issues, Marketplace, dan Explore.
+20210702164616c6985c2d40c619a8aea1b0711c88c8df.jpeg
+
+Mari kita coba dan pelajari setiap fitur. Anda dapat membuka menu Pull request Untuk melihat semua aktivitas mengenai pekerjaan yang telah selesai dan tersimpan di dalam GitHub. Dengan demikian, saat berkolaborasi dengan tim, Anda dapat melihat semua aktivitas pada halaman Pull Request.
+2021070216461826ae618752fa5030d7bf09aec5f275a4.jpeg
+
+Untuk melihat semua tanggapan atau komentar mengenai permasalahan yang kita dapat saat menggunakan repository milik orang lain, maka Anda bisa membuka halaman Issues yang berapa pada bilah Toolbar.
+202107021646189978c492cb20050672881c3f459112c1.jpeg
+
+Anda dapat mencari dan memasang fitur tools pendukung yang disediakan oleh GitHub. Tools ini akan membantu Anda dalam mengoptimalkan penggunaan GitHub di dalam proyek.
+202107021646194f478de7044dac85ee032f77e62bc1e5.jpeg
+
+Anda juga dapat membuka halaman Explore untuk melihat berbagai informasi atau berita terkini mengenai repository serta topik dan trending di GitHub,
+2021070216461853ac0ffe2daf1d6ff0a214a58ac7be39.jpeg
+
+Bilah toolbar pada bagian sebelah kanan memiliki dua menu expand. Pada menu expand pertama terdapat pilihan untuk membuat repository baru, melakukan import repository, membuat gist, membuat organisasi, dan membuat proyek baru.
+2021070216461985b59f87ec7841a922b52a25ad6a0da2.jpeg
+Sementara itu, menu expand kedua memiliki berbagai pilihan terkait semua kegiatan yang Anda kerjakan pada GitHub, mengenai pengaturan pada akun GitHub, dan Sign out/keluar dari akun GitHub.
+
+Jika ingin melihat profil akun GitHub yang dimiliki serta mengubah beberapa data pribadi, Anda dapat menekan icon profile pada kiri pojok atas, lalu pilih Settings. Pada halaman profile, Anda dapat memperbarui data pribadi mengenai akun GitHub.
+2021070216461409a06b48c37596b5d8cd21396e7ed684.jpeg202107021646189bda628d3f1c12c2dbd416b103ba50f2.jpeg
+Tentunya dengan menambahkan informasi yang lebih detail, akan memudahkan orang lain untuk mencari akun Anda. Selain itu, ketika berkolaborasi dengan orang lain, mereka akan lebih percaya dengan akun yang Anda miliki.
+Selamat! Anda telah mengenal lebih dalam mengenai GitHub. Berbagai latihan juga telah Anda lewati, seperti cara membuat akun GitHub, mengeksplorasi proyek GitHub, serta mengenal GitHub Dashboard. Semoga beberapa latihan yang telah Anda lakukan dapat bermanfaat dan membiasakan diri dengan layanan GitHub. 
+
+Oke, mari lanjut ke materi selanjutnya untuk mengenal notifikasi pada GitHub yuk. Tetap semangat ya!

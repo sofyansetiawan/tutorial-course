@@ -1,0 +1,51 @@
+Menambahkan Pengalaman Belajar Pertama
+Langkah selanjutnya adalah menambahkan informasi baru di dokumentasi pengalaman belajar kita. Mari kita buat skenarionya terlebih dahulu.
+
+Anggap saja, pada tanggal 14 Juni 2021, Anda mulai belajar bahasa pemrograman Java di kelas Memulai Pemrograman Java yang tersedia di Dicoding. Di tanggal itu, Anda berhasil mempelajari materi tentang apa itu Java dan tools untuk menjalankan Java. Jika dihitung-hitung, bisa dikatakan progres belajar Anda sudah mencapai 21%. Anda ingin mencatat progres tersebut ke dalam dokumentasi pengalaman belajar.
+
+Jika kita sederhanakan informasi progres belajar Anda dengan hanya mencatat informasi-informasi yang penting saja, maka bisa kita tuliskan seperti berikut:
+
+14 Juni 2021
+Belajar kelas Memulai Pemrograman dengan Java. (Progres 21%)
+
+* Belajar tentang apa itu Java dan alasan menggunakannya.
+
+* Belajar tools yang dapat digunakan untuk menjalankan bahasa pemrograman Java.
+
+Oke, buka kembali repository PengalamanBelajar, lalu klik berkas README.md. Kemudian, klik ikon pensil yang ada di sebelah kanan untuk mengedit berkasnya. 
+
+20210701133038118b9150c86503886dbafaeb16e8a280.jpeg
+
+Tambahkan informasi progres belajar ke dalam berkas README.md, maka berkasnya akan menjadi seperti gambar di bawah ini.
+
+2021070113303954ffdb7b265782c717b28654adb47595.jpeg
+
+Jika Anda ingin menambahkan informasi tambahan atau ingin mengubah formatnya, maka kami persilakan. Yang penting, informasinya jangan ada yang dihilangkan ya.
+
+Jika sudah puas dengan informasi yang ditambahkan, Anda bisa gulir ke bawah perhatikan pada informasi Commit changes. 
+
+Mari simpan progres belajar pemrograman Java dengan perintah commit.
+
+Pada kolom pertama atau commit message isikan dengan “Menambahkan progres belajar Java sebesar 21%”, sedangkan pada kolom kedua atau commit description isikan dengan,
+
+“Hari ini aku belajar bahasa pemrograman Java di Dicoding sebesar 21%. 
+
+Jika kamu tertarik, kamu bisa mengaksesnya di https://www.dicoding.com/academies/60/.”
+
+
+Sekali lagi, jika ingin mengubah narasi di atas dengan informasi yang Anda inginkan, maka silakan saja diganti. Yang perlu diperhatikan, pastikan commit message yang kita tuliskan itu sesuai dengan perubahan yang kita lakukan ke dalam berkasnya.
+
+Jika sudah Anda isikan, Commit changes akan jadi seperti berikut:
+
+20210701133039a79e27c31911b39ed33e6fda83de594a.jpeg
+
+Pastikan untuk mencentang “Commit directly to the main branch”. Opsi untuk “Create a new branch …” bisa saja Anda pilih, tetapi Anda perlu memahami terlebih dahulu konsep Pull Request. Materi pull request akan Anda pelajari nanti di materi selanjutnya.
+
+Jika sudah, lanjut klik tombol Commit changes yang berwarna hijau. Halaman utama repository PengalamanBelajar pun akan berganti menjadi seperti di bawah ini.
+
+20210701133039076692bffc694faa42ffe7a9b69b61de.jpeg
+
+Tahukah Anda, sebetulnya di balik layar saat Anda menekan tombol Commit changes tersebut, dilakukan sebuah proses commit pada sistem Git. Commit adalah satu perintah yang digunakan untuk menyimpan snapshot atau kumpulan berkas pekerjaan yang telah selesai dari seluruh repository Anda pada waktu tertentu. 
+
+Anda telah mendokumentasikan perkembangan belajar dengan baik. Anda juga telah mencatat apa saja yang telah dipelajari selama proses belajar menggunakan perintah git commit. Dengan ini, Anda tidak akan lupa apa yang telah dipelajari serta menjadi lebih mudah untuk mengukur efektivitas belajar.
+

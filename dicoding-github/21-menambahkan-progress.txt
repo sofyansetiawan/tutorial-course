@@ -1,0 +1,37 @@
+Menambahkan Kembali Progres Belajar
+Di hari selanjutnya Anda mempelajari berbagai hal lain mengenai Java, seperti dasar-dasar Java, control flow, serta tipe data koleksi. Karena progres belajar meningkat, maka Anda perlu menambahkan kembali progres belajar ke dalam berkas readme.
+
+Silakan buka berkas README.md dan ubah dengan menekan tombol pencil seperti langkah sebelumnya ya. Tambahkan kembali informasi-informasi penting yang telah dipelajari pada berkas tersebut, contohnya seperti ini:
+
+15 Juni 2021
+
+Belajar kelas Memulai Pemrograman dengan Java. (Progres 56%)
+
+  * Belajar dasar-dasar Java, seperti struktur dasar, tipe data, string, operator, input output, dan array.
+
+  * Belajar control flow dalam Java, seperti perulangan dan percabangan.
+
+  * Belajar tipe data koleksi, seperti list, set, dan map.
+
+Maka dalam tampilan berkas README.md dalam halaman GitHub akan jadi seperti ini:
+
+202107011433413773c997206c5bc4b642d599446ab533.jpeg
+
+Seperti halnya dalam latihan sebelumnya, kita akan menyimpan perubahan tersebut dengan perintah commit. Jangan lupa untuk mengisi pesan dan deskripsi perubahan tersebut. Katakanlah untuk pesan perubahan atau commit message itu adalah perubahan progres yang dilakukan.
+
+“Menambahkan progres belajar Java menjadi 56%.”
+Sedangkan untuk deskripsi perubahan atau commit description, Anda dapat mengekspresikan pengalaman belajar bahasa pemrograman Java.
+
+“Hari ini aku belajar cukup keras, tapi aku suka.
+
+Bahasa pemrograman Java ternyata mengasyikkan.”
+
+Sehingga pada bagian Commit changes akan menjadi seperti ini:
+
+202107011433418a4adcfdc890adac06186fbb0fa310e5.jpeg
+
+Jika sudah yakin dengan informasi yang diberikan, Anda bisa melakukan perintah git commit dengan menekan tombol Commit changes. Sehingga dalam berkas README.md akan berubah menjadi seperti ini:
+
+202107011433414d982facfd26f68d61d93749b9c13d73.jpeg
+
+Setelah dilihat kembali, ternyata apa yang Anda tulis dalam berkas README.md tidak sama dengan yang ditampilkan. Contohnya adalah tanda bintang menjadi lingkaran dan tanggal dengan teks selanjutnya menjadi satu baris. Mengapa demikian? Sebab format penulisan dalam berkas README.md menggunakan format Markdown.

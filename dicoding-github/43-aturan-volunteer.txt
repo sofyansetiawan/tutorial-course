@@ -1,0 +1,42 @@
+Menambahkan Aturan Mendaftar Volunter
+Langkah selanjutnya adalah menambahkan informasi bagaimana mendaftar sebagai volunter. Mari kita tambahkan skenarionya terlebih dahulu. Anggap saja dari pihak Dicoding telah mempunyai format seperti ini:
+
+* Nama Lengkap, [Nama Portofolio](Alamat Portofolio).
+
+Sehingga, ketika ada seseorang yang ingin mendaftar menjadi volunter, ia harus mengikuti format seperti itu ya. Contohnya seperti ini:
+
+* Oon Arfiandwi, [oo.or.id](https://oo.or.id).
+
+Oke, mari kita ubah berkas README.md menjadi seperti ini ya.
+
+# Volunter Pembuatan Aplikasi
+
+Repository ini digunakan sebagai sayembara pencarian volunter untuk pembuatan aplikasi Dicoding. Jika Anda tertarik untuk menjadi Volunter, silakan lakukan PR(pull-request) pada berkas ini ya. Silakan gunakan format berikut:
+
+
+**\* Nama Lengkap, [Nama Portofolio](Alamat Portofolio)**
+
+
+Berikut daftar Volunter yang diterima:
+
+* Oon Arfiandwi, [oo.or.id](https://oo.or.id).
+
+Sehingga, dalam halaman GitHub akan menjadi seperti ini:
+
+2021070116201219921888fe18391904923f826dc4a153.jpeg
+
+Jika Anda ingin menambahkan informasi tambahan atau ingin mengubah formatnya, maka kami persilakan. Yang perlu diperhatikan, informasi pentingnya jangan ada yang dihilangkan ya.
+
+Selanjutnya, gulir halaman tersebut dan tambahkanlah pesan perubahan beserta deskripsinya. Pada kolom pertama atau commit message isikan dengan “Menambahkan Aturan”, sedangkan pada kolom kedua atau commit description isikan dengan “Aturan tersebut digunakan untuk menyeleksi siapa saja yang mendaftar menjadi volunter”.
+
+Sekali lagi, jika ingin mengubah narasi di atas dengan informasi yang Anda inginkan, silakan ganti sesuai keinginan. Yang perlu diperhatikan, pastikan commit message yang dituliskan sesuai dengan perubahan yang kita lakukan ke dalam berkasnya.
+
+Jika sudah Anda isikan, Commit changes akan jadi seperti berikut:
+
+20210701162012b4470e38f47493dc8aac34afe4a06df8.jpeg
+
+Jika sudah, lanjut klik tombol Commit changes yang berwarna hijau. Halaman utama repository Volunter Pembuatan Aplikasi pun akan berganti menjadi seperti di bawah ini.
+
+2021070116201258447a36b1535d161598bdb288036fae.jpeg
+
+Anda telah menambahkan aturan agar setiap volunter yang mendaftar dapat diseleksi dengan mudah. Dengan ini, siapa saja sudah bisa mendaftar menjadi volunter dalam sayembara tersebut.

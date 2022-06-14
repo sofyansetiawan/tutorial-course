@@ -1,0 +1,27 @@
+Mengapa GitHub Menjadi Portofolio para Developer
+GitHub merupakan salah satu platform atau media yang dapat digunakan untuk membangun  portofolio dari seorang developer. Kita bisa menceritakan berbagai hal di sana, seperti informasi data diri, pencapaian yang telah dilakukan, project yang sedang dibuat, dan sebagainya. Lalu mengapa seorang developer harus menggunakan GitHub sebagai portofolio? Bukankah sudah banyak media lain untuk membangun portofolio, seperti membuat berkas portofolio berbasis pdf, membuat blog dan/atau personal website, hingga sejumlah platform media sosial profesional? 
+
+Berikut beberapa jawaban atas pertanyaan tersebut:
+
+Mudah untuk Merancangnya
+GitHub mendukung Anda untuk membuat berbagai berkas dengan ekstensi apa pun, salah satunya adalah Markdown. Dengan markdown, Anda dapat membangun portofolio seciamik mungkin.
+
+
+Portabilitas
+Melalui GitHub, Anda dapat membuat dan menampilkan portofolio kapan dan di mana saja. Anda dapat menggunakan laptop kantor, komputer pribadi, bahkan melalui handphone Anda. Bahkan portofolio tersebut dapat dengan mudah diakses oleh orang lain. Anda cukup mengirimkan alamat GitHub-nya saja, dan orang lain dapat melihat informasinya dengan mudah. Bayangkan jika Anda menggunakan berkas pdf atau word, maka akan membutuhkan tenaga lebih untuk mengunggah dan mengunduhnya. Berikut contoh dari alamat yang bisa Anda dapatkan pada halaman profile GitHub Anda.
+20210721100907862c200b0b7f951b9f9197bd91e19efc.jpeg
+
+Berkolaborasi dengan Orang Lain
+Cara terbaik untuk membuat portofolio terbaik adalah dengan meminta saran kepada teman atau rekan Anda. Apakah ada sesuatu yang perlu ditingkatkan atau justru ada hal yang seharusnya tidak dibutuhkan dalam portofolio.
+202107011701029c3b76624b8405c398b155ded14b7bd5.jpeg
+Seperti yang kita tahu dalam latihan-latihan sebelumnya, berkolaborasi dengan orang lain melalui GitHub itu mudah untuk dilakukan. Oleh karena itu, ketika teman atau orang lain ingin memberikan feedback, mereka dapat melakukan pull-request dan issue pada portofolio Anda. Dengan begitu, Anda dapat melihat perubahan yang telah dilakukan dan dapat memahami dengan lebih mudah.
+
+
+Lebih Sedikit Biaya Manajemen
+Membangun portofolio menggunakan GitHub tidak akan memakan banyak biaya dan tenaga. Mengapa demikian? Seperti yang diceritakan dalam materi Dasar Git, ketika Anda mempunyai berkas MS Word yang tersimpan secara berkala, maka akan membutuhkan tenaga lebih untuk mengelolanya.
+2021071722005026190b29580d1b722204837cb7a87684.png
+Permasalahan tersebut terselesaikan dengan GitHub. Semua perubahan akan tersimpan dengan rapi. Mulai dari pembuatan hingga merilisnya ke publik.2021071722004378094ad6db3d8dd922fafa7cc24d7e61.png
+
+Dari sudut perekrut, mereka menggunakan GitHub untuk menentukan apakah kualifikasi Anda sesuai dengan jenis pekerjaan yang ditawarkan. Contohnya, ketika Anda melamar sebagai Android Developer, tetapi dalam akun GitHub Anda tidak mengindikasikan project-project terkait, perekrut akan mengesampingkan Anda dan lebih melirik kandidat lainnya yang memiliki rekam jejak di bidang Android. Oleh karena itu, portofolio dengan GitHub menjadi hal wajib jika Anda ingin berkarier sebagai developer. 
+
+Lalu bagaimana cara membuat portofolio menggunakan GitHub? Yuk simak latihan pada materi selanjutnya. Selamat belajar!

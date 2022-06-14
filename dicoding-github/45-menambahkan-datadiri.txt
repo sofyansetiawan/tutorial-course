@@ -1,0 +1,24 @@
+Menambahkan Data Diri dalam Berkas README.md
+Pemilik akun kedua (Gilang) telah memiliki akses untuk mengubah berkas README.md. Mari kita tambahkan informasi akun kedua (Gilang) untuk mendaftar sebagai volunter. 
+
+Bukalah berkas README.md dan tambahkan teks berikut di bawah peserta bernama Oon, contohnya seperti berikut. 
+
+* Gilang Ramadhan, [Linkedin](https://www.linkedin.com/in/gilang-adhan/).
+
+Tentunya, Anda bisa menyesuaikan informasi di atas sesuai keinginan. Jika sudah, hasilnya akan jadi seperti ini:
+
+20210701163205215aac685b8dfb8c8d4243ba8614123a.jpeg
+
+Sekali lagi kami ingatkan, pendaftaran peserta tersebut dilakukan pada akun kedua (Gilang) sebagai calon peserta volunter. 
+
+Jika sudah, tambahkan informasi pesan dan deskripsi perubahan ya. Ingat, agar perubahan diterima, tulislah dengan singkat, padat, dan jelas.
+
+2021070116320523306b6ae8d63b070e42a28d5a84666a.jpeg
+
+Tak harus sama dengan informasi di atas ya. Intinya, Anda saat ini memberikan informasi kepada pihak pertama (Dicoding Reviewer) sebagai penyelenggara, bahwa Anda bersedia menjadi volunter pembuatan aplikasi Dicoding.
+
+Jika sudah yakin dengan informasi yang ada, klik Commit changes untuk menyimpan perubahan tersebut. Maka dalam berkas README.md akan jadi seperti ini:
+
+202107011632058ff087d0cdfc460d0f56851807c5ec3e.jpeg
+
+Mungkin Anda akan berfikir, “Loh, baru daftar kok sudah diterima?” Tenang, bukan tiba-tiba langsung diterima sebagai volunter. Namun, repository ini masih berada dalam pihak kedua (Gilang) sebagai calon peserta. Yang akan kita lakukan selanjutnya adalah meminta izin kepada pihak pertama (Dicoding Reviewer) sebagai penyelenggara, untuk menyetujui perubahan yang dilakukan. Bagaimana caranya? Yuk lanjut ke materi selanjutnya.

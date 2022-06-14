@@ -1,0 +1,115 @@
+Mengenal GitHub secara Lebih Dalam
+GitHub adalah perusahaan yang menawarkan layanan hosting repository Git berbasis cloud. Pada dasarnya, GitHub membuat para pengguna individu dan tim menjadi lebih mudah untuk menggunakan Git dalam mengendalikan setiap versi pekerjaan saat melakukan kolaborasi di dalam ataupun antar tim. 
+
+GitHub menawarkan paket repository private dan gratis yang dapat digunakan untuk proyek membuat perangkat lunak open source. GitHub mempunyai sebuah maskot yang bernama Octocat, seekor kucing dengan lima tentakel dan wajah seperti manusia. Berikut rekam jejak terbaik GitHub dalam beberapa waktu terakhir:
+
+Pada tahun 2016, GitHub menduduki posisi 14 di Forbes Cloud 100 list. 
+Kemudian pada tanggal 4 Juni 2018, Microsoft mengakuisisi GitHub sebesar 7,5 miliar dolar. 
+Selanjutnya pada tanggal 19 Juni 2018, GitHub memperluas GitHub Education dengan menawarkan bundel pendidikan gratis ke semua sekolah.
+20210702145646b0a914a85ad66d9f95c5e36e00b69794.png
+
+Setelah kita sedikit mengenal GitHub, mungkin muncul suatu pertanyaan di benak Anda, “Kenapa GitHub lebih mudah dalam penggunaannya?” Jawabannya adalah karena visual dari pengoperasian Git itu sendiri memang lebih mudah tanpa harus melakukan perintah-perintah tertentu menggunakan terminal. Selain itu, siapa pun dapat mendaftar dan meng-hosting repository kode publik secara gratis sehingga membuat GitHub sangat populer dengan proyek sumber terbuka.
+
+20210702145438485d10164f7c5af6449515764ad21c14.jpeg
+
+Catatan: GitHub bukan satu-satunya situs tempat hosting Git yang dapat Anda gunakan. Ada alternatif lain seperti Bitbucket yang dapat Anda coba. Anda juga dapat mencoba mengatur server Git Anda sendiri dan menggunakannya sebagai pengganti GitHub. Untuk bahan pembelajaran, kami hanya berfokus dengan GitHub dalam kelas ini guna menyediakan materi yang mudah dipahami untuk penguasaan Git secara esensial.
+
+GitHub menawarkan produk gratis dan berbayar untuk setiap layanan penggunaanya. Anda dapat melihat harga dan daftar lengkap fitur untuk setiap produk di Pricing GitHub. GitHub dalam versi gratis membatasi beberapa fitur yang dapat digunakan.
+
+
+
+Explore Fitur-fitur GitHub
+GitHub menawarkan beberapa fitur yang ada pada website. Untuk mengakses halaman GitHub, Anda dapat mengakses link https://github.com.
+
+
+
+Home GitHub
+Berikut merupakan halaman home saat mengakses website GitHub. Halaman ini hanya akan tampil jika Anda belum melakukan login. Terdapat beberapa menu utama pada halaman ini, di antaranya Explore Repository, Sign up, dan Sign in.
+
+20210702145438f50a1102953434c08e2e8b07851d6704.jpeg
+
+
+
+Sign up & Sign in
+Untuk membuat akun dan melakukan login, Anda dapat langsung mengeklik menu Sign up dan Sign in pada halaman home website GitHub. 
+
+2021070610091992be84242750689b7bfeb67d0de02034.jpeg20210706100919e6e722380c32f0525aef78b1860ca642.jpeg
+
+
+
+Explore Repository
+Pada halaman GitHub terdapat fitur untuk melakukan pencarian repository milik orang lain. Sehingga  pada saat Anda ingin mencari bahan sebagai referensi untuk memulai proyek dapat menggunakan fitur explore ini.
+
+202107021454383e9b2cff9f9321f4956c2388ff4ae534.jpeg
+
+
+
+Detail File Repository
+Jika kita memilih salah satu repository dari hasil pencarian, maka akan terlihat detail berupa daftar beberapa file yang ada pada repository tersebut. 
+
+20210702145438ad4de3d867a3f3d8b87c4d7ccff406f3.jpeg
+
+Pada detail dari repository tersebut terdapat menu “code” yang memiliki beberapa pilihan menu di dalamnya, seperti alamat link untuk melakukan clone, mengambil repository menggunakan GitHub Desktop, dan download repository dalam bentuk file zip.
+
+20210702145433d43c1b98ded8bb713d252e655568935d.jpeg
+
+Selanjutnya, terdapat beberapa menu tab yang masing-masing menu memiliki fungsi tersendiri.
+
+202107021454346d107916f5bdc5f32402fa1ff8e7a119.jpeg
+
+Menu tab “issues” merupakan kumpulan dari semua pertanyaan seputar permasalahan yang terjadi saat user mencoba untuk mengambil dan meng-explore file yang ada pada repository tersebut sehingga mereka dapat mengajukan pertanyaan di dalam “issues” tersebut.
+
+2021070214543837c872ef422c93e868198a4076f82f60.jpeg
+
+Setiap perubahan pada file repository ataupun penambahan file, maka riwayat perubahan tersebut akan terlihat pada “pull request”. Selain itu, user yang melakukan perubahan pada file tersebut juga akan terlihat pada menu tab ini.
+
+202107021454386b9eecece91d4c8249b05ccfb3fa73ed.jpeg
+
+
+
+Dashboard GitHub
+Berikut tampilan dari halaman dashboard setelah login dengan akun GitHub. Pada dashboard ini kita dapat melihat repository apa saja yang sudah Anda buat serta melihat repository lainnya yang Anda ikuti. 
+
+202107021454382dde1e683372e8f2029fa1b01709bb03.jpeg
+
+
+
+Fitur Pendukung
+GitHub memberikan fitur lainnya yang dapat digunakan. Untuk mengaksesnya, Anda dapat mengarahkan kursor pada logo tambah/plus (+) di kanan atas.
+
+20210702145434499194b7b3143adc61a85b1f1d80c1fa.jpeg
+
+Berikut deskripsi dari item-item dalam fitur tersebut:
+
+New Repository
+Dengan GitHub, Anda dapat membuat repository baru dengan mudah.
+20210706101326708e2aa1bcf4b27a000a72b5192179e4.jpeg
+GitHub menyediakan dua jenis repository, yakni:
+Public (repository dapat dilihat oleh semua pengguna Internet, misalnya pada explore repository).
+Private (bersifat pribadi dan hanya user yang diberi akses yang dapat membukanya).
+
+Import Repository
+Anda dapat mengambil/menyalin file proyek dari vendor lain seperti Subversion atau Mercurial ke dalam repository baru pada GitHub. Proses impor dilakukan dengan menggunakan link URL.
+20210702145437f10b4b2a5bd7cb11325f26ea368311fc.jpeg
+
+Gist
+Gist (Intisari) merupakan fitur yang ditambahkan ke GitHub untuk memungkinkan berbagi potongan kode, catatan, melakukan daftar, dan lainnya. Seperti halnya repositori, Anda dapat menyetel dan menyimpan Intisari Anda sebagai rahasia atau publik.
+20210702145435f871262ac62ac7ba379996af0c01a2c7.jpeg
+Secret Gists disembunyikan dari mesin pencari, tetapi dapat dilihat oleh siapa saja jika Anda berbagi url.
+
+GitHub Organization
+GitHub Organization memungkinkan Anda untuk dapat berkolaborasi bersama pada suatu organisasi misalnya untuk bisnis dengan sejumlah kelebihan misalnya banyak proyek sekaligus. Pemilik dan administrator dapat mengelola hak akses anggota ke suatu data atau proyek dengan fitur keamanan dan administratif yang canggih.
+20210702145434c3dc6fd14f7e8cd439120527b3b9ab63.jpeg
+
+Fitur GitHub organization meliputi:
+Seluruh yang ada di opsi gratis (GitHub Free) dengan kolaborator pada repository publik tak terbatas dengan fitur lengkap dan repository pribadi tetapi dengan fitur terbatas. 
+Opsi untuk meningkatkan ke GitHub Team atau GitHub Enterprise Cloud untuk fitur tambahan, termasuk autentikasi dan manajemen pengguna yang canggih, serta opsi dukungan yang ditingkatkan. Untuk informasi lebih lanjut, silakan lihat Produk GitHub .
+Keanggotaan tanpa batas dengan berbagai peran yang memberikan berbagai tingkat akses ke organisasi dan datanya.
+Kemampuan untuk memberi berbagai izin akses ke repository organisasi Anda.
+
+GitHub Project
+GitHub Project dapat membantu Anda untuk mengatur dan memprioritaskan pekerjaan. Anda dapat membuat papan proyek (project board) untuk mengerjakan fitur tertentu, peta alur yang komprehensif (comprehensive roadmaps), atau bahkan merilis daftar periksa (release checklists). Dengan papan proyek, Anda memiliki fleksibilitas untuk membuat alur kerja khusus yang sesuai dengan kebutuhan Anda.
+202107021454381182b75854268d9d48f07a31bd8580d9.jpeg
+
+Dalam GitHub project, Anda dapat menyertakan repository yang akan dijadwal dan alur pengerjaan, serta dapat menambahkan tim yang terlibat dalam proyek tersebut.
+20210702145438979118427f659457e314758d5cea7aa3.jpeg

@@ -1,0 +1,48 @@
+Apa itu Kolaborasi
+Kolaborasi adalah proses dua orang atau lebih, entitas atau organisasi yang bekerja sama untuk menyelesaikan tugas atau mencapai suatu tujuan. Sebagian besar kolaborasi membutuhkan kepemimpinan, meskipun bentuk kepemimpinan dapat bersifat sosial dalam kelompok yang terdesentralisasi dan egaliter (sederajat).
+
+Kita sudah beberapa kali menyebut GitHub adalah cara yang sangat efektif untuk berkolaborasi dalam proyek pengembangan. Ia menyediakan tempat bagi siapa pun dengan koneksi internet untuk berbagi kode dengan dunia secara gratis. GitHub juga telah diadopsi oleh banyak proyek open-source besar sebagai tempat mereka berkolaborasi dan berkontribusi.
+
+Lalu, bagaimanakah cara bergabung dan berkontribusi pada suatu proyek? Sebelum menjawab ini, Anda perlu tahu terlebih dahulu bentuk kolaborasi yang bisa dilakukan di dalam GitHub.
+
+Bentuk kolaborasi yang dilakukan sangat tergantung dengan apakah repository-nya publik atau privat. Bisa dikatakan repository publik adalah repository open source, karena siapa pun bisa melihat isi dari source code-nya. Sedangkan repository privat adalah repository yang tidak untuk publik/umum dan hanya terbatas untuk tim dengan anggota tertentu saja.
+
+Ketika suatu repository bersifat privat, hanya orang yang sudah ditambahkan sebagai collaborator-lah yang dapat mengakses repository tersebut. Perhatikan gambar di bawah ini untuk skenario private repository.
+
+2021071317380350217847d831b0d408c808f16ffea8ed.jpeg
+
+Pada gambar di atas, terlihat jelas bahwa Ayu dan Gilang adalah collaborator dari repository yang dimiliki oleh Budi. Untuk menjadi seorang collaborator, seorang owner perlu menambahkannya terlebih dahulu ke repository terkait.
+
+Perlu diketahui, seorang collaborator belum tentu adalah seorang contributor (orang yang berkontribusi) ke repository tersebut. Contributor adalah orang yang sudah pernah menambahkan commit di repository tersebut. Pada private repository, seorang collaborator memang mendapatkan hak akses untuk melihat repository tersebut. Namun, bisa saja ia hanya perlu melihat source code tanpa menambahkan commit satu pun.
+
+Lalu, bagaimana dengan repository yang sifatnya publik atau biasa disebut repository open source?
+
+Pada repository publik, semua orang dapat melihat isi dari repository. Owner-nya pun tetap dapat menambahkan collaborator pada repository tersebut. Menariknya lagi, kita sebagai pihak luar pun tetap dapat berkontribusi ke repository tanpa harus menjadi collaborator terlebih dahulu. 
+
+Contohnya, ada Dimas dan Fikri sebagai kontributor sebagai pihak luar yang ingin berkolaborasi pada sebuah repository publik buatan Budi. Dimas dan Fikri dapat menggunakan fitur fork untuk menyalin repository tersebut ke dalam repository pribadi mereka. Setelah itu, mereka dapat mengubah data/kode di dalam salinan repository tersebut. Dengan menggunakan fitur pull-request, mereka dapat meminta persetujuan collaborator (pengelola repository Budi, Ayu, atau Gilang) untuk mengimplementasikan perubahan yang dilakukan ke dalam original repository (repository asli). Untuk melihat detail dari skenario tersebut, lihatlah gambar di bawah ini :
+
+20210713173830635c336cc67bb2bc8caeef9ef10130df.jpeg
+
+Pada gambar di atas, Ayu dan Gilang tetap menjadi collaborator dan memiliki hak akses ke repository tersebut. Kemudian ada pihak luar yaitu Dimas dan Fikri. Untuk dapat berkontribusi, mereka perlu melakukan fork terlebih dahulu sebelum melakukan pull request. Materi tentang fork akan dijelaskan lebih dalam di materi selanjutnya.
+
+Catatan: Perlu diketahui bahwa collaborator pun tetap bisa melakukan pull request ataupun commit secara langsung. Pada gambar di atas sengaja dihilangkan informasi itu untuk penyederhanaan.
+
+Sudah cukup jelas kan bentuk kolaborasi berdasarkan jenis repository-nya. Private repository memang untuk kolaborasi sebatas tim internal saja. Sedangkan public repository berarti repository itu dapat dilihat oleh siapa pun, dan pihak luar pun dapat berkontribusi dengan fork.
+
+Kesempatan untuk berkontribusi di public repository sangatlah terbuka lebar bagi siapa pun, nah kesempatan bagi Anda juga untuk memulai berkontribusi di repository open source terutama untuk mendukung komunitas tertentu.
+
+Ada beberapa saran yang bisa Anda lakukan sebelum memulai berkontribusi di repository open source.
+
+
+
+Mulai Dari yang Sederhana
+Salah satu hal terpenting untuk dipahami ketika memulai kontribusi pada proyek adalah mengenali peran Anda. Di awal, tidak perlu memulai dari memperbaiki masalah utama pada proyek yang besar dan kompleks. Terlalu susah di awal malah membuat kita takut dan ujung-ujungnya tidak jadi berkontribusi. Oleh karena itu, mulailah dari hal-hal sederhana seperti memperbaiki dokumen dari sisi tata bahasanya atau menambahkan dokumentasi pada proyek tersebut.
+
+Dengan mulai berkontribusi pada hal-hal yang simpel, Anda akan memiliki pengalaman dalam berkontribusi. Sehingga, lambat laun mampu memperbaiki masalah-masalah yang lebih besar di kemudian hari.
+
+
+
+Pelajari Ekosistem Proyek
+Pada beberapa repository, biasanya terdapat sejumlah kesepakatan yang mungkin telah ditetapkan sebelumnya. Kesepakatan ini termasuk pada satu set kosakata, cara kontribusi, menuliskan pesan commit, atau bahkan standar sintaksis. Sebelum Anda mencoba terlibat dengan proyek, baca semua dokumen yang terkait dengan hal-hal ini. Contohnya GitHub yang telah membuat standar melalui file CONTRIBUTING.md (lihat panduan untuk terlibat dengan jQuery untuk contoh yang teliti).
+
+Cara lain untuk memahami ekosistem proyek adalah dengan melihat kode yang ada dan sejarah perubahan kode dengan perintah git log. Dengan membaca commit message dan style code, Anda dapat mengetahui berbagai informasi yang ada dalam proyek repository.

@@ -1,0 +1,57 @@
+Latihan Membuat Release File
+
+
+Tujuan
+Latihan Membuat Release File ini bertujuan untuk mengajarkan Anda bagaimana menyimpan perubahan yang dilakukan pada sebuah berkas di sebuah repository. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Apa itu release file?
+Bagaimana cara membuat release file commit?
+Apa yang perlu diperhatikan dan dipersiapkan?
+Apa yang akan terjadi setelah membuat release file?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan membuat release file:
+
+Membuka halaman repository yang dibuat pada latihan sebelumnya.
+Membuat release file.
+Melihat hasil penambahan berkas baru.
+
+
+Latihan Membuat Release File
+Dari pembuatan repository di GitHub, membuat file README, menambahkan file ke dalam repository, hingga melakukan commit untuk perubahan pada file di repository sudah kita lakukan. Tahap selanjutnya, kita akan belajar membuat Release file atau istilahnya membuat versi rilis dari proyek yang ada di repository. Kita dapat membuat rilis untuk memaketkan dan mengirimkan iterasi proyek kepada pengguna.
+
+Di GitHub, kita bisa mengelola versi dari proyek yang ada di dalam repository. Biasanya pembuatan release file sering kali digunakan oleh para pengembang proyek aplikasi atau  jenis software development lainnya.
+
+Manajemen versi rilis menjadi hal yang sangat penting bagi pengguna Git. Tujuannya adalah untuk menyimpan proyek mereka di dalam repository agar dapat dilacak setiap ada penyempurnaan atau pengembangan dari proyek tersebut. Sebab setiap proyek pasti akan butuh hal itu untuk membuat release file.
+
+Oleh karena itu, mari kita belajar membuat release file untuk proyek yang telah dibuat sebelumnya, yaitu “Daftar Biodata Siswa”. Ikutilah beberapa tahap berikut untuk mengikuti latihan membuat release file:
+
+Pertama, bukalah kembali GitHub dan pergi ke halaman utama dari repository yang sebelumnya sudah pernah kita buat.
+202107051445166d247d28977e387d2adad983fab8f83d.png
+Perhatikanlah gambar di atas. Untuk membuat release file, cukup tekan menu Create a new release yang berada di samping kanan atau lebih tepatnya di bawah bagian about repository.
+
+Setelah itu, Anda akan diarahkan ke halaman pembuatan release file. Tampilan halaman dari pembuatan release file dapat dilihat pada gambar berikut:
+20210705144606c2f0186b283efb9eeb3bad2cc668af0e.png
+Perhatikanlah gambar di atas. Dapat dilihat bahwa pada halaman tersebut terdapat beberapa bagian yang ditandai dengan kotak merah. Berikut detailnya:
+Bagian tag version berfungsi untuk membuat nama versi. Biasanya nama versi dituliskan dengan huruf v, lalu diikuti dengan nomor versi. Contohnya, seperti v.1.0, v.1.0.0, dan sejenisnya. Jika pembuatan release file digunakan untuk proyek aplikasi, sebaiknya penamaan dari tag version menggunakan semantic versioning.
+Bagian release title atau judul dari versi rilis berfungsi sebagai judul rilis yang menjelaskan secara singkat versi rilis yang akan dibuat.
+Bagian description atau deskripsi versi rilis berfungsi untuk menuliskan deskripsi detail dari versi rilis yang akan dibuat.
+Bagian Attach binaries berfungsi untuk tempat mengunggah file binary, contohnya file-file hasil compile program, compressed file source code, atau file dokumentasi. Biasanya attach binaries digunakan para pengguna Git yang membuat release file untuk proyek aplikasi.
+Bagian checkbox pre-release berfungsi untuk menandai bahwa pembuatan rilis ini bersifat pra rilis atau masih dalam bentuk beta. Bagian ini biasa digunakan para pengguna Git yang sedang dalam pengembangan proyek aplikasi di repository GitHub.
+
+Untuk latihan kali ini, mari kita isi beberapa opsi tersebut ya.
+Untuk tag version, kita bisa isi dengan “v.1.0” karena dalam proyek ini kita hanya memiliki daftar biodata siswa angkatan 2019. Nah, nantinya jika ingin menambahkan berkas biodata siswa angkatan 2020,  Anda dapat membuat release file dengan tag version “v.2.0”. Anda dapat mengeksplorasi dan bereksperimen untuk hal ini.
+Untuk branch, kita biarkan secara default di cabang kerja utama atau branch main.
+Untuk release title, kita isi dengan “Daftar Biodata Siswa v.1.0”.
+Untuk description, kita bisa mengisinya dengan detail dari versi rilis yang akan dibuat, seperti “Daftar biodata siswa versi 1.0 merupakan daftar biodata yang  memuat biodata siswa angkatan 2019”.
+Untuk Attach binaries, tidak perlu diisi.
+Untuk checkbox pre-release, tak perlu diberi tanda centang karena proyek kita bukan salah satu dari jenis pengembangan aplikasi.
+
+Setelah yakin dengan semua yang Anda tulis, silakan klik button Publish release. Nantinya Anda akan diarahkan ke halaman list release pada repository di GitHub. Untuk tampilannya dapat dilihat pada gambar berikut:
+20210705144810f96a6831d0a4d8384073785a41e7569e.png
+Pada gambar di atas kita bisa melihat releasefile yang telah berhasil dibuat. 
+Pada bagian kanan atas terdapat button edit dan delete yang berfungsi untuk mengedit file release ataupun menghapus jika diperlukan.
+Lalu, di samping kiri ada detail dari versi rilis, mulai dari tag version ke berapa, versi rilis pada kode commit apa, dan ada juga tombol compare. Tombol compare berfungsi untuk melakukan komparasi antara satu versi rilis dengan versi rilis lainnya.
+Selanjutnya, di bagian tengah terdapat tampilan dari release title, deskripsi tentang release file, dan Assets. Pada bagian assets akan menyediakan tautan untuk mengunduh proyek sesuai versi yang telah dibuat, biasanya dalam bentuk zip atau tar.gz.
+Itulah beberapa latihan mengenai dasar-dasar Git pada GitHub yang telah kita lakukan. Untuk memahami lebih jelas tentang Git dan bagaimana cara kerja menggunakan GitHub, mari kita lanjut ke materi selanjutnya mengenai studi kasus pengalaman belajar. Tetap semangat ya!

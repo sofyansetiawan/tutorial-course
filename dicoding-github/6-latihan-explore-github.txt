@@ -1,0 +1,97 @@
+Latihan Mengeksplorasi Proyek GitHub
+
+
+Tujuan
+Latihan Mengeksplorasi Proyek GitHub bertujuan untuk mengetahui berbagai fitur yang disediakan GitHub, serta membiasakan diri mengenai proyek GitHub. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Bagaimana cara mencari sebuah repository atau proyek GitHub tertentu.
+Bagaimana cara memilih repository atau proyek GitHub berdasarkan kategori tertentu?
+Apa saja yang ada dalam sebuah repository atau proyek GitHub?
+Bagaimana cara menyimpan sebuah repository atau proyek GitHub orang lain?
+Apa fungsi star atau bintang dalam repository atau proyek GitHub?
+Bagaimana cara mencari repository atau proyek GitHub yang telah kita beri bintang?
+Apa itu kolaborator dan kontributor?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan mengeksplorasi proyek GitHub:
+
+Membuka halaman GitHub.
+Melakukan pencarian repository atau proyek GitHub.
+Memilih repository atau proyek GitHub dari hasil pencarian.
+Melihat detail dari repository atau proyek GitHub.
+Menyimpan repository atau proyek GitHub dengan memberikan bintang.
+Mencari repository atau proyek GitHub yang telah diberikan bintang.
+Melihat kolaborator dan kontributor dari sebuah repository atau proyek GitHub.
+
+
+Latihan Mengeksplorasi Proyek GitHub
+GitHub tidak hanya sebatas membuat sebuah repository proyek saja, melainkan terdapat juga fitur explore repository yang dapat Anda gunakan untuk mencari berbagai repository milik orang/organisasi lain. Dengan catatan, repository tersebut bersifat public. 
+
+Ikutilah beberapa tahap berikut untuk mengikuti latihan mengeksplorasi proyek GitHub:
+
+Untuk memulai melakukan explore repository, Anda dapat langsung mengetikkan pada kolom Search or jump to, misalnya kita isi ‘Android’ karena kita ingin mencari repository terkait framework Android. Setelah melakukan input, silakan langsung tekan enter untuk memulai pencarian.
+20210702171827eefa87b89969b116f42f6edeaa619009.jpeg
+
+Maka hasil pencarian akan tampil secara langsung. Semua repository yang berhubungan dengan apa yang dicari akan ditampilkan.
+202107021718365618c713d9f77f3906e382c6ebff8dc6.jpeg
+
+Pada fitur explore ini, Anda dapat memilah hasil pencarian yang telah dilakukan dengan pilihan beberapa kategori. Anda dapat mencari informasi dengan memilih salah satu dari pemilahan tersebut.
+2021070217183698b9c69219034377ab4853752d7d755c.jpeg
+
+Terdapat juga pemilahan berdasarkan format bahasa pemrograman yang digunakan pada file di dalam repository hasil pencarian. Hasil pemilahan bahasa ini akan diurutkan berdasarkan seberapa populernya bahasa yang diimplementasi dalam hasil pencarian repository.
+20210702171833715564c93f424e618492ca8ad23cb91c.jpeg
+
+Selain itu, terdapat menu sorting untuk mengurutkan hasil berdasarkan relevansi, jumlah bintang, jumlah fork, dan seberapa baru item diperbarui.
+202107021718271b762d5030df5079661d217c199eca37.jpeg
+
+Setiap repository yang berhasil ditemukan pada pencarian, bisa dipilih manakah repository terpopuler, dan ter-update. Sehingga kita dapat mendapatkan referensi repository yang bisa digunakan.
+
+Contohnya melihat repository berdasarkan stars. Semakin banyak stars, maka dapat dipastikan repository tersebut memiliki tingkat popularitas yang tinggi.
+20210702171835f5c72e91bedfcc9d60dd35bbf6ffa90e.jpeg
+
+Anda juga dapat memilih repository berdasarkan topik yang dibahas. Anda dapat melihat berbagai topik yang dibahas pada repository tersebut.
+202107021718366fca519c1935561b574c85f413345c00.jpeg
+
+Selain itu, Anda juga dapat melihat repository berdasarkan waktu update terakhir. Pilih repository yang memiliki waktu pembaruan dari repository yang paling baru. Semakin sering diperbarui, maka dapat dipastikan bahwa repository tersebut masih dikelola dengan baik.
+20210702171833ff4af53351271e8a287513bb4e2286f8.jpeg
+
+Setelah mencoba untuk melakukan pencarian dengan menggunakan fitur explore GitHub, Anda dapat melihat detail repository dari hasil pencarian tersebut. Katakanlah kita menggunakan repository flutter/flutter pada langkah sebelumnya.
+2021070217183642258fdd69fadbb53ca4dc982e70a895.jpeg
+
+Pada repository tersebut, dijelaskan bahwa jumlah pengunjung yang memonitor (watch), memberikan star, dan melakukan fork sangatlah tinggi. Itu menunjukkan bahwa repository tersebut banyak diminati sebagai bahan referensi bagi mereka.
+202107021718264d1f707cda0da9556b7d54c18e9f7fc9.jpeg
+
+Lalu bagaimana agar kita dapat mengikut perkembangan terbaru dari repository tersebut? GitHub memiliki fitur stars (bintang) yang memudahkan Anda untuk menemukan repository atau topik yang Anda cari sebelumnya. Oke, mari kita berikan bintang pada repository tersebut ya. Kemudian silakan klik Star ⭐ pada pojok kanan atas.
+202107021718276d8f22790aa7e4a2aec83e9ecb813a57.jpeg
+
+Secara opsional, untuk menghapus bintang pada repository yang sebelumnya, Anda hanya perlu klik Unstar.
+2021070217182753feba064cb7f67d9bca9ae4bad06a78.jpeg
+
+Anda dapat menggunakan bilah pencarian di halaman bintang (Your Stars) untuk menemukan repository dan topik yang telah Anda beri tanda bintang dengan cepat. Bukalah halaman bintang untuk mengakses semua repository yang Anda bintangi.
+2021070217183651fe03d30f89b26516349d8c54be8dcd.jpeg
+
+Anda juga bisa menggunakan bilah pencarian untuk menemukan repository atau topik yang paling populer bintangnya. Silakan masukkan kata kunci sesuai dengan nama repository atau proyek GitHub yang ingin Anda cari.
+20210702171825ebf5dd327988f4117501b39d5e9f57f9.jpeg
+Bilah pencarian hanya mencari berdasarkan nama repository atau topik, bukan pada qualifier lainnya (seperti ukuran repository atau kapan terakhir diperbarui).
+
+Setiap proyek repository memiliki kolaborator dan kontributor. Seorang kolaborator merupakan anggota tim yang memiliki akses dalam sebuah repositori proyek (project repository). Akses ini tentunya bermacam-macam ya, ada yang dibatasi pada pekerjaan-pekerjaan tertentu, ada pula yang dapat melakukan semua pekerjaan dalam sebuah repository.
+
+Ketika Anda membuat sebuah repository menggunakan akun personal, maka secara otomatis akan menjadi seseorang owner repository dan memiliki akses penuh terhadap repository tersebut. Di sisi lain, ketika Anda mengundang orang lain menjadi kolaborator dalam repository tersebut, maka mereka akan dapat melakukan pull (read) dan push (write) pada repository tersebut.
+
+Namun, jika Anda menggunakan akun organisasi, GitHub menyediakan 5 tingkatan level (role) yang berbeda untuk seorang kolaborator, yakni read, triage, write, maintain, dan admin.
+Seorang kolaborator dengan tingkatan read, biasanya hanya memiliki akses untuk membuka repository. Level ini direkomendasikan untuk orang non-coding (tim lain) yang ingin melihat atau berdiskusi mengenai proyek repository.
+Seorang kolaborator dengan tingkatan write, biasanya digunakan oleh seorang developer atau pengembang untuk membuka, melakukan clone, dan melakukan push pada repository tersebut. Ia juga dapat mengelola issues dan pull request yang masuk.
+Seorang kolabolator dengan tingkatan triage, biasanya digunakan oleh maintainer yang hanya dapat mengeloa issues dan pull request yang ada masuk ke dalam repository.
+Seorang kolaborator dengan tingkatan maintain, biasanya digunakan oleh seorang project manager yang dapat mengelola beberapa pengaturan dalam repository. Ia juga dapat melakukan berbagai hal seseorang dengan tingkatan read.
+Seorang kolaborator dengan tingkatan admin, biasanya digunakan oleh seseorang yang butuh mengakses secara penuh kepada repository. Ia dapat melakukan berbagai hal, termasuk mengundang kolaborator lain untuk bergabung dalam repository.
+
+Seorang kolaborator juga dapat berperan sebagai kontributor. Apa itu kontributor? Kontributor adalah siapa saja yang dapat melakukan commit atau menyimpan cuplikan perubahan ke dalam repository (git push). Akan tetapi, tidak semua kontributor dapat melakukan commit secara langsung. Ini disebabkan karena mereka tidak memiliki akses untuk melakukan push ke dalam repository tersebut (atau tidak berperan sebagai kolaborator). Sehingga mereka perlu melakukan pull request untuk melakukan commit pada repository orang lain.
+
+Untuk melihat contributors pada sebuah repository yang ada pada GitHub, Anda dapat  melihatnya di bagian detail repository tersebut. Pada sebelah kanan terdapat baris Contributors. Untuk melihat semua kontributor yang ada.
+20210702173032d3be89a0a3dad6167fe6de25e65ca3bf.jpeg
+
+Oke, mari kita lihat detailnya dengan cara menekan Contributors. Maka akan terlihat detail kontributor serta grafik dari setiap kontributor yang terlibat di dalamnya.
+20210702173032d61b67e3b891085ed6d3c6c70d12f010.jpeg
+Mantap! Dengan ini, Anda telah membiasakan berbagai hal mengenai GitHub beserta repository atau proyek yang ada di dalamnya. Materi selanjutnya akan mengenalkan Anda mengenai GitHub Dashboard. Apa itu? Penasaran? Yuk langsung saja lanjut ke materi selanjutnya. Selamat belajar!
+

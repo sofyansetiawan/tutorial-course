@@ -1,0 +1,69 @@
+Latihan Melakukan Merge
+
+
+Tujuan
+Latihan melakukan merge mengajarkan Anda bagaimana cara menggabungkan dua buah branch menjadi satu. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Bagaimana cara menggabungkan dua buah branch yang ada dalam repository?
+Apa yang perlu diperhatikan ketika melakukan merge dari branch lain?
+Apa yang akan terjadi setelah merger?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan merge branch:
+
+Membuka Repository yang telah dibuat sebelumnya.
+Melihat daftar branch yang ada.
+Melakukan pull request.
+Melihat dampak dari pull request.
+Melihat hasilnya.
+
+
+Latihan Melakukan Merge
+Pada materi sebelumnya kita telah mengetahui bagaimana penggunaan merge beserta fungsinya. Kali ini kita akan belajar bagaimana menggabungkan dua buah branch ke dalam repository. Silakan ikuti beberapa langkah berikut:
+
+Hal pertama yang harus dilakukan adalah melihat apakah Anda sudah memiliki dua atau lebih branch pada repository yang ingin kita coba merge atau gabungkan. Mari kita contohkan dengan repository yang telah kita buat sebelumnya mengenai belajar GitHub. Di sana kita telah membuat branch baru bernama development dan membuat file hello.txt di dalamnya.
+20210706133714d09620183f7525ee4f5455f00646526f.png
+
+Bisa Anda perhatikan bahwa di dalam branch main tidak terdapat file tersebut karena berbeda branch.
+20210706133751ca8fca12740a890bca053dc3e3ddc3f3.png
+
+Mari kita lihat terlebih dahulu daftar branch yang ada dalam repository dengan cara menekan bagian yang ditandai merah berikut.
+
+Catatan: Saat ini Anda berada dalam branch main.
+
+Ketika Anda menekan tanda tersebut, maka akan tampil berbagai branch yang ada dalam repository.
+
+
+Karena kita ingin branch main memiliki berkas hello.txt, kita perlu melakukan merge branch development ke branch main. Caranya, klik pada bagian new pull request pada bagian development.
+20210706133955b20b13a9d699acb98c4742482e7376ea.pngTujuannya adalah meminta izin untuk menerapkan commit yang dilakukan dari branch development ke main.
+
+Setelah itu, Anda akan berpindah ke halaman Pull Request.
+2021070613415476e75c3343614914f2870b1a52a01f76.png
+Ini adalah proses merging atau penggabungan dua branch, yaitu branch development merge ke branch main.
+
+Perhatikanlah arah panah dari development ke main.
+202107061342461e038b5d90b90cc33e83b0b77bc86612.png
+Artinya adalah segala commit atau perubahan yang dilakukan dalam branch development akan dimasukkan ke dalam branch main.
+
+Perhatikan bagian setelahnya:
+20210706134334e29f9e26d62ab1779ff6ce2155266b1c.png
+Pada bagian ini, terlihat teks yang sama ketika kita melakukan commit pada branch development. Akan tetapi, tidak mengapa jika Anda ingin mengganti judul dan deskripsi commit tersebut sesuai keinginan. Jika sudah yakin dengan apa yang telah Anda lakukan, silakan klik pada bagian create pull request.
+
+Setelah menekan tombol create pull request, maka tampilan selanjutnya akan jadi seperti ini:
+20210706134449d8936630e40c723b583f6f8859080262.png
+Penjelasan dari beberapa item yang ada pada gambar di atas adalah seperti berikut:
+Tab conversation, berfungsi untuk saling bertukar komentar antar developer jika ada yang ingin dibahas pada Pull Request tersebut.
+Tab commit, berisi berbagai commit yang telah ditulis sebelumnya.
+Tab checks, berfungsi untuk melakukan pemeriksaan jika ada pull request yang gagal ketika melakukan merge atau commit.
+Tab files changed, berisi informasi file mana yang telah kita ubah atau tambah untuk branch target.
+
+Oke, mari kita lanjutkan. Dalam kasus ini, pull request yang dilakukan tidak ada kesalahan sewaktu proses merge. Hal ini dibuktikan dengan munculnya tulisan “This branch has no conflicts with the base branch”. Artinya, branch development dan branch main tidak akan menimbulkan masalah. Masalah atau konflik terjadi biasanya karena terdapat berkas yang sama, tetapi isinya berbeda.
+
+Selanjutnya kita hanya perlu menekan tombol berwarna hijau pada bagian merge pull request. Kemudian, akan ada tombol confirm merge dan cancel.
+2021070613464724a2248283b893064a4a1895c8ebaf26.png
+Karena tidak ada yang perlu diubah, kita lanjutkan dengan menekan tombol confirm merge. Sehingga commit dalam branch development akan digabungkan setelah itu.
+
+Jika sukses, akan muncul tulisan “pull request successfully merged and closed”.
+20210706134906279ff8850637173ffba419256c300e35.pngPada pojok kanan dari tulisan tersebut juga terdapat tombol delete branch yang berfungsi untuk menghapus branch development yang sudah berhasil digabungkan.  
+Jika ingin melihat branch yang telah kita merge, Anda hanya perlu masuk ke dalam branch main. Bisa Anda lihat bahwa file yang sebelumnya hanya ada di branch development, sekarang terdapat juga di dalam branch main. Pertanyaannya, bagaimana jika terjadi masalah ketika menggabungkan dua buah branch? Tenang, latihan selanjutnya akan mengajarkan Anda bagaimana mengatasi masalah sewaktu menggabungkan dua buah branch atau biasa disebut dengan resolve conflict.

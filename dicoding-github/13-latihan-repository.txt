@@ -1,0 +1,64 @@
+Latihan Membuat Repository Baru
+
+
+Tujuan
+Sejauh ini kita sudah memahami apa itu repository dan mengetahui lebih dalam tentang repository. Latihan Membuat Repository Baru ini bertujuan untuk mengajarkan Anda tentang bagaimana cara membuat repository baru dalam GitHub. Beberapa bagian dari latihan ini akan menjawab beberapa pertanyaan, seperti:
+
+Apa itu repository dalam GitHub?
+Bagaimana cara membuatnya?
+Apa saja properti yang dimiliki oleh sebuah repository?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan membuat repository baru dalam GitHub:
+
+Membuka halaman GitHub.
+Membuat repository baru.
+Mengisi form pembuatan repository.
+
+
+Latihan Membuat Repository Baru
+Ikutilah beberapa tahap berikut untuk mengikuti latihan membuat akun baru di GitHub:
+
+Pertama, buka browser Anda dan masuk ke halaman www.github.com, lalu pilih menu Sign In untuk login ke GitHub dengan akun yang sebelumnya sudah dibuat. Setelah login, kita akan diarahkan ke halaman beranda dari akun GitHub kita seperti pada gambar berikut:
+2021070513160144c1e0d0c3dc964bbd97d646b851b8bf.png
+Jika akun kita belum memiliki proyek atau repository, tampilannya akan seperti di atas. Bisa Anda perhatikan di samping kiri atas terdapat menu Create Repository untuk membuat repository baru. Selain itu, kita juga dapat meng-import repository yang sudah ada sebelumnya dari layanan selain GitHub dengan cara memilih menu Import Repository.
+
+Untuk membuat repository baru, klik menu Create Repository di mana nantinya kita akan menuju ke halaman untuk membuat repository.
+20210705131757bf821f3d57a2c8549f7b31734111fb3f.png
+Mari kita kupas terlebih dahulu bagian dari form tersebut ya.
+
+Yang pertama adalah pada kolom untuk penamaan repository.
+20210705131905ea2c967e593f4c0829c1d5ccce604920.png
+Untuk penamaan repository, terdapat beberapa hal yang perlu Anda perhatikan:
+Owner, menandakan repository ini milik siapa. Jika nantinya Anda tergabung pada organisasi, Anda bisa menentukan apakah repository ini untuk akun pribadi atau untuk organisasi.
+Setelah itu, terdapat garis miring (/) untuk memisahkan nama repository dengan owner.
+Kemudian, ada kolom repository name. Kita dapat mengisi nama dari repository atau proyek kita pada kolom tersebut. Perlu diingat untuk penamaan repository tidak menggunakan spasi. Jika penamaan repository memiliki lebih dari satu kata, lebih baik menggunakan tanda hubung (-) untuk memisahkan antara satu kata dengan kata lainnya.
+Selanjutnya, ada pengisian deskripsi dari repository yang akan dibuat. Deskripsi ini bersifat opsional, boleh diisi ataupun tidak. Namun, lebih baik jika bisa mengisi deskripsi untuk repository kita agar lebih memperjelas repository ini untuk apa atau untuk proyek apa serta penjelasan tentang proyek apa yang mau dibuat.
+
+Untuk latihan kali ini kita akan membuat repository untuk Daftar Biodata Siswa.  Jadi, silakan isi nama repository dengan Daftar-Biodata-Siswa. Untuk deskripsi, kita bisa mengisinya dengan “Daftar biodata siswa Dicoding Academy”.
+20210705132110563db091c346faadae34df842da2f3e4.png
+
+Poin selanjutnya adalah pengaturan dari privasi repository yang akan dibuat. Ketika Anda memilih repository bersifat Public, repository tersebut akan terbuka dan dapat dilihat oleh orang lain, serta orang lain dapat mengajukan untuk berkontribusi di dalamnya. Sementara itu, jika Anda memilih repository bersifat Private, repository akan bersifat tertutup dan tidak akan bisa dilihat oleh orang lain selain orang-orang yang diundang sebagai Collaborator.2021070514123196b3ae4301a5850e07a1ca7fd16942b2.png
+Untuk latihan kali ini, repository tersebut akan kita buat menjadi private saja karena hanya untuk latihan sehingga tidak perlu dijadikan public.
+
+Selanjutnya adalah inisialisasi dalam repository yang akan dibuat.
+202107051413572df21334a710ffb489b3e7b0faccc685.png
+Terdapat 3 hal yang dapat diinisialisasi ketika membuat repository baru di GitHub. Berikut detailnya:
+Add a README file atau penambahan README File pada repository baru. Ketika repository telah dibuat, GitHub secara otomatis membuatkan file Readme ke dalam repository. Berkas README ini nantinya dapat Anda ubah untuk keperluan penjelasan lebih detail terhadap apa yang ada di dalam repository tersebut.
+
+Add .gitignore atau penambahan berkas .gitignore pada repository. Ketika repository telah terbuat, file .gitignore akan tercipta sesuai dengan pilihan template .gitignore yang dipilih.
+
+Lalu, apa itu berkas .gitignore? Berkas .gitignore merupakan sebuah berkas yang berisi daftar nama-nama berkas serta direktori yang akan diabaikan oleh Git. Perubahan apa pun yang dilakukan pada berkas dan direktori yang sudah masuk ke dalam daftar .gitignore tidak akan dicatat oleh Git. Berkas .gitignore ini biasanya digunakan para pengguna Git ketika ingin membuat repository yang berisi proyek aplikasi atau software.
+
+Choose a license atau penambahan berkas license pada repository. Ketika membuat repository, Anda bisa memilih lisensi untuk repository tersebut sehingga proyek yang ada di dalamnya dapat digunakan secara bebas oleh orang lain. Tentunya dengan syarat dan ketentuan yang berlaku sesuai dengan lisensi yang kita pilih ya. Biasanya penambahan lisensi diperuntukan bagi para pengguna Git yang biasa membuat proyek software atau aplikasi yang bersifat open source di repository mereka.
+
+Oke, saatnya melanjutkan konfigurasi pembuatan repository baru. Untuk latihan kali ini kita tidak perlu menambahkan readme karena nanti kita akan belajar bagaimana menambahkan file Readme sendiri. Jadi, biarkan box Add a README file tidak tercentang. Selanjutnya, untuk penambahan berkas .gitignore juga tidak perlu mencentangnya karena repository ini tidak diperuntukan software development. Terakhir, kita tidak perlu mencentang penambahan lisensi karena pada latihan kali ini kita takkan membuat repository yang berkaitan dengan software development.
+
+Setelah melakukan konfigurasi dari pembuatan repository, sekarang kita sudah siap untuk membuat repository pertama kita. Hasil akhir dari konfigurasi tersebut dapat Anda lihat pada gambar berikut:
+202107051339576a6d400ae8e493d1b52c87e92ea172f0.png
+
+Langkah terakhir setelah melakukan konfigurasi terhadap repository baru adalah menekan tombol Create repository. Dengan menekan tombol tersebut, repository akan terbentuk dan setelah itu Anda akan diarahkan ke halaman utama dari repository tersebut.
+20210705134046a8a32e5a35d29e47095f23d689297995.png
+Gambar di atas merupakan tampilan ketika repository baru dibuat. Terlihat repository masih kosong dan nantinya akan berubah ketika sudah terisi dengan berkas-berkas.
+Selamat! Anda telah berhasil membuat repository baru di GitHub. Bagaimana? Mudah kan membuat repository di GitHub? Pada materi selanjutnya kita akan mempelajari bagaimana cara membuat berkas Readme dalam repository yang baru saja kita buat. Selamat belajar!

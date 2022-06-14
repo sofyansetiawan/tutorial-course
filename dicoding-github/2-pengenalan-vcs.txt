@@ -1,0 +1,19 @@
+Pengantar Git dan GitHub
+Di dalam dunia pengembangan aplikasi, kita akan sering mendengar istilah source code management atau yang biasa dikenal dengan version control system. Apa itu Version Control System? Mengapa sih penting untuk mempelajarinya, terlebih jika kita adalah seorang developer.
+
+Version Control System merupakan tools untuk mengatur suatu perubahan dan konfigurasi dari suatu aplikasi, termasuk juga source code. Setiap perubahan yang dilakukan akan dicatat, sehingga memperjelas siapa yang telah melakukan perubahan tersebut. Selain itu, version control juga berfungsi sebagai backup files. Dengan begitu, akan mempermudah pencarian bug atau masalah.
+
+20210711215414a8cf9bf450bbb11cfecf1ae823ef4184.jpeg
+
+Version Control System atau yang biasa disingkat dengan VCS, merupakan tools terbaik untuk berkolaborasi antar developer ketika membangun aplikasi. Perusahaan-perusahaan besar di dunia telah menggunakannya untuk mengelola produk atau aplikasi mereka. Contohnya adalah Facebook yang menggunakan Mercurial dan Twitter yang menggunakan Git. Git dan Mercurial ini adalah contoh dari Version Control System.
+
+Lalu bagaimana cara menggunakannya? Kita bisa menggunakan Git secara free atau gratis melalui layanan online yang tersedia seperti GitHub, Bitbucket, dan Gitlab. Namun, salah satu yang cukup populer adalah GitHub. Terlebih ketika ia diakuisisi oleh Microsoft, kepopulerannya semakin menjadi-jadi. GitHub merupakan layanan hosting repository Git berbasis web yang juga memiliki banyak fitur seperti bug tracking dan task management.
+
+Jika Anda merasa awam tentang Git dan GitHub, maka tak perlu khawatir ya. Sebab, kita akan membahas tuntas berbagai hal menarik seputar Version Control System, seperti
+
+Git dan GitHub.
+Dasar-dasar Git.
+Git Branches.
+Berkolaborasi dengan Tim.
+GitHub sebagai Portofolio.
+Bagaimana sudah siap? Kencangkan ikat pinggangmu ya. Karena sudah saatnya kita mulai belajar dasar Git dengan GitHub. Semangat!

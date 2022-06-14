@@ -1,0 +1,22 @@
+Melihat History Perubahan
+Jika Anda lihat kembali, kita sudah melakukan banyak latihan untuk mengubah suatu berkas README.md. Perhatikan dalam berkas README.md berikut:
+
+202107011506290ba98fcf74c080f6a28d7a0e576a8007.jpeg
+
+Anda dapat melihat pesan perubahan dan juga siapa yang mengubahnya. Bahkan, informasi kapan diubahnya pun terlihat jelas. Namun, ini hanya informasi mengenai perubahan terakhir. Bagaimana jika Anda ingin melihat perubahan-perubahan yang telah dilakukan?
+
+202107011506309bb19caef95f04c8126a60511f8c9a7b.jpeg
+
+Anda bisa melihat rekam jejak perubahan yang telah dilakukan dengan menggunakan fitur History. Anda bisa menekan tombol History untuk melihat detailnya. 
+
+2021070115063117d96fe9742c0442e50b562f0f35f23c.jpeg
+
+Di sini Anda bisa melihat semua perubahan yang dilakukan pada berkas README.md. Nah, agar informasi yang ada dalam history mudah dibaca, pastikan Anda memberikan commit message atau pesan perubahan secara jelas, singkat, dan padat. 
+
+Jika tidak, Anda mungkin akan mengalami kebingungan ketika membaca halaman history nantinya. Contohnya adalah sulit untuk mengetahui tujuan dari commit tersebut dengan cepat, mengetahui seberapa penting commit tersebut, atau mengetahui dampak yang ditimbulkan dari commit atau perubahan tersebut.
+
+Untuk mengatasi kesulitan membaca pesan perubahan/commit message, Anda dapat melihat detail perubahan yang dilakukan dengan menekan salah satu item tersebut. Contohnya seperti ini:
+
+2021070115063167607fb26c551e958de526f906e42b7d.jpeg
+
+Wah, menarik kan? Selain bisa melihat apa yang terjadi, Anda juga bisa memberikan komentar jika perubahan tersebut tidak sesuai. Tentunya ini akan memudahkan kita dalam berkolaborasi nantinya.

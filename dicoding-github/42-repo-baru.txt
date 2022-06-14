@@ -1,0 +1,45 @@
+Membuat Repository Baru
+Karena di sini ada dua pihak (penyelenggara dan peserta), maka secara tidak langsung kita harus memiliki dua buah akun. Jika Anda tidak memiliki dua buah akun, maka tak perlu khawatir ya. Sebab, Anda dapat mempraktikkan studi kasus ini bersama kawan, sahabat, rekan kerja, saudara, atau keluarga Anda yang telah memiliki akun GitHub. Anda dapat memerankan pihak penyelenggara dan rekan Anda memerankan pihak peserta, atau sebaliknya. 
+
+Dalam studi kasus ini, kita akan menggunakan akun Dicoding Reviewer sebagai penyelenggara dan Gilang Ramadhan sebagai peserta. Jika Anda sudah mengajak rekan Anda yang telah memiliki akun di GitHub, mari kita mulai dengan apa yang harus dilakukan oleh penyelenggara dulu ya. 
+
+Pertama, mari kita mulai dari pihak penyelenggara sayembara, yakni membuat repository menggunakan akun Dicoding Reviewer. Masuklah ke dashboard GitHub dan buatlah repository baru.
+
+202107011607434d99e411144085c2f5125ebaa8b0926d.jpeg
+
+Kemudian, isi informasi detailnya. Untuk nama repository, isikan dengan nama ‘VolunterPembuatanAplikasi’, sedangkan untuk description bersifat opsional. Anda bisa mengisinya ataupun tidak.
+
+202107011607444c86f371c4ed3a7ac7316c3c64c1e56f.jpeg
+
+Anda dapat menggantinya jika memiliki nama lain yang lebih disukai. Namun, kami sarankan untuk memberikan nama yang masih sesuai dengan konteksnya, misal nama alternatif lainnya adalah ‘VolunterPembuatanWebsite’ atau jenis sayembara lainnya.
+
+Jika Anda perhatikan, nama Owner tidak bernama ‘dicodingreviewer’ karena kami ingin repository yang dibuat berada dalam GitHub Dicoding Academy. Anda bisa mengabaikan langkah ini ya.
+202107011607444878f5025fbf23f9deb214986769e60e.jpeg
+
+Untuk public atau private, isikan sesuai keinginan Anda. 20210701160743660b61415776a15261abeb6c1fb8de3f.jpeg
+
+Di sini kami sengaja membuatnya publik agar nanti bisa diakses oleh Anda melewati GitHub DicodingAcademy yang ada di tautan berikut ini. 
+
+Bagaimana jika Anda ingin membuat repository-nya dalam keadaan privat, tetapi tetap dapat berkolaborasi dengan orang lain? Caranya mudah. Anda dapat menambahkan akun GitHub rekan tim ke dalam pengaturan repository. Contohnya seperti ini:
+
+20210701160745c15899be0d058bc394ec07817142405f.jpeg
+
+Catatan: Tentunya ini dilakukan setelah repository terbentuk.
+
+
+
+Kemudian, centang ‘Add a README file’. 
+
+2021070116074444d42dcd1c64077c3aedcf89b0a29ce0.jpeg
+
+Nantinya kita akan menggunakan berkas readme untuk menampung informasi siapa saja yang lolos menjadi volunter. Kenapa menggunakan berkas readme? Karena berkas tersebut akan muncul paling depan di halaman repository sehingga informasi yang ada dapat kita lihat dengan mudah.
+
+Jika sudah Anda isi sesuai kebutuhan di atas, form Create a new repository akan menjadi seperti ini:
+
+2021070116074526deac90b46b01a89329632c21511dd1.jpeg
+
+Jika Anda telah yakin dengan form tersebut, klik Create repository. Hasilnya akan jadi seperti ini:
+
+2021070116074504a20208fe54fbaf0b108890d0f1a9fa.jpeg
+
+Oke, selesai tahapan pertama. Repository sudah terbuat dan berkas readme telah tersedia. Ayo ke langkah selanjutnya.

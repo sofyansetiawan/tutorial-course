@@ -1,0 +1,26 @@
+Mengenal Git Workflow
+Dalam menggunakan Git, kita perlu mengetahui bagaimana alur kerja dari sebuah Git atau Workflow Git. Mempelajari alur kerja Git adalah hal yang penting karena kita bisa memahami tentang bagaimana cara menggunakan Git untuk menyelesaikan pekerjaan secara konsisten dan produktif serta memanfaatkan Git secara efektif.
+
+Dengan memahami workflow Git, kita juga dapat mempermudah proses pengerjaan proyek yang melibatkan tim, terlebih lagi jika skala proyek yang dikerjakan itu besar. Setiap anggota dalam tim perlu memahami alur kerja dari git sehingga dapat mengurangi terjadinya konflik kerja di mana satu anggota dengan anggota yang lain mengerjakan hal yang serupa.
+
+Dalam Git, kita dapat membagi alur kerja dari setiap anggota dalam tim dengan menggunakan fitur branch atau cabang kerja. Fitur ini berfungsi untuk menciptakan alur kerja baru sehingga tidak akan mengganggu riwayat atau catatan perubahan pada cabang kerja utama (akan dibahas lebih lanjut dalam Modul Git Branches).
+
+Dengan begitu, setiap anggota memiliki alur kerjanya masing–masing dan dapat bekerja secara paralel sampai tiba waktunya untuk menggabungkan setiap pekerjaan dengan menggunakan merge (akan dibahas lebih lanjut dalam Modul Git Branches). Hasil akhir dari gabungan kerja masing-masing anggota dapat kita buatkan tag atau versi rilis dari berkas tersebut.
+
+Agar lebih memahami alur kerja dalam Git, kita bisa mengambil contoh ilustrasi sebagai berikut:
+
+202107102153288229383188dda205b16c45e7d2e6d1b2.png
+
+Gambar ilustrasi di atas merupakan contoh pengerjaan proyek pembuatan jurnal karya ilmiah menggunakan Git yang mana proyek ini dikerjakan oleh dua orang, yaitu Budi dan Ayu.
+
+Sebelum mengerjakan, Budi dan Ayu sepakat untuk membuat dan mengerjakannya dengan menggunakan Git sekaligus melakukan pembagian tugas masing-masing. Hal pertama yang Budi lakukan yaitu membuat repository di GitHub, lalu menambahkan akun GitHub Ayu sebagai contributor atau collaborator dalam repository yang baru saja dibuat dengan nama Proyek Karya Ilmiah.
+
+Pembagian tugas pun telah diberikan di mana Budi akan mengerjakan BAB I, BAB IV, dan BAB V. Sementara itu. Ayu akan mengerjakan BAB II, BAB III, dan Daftar Isi.
+
+Awalnya, repository hanya memiliki satu cabang kerja utama, yaitu branch Budi. Lalu, setelah Budi melakukan commit pertama di mana pada commit tersebut Budi membuat File Karya Ilmiah yang berisi BAB I, Ayu melakukan pembuatan branch baru yaitu branch support dengan commit yang baru saja dilakukan Budi, kemudian Ayu mengerjakan bagian tugasnya. Mereka pun mengerjakan proyek tersebut secara paralel. 
+
+Pada saat Ayu masih mengerjakan tugasnya, Budi melakukan pembaruan terhadap tugasnya di BAB I (revisi). Setelah Ayu selesai mengerjakan BAB II dan BAB III, mereka melakukan merge untuk menggabungkan BAB I, BAB II, dan BAB III. Lalu Budi melanjutkan tugasnya untuk membuat BAB IV dan BAB V. Pada saat BAB IV dan BAB V selesai dikerjakan, Ayu melakukan pull (penarikan hasil kerja) dari branch utama atau branch Budi lalu melanjutkan mengerjakan Daftar isi.
+
+Setelah selesai mengerjakan daftar isi, dengan fitur merge Budi dan Ayu dapat menggabungkan cabang kerja (branch) sehingga hasil kerja dari cabang yang akan di-merge akan bergabung ke dalam cabang kerja utama. Dengan begitu, mereka pun melakukan merger atau penggabungan kerja antara pekerjaan Budi dan pekerjaan Ayu. Dari hasil merge inilah akan membentuk file karya ilmiah yang lengkap dan utuh.
+
+Dengan ilustrasi sebelumnya, apakah Anda sudah memiliki bayangan dan pemahaman tentang bagaimana workflow dari Git? Jika belum, relax. Kita akan pelan–pelan belajar untuk mempraktikkannya pada kelas ini. Sebelum itu, mari kita pelajari fundamental Git berikutnya yaitu Repository pada materi selanjutnya.

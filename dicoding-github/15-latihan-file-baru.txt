@@ -1,0 +1,89 @@
+Latihan Menambahkan File Baru
+
+
+Tujuan
+Latihan Menambahkan File Baru ini bertujuan untuk mengajarkan Anda bagaimana menambahkan file baru ke dalam repository. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Bagaimana cara menambahkan berkas ke dalam repository?
+Apa saja berkas atau file yang didukung dalam repository?
+Apa yang perlu diperhatikan dan dipersiapkan?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan menambahkan file baru ke dalam repository:
+
+Membuka halaman repository yang dibuat pada latihan sebelumnya.
+Menambahkan berkas baru ke dalam repository.
+Menambahkan teks ke dalam berkas tersebut.
+Menyimpan berkas tersebut.
+Melihat hasil penambahan berkas baru.
+
+
+Latihan Menambahkan File Baru
+Pada materi kali ini kita akan belajar cara menambahkan berkas baru ke dalam repository yang telah kita buat sebelumnya. Sebetulnya pada saat membuat berkas README, kita juga sudah penambahan file baru ke dalam repository. Namun, pada latihan kali ini kita akan menambahkan file baru ke dalam repository untuk menampung daftar biodata siswa. GitHub menyediakan salah satu layanan berupa aplikasi web di mana kita bisa menyimpan dan meletakkan proyek kita ke dalam repository secara cloud. 
+
+Lalu, bagaimana cara menambahkan berkas baru ke dalam repository? Untuk itu, ikutilah beberapa tahap berikut:
+
+Bukalah kembali repository yang telah Anda buat sebelumnya yang bernama “Daftar-Biodata-Siswa”.
+20210705141914e275a5d6180c1818735d280139a376ad.png
+
+Sebelum itu, Anda perlu tahu bahwa GitHub memiliki fitur untuk menambahkan berkas ke dalam repository melalui 2 cara. Anda bisa membuat file baru langsung di dalam GitHub atau meng-upload file dari komputer atau laptop. Seperti inilah caranya:
+2021070514195203ac16497fd41696e275bb5b9c46bfbd.png
+
+Oke, mari kita coba tambahkan file baru yang akan digunakan untuk membuat daftar biodata siswa sederhana pada angkatan 2019. Silakan klik menu Add file, lalu pilih Create new file. Selanjutnya, kita akan diarahkan ke halaman untuk membuat file baru.
+202107051420268f9ab5aab6d30c0e6b200b8da306998b.png
+Fokuslah pada tanda kotak merah dalam gambar di atas karena ada beberapa bagian yang perlu Anda perhatikan.
+Nama Berkas : Yang pertama adalah kolom untuk penamaan file yang akan kita buat di mana kolom nama file tersebut terletak di antara nama repository dan nama branch.
+Teks Area : Kolom selanjutnya adalah teks area tempat kita menuliskan isi file yang akan dibuat.
+Pesan dan Deskripsi Commit : Terakhir, terdapat kolom untuk membuat pesan dan deskripsi commit sebelum menyimpan file ke dalam repository.
+
+Baik, mari kita isi form tersebut ya. Untuk nama file, kita bisa mengisinya dengan nama “Biodata siswa Angkatan 2019”, sebagaimana kita akan membuat daftar biodata siswa sebagai latihan. Ingat ya, tanpa ekstensi .md di belakang nama berkas.
+
+Kemudian, untuk teks area, kita bisa mengisinya dengan data sebagai berikut:
+1. Nama   : Aco Wahyudi
+   NIM    : H2020000001
+   JK     : Laki - Laki
+   Agama  : Islam
+   TTL    : Ambon, 19 Agustus 2003
+   Alamat : Jln. Loa Bakung RT.21 No.04
+ 
+2. Nama   : Erna Mulyani
+   NIM    : H2020000002
+   JK     : Perempuan
+   Agama  : Islam
+   TTL    : Samarinda, 02 Juni 2003
+   Alamat : Jln. Bantuas RT.01 No.18
+ 
+3. Nama   : Indah Istiqomah
+   NIM    : H2020000003
+   JK     : Perempuan
+   Agama  : Islam
+   TTL    : Samarinda, 22 Desember 2002
+   Alamat : Jln. Keledang RT.13 No.26
+ 
+4. Nama   : Ilham ILyas
+   NIM    : H2020000004
+   JK     : Laki - Laki
+   Agama  : Islam
+   TTL    : Pinrang, 10 Maret 2003
+   Alamat : Jln. Mangkupalas RT.07 No.12
+ 
+5. Nama   : Rifqi Permana
+   NIM    : H2020000005
+   JK     : Laki - Laki
+   Agama  : Islam
+   TTL    : Ambon, 19 Agustus 2003
+   Alamat : Jln. Loa Bakung RT.21 No.04
+
+Setelah mengisi daftar biodata, selanjutnya kita akan mengisi pesan commit dan deskripsi commit sebelum menyimpan berkas tersebut ke dalam repository. Pengisian pesan commit sangat penting agar memudahkan kita untuk membaca dan memahami apa saja perubahan yang ada dalam repository.
+
+Jadi, untuk pesan commit, kita bisa menuliskan “Pembuatan daftar biodata siswa angkatan 2019”. Sementara itu, untuk deskripsi, kita bisa isi yang berkaitan dengan berkas tersebut seperti “Daftar biodata siswa angkatan 2019 dengan jumlah sebanyak 5 orang”. Sehingga seperti inilah pesan commit dan deskripsi commit:
+2021070514254591860019bf9730d1c6eb4f7518b1848d.png
+Perhatikanlah gambar kotak di atas. Sebelum Anda menyimpan berkas dan membuat commit di repository, terdapat pilihan untuk menyimpan berkas tersebut. Anda bisa memilih antara menyimpannya ke dalam cabang kerja yang sedang aktif atau menyimpan berkas ke repository dengan membuat cabang baru.
+
+Jika Anda ingin menyimpan hasil perubahan yang dilakukan ke cabang baru dan terpisah dari cabang kerja utama, Anda dapat memilih Create a new branch for this commit and start a pull request. Namun, untuk latihan kali ini, kita akan menyimpan perubahan yang dilakukan ke dalam cabang kerja yang sedang aktif atau lebih tepatnya cabang utama, yaitu branch main.
+
+Selanjutnya, tekan tombol Commit new file untuk menyimpan file baru ke dalam repository. Setelah itu, Anda akan kembali ke halaman utama dari repository tersebut.
+20210705142643670db54dc80236ce9648c2df7228a2f8.png
+Perhatikan gambar di atas. Terlihat pada halaman repository terdapat file baru yang telah kita buat dan tersimpan ke dalam repository. Anda juga dapat melihat detail pesan commit serta waktu kapan commit telah dilakukan.
+Mantap! Anda telah berhasil menambahkan file ke dalam repository melalui website GitHub. Setelah berhasil melakukan penambahan file baru ke dalam repository, selanjutnya kita akan belajar bagaimana melakukan commit untuk perubahan yang kita lakukan pada file di dalam repository. Untuk itu, mari kita belajar lebih dalam pada materi berikutnya.

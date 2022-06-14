@@ -1,0 +1,46 @@
+Melakukan Pull Request
+Kita akan melakukan Pull Request. Seperti halnya latihan yang telah Anda lakukan sebelum studi kasus, kali ini kita akan melakukan pull request dari akun kedua (Gilang) sebagai calon peserta ke akun pertama (Dicoding Reviewer) sebagai penyelenggara. Latihan ini masih menggunakan akun kedua (Gilang).
+
+Masuklah ke halaman repository yang telah Anda fork atau salin sebelumnya oleh akun kedua (Gilang) sebagai calon peserta. Dalam kasus ini berarti di https://github.com/gilang/VolunterPembuatanAplikasi. 
+
+20210701163456c0dff137e761ab6d7ab86b17ffc06ab9.jpeg
+
+
+
+Mari kita meminta izin kepada akun pertama (Dicoding Reviewer) sebagai penyelenggara untuk menyetujui apa yang telah diubah oleh akun kedua (Gilang) sebagai calon peserta. Caranya, masuk ke tab Pull request.
+
+2021070116345589615f04b4ad6e958376d630579f6e7a.jpeg
+
+
+
+Kemudian, klik New pull request untuk membuat permintaan tersebut.
+
+20210701163457edddb8434ad05dd102c35083b1f90c57.jpeg
+
+Sekali lagi kami ingatkan, proses ini masih menggunakan akun pihak kedua (Gilang) sebagai calon peserta. 
+
+
+
+GitHub akan memperlihatkan kepada Anda perubahan yang dilakukan pada berkas README.md antara akun kedua (Gilang) sebagai calon peserta dengan akun pertama (Dicoding Reviewer) sebagai penyelenggara, yang bisa Anda lihat dari gambar berikut:
+
+202107011634555cdd6705a91d1d205c53c420df03bacc.jpeg
+
+
+
+Anda juga bisa melihat setiap commit yang telah dilakukan pada berkas README. Bahkan, Anda juga dapat melihat baris mana yang berubah. Keren ya.
+
+2021070116345598a915430ed81f1b22ba79bc59029fc2.jpeg
+
+
+
+Setelah dirasa yakin dengan perubahan yang akan diimplementasikan pada repository akun pertama (Dicoding Reviewer) sebagai penyelenggara, klik Create pull request ya. 
+
+202107011634575e5063673ac598f47e49cf28c54447c7.jpeg
+
+
+
+Setelah itu, Anda diminta untuk mengisi detail dari Pull-Request. Namun Anda tak perlu khawatir, sebab untuk informasi dan deskripsi akan terisi secara otomatis dari commit yang telah Anda lakukan. Namun jika Anda ingin mengubah informasi tersebut, pastikan sesuai dengan konteks yang dilakukan saat ini ya. Jika sudah, klik Create pull request lagi ya.
+
+20210701163456a4eb61bac959d8753f99b8c977b023ab.jpeg
+
+Mantap, Anda telah mendaftarkan akun kedua (Gilang) sebagai volunter. Agar akun kedua (Gilang) diterima, tentunya harus dilakukan pemeriksaan oleh akun pertama (Dicoding Reviewer) sebagai penyelenggara. Mari kita masuk ke tahap selanjutnya, yakni menangani Pull Request yang dilakukan oleh calon peserta volunter.

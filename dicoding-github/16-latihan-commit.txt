@@ -1,0 +1,55 @@
+Latihan Mengubah Data dalam Berkas Menggunakan Commit
+
+
+Tujuan
+Latihan Melakukan Commit Pertama ini bertujuan untuk mengajarkan Anda tentang bagaimana menyimpan perubahan yang dilakukan pada sebuah berkas di sebuah repository. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Apa itu commit?
+Bagaimana cara melakukan commit?
+Apa yang perlu diperhatikan dan dipersiapkan?
+Apa yang akan terjadi setelah melakukan commit?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan commit pertama:
+
+Membuka halaman repository yang dibuat pada latihan sebelumnya.
+Membuka berkas Biodata Siswa Angkatan 2019.
+Menambahkan perubahan dalam teks tersebut.
+Menyimpan berkas tersebut.
+Melihat hasil penambahan berkas baru.
+
+
+Latihan Melakukan Commit Pertama
+Pada bab sebelumnya kita telah belajar bagaimana melakukan penambahan file baru ke dalam repository melalui web GitHub. Bagaimana kalau semisalnya file yang baru saja kita tambahkan ke dalam repository ada beberapa hal yang perlu diubah? Contohnya, file yang baru saja kita tambahkan ke dalam “Biodata Siswa Angkatan 2019” ternyata ada yang kurang atau ada yang perlu diubah. Tentu kita perlu melakukan perubahan terhadap file tersebut.
+
+Di kesempatan kali ini, kita akan belajar dan berlatih bagaimana melakukan commit pada setiap perubahan file yang ada di dalam repository GitHub. Untuk itu, ikutilah beberapa tahap berikut untuk mengikuti latihan melakukan commit pertama:
+
+Mari kita kembali ke halaman utama repository, lalu klik pada file yang akan kita lakukan perubahan, yakni file bernama “Biodata Siswa Angkatan 2019”. Kemudian, kita akan diarahkan ke halaman detail dari file tersebut seperti gambar berikut:
+2021070514335101015511721c8e897fe0e27a7fb23bc7.png
+Gambar di atas merupakan tampilan halaman detail dari berkas yang telah kita buat pada latihan sebelumnya. Dalam halaman tersebut pula, kita bisa melihat isi dari berkas beserta detail dari latest commit. Selain itu, ada juga pesan commit serta waktu yang tercatat kapan kita melakukan commit tersebut.
+
+Untuk melakukan edit file atau melakukan perubahan terhadap berkasnya, tekanlah tombol edit yang disimbolkan dengan ikon pensil seperti gambar yang ditandai kotak merah berikut:
+202107051436058f50faf399e2875b502a88dc81c1e478.png
+
+Setelah menekan tombol edit, kita akan diarahkan ke halaman edit file yang mana tampilannya kurang lebih sama sewaktu membuat file baru di repository GitHub. Seperti inilah gambarnya:
+202107051436443e292790d8fe1a56c7479e31632da1c5.png
+
+Selanjutnya, kita akan melakukan perubahan data pada daftar biodata siswa angkatan 2019. Lakukanlah beberapa hal berikut:
+Alamat pada siswa ke-5 ubah menjadi “Jln. Jakarta RT.14 No.33”.
+NIM pada siswa ke-2 ubah menjadi “H202000006”.
+Pesan commit isi dengan “Perubahan biodata siswa ke-2 dan ke-5”.
+Deskripsi commit isi dengan “Perubahan biodata untuk NIM pada siswa ke-2 dan perubahan biodata untuk alamat pada siswa ke-5”.
+
+Sehingga seperti inilah perubahan yang telah kita lakukan pada file “Biodata siswa Angkatan 2019”:
+2021070514375067694f418d864dd155d19688f0c00000.png
+Setelah selesai melakukan perubahan data biodata beserta mengisi pesan commit dan deskripsi commit, lanjut ke bagian opsi commit branch. Pilihlah opsi default di cabang kerja utama atau branch main karena untuk latihan kali ini kita akan fokus belajar dan memahami cara melakukan commit untuk perubahan file pada cabang kerja utama atau branch main. Jika sudah merasa yakin dengan apa yang Anda lakukan, tekanlah tombol Commit changes untuk menyimpan hasil perubahan tersebut ke dalam repository.
+
+Setelah itu, Anda akan diarahkan kembali ke halaman detail file. Hasil perubahan yang dilakukan akan tersimpan dan tercatat di repository. Seperti inilah hasilnya:
+202107051439046c5f820fab16ddd5064440c3af0fd364.png
+Perhatikanlah gambar di atas. Kita bisa melihat dalam kotak merah bahwa commit untuk perubahan pada berkas berhasil. Kita juga bisa melihat latest commit yang baru saja kita lakukan serta isi dari filenya juga telah berubah sesuai dengan yang kita ubah. Untuk detail perubahan kita bisa melihat di halaman detail commit dengan cara klik pesan commit yang baru saja kita buat(latest commit) seperti yang ditandai dengan kotak merah pertama.
+
+20210710223718d10e5bb224fe29a1139e15a2ed625a11.jpegGambar di atas merupakan halaman detail commit yang tersimpan pada Github. Anda bisa melihat apa saja perubahan yang terjadi pada file tersebut, seperti yang ditandai dengan kotak merah. Indikator kurang/minus (-) dalam baris merah menandakan ada sesuatu yang dihilangkan pada baris tersebut, sedangkan indikator tambah/plus (+) dalam baris hijau menandakan ada sesuatu yang ditambahkan dalam baris tersebut
+
+
+Sampai di sini kita telah berhasil melakukan commit untuk perubahan suatu berkas di dalam repository GitHub. Bagaimana? Mulai menarik kan bermain-main dengan GitHub? Masih ada latihan selanjutnya yang akan mengajarkan Anda bagaimana memublikasikan repository ke publik. Penasaran? Yuk, langsung ke latihan selanjutnya.

@@ -1,0 +1,12 @@
+Tantangan Melakukan Pull-Request pada Repository Dicoding
+Untuk meningkatkan pemahaman Anda mengenai Pull-Request, berikut tantangan yang bisa Anda coba  dengan melakukan Pull Request dalam Repository Dicoding Academy pada tautan berikut: https://github.com/dicodingacademy/VolunterPembuatanAplikasi.
+
+20210712224105a6f09731fcf26781567004468a18453e.JPG
+
+Silakan lakukan seperti apa yang dicontohkan pada studi kasus sebelumnya, di mana pihak kedua mendaftarkan diri sebagai volunter. Berikut langkah-langkah singkat yang bisa Anda lakukan:
+
+Menyalin repository tersebut dengan fitur fork.
+Melakukan perubahan pada berkas README.md dan menyimpannya dengan fitur commit.
+Meminta izin pihak Dicoding untuk menyetujui perubahan yang dilakukan dengan fitur pull-request.
+Jika tidak mengikuti aturan yang sudah ditetapkan Dicoding, Anda pasti akan ditolak.
+Bagaimana, tertarik mencobanya kan? Jika Anda masih merasa bingung, tak perlu segan menanyakannya via forum diskusi ya. Oke, selamat mencoba!

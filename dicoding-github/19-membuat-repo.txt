@@ -1,0 +1,16 @@
+Membuat Repository Baru
+Pertama, masuklah ke dashboard GitHub dan buatlah repository baru.
+
+2021070113255904839bcb091e077e0f6dd7fe512f30fd.jpeg
+
+Kemudian, isi informasi detailnya.
+
+Untuk nama repository, isikan dengan ‘PengalamanBelajar’. Silakan jika Anda memiliki nama lain yang lebih disukai, tetapi kami sarankan untuk memberi nama yang masih sesuai dengan konteksnya, misal nama alternatif lain adalah ‘ProgresBelajarku’.
+
+2021070113255915ccbe77c72d55a92797d8aef5ef7597.jpeg
+
+Untuk public atau private, isikan sesuai keinginan Anda. Di sini kami sengaja membuatnya public agar nanti bisa diakses oleh Anda melewati proyek di akun GitHub DicodingAcademy yang ada di tautan berikut ini. 
+
+Kemudian, centang ‘Add a README file’. Nantinya kita akan menggunakan berkas readme untuk menampung informasi pengalaman belajar kita. Kenapa menggunakan berkas readme? Karena berkas tersebut akan muncul paling depan di halaman repository, jadi informasi pengalaman belajar dapat kita lihat dengan mudah.
+
+Oke, selesai tahapan pertama, yakni repository Pengalaman Belajar sudah terbuat dan juga berkas readme sudah tersedia. Ayo beranjak ke langkah selanjutnya.

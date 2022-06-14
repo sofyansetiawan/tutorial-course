@@ -1,0 +1,48 @@
+Latihan Menyelesaikan Merge Conflict
+
+
+Tujuan
+Latihan menyelesaikan merge conflict mengajarkan Anda bagaimana cara mengatasi kesalahan atau conflict ketika menggabungkan dua branch menjadi satu. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Bagaimana menyelesaikan merge conflict?
+Apa yang perlu diperhatikan ketika menyelesaikan merge conflict?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan merge branch:
+
+Membuka Repository yang telah dibuat sebelumnya.
+Melihat daftar branch yang ada.
+Melakukan pull request.
+Terjadi masalah atau conflict sewaktu melakukan pull request.
+Menyelesaikan conflict..
+
+
+Latihan Menyelesaikan Merge Conflict
+Kita telah mempelajari bagaimana cara melakukan merge di repository GitHub dan sukses. Namun, setiap kita melakukan perubahan pada sebuah repository dan melakukan merge, belum tentu akan selalu sukses. Karena pasti ada saja yang namanya kesalahan ataupun bentrok antar file. Hal ini bisa dinamakan dengan conflict ketika melakukan merge antar branch.
+
+Dalam materi sebelumnya kita telah mempelajari conflict, sehingga saat ini kita akan mempelajari bagaimana cara mengatasi conflict sewaktu melakukan merge di dalam repository GitHub. Ikutilah berbagai langkah berikut untuk menyelesaikan merge conflict di dalam repository:
+
+Langkah awal yang perlu dilakukan adalah membuat commit conflict. Caranya, Anda bisa mengubah isi file yang sama pada kedua branch. Anda bisa menggunakan repository pada latihan sebelumnya. Di sini kita telah memiliki dua buah branch yang memiliki berkas hello.txt yang sama.
+2021070613533346301d23bd1d6e43f8ee820405bb30c6.png
+
+Tuliskanlah hal yang berbeda pada setiap isi teks hello.txt pada masing-masing branch. Kemudian, lakukan commit pada masing-masing branch. Jika sudah, lakukan pull- equest untuk menggabungkan branch development ke main atau juga sebaliknya. Sehingga tampilan saat ini akan jadi seperti berikut:
+202107061354177042d3421f06f0f78a7141f33b7c605f.png
+Pada gambar di atas akan terlihat tulisan “this branch has conflicts that must be resolved”. Artinya, kita harus menyelesaikan conflict sebelum melakukan merge.
+
+Mari kita selesaikan conflict tersebut dengan menekan tombol Resolve conflicts. Kemudian, Anda akan dipindahkan ke bagian teks area untuk melihat letak permasalahan atau conflict-nya.
+20210706135638fba7950a5f1ececa9a87b4797441acfc.png
+Perhatikanlah Conflict pada gambar di atas. Tanda “ ======= “ merupakan pembatas antara branch development dan juga branch main. Maksudnya adalah pada bagian atas merupakan perubahan yang dilakukan oleh branch development, sedangkan yang di bawahnya merupakan perubahan yang juga dilakukan oleh branch main. Jadi, ketika ingin melakukan resolve conflict atau menyelesaikan masalah, Anda perlu memilih data mana yang benar.
+
+Mari kita contohkan dengan menghapus isi branch main dan mempertahankan isi branch development. Kita akan menghapus semuanya kecuali teks yang telah kita buat atau ubah. Sehingga hasilnya akan seperti pada gambar berikut:
+20210706135818bb1ecbb965324cdf430d9ccabd48e39d.png
+
+Setelah itu, klik pada bagian pojok kanan atas bertuliskan mark as resolved untuk memberi tahu GitHub bahwa permasalahan pada berkas hello.txt sudah terselesaikan. Sehingga tampilan saat ini akan berubah menjadi seperti berikut:
+202107061359149f85d2664e12af6a88b7bc5f069aaca0.png
+Perhatikan gambar di atas. Berkas hello.txt sudah resolved (terselesaikan) dan siap untuk dilakukan merge.
+
+Jika sudah yakin dengan perubahan yang dilakukan, Silakan klik tombol commit merge untuk menyimpannya. Sehingga hasilnya akan seperti pada latihan melakukan merger.
+2021070613595751f3b1e00ca3f6ba1fbf6d0fc827a73e.png
+Dengan begitu, Anda sudah bisa melakukan pull request dari branch yang conflict.
+Mantap! Anda telah belajar berbagai hal mengenai git branch. Bahkan, Anda juga telah mempelajari bagaimana menyelesaikan merge conflict. Jika Anda sudah paham mengenai materi kali ini, jangan terlalu berpuas diri. Sebab, kita akan berlatih materi mengenai GitHub lebih lanjut. Tetap semangat ya!
+

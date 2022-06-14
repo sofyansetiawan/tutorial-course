@@ -1,0 +1,91 @@
+Notifikasi GitHub
+Notifikasi atau mekanisme pemberitahuan adalah suatu cara untuk memberikan pembaruan informasi kepada Anda mengenai aktivitas tertentu dengan jangka waktu tertentu. 
+
+
+
+Opsi Notifikasi
+Anda dapat memilih notifikasi untuk:
+
+Percakapan dalam isu tertentu, seperti pull request atau Gist.
+Semua aktivitas dalam repository atau diskusi tim.
+Issues/isu repository, pull request, rilis, peringatan keamanan, atau diskusi.
+202107021708099095936306f9a8865de245ed7914c7a9.jpeg 
+
+Untuk mendapatkan informasi notifikasi dari repository yang diinginkan secara otomatis, Anda dapat mengeklik Watch pada halaman repository tersebut. Kemudian memilih menu yang ada untuk mendapatkan notifikasi. Akan tetapi, ini tidak berlaku untuk fork repository.
+
+Jika tidak lagi tertarik dengan pembahasan, Anda dapat berhenti berlangganan, berhenti melihat, atau menyesuaikan jenis notifikasi yang akan Anda terima di masa mendatang. Misalnya, jika Anda tidak ingin lagi menerima pemberitahuan dari repository tertentu, Anda dapat mengeklik Unsubscribe atau Berhenti Berlangganan. 
+
+GitHub juga memiliki notifikasi yang secara default akan diterima tanpa melakukan pengaturan notifikasi.
+
+
+
+Default Notifikasi
+Secara umum, Anda akan otomatis berlangganan pemberitahuan bila Anda memiliki: 
+
+Fitur Watch pada repository atau tim yang Anda ikuti dalam keadaan aktif
+Menerima tanggapan Pull request atau membuat issues.
+Melakukan Pull request, issue, atau membuat percakapan diskusi bersama tim.
+Berlangganan secara manual dengan mengeklik Watch atau Subscribe.
+Saat teman atau orang lain melakukan @mentioned terhadap nama GitHub Anda.
+Mengubah status, seperti dengan menutup masalah (issues) atau melakukan penggabungan pull request.
+Anda menjadi anggota tim dan mendapatkan @mentioned oleh satu tim Anda.
+
+
+Membuka Notifikasi
+Untuk memulai melihat notifikasi, Anda hanya perlu membukanya dengan memilih ikon lonceng yang berada pada sudut kanan atas.
+
+202107021705275de76dad54f0728471f0e1ddc488bb52.jpeg
+
+Berikut adalah tampilan dari notifikasi yang diterima. Melalui kotak masuk atau inbox, Anda dapat melihat berbagai notifikasi yang diterima. Untuk menyaring notifikasi yang masuk, Anda dapat memanfaatkan fitur All untuk menampilkan semua notifikasi yang diterima atau Unread untuk melihat notifikasi yang belum terbaca.
+
+20210702170528efda51465a81c97c171e3ae503ec6204.jpeg
+
+
+
+Konfigurasi Kotak Masuk atau Inbox
+Lalu, muncul suatu pertanyaan, “Apakah bisa memberhentikan langganan pemberitahuan melalui  kotak masuk?” Oh, tentu saja bisa. GitHub memberikan pengaturan untuk melakukan pemberhentian. Simak caranya di bawah ini.
+
+Dari kotak masuk notifikasi, pilih notifikasi yang ingin Anda hentikan langganannya. Gunakan Select Dropdown untuk memilih Unsubscribe.
+202107021712082fe1589d03932efe96658853204014ac.jpeg
+
+Anda juga bisa menggunakan halaman Subscribe untuk memberhentikan pemberitahuan notifikasi kotak masuk. Pada bilah sisi kiri, di bawah daftar repository, gulir ke bawah hingga Anda menemukan "Manage Notification", lalu klik Subscriptions.
+20210702171247fa684d3a2896d6f2c068cc6b7aabf3e9.jpeg
+
+Pilih notifikasi yang ingin Anda hentikan langganannya. Di kanan atas, klik Unsubscribe.
+20210702171301d15dfdb9986f498f85fdefbb04e93ae8.jpeg
+
+
+Notifikasi Email
+Selain mendapatkan notifikasi masuk langsung di dalam GitHub Dashboard, Anda juga akan mendapatkan notifikasi melalui email yang Anda gunakan sebagai akun GitHub.
+
+2021070217052915ec5c801ee8e41dc6ccd5225676980a.jpeg
+
+Dapat dilihat dari pemberitahuan notifikasi email tersebut bahwa pemberitahuan yang diterima terdiri dari pembaruan proyek Anda, serta pembaruan dari repository yang diikuti.
+
+
+
+Pengaturan Notifikasi
+Selain dengan melakukan pengaturan terhadap notifikasi secara langsung pada kotak masuk, terdapat juga pengaturan lanjutan yang lebih lengkap.
+
+Anda dapat melakukan pengaturan lanjutan dalam menerima pemberitahuan terkait aktivitas di GitHub, sebagai berikut:
+
+Kotak masuk notifikasi di antarmuka web GitHub.
+Kotak masuk notifikasi di GitHub untuk telepon genggam yang disinkronkan dengan kotak masuk di GitHub web.
+Pengguna email yang menggunakan alamat email terverifikasi yang juga dapat disinkronkan dengan kotak masuk notifikasi di GitHub web dan GitHub untuk seluler.
+Untuk menggunakan kotak masuk notifikasi di GitHub web dan GitHub untuk seluler, Anda harus mengaktifkan notifikasi web dan seluler di setelan notifikasi Anda. 
+
+Konfigurasi notifikasi dapat dilakukan dengan mengakses Notifications, kemudian lakukan pengaturan sesuai dengan kebutuhan.
+
+Saat diberi akses push ke suatu repository, secara otomatis Anda akan menerima pemberitahuan untuk itu. Begitu pula saat Anda ditambahkan atau bergabung dengan tim, secara otomatis Anda menerima pemberitahuan untuk diskusi dalam tim tersebut. 
+
+202107021705273e7aaa6ccc10b8b56054915344ba96cd.jpeg
+
+Anda akan menerima notifikasi untuk percakapan yang Anda ikuti atau saat seseorang mengutip Anda dengan @mention. Pemberitahuan akan dikirim melalui email atau web dan aplikasi mobile.
+
+202107021705261f0179f0f55352a4958fb1841f103c8f.jpeg
+
+Anda akan mendapatkan notifikasi untuk semua repository, tim, atau diskusi dari repository yang Anda ikuti.
+
+2021070217052644c127555add0d27c5f8598915fe6fb1.jpeg
+
+Betapa pentingnya mengatur notifikasi GitHub melalui email. Sebab tak terbantahkan bahwa Anda lebih sering membuka email dibandingkan membuka website GitHub. Sehingga, ketika mendapatkan notifikasi GitHub, Anda dapat mengetahuinya tanpa harus membuka website GitHub. Notifikasi yang diterima dapat berupa update proyek yang sedang dibangun, diskusi tim, dan update library repository yang kita gunakan.

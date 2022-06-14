@@ -1,0 +1,77 @@
+Latihan Melakukan Code Reviews
+
+
+Tujuan
+Latihan melakukan code reviews bertujuan untuk memanfaatkan fitur code review sewaktu melakukan pull request. Biasanya digunakan untuk melakukan ulasan kode pada pull request yang dilakukan dan menanggapinya dengan komentar dan ulasan. Beberapa bagian dari latihan ini akan menjawab sejumlah pertanyaan, seperti:
+
+Apa itu Code Review?
+Bagaimana melakukan Code Review?
+Apa efek setelah melakukan code review dalam pull request.
+Apa yang perlu diperhatikan sewaktu melakukan code review?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan melakukan code reviews:
+
+Membuka halaman daftar pull request yang dilakukan oleh kontributor.
+Memilih salah satu pull request dan melihat detail perubahan.
+Membandingkan perubahan dalam pull request dengan original repository.
+Memberikan komentar pada baris kode.
+Meminta kontributor untuk memperbaiki kode/data dalam pull request.
+Menerima pull request agar dapat digabungkan ke original repository.
+Melihat hasil perubahan yang telah dilakukan setelah penggabungan.
+Memberikan feedback pada kontributor atas kontribusi yang diberikan.
+
+
+Latihan Melakukan Code Reviews
+Untuk mulai melakukan code review pada pull request, ikutilah beberapa tahapan berikut;
+
+Posisikan Anda sebagai kolaborator (pemilik repository) yang menerima beberapa pull request. Anda dapat membuka bagian pull request pada repository terlebih dahulu.
+
+Pilih satu dari pull request tersebut untuk melihat perubahan yang dilakukan secara lebih detail.
+
+Dapat dilihat other-team sebagai kontributor yang telah melakukan perubahan pada file repository. Anda dapat melihat bahwa other-team meminta Anda sebagai kolaborator melakukan untuk mereviu atau mengulas perubahan tersebut terlebih dahulu.
+
+Untuk memulai reviu, klik Add your review.
+
+ 
+Terlihat pada tab Files changed terdapat perubahan dari file yang dilakukan. Bagian nomor satu di sebelah kiri merupakan kondisi isi dari file yang belum dilakukan perubahan. Sedangkan bagian nomor dua di sebelah kanan merupakan file yang telah dilakukan perubahan. Melalui indikator berwarna hijau, Anda dapat melihat di mana perubahan tersebut terjadi.
+20210713202549de83e8d2e9f7eb264bf13eca0a7d98f4.png
+
+Untuk memberikan komentar dalam berkas tersebut, arahkan kursor pada baris perubahan dan muncul ikon tambah (+) berwarna biru. Klik ikon tersebut dan akan tampil input komentar. Isilah komentar ulasan yang diharapkan, lalu klik Start a review.
+
+
+Seperti inilah hasilnya:
+
+Anda juga dapat menambahkan kembali komentar dengan cara yang sama.
+
+Selanjutnya, jika revisi yang dilakukan oleh kontributor telah selesai, Anda perlu melakukan penyelesaian review dengan cara klik Finish your review. Kemudian akan tampil form untuk memberikan rekap dari ulasan kode yang telah dilakukan. Anda juga dapat melihat komentar sebelumnya yang sudah dilakukan.
+
+Terdapat 3 kondisi status reviewyang dapat digunakan yaitu;
+Comment: memberikan umpan balik secara langsung tanpa menyetujui perubahan atau meminta perubahan tambahan.
+Approve: mengirimkan umpan balik dan menyetujui penggabungan perubahan yang diusulkan dalam pull request.  
+Request changes: mengirimkan umpan balik perbaikan yang harus ditangani sebelum pull request dapat di-merge.
+
+Pada percobaan ini, kita akan memilih Request changes untuk meminta kontributor memperbaiki pull request.  Kemudian lanjutkan dengan klik Summit review. Terlihat hasil dari peninjauan kode yang dilakukan oleh pengelola bahwa terdapat satu perbaikan yang harus dilakukan.
+
+
+Katakanlah kontributor sudah melakukan perubahan. Sehingga kolaborator (pemilik repository) dapat menanggapi hasil perbaikan dengan cara klik Change requested yang berada di bawah hasil reviu sebelumnya. Kemudian lanjutkan dengan klik Dismiss review.
+
+
+Isilah pesan perbaikan yang telah dilakukan, kemudian klik Dismiss review.
+
+
+Selanjutnya akan muncul form konfirmasi yang dilakukan oleh other-team sebagai kontributor bahwa ia telah melakukan perbaikan dan mengirim hasil perbaikan di dalam pull request terbaru.
+
+
+Kemudian akan ada commit baru dari hasil perbaikan yang telah dilakukan oleh other-team sebagai kontributor.
+
+
+Selanjutnya pengelola repository dapat mengkonfirmasi kembali hasil dari perubahan tersebut, apakah perubahan sesuai dengan yang diharapkan atau tidak. Jika dirasa perbaikan yang diminta telah dilakukan, pengelola akan langsung melakukan merge ke branch main sesuai dengan pull request yang diminta. Kemudian pengola repository dapat melanjutkan dengan klik Confirm squash and merge.
+
+
+Sehingga, hasil dari pull request tersebut telah digabungkan ke branch utama.
+
+Catatan: Sebagai pengelola repository, jangan lupa untuk memberikan informasi kepada kontributor bahwa pull-request telah dilakukan. Anda juga dapat memberikan pesan motivasi untuk menyemangati mereka..
+Mantap! Dengan code reviews, pihak kolaborator (pengelola repository) dapat berkomunikasi dengan pihak kontributor (yang melakukan pull-request) untuk mendapatkan kode/data terbaik. Dengan ini Anda diharapkan dapat melakukan code review ketika berkolaborasi pada projek repository dengan orang lain.
+

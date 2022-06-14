@@ -1,0 +1,48 @@
+Latihan Membuat Branch Baru
+
+
+Tujuan
+Latihan Membuat Branch Baru bertujuan untuk mengajarkan Anda bagaimana cara membuat branch baru dalam sebuah repository. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Apa itu branch?
+Bagaimana cara membuat branch baru dalam sebuah repository?
+Apa yang perlu disiapkan untuk membuat branch baru?
+Apa yang akan terjadi setelah pembuatan branch baru?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan membuat branch baru pada sebuah repository:
+
+Membuka repository yang telah dibuat.
+Melihat daftar branch yang ada.
+Membuat branch baru pada repository.
+Mengevaluasi branch baru.
+
+
+Latihan Membuat Branch Baru
+Pada materi sebelumnya, kita telah mempelajari banyak hal, mulai dari apa itu Git branch hingga penjelasan dari fungsi-fungsi di dalam Git branch itu sendiri. Pada latihan kali ini, kita akan membahas bagaimana cara membuat branch baru di dalam repository GitHub. Dalam pembuatan branch Git, kita memerlukan beberapa hal, yaitu akun dan repository seperti pada materi-materi sebelumnya. Anda bebas menggunakan repository apa pun. Jika Anda sudah menyiapkannya, ikutilah beberapa langkah berikut untuk membuat branch baru di dalam GitHub.
+
+Hal pertama yang perlu dilakukan adalah masuk ke halaman repository, kemudian perhatikan bagian kotak merah pada gambar berikut:
+2021070611504225ab19cd961e5f1882025d7dec6460d9.png
+
+Tekanlah bagian tersebut, maka akan tampil berbagai branch yang ada dalam repository saat ini.
+202107061151119b0a1fa32c22ffff3dabaf59cc32684d.png
+Perhatikan gambar di atas. Anda dapat melihat find or create a branch dan di bawahnya terdapat list branch yang ada, yakni main.
+
+Cobalah untuk menuliskan teks pada kolom find or create a branch. Jika Anda tidak menemukan branch yang dicari, secara otomatis GitHub akan menyediakan pilihan untuk membuat branch baru dengan nama sesuai yang ditulis. Contohnya, silakan tulis kata “development”, maka hasilnya akan menjadi seperti berikut:
+2021070611520911b5e5ace3e4f6913e6d955c1aacd792.png
+Kita akan dihadapkan dengan pilihan untuk membuat branch development berdasarkan main. Jika Anda menghapus kembali teks tersebut, maka tidak akan terjadi apa-apa alias tidak akan membuat branch baru.
+
+Cobalah tekan Create branch development from ‘main’ untuk membuat branch baru. Ketika Anda membuat branch baru, secara otomatis GitHub akan membuat cabang baru dengan nama development berdasarkan main. Artinya, branch yang saat ini Anda buat (development) memiliki history yang sama dari main karena secara tidak langsung menyalin history commit dalam branch main ke branch development.
+
+“Kok bisa sih, ketika create branch atau membuat branch baru otomatis datanya sama dengan branch main?”
+
+Hal ini terjadi karena Anda masih berada dalam branch main ketika melakukan pembuatan branch baru tersebut. Itulah penyebab pada branch development memiliki pointer atau commit yang sama dengan branch main. Akan tetapi, ketika kita membuat file atau data baru, ia otomatis akan mengikuti cabang atau branch baru yang telah kita buat.
+
+Setelah membuat branch baru berdasarkan main atau dari main dengan cara menekan tulisan Create branch : development, secara otomatis Anda akan berada di branch baru yang telah ditulis sebelumnya, yakni development.
+20210706115354f4427a8b4ac5b3c0fac6ca835b4e146f.png
+Di dalam gambar tersebut terdapat data yang sama dengan branch main. Jika Anda lihat, terdapat tulisan this branch is even with main  di bagian tengah. Maksudnya adalah ketika Anda membuat branch baru, otomatis branch tersebut memiliki data branch yang sama dengan branch sebelumnya. Hal itu juga bisa dikatakan dengan menyalin branch main ke branch development.
+
+Nah, jika Anda membuat atau menambahkan file baru pada branch development, tulisannya akan berubah seperti gambar berikut:
+20210706115451153918f2943038c9013322adaa3d581d.pngPerhatikan tulisan this branch is 1 commit ahead of main pada gambar di atas. Hal itu berarti bahwa branch development telah memiliki 1 commit lebih dibandingkan branch main sebagai master branch.
+Sampai sini Anda telah berhasil membuat branch baru. Latihan selanjutnya akan mengajarkan Anda bagaimana berpindah dari branch satu ke branch lainnya. Selamat belajar!

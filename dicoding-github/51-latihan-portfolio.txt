@@ -1,0 +1,88 @@
+Latihan Membuat Portofolio Menggunakan GitHub
+Tujuan
+Latihan Membuat Portofolio Menggunakan GitHub bertujuan untuk memahami bagaimana membuat portofolio menggunakan GitHub. Beberapa bagian dari studi kasus ini akan menjawab beberapa pertanyaan umum mengenai cara membuat portofolio menggunakan GitHub, seperti:
+
+Bagaimana membuat portofolio menggunakan GitHub?
+Apa saja yang perlu dipersiapkan?
+Bagaimana menyematkan berkas readme pada halaman akun GitHub?
+Bagaimana memublikasikan portofolio pada GitHub?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan membuat portofolio menggunakan GitHub:
+
+Membuat repository baru di GitHub.
+Membuat berkas readme.
+Menambahkan portofolio pada berkas readme.
+Menyematkan berkas readme pada halaman profil GitHub.
+Memublikasikan portofolio kepada orang lain.
+
+
+Latihan Membuat Portofolio Menggunakan GitHub
+Ikutilah beberapa tahap berikut untuk mengikuti latihan membuat portofolio menggunakan GitHub.
+
+Buatlah sebuah repository baru dalam akun baru Anda.
+20210701170706561c6d3df39f2d86a8f761da62ec78db.jpeg
+
+
+Pastikan Anda memberikan nama repository dengan nama akun. Contohnya, di sini kami menggunakan akun gilangadhan, maka nama repository yang kami tulis harus “gilangadhan” juga.
+20210701170706c28cf929af4dcf3aefce70601dea3d98.jpeg
+Selamat! Anda telah menemukan salah satu rahasia dari GitHub, yakni ketika membuat repository dengan nama akun GitHub, berkas readme-nya akan tampil di halaman profil Anda. Pastikan Anda memberi tanda “Public” dan “Add a README file”. Kurang lebih akan jadi seperti ini:2021070117070800721789a4d0ac8bc83a7283770349ba.jpeg
+Jika Anda merasa yakin, tekanlah “Create repository” untuk menyimpan pengaturan tersebut.20210701170705b455a929861249992a371de78f7aff6a.jpeg
+
+
+Selanjutnya, sebuah repository baru akan terbentuk dalam akun Anda.
+2021070117070869ad24c29cea6922b07024a735cb47a3.jpeg
+Yang perlu kita lakukan saat ini adalah menambahkan teks pada berkas README sebagai portofolio Anda.
+ 
+
+Anda bisa mengisi berkas README.md dengan data diri Anda seperti ini:
+
+# Halo semua! 
+
+Perkenalkan nama saya **Gilang Ramadhan**.\
+
+Saya seorang **Curriculum Developer** di [Dicoding](https://www.dicoding.com/).\
+
+Saya bertanggung jawab pada kualitas materi iOS dengan dibekali [sertifikasi dari University of Toronto](https://www.coursera.org/account/accomplishments/specialization/CLKJD8XBXJ3M).\
+
+Saya juga memiliki gelar [Google Associate Android Developer](https://www.credential.net/h5deoi5h) sejak 2019.\
+
+Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](https://www.linkedin.com/in/gilang-adhan/)ku ya.
+
+
+Jika Anda menginginkan informasi yang berbeda, tidak mengapa. Asalkan isi dari berkas tersebut masih sesuai dengan konteks, yakni memperkenalkan diri serta menceritakan pencapaian yang telah Anda lakukan kepada khalayak.
+
+
+Untuk memastikan apa yang Anda tulis ke dalam berkas readme sesuai dengan ekspektasi, silakan periksa menggunakan fitur preview.
+2021070117070859a9c6c86b454fa5fb611694bbd5cc46.jpeg
+Jika sudah yakin, klik “Commit changes” untuk menyimpan perubahan tersebut.
+
+Dengan begitu, readme yang berisi data diri Anda siap digunakan.
+20210701170708dc13990f3761a69e6e7343d51dc33caf.jpeg
+Setelah berkas readme diperbarui, kita dapat memeriksa apakah terdapat perbedaan di halaman profil akun GitHub Anda. Sebab, ketika membuat repository dengan nama akun GitHub, secara otomatis berkas readme di dalamnya akan tampil pada halaman profil akun GitHub.
+
+
+Bukalah pengaturan profil Anda dengan cara klik profil Anda, kemudian pilih “Your profile”.
+202107011707081c9ba8e0d15f713b0ca20f47cd55a6cc.jpeg
+
+
+Eureka! Anda berhasil membuat halaman portofolio pada akun GitHub.
+202107011707081f369dfec54c87d8822719e60fa85135.jpeg
+
+
+
+Bedah Kode
+Anda telah berhasil membuat sebuah portofolio menggunakan GitHub. Dengan begitu, Anda dapat dengan mudah membagikan portofolio ketika ada yang bertanya. Cukup bagikan tautan akun profil Anda seperti ini:
+
+https://github.com/gilangadhan
+
+Sebelum itu, pastikan Anda telah mengisi berbagai informasi dasar mengenai data diri singkat agar profil GitHub semakin menarik. 
+
+Jika belum, masuklah ke halaman settings.
+202107011707087b78cfdd6a487464c6609242c7ac9a34.jpeg
+
+Kemudian, masuk pada bagian “public profile”. Lengkapilah berbagai data diri yang diminta oleh GitHub, seperti nama lengkap, foto profile, biodata singkat, url, company, dan sebagainya.
+202107011707081809aeef33d6f554351801a88a879c02.jpeg
+
+Pertanyaannya, adakah referensi lain yang menunjukkan bagaimana para developer membuat portofolio mereka? Tenang, pada latihan selanjutnya kita akan melihat berbagai referensi yang ada. Selamat belajar!

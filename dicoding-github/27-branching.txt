@@ -1,0 +1,18 @@
+Apa itu Branch
+Branching adalah teknik untuk memisahkan cabang utama ke cabang lain dengan tujuan agar cabang utama tetap bisa dijaga kondisinya. Menjaga kondisi cabang utama agar tetap stabil atau baik sangatlah penting dalam pengelolaan file karena kita tidak pernah tahu akan ada aktivitas apa kedepannya yang dapat merusak cabang utama. Secara konsep, sebelum melakukan perubahan, kita perlu memiliki pegangan yang bisa kita pakai sewaktu-waktu untuk kembali ke titik aman ketika terjadi masalah.
+
+Selain sebagai titik aman dalam pengelolaan file, dengan branching, kita juga dapat membagi alur pekerjaan secara terpisah sehingga pekerjaan dapat dilakukan secara paralel tanpa takut terjadinya konflik atau perubahan yang kita lakukan berpengaruh pada kode di cabang lain. Ini penting karena saat ini kolaborasi paralel dalam suatu tim menjadi strategi ideal dalam pengerjaan suatu proyek.
+
+Untuk memahami cara kerja branch dalam suatu repository, mari kita lihat ilustrasi penggunaan branch dalam suatu pengembangan aplikasi. Pada ilustrasi di bawah terdapat 2 cabang baru, yaitu cabang menambahkan fitur baru dan cabang memperbaiki bug.
+
+20210717220411b5589a38f4f69515316b11eb261d91dd.png
+
+Pada ilustrasi di atas terdapat 3 branch, yaitu:
+
+Master, yaitu branch (cabang) utama yang seharusnya tidak memiliki bug atau apa pun yang berhubungan dengan kesalahan dalam pengodean/coding. Umumnya, cabang inilah yang dipakai sebagai productionatau versi stabil.
+Fitur baru, yaitu branch untuk menambah fitur baru. Semua commit yang berhubungan dengan fitur baru akan di-push ke branch ini.
+Bug fixing, yaitu branch yang digunakan untuk memperbaiki bug yang terjadi. Cabang bug fixing dibuat terpisah untuk menghindari kesalahan penulisan pada kode perbaikan yang dapat menyebabkan cabang utama menjadi memiliki lebih banyak bug.
+Catatan: pada implementasi Git, ada beberapa macam workflow yang digunakan sebagai praktik terbaik, misalnya di atas ini dijelaskan cabang utama "Master" sebagai cabang dengan versi yang stabil (tidak memiliki bugs). Tetapi ada juga workflow lain, di mana cabang utama "Master" digunakan sebagai cabang dengan development yang terbaru (bleeding-edge), sehingga versi stabil akan dibuatkan cabang masing-masing sesuai versinya [2].
+
+Penggunaan Git branch di atas hanyalah salah satu contoh penggunaan branching, dan tentu ada metode branching berbeda lainnya seperti develop-branch, testing-branch, demo-branch, dan kemudian production-branch. Pada dasarnya, penggunaan Git branch tergantung dari bagaimana alur pengerjaan yang telah disepakati oleh suatu tim developer.
+

@@ -1,0 +1,33 @@
+Tantangan Menambahkan Progres Belajar
+Bagaimana, sudah mulai terbiasa kan mendokumentasikan sesuatu pada berkas README.md? Jika Anda masih belum yakin, tantanglah diri Anda untuk melakukan perubahan berikut. Caranya masih sama dengan latihan sebelumnya.
+
+Katakanlah Anda telah menyelesaikan kelas Memulai Pemrograman dengan Java. Anda juga belajar banyak hal agar lulus dari kelas tersebut. Oleh karena itu, Anda perlu mendokumentasikan informasi tersebut dalam berkas README. 
+
+Berikut teks yang perlu ditambahkan dalam berkas README.md:
+
+**20 Juni 2021**  
+
+Belajar kelas Memulai Pemrograman dengan Java. (Progres 100%)
+
+  * Belajar konsep OOP (Object-Oriented Programming) untuk mempermudah pengembangan sebuah program.
+
+  * Belajar class-class yang sering digunakan dalam bahasa Java seperti generic, exception, input output, date time, dan casting. 
+
+  * Berlatih dengan membuat program untuk menghitung suhu air, vokal konsonan, dan bangun datar. 
+
+  * Mengerjakan ujian akhir untuk menilai kemahiran diri.
+
+Berikut pesan dan deskripsi perubahannya:
+
+Commit Message
+
+Menambahkan progres belajar Java menjadi 100%
+
+Commit Description
+
+Beberapa hari ini aku sudah mempelajari kelas Java dengan baik. Kelas Dicoding memang keren, ada sertifikatnya juga lo.
+
+Hasilnya akan jadi seperti ini:
+20210701150630ad5a9ee4f1ff3eb897aae2cf36183263.jpeg
+
+Bagaimana, sudah sesuaikah dengan hasil di atas? Jika sudah sesuai, maka kami ucapkan, “Selamat!” Artinya, Anda sudah paham mengenai perintah Commit untuk melakukan perubahan pada suatu berkas dalam repository. Seperti yang kita tahu bahwa Commit berfungsi untuk menyimpan snapshot atau kumpulan berkas pekerjaan yang telah selesai dari seluruh repository Anda pada waktu tertentu. Jika masih belum memahaminya, Anda bisa mencoba kembali latihan-latihan sebelumnya.

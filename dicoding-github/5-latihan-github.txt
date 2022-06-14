@@ -1,0 +1,53 @@
+Latihan Membuat Akun GitHub
+
+
+Tujuan
+Latihan Membuat Akun GitHub bertujuan untuk mengajarkan Anda bagaimana cara membuat akun GitHub. Beberapa bagian dari latihan ini akan menjawab berbagai pertanyaan, seperti:
+
+Bagaimana cara membuat akun GitHub?
+Apa saja yang perlu dipersiapkan?
+Bagaimana cara mengamankan akun GitHub?
+
+
+Tahapan Proses
+Berikut tahapan proses yang akan kita lakukan dalam latihan membuat akun GitHub:
+
+Membuka halaman GitHub
+Mengisi form pendaftaran.
+Mengisi alasan menggunakan GitHub.
+Mengonfirmasi email pendaftaran.
+Melakukan verifikasi dengan akun email cadangan.
+
+
+Latihan Membuat Akun GitHub
+Ikutilah beberapa tahap berikut untuk mengikuti latihan membuat akun GitHub:
+
+Untuk Anda yang baru pertama kali mendaftar akun GitHub, maka persiapkan terlebih dahulu alamat email yang aktif dan belum pernah digunakan untuk mendaftar GitHub sebelumnya. Alamat email bisa menggunakan google.mail, yahoo, ymail, hotmail, ataupun custom mail.20210702152745aca5dbd34484aa017341c7a3bad20f59.jpeg
+
+Silakan akses situs GitHub untuk membuka halaman utama, kemudian pilih Sign Up atau langsung mengakses tautan ini github.com/signup.
+
+Masukkanlah data sesuai dengan yang diminta oleh form pendaftaran. Setiap data yang dimasukkan akan dilakukan pemeriksaan, sehingga semua kolom input harus bercentang hijau agar dapat melanjutkan pendaftaran.
+2021070610383073a66cb266af3bd260ac04581d10f28c.jpegPada Verify your account, Anda akan diminta untuk menyamakan antara teks perintah dengan gambar yang tampil. Setelah memasukkan username, email, dan password, lanjutkan dengan mengeklik Create account.
+
+Setelah proses pendaftaran akun baru, Anda diminta untuk memasukkan kode unik yang bisa didapatkan dari email. Kode unik tersebut digunakan untuk memverifikasi akun email yang digunakan selama pendaftaran akun GitHub. Bukalah kotak masuk pada email pendaftaran untuk melihat kode tersebut, kemudian masukkanlah ke dalam form pendaftaran tersebut.
+20210706103832e611dedacc1b921bfcd9d38421bd9d51.jpeg20210706103832fcf4d89da1f37d7cfffc3384f1a29ad6.jpeg
+Catatan : Jika kode verifikasi tidak dimasukkan ke dalam form pendaftaran, akun GitHub Anda tidak akan diverifikasi.
+ 
+Setelah menginput kode verifikasi, Anda akan dihadapkan dengan tampilan selamat datang. Pada halaman tersebut akan ada tiga menu utama yaitu membuat repository baru, membuat organisasi, dan mempelajari cara menggunakan GitHub. Mari kita abaikan terlebih dahulu langkah ini, silakan tekan Skip this for now untuk langsung menuju halaman dashboard.
+20210706103938cbc79bdf6f8f042bfed081a67d6027ab.jpeg
+
+Selanjutnya Anda akan diarahkan ke halaman dashboard.
+20210702152751ab7513c59fda4012d6d275477ddb180e.jpeg
+
+Di GitHub, kita dapat menggunakan dua email untuk mengelola sebuah GitHub. Namun ini bersifat opsional. Penambahan email ini dimaksudkan untuk mengantisipasi jika Anda lupa dengan akun GitHub yang didaftarkan. Sehingga akun cadangan yang Anda masukkan dapat digunakan untuk mengakses layanan GitHub. Untuk memulai verifikasi dua email, Anda dapat membuka Settings, kemudian memilih Emails.
+202107021527510bd12ee5fb81777ad56142e341eabcc8.jpeg
+
+Tambahkan alamat email baru yang akan digunakan sebagai email cadangan. Pastikan email yang akan digunakan tidak atau belum pernah terdaftar di dalam GitHub sebelumnya.
+20210702152751214c2cc1b15cf29c8c795fc92b056b4a.jpeg
+
+Lalu lakukan verifikasi dengan cara membuka email yang telah dikirim GitHub ke email yang digunakan untuk email cadangan.
+20210702152751757516dd2adde4e28168ce0345897f76.jpeg
+
+Maka terlihat email kedua telah berhasil terverifikasi menjadi email cadangan untuk mengelola akun GitHub.
+202107021527458832eaaa26feedc58f0ad2ac257477d5.jpeg
+Mantap! Dengan ini, Anda telah membuat akun GitHub dan memverifikasi email yang digunakan. Agar Anda terbiasa dengan halaman GitHub, mari kita masuk ke materi selanjutnya untuk mengeksplorasi proyek GitHub.

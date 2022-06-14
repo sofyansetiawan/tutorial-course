@@ -1,0 +1,38 @@
+Apa Itu Fork
+Seperti yang sudah dibahas sebelumnya, kita bisa menggunakan fitur fork untuk menyalin public repository orang/organisasi lain ke dalam repository pribadi. Mari kita bahas secara detail di sini. 
+
+Fork adalah proses menyalin proyek repository orang lain ke repository pribadi. Fork bertindak sebagai jembatan antara repositori asli (original repository) dan repositori salinan (fork repository). Anda dapat menawarkan untuk menggabungkan perubahan yang telah Anda lakukan pada repositori salinan ke repositori asal untuk membantu membuat proyek orang lain lebih baik dengan melakukan pull request.
+
+Pada praktiknya, ketika Anda tidak memiliki akses pada sebuah public repository, Anda dapat melakukan beberapa tahap berikut agar dapat berkontribusi pada repository tersebut:
+
+Melakukan fork atau menyalin suatu repository.
+Melakukan perbaikan atau menambahkan perubahan.
+Melakukan pull request agar perubahan dapat disetujui untuk digabungkan ke dalam repository asli.
+Untuk mengintegrasikan fitur yang telah diubah oleh kontributor ke dalam repository utama, pengelola repository akan memeriksa dan mereviu untuk memastikan setiap perubahan yang ada dalam pull request tidak akan merusak proyek repository asli (original repository). Setelah merasa aman dengan perubahan tersebut, pengelola dapat menerima pull request yang dilakukan oleh kontributor. Sehingga, kontribusi yang telah dilakukan sekarang menjadi bagian dari proyek repository asli. Oleh karena itu, ketika ada developer lain yang ingin berkontribusi atau melakukan perubahan (pull-request), mereka harus melakukan menarik (fetch stream) perubahan dari repository asli untuk menyinkronkan repository mereka.
+
+2021071715555805b1f8ebfeea733538ff6404ed5f4ee6.png
+
+
+
+Forking vs Cloning
+Lalu, apa bedanya fork dengan cloning? Keduanya memang sama-sama menyalin repository. Namun, perbedaannya terletak pada lokasi tujuan dari hasil salinan. Ketika melakukan cloning dalam remote (contohnya GitHub), artinya Anda menyalin repository dari tersebut ke dalam local (Laptop/PC Anda). Sedangkan ketika melakukan fork pada sebuah repository di GitHub, repository tersebut akan disalin ke dalam akun GitHub Anda. 
+
+Ketika Anda melakukan perubahan pada hasil salinan repositori, baik via clone maupun via fork, perubahan tersebut tidak akan memberikan efek kepada repositori asli (original repository). Lalu bagaimana cara mengimplementasikan perubahan yang dilakukan, baik menggunakan fork maupun clone? 
+
+Jika menggunakan Fork, Anda perlu melakukan pull request antara fork repository dengan original repository. Sedangkan Clone, Anda perlu melakukan push agar perubahan dapat disimpan ke dalam remote repository (contohnya dalam GitHub). Namun, untuk clone, Anda tidak bisa melakukan push ke remote repository jika tidak memiliki akses. 
+
+Ketika tidak mempunyai hak akses pada public repository, Anda perlu melakukan forking terlebih dahulu pada repository tersebut. Setelah mendapatkan fork repository (salinan original repository), Anda dapat melakukan cloning pada repository tersebut. Setelah itu, Anda dapat mulai melakukan perubahan pada local repository. Untuk mengimplementasikan perubahan pada local repository ke fork repository, Anda dapat menggunakan git push. Nah, karena saat ini kode/data dalam fork repository berbeda dengan original repository, Anda dapat mengimplementasikan perubahan ke original repository dengan pull request. Bagaimana alurnya? Seperti inilah bentuk hubungan antara fork dan clone.
+
+202107172216011fe423b418b944ed0cd631c464bad563.png
+
+
+
+Fork Repository
+Sebelum melakukan perubahan pada public repository, semua kontributor yang tidak memiliki akses perlu melakukan fork pada repository tersebut.
+
+202107131904137f85cf696d96bb6a725f05c8e89d8e6a.png
+
+Perlu Anda tahu bahwa fork sejatinya seperti standar operasi git clone. Mengapa demikian? Sebab ketika Anda ingin melakukan fork pada GitHub, sebenarnya GitHub akan menyalin repository yang ada menggunakan alamat HTTPS atau URL SSH. Kemudian GitHub akan menempatkan hasil salinan dari original repository tersebut ke dalam akun GitHub yang Anda gunakan. Dengan begitu, Anda dapat berkontribusi pada repository tersebut.
+
+Forking dapat membantu pengelola repository untuk mengembangkan produk terbaik dengan cara berkolaborasi dengan developer lain. Pengelola repository tidak perlu mengundang/invite developer untuk menjadi kolaborator, sebab mereka dapat melakukan usulan perubahan dengan menggunakan fork dan pull request. Oleh karena itu, fork repository merupakan hal yang paling sering digunakan dalam public repository atau open source.
+

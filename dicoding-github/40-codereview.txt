@@ -1,0 +1,61 @@
+Apa Itu Code Reviews
+Seperti yang kita tahu, GitHub merupakan platform yang ditujukan untuk bekerja secara kolaborasi bersama tim. Setiap anggota tim dapat melakukan penambahan dan perubahan repository yang menjadi rumah utama pada pengerjaan projek. Setiap perubahan dapat dilihat berdasarkan hasil file yang diubah oleh anggota tim.
+
+
+
+Setiap perubahan yang diwakilkan dalam pull request, seorang pengelola (administrator) mampu memberikan reviunya terlebih dahulu. Dengan adanya proses review ini, administrator mampu mengomentari perubahan, menyetujui perubahan, atau meminta perubahan lebih lanjut sebelum pull request digabungkan.
+
+Proses reviu ini lazim dilakukan oleh tim pengembangan yang peduli dengan kualitas kode perubahan. Proses ini juga bisa digunakan untuk transfer ilmu dari si administrator (pengelola repository) ke si pembuat pull request. Biasanya administrator lebih senior dari sisi skill pengembangan dibandingkan dengan si pembuat pull request.
+
+Adapun beberapa tujuan yang dicapai dari pengulasan kode (code reviews) ini adalah ketika kontributor lain selesai mengerjakan suatu masalah atau fitur, kontributor lain dapat memeriksa kode dan mempertimbangkan beberapa pertanyaan berikut:
+
+Apakah ada kesalahan logika yang jelas dalam kode?
+Melihat persyaratannya, apakah semua kasus diimplementasikan sepenuhnya?
+Apakah pengujian otomatis sudah cukup untuk kode baru? Apakah pengujian otomatis ada yang perlu ditulis ulang untuk memperhitungkan perubahan kode?
+Apakah kode baru sudah sesuai dengan style guideline (panduan penulisan kode) yang ada?
+Code review dilakukan dengan mengikuti alur kerja pengembangan (development workflow) yang ada. Misalnya, ketika ada anggota tim yang menggunakan dua branch di dalam repository untuk mengerjakan projek, maka code review akan dilakukan terlebih dahulu sebelum menggabungkan pull request. Hal ini bertujuan untuk memastikan semua kode yang ditulis dapat berjalan dengan baik. Biasanya seorang pengulas akan melakukan pengujian secara manual maupun secara otomatis. Oleh karena itu, code review ini penting untuk dilakukan agar tidak ada yang terlewat dan mencegah terjadinya kesalahan/bug sewaktu menggabungkan ke base branch (cabang utama).
+
+
+
+Apa yang harus dicari dalam Code Reviews
+Berikut beberapa aspek yang dapat digunakan sebagai acuan dalam melakukan ulasan kode:
+
+Kode dirancang dengan baik.
+Fungsionalitasnya dapat berjalan dengan baik.
+Setiap perubahan yang dilakukan masuk akal dan terlihat bagus.
+Kodenya tidak lebih kompleks dari yang seharusnya.
+Developer mengimplementasikan hal-hal yang diperlukan saat ini saja. Bukan menyediakan kode untuk masa depan, tetapi tidak digunakan saat ini.
+Kode memiliki unit test (pengujian unit) yang sesuai.
+Pengujian dirancang dengan baik.
+Pengembang menggunakan nama yang jelas untuk segala penamaan.
+Komentar yang ditambahkan jelas dan bermanfaat. Selain itu komentar ditujukan untuk menjelaskan kode apa yang ditulis beserta alasannya.
+Kode telah didokumentasikan dengan tepat.
+Kode ditulis sesuai dengan panduan (style guideline) yang telah disepakati.
+Selain beberapa poin di atas, pastikan juga untuk memberikan ulasan pada setiap baris kode. Bahkan dianjurkan untuk memberikan pujian kepada kontributor ketika penulisan kode sudah sesuai dan bagus.
+
+
+
+Keuntungan Bagi Tim Ketika Melakukan Code Review
+Setiap tim dapat mengambil manfaat dari ulasan kode, terlepas dari metodologi pengembangannya. Namun, tim yang gesit dapat mewujudkan manfaat besar karena pekerjaan didesentralisasikan ke seluruh anggota tim. Tidak akan ada seorang pun yang menjadi satu-satunya yang mengetahui bagian tertentu dari basis kode. Sederhananya, ulasan kode membantu dan memfasilitasi anggota tim untuk berbagi pengetahuan di seluruh basis kode.
+
+Catatan : Jika code review dilakukan dengan benar, sebenarnya menghemat waktu dalam jangka panjang.
+
+
+
+Code Review Pada GitHub
+
+Di dalam GitHub, ulasan kode merupakan hal yang wajib dilakukan sebelum menggabungkan pull-request ke dalam branch utama. Hal ini bertujuan agar tidak terjadi konflik saat anggota tim lain melakukan perubahan dan merge di kemudian hari. Ulasan kode ini sebenarnya dilakukan oleh anggota tim yang memiliki akses administrator atau pemilik repository di dalam repository
+
+
+
+Timbul pertanyaan, “Kapan code review atau ulasan kode dilakukan?” Terdapat dua kondisi yang cocok untuk melakukan ulasan kode, antara lain:
+
+Pertama, ulasan kode dilakukan sewaktu anggota tim melakukan Pull request dan sebelum menggabungkannya (merge) ke branch utama (base branch).
+20210717221649cf0ca1db7c1da1fc9bac0b56b36912ad.png
+Kondisi ini dapat dijalankan sebelum pengelola (administrator/pemilik) repository melakukan merge. Reviews akan dilakukan dengan cara memeriksa setiap perubahan yang dilakukan, apakah terdapat kesalahan atau tidak. Jika dirasa tidak ada kesalahan, merge dapat langsung dilakukan.
+
+Kedua, ulasan kode dapat dilakukan setelah merge (penggabungan) perubahan ke base branch (branch utama). Mengapa ulasan kode dilakukan setelah merge (penggabungan)? Sebab terkadang anggota tim (kontributor) bisa saja melewatkan proses ulasan kode sewaktu melakukan pull request, sehingga akan membuat pekerjaan menjadi kurang efisien dan memengaruhi kinerja tim dalam mengembangkan sebuah produk.
+
+Ulasan kode perlu dilakukan agar tidak menimbulkan permasalahan ke depannya. Dampaknya, anggota tim lain harus menunggu proses code review tersebut agar tidak terjadi masalah lain sewaktu menggabungkan perubahan ke base branch (cabang utama).
+Dengan dilakukannya code review, diharapkan anggota tim dapat mengerjakan setiap bagian dengan teliti untuk meminimalisir terjadinya kesalahan antar anggota tim.
+

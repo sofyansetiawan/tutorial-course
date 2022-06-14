@@ -1,0 +1,26 @@
+Pengantar Dasar Git
+Pada materi sebelumnya kita telah belajar apa itu Git dan GitHub, di mana GitHub ini merupakan sistem kontrol versi yang terdistribusi dengan fungsionalitas manajemen kode sama seperti Git sekaligus menyediakan penyimpanan cloud serta memiliki fitur tambahan lainnya seperti GitHub Explore (https://github.com/explore), GitHub Pages (https://pages.github.com/), dan Activity Feeds (https://github.com/topics/activity-feed). Git atau sistem kontrol versi biasanya digunakan oleh para developer untuk mengembangkan software. 
+
+Dengan Git, para pengguna GitHub dapat melacak perubahan pada file yang berada dalam direktori kerja atau repository sehingga memudahkan mereka untuk mengetahui perubahan pada file ataupun source code program. Sederhananya, bayangkan saja mudahnya direktori kerja ini sebagai folder atau direktori utama proses bekerja terjadi perubahan berkas-berkas. Software Git ini bersifat open source dan bisa di-download untuk Linux, Windows, ataupun macOS.
+
+Selain itu, dengan bekerja menggunakan Git, Anda dapat bekerja secara tim dan berkolaborasi dengan beberapa orang untuk mengerjakan proyek yang sama. Dalam Git, kita dapat membuat cabang (branch) yang berfungsi untuk memisahkan alur kerja (workflow), kita akan mempelajari tentang cabang Git lebih lengkap pada modul selanjutnya. Setelah itu, kita bisa melakukan penyatuan hasil kerja atau merge pada masing-masing anggota. Hal ini akan kita pelajari lebih dalam pada modul Git Branches.
+
+Secara garis besar, cara kerja dari sistem Git sendiri yaitu merekam setiap perubahan pada file atau penambahan file dalam direktori kerja atau repository dengan cara menjalankan perintah Commit pada Git. 
+
+Nah, apa itu Commit? Commit itu seperti snapshot (cuplikan) dari repository Anda pada waktu tertentu dan merupakan salah satu perintah dasar Git untuk menyimpan perubahan setiap file dalam repository di mana perubahan yang telah di-commit akan tersimpan riwayat perubahannya. Kita bisa mengambil salah satu contoh kasus dalam penggunaan Git sebagai kontrol versi yaitu sebuah skripsi mahasiswa.
+
+202107102141276ce6b3fc51ae43516090f5bc75e006a7.png
+
+Perhatikan pada gambar di atas. Jika pada umumnya seorang mahasiswa membuat skripsi dengan membuat satu file dokumen, lalu ketika ada revisi, file tersebut akan disimpan menjadi file yang berbeda agar dokumen skripsi yang lama bisa disimpan semata-mata untuk history dari skripsi pertama hingga menjadi skripsi yang benar benar sempurna. 
+
+Bayangkan jika setiap file skripsi tersebut rata-rata memiliki ukuran file sebesar kurang lebih 5  MB. Jika terdapat enam file, total ukurannya akan memakan penyimpanan sebesar kurang lebih 30 MB. Hal ini sangat tidak rapi dan kuantitas file menjadi banyak sehingga berujung pemborosan dalam penyimpanan. Tentu saja ini merupakan tindakan yang tidak efisien. 
+
+Kasus tersebut hanyalah sebagian contoh kecil yang mungkin beberapa orang tidak terlalu mempermasalahkannya. Apakah ini akan tetap tidak menjadi masalah jika dilakukan pada proyek dengan skala besar? Ah, tentu akan menjadi masalah jika Anda melakukan hal seperti itu. Lain halnya jika mengerjakan skripsi menggunakan Git, mahasiswa dapat menyimpan history perubahan skripsi hanya dengan satu file karena sistem Git dapat menyimpan perubahan pada file skripsi itu sendiri. Sehingga lebih efisien dalam hal kuantitas file serta tidak memakan kapasitas penyimpanan yang besar.
+
+2021071721580250d7d32c5d6e0021f6f334ae280559db.png
+
+Dalam gambar di atas, ilustrasi penggunaan Git pada proyek skripsi di mana setiap perubahan pada file skripsi yang sudah berhasil di-commit tercatat pada riwayat Git yang mana disimbolkan dengan lingkaran. 
+
+Lalu, bagaimana jika ingin mengembalikan file skripsi ke versi yang lama? Tenang saja, Git memiliki perintah untuk mengembalikan versi file skripsi sesuai dengan commit yang sudah tercatat di riwayat. Pada setiap riwayat commit terdapat kode atau alamat yang jika sewaktu-waktu diperlukan untuk mengembalikan versi file ke versi sebelumnya, kita cukup menjalankan perintah-perintah Git. 
+
+Sebelum menggunakan Git, kita perlu tahu beberapa perintah dasar tentang Git, seperti apa itu Commit, Checkout, Revert, dan Reset. Perintah-perintah tersebut akan kita pelajari lebih dalam di materi selanjutnya.

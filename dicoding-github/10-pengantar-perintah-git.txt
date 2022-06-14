@@ -1,0 +1,48 @@
+Mengenal Perintah Dasar Git secara Lebih Dalam
+Pada materi sebelumnya kita sudah mengetahui garis besar dari Git dan pentingnya Git. Kali ini kita akan mengupas lebih dalam mengenai perintah-perintah dasar Git. Ketahuilah, ada beberapa perintah dasar yang sering digunakan para pengguna Git dalam mengontrol versi proyek mereka di direktori kerja. Apa saja itu? Mari simak penjelasan setiap perintah berikut:
+
+
+
+Git Commit
+Seperti yang sudah dibahas sebelumnya, Git Commit merupakan perintah untuk menyimpan hasil perubahan setiap file yang ada di dalam direktori kerja, baik itu file yang baru saja ditambahkan maupun file yang terjadi perubahan. 
+
+20210717215833d8cbf5f06970602c042fc5edabf28585.png
+
+Commit berisi catatan-catatan tentang apa saja yang berubah di dalam sebuah repository. Titik commit inilah yang nantinya akan menjadi acuan apabila kita ingin mengembalikan repository ke keadaan tertentu. Ingat, ketika melakukan commit, jangan lupa untuk menyisipkan message atau pesan perihal apa saja perubahan yang terjadi di repository agar kita lebih mudah mengenali setiap commit yang tercatat di riwayat.
+
+20210705115729b05fca8a084ef1ec2244d1eada8ad9e2.jpeg
+
+Pada platform GitHub, ketika kita membuat file baru, mengunggah file baru, atau melakukan perubahan file yang ada di repository, terdapat kolom message atau pesan dan kolom opsional deskripsi commit untuk lebih menjelaskan perubahan yang dilakukan. Kedua kolom tersebut terletak pada bagian bawah saat kita ingin menyimpan perubahan.
+
+Penulisan commit message harus bisa menjelaskan tentang perubahan apa saja yang dilakukan. Hal ini akan memudahkan kerja tim karena setiap anggota menjadi mengerti mengapa terjadi perubahan pada berkas tersebut.
+
+
+
+Git Checkout
+Git Checkout merupakan perintah layaknya mesin waktu di mana perintah ini memungkinkan para pengguna Git untuk melakukan pengembalian kondisi berkas seperti waktu yang dituju atau commit yang dituju. Akan tetapi, ini bersifat sementara (temporer). Kita bisa sebut bahwa perintah ini sebagai perintah untuk mengecek kondisi setiap file di setiap commit.
+
+202107172201391b7a925bec808ed61d91fe366e1ec236.png
+
+Selain itu, perintah ini juga bisa digunakan untuk berpindah dari satu cabang kerja ke cabang kerja yang lain atau dapat kita gunakan untuk membuat perubahan baru berdasarkan commit di masa lalu.
+
+20210717220211204892ad9c91eeffa7bf3ffcee25dbab.png
+
+Git Checkout sangat berguna ketika kita ingin melakukan pengembalian kondisi berkas pada commit tertentu, lalu mengubahnya, dan membuat branch baru agar tidak mengganggu riwayat perubahan sesudahnya. Cara ini bisa kita ibaratkan seperti menulis cerita baru dengan plot yang berbeda.
+
+
+
+Git Reset
+Git Reset, seperti namanya, perintah ini berfungsi untuk mengatur ulang. Maksudnya, perintah ini merupakan perintah untuk mengembalikan suatu kondisi berkas ke commit yang dituju dan menghapus riwayat sesudahnya.
+
+20210717220247b5b6ec037e74e66049a75251d52246e0.png
+
+Perintah Git Reset sering disebut sebagai perintah yang berbahaya karena dapat menghancurkan catatan sejarah perubahan. Hati-hati dalam penggunaan Git Reset karena sekali melakukannya, kita tidak akan bisa kembali ke masa depan sehingga perlu pertimbangan yang matang saat menggunakannya.
+
+
+
+Git Revert
+Git Revert merupakan perintah yang mirip dengan reset, tetapi fungsinya lebih daripada Git Reset. Perintah ini akan mengembalikan kondisi suatu berkas ke waktu/commit yang dituju tanpa menghapus catatan riwayat commit.
+
+20210717220315517495e1aa4d4b05f0fb137bba3640c8.png
+
+Seperti gambar ilustrasi di atas, perintah Git Revert bekerja dengan cara membuat commit terbaru dengan commit yang dituju sehingga riwayat commit di antaranya tidak terhapus. Git Revert akan mengambil kondisi berkas yang ada di masa lalu, kemudian menggabungkannya dengan commit terakhir. 
