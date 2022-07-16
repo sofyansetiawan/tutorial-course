@@ -95,8 +95,6 @@ Installation
 
   - Case ini bisa terjadi ketika ada perbedaan antara chrome dan safari
 
-# Tailwind Udemy
-
 - Penggunaan lang pada html `<html lang="en">` berpengaruh juga pada style dari output html yang dirender oleh browser
 - Di [tailwindui.com](http://tailwindui.com) terdapat predefined template yang bisa kita pakai (tapi harus bayar)
 - Dark Mode
