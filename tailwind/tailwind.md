@@ -116,7 +116,6 @@ Installation
     - Tambahkan require tailwindss/color di tailwind.config.js
     - Tambahkan di theme > colors untuk nama nama alias colors mu
 - Untuk gradient ada bg-gradient-to-b from-gray-900 to-gray-400 h-screen bg-green-200
-# Tailwind Udemy
 
 - Untuk membuat file outsource template (berisi custom template dan style supaya seragam) yang bisa digunakan di project2 lain
     - Copy tailwind.config.js copy ke project lain (ubah nama untuk menjadi preset
