@@ -116,3 +116,19 @@ Installation
     - Tambahkan require tailwindss/color di tailwind.config.js
     - Tambahkan di theme > colors untuk nama nama alias colors mu
 - Untuk gradient ada bg-gradient-to-b from-gray-900 to-gray-400 h-screen bg-green-200
+# Tailwind Udemy
+
+- Untuk membuat file outsource template (berisi custom template dan style supaya seragam) yang bisa digunakan di project2 lain
+    - Copy tailwind.config.js copy ke project lain (ubah nama untuk menjadi preset
+    - Untuk beberapa properti jika tidak dibutuhkan di project lain bisa di hapus
+    - Di project baru tambahkan properti presets: `[ require(’./filepreset’) ]`
+- Untuk menghapus class yang tidak di gunakan masukkan ke dalam `corePlugins: { float: false }`
+- Variant di tailwind adalah state / kejadian / event untuk apply class. Umumnya seperti pseudoclass. Contoh: dark, focus, hover
+    - Jika ingin extends varian (misal untuk properti tertentu secara default tidak ada variant itu)→ tambahkan di tailwind.config.js
+    - Atau diluar extends, kamu bisa override
+- Bisa membuat breakpoint selain sm, md, lg (karena kebutuhan tanpa membuat css media query)
+    - Tambahkan di screens di tailwind.config.js, nama dan ukuran dalam pixel atau em
+    - Bisa dengan tambahkan container buatanmu di plugins sebagai callback addComponent
+- Untuk plugin bisa dicari di web tailwind di paling bawah Official Plugin
+    - Install
+    - Lalu daftarkan plugin di tailwind.config.js
