@@ -81,3 +81,12 @@ Installation
 - Gunakan class hover, focus, pseudoclass lain yang semantic di css tanpa selector tambahan `hover:bg-blue-100`
 
 - Untuk response terdapat class untuk mengubah sesuai ukuran device misal `lg:bg-blue-200`
+
+- Resource untuk pattern background bisa gunakan -> heropatterns.com
+
+  - Selalu sesuaikan foreground dan background color dengan pattern yang dibagai sebagai background
+  - Heropattern berupa svg yang langsung paste ke css tanpa simpan asset bg
+
+- Untuk mengakali new line untuk resolusi tertentu contohnya `<br class="sm:hidden">`
+
+  - Case ini bisa terjadi ketika ada perbedaan antara chrome dan safari
