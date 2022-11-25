@@ -72,3 +72,24 @@ Next.js Masterclass
 - Handler error message harus lebih spesifik berdasarkan Validation dan ID error, misal error name, error path
   - Misalkan jika 400 harus pesannya apa, resource not found atau gimana
   - Tujuannya agar error mudah dipahami
+
+- Jika tidak menggunakan ORM, bisa buat class utils/apiFeatures berisi class dengan constructor dengan prop query (Room.find()) dan queryString (req.query)
+  - Berisi method search()
+  - Gunakan $regex dan $options pada Mongo untuk memudahkan pencarian dynamic
+  - Tujuannya untuk mengurangi penulisan ORM
+  - Tambahkan juga method untuk pagination (bisa cek caranya di kode pekerjaan)
+
+- Frontend HTML Template
+  - Custom document di next documentation (override document default di next)
+  - Buat di pages/_document.js (Taruh dari doc next template custom)
+  - Import Document dan semua component2 dari next/document yang di pakai di template
+  - Tambahkan style, head dan script external di component masing2
+  - Buat Header dan Footer component berisi react func component seperti biasa
+  - Layout berisi component dari Header dan Footer
+  - Gunakan import next/head untuk mendapatkan SEO func
+  - Wrap children dari prop Layout di dalam header dan footer
+
+- Homepage
+  - Home.module.css berarti itu aturan module css dari next di import ke component terkait
+  - Kalau ingin mengubah style global, cukup ubah di globals.css karena sudah diimport di index.js
+  - Jika home di dalam layout, maka home menjadi propnya
