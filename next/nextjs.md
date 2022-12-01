@@ -93,3 +93,16 @@ Next.js Masterclass
   - Home.module.css berarti itu aturan module css dari next di import ke component terkait
   - Kalau ingin mengubah style global, cukup ubah di globals.css karena sudah diimport di index.js
   - Jika home di dalam layout, maka home menjadi propnya
+
+- Fetch Data
+  - Untuk testing gunakan jsonplaceholder.typicode.com
+  - Import next/link untuk gunakan komponen <link>
+  - getStaticProps ketika build/load pertama, code dimasukkan ke dalam badan function
+    - Bersifat pre-rendered, cocok untuk SEO
+    - Gunakan fetch async
+    - Gunakan untuk fetch data utama (misal tabel data / bukan detail (dinamis))
+  - getServerSideProps
+    - Buatkan [id].js untuk detail
+    - Untuk memanfaatkan id atau param pakai context sebagai param function getServerSideProps lalu bisa pakai context.params.id
+    - Gunakan untuk fectch dinamis setiap hit (misal detail data dari id param)
+  - getStaticPath digunakan jika user ingin bypass dari URL (misal bookmark). Bukan by click dari halaman atau link next
