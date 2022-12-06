@@ -106,3 +106,17 @@ Next.js Masterclass
     - Untuk memanfaatkan id atau param pakai context sebagai param function getServerSideProps lalu bisa pakai context.params.id
     - Gunakan untuk fectch dinamis setiap hit (misal detail data dari id param)
   - getStaticPath digunakan jika user ingin bypass dari URL (misal bookmark). Bukan by click dari halaman atau link next
+    -
+
+- Redux (state management)
+  - Action : function untuk fetch / post data
+  - Dispatch : function untuk call action berdasarkan type
+  - Type : Constant yang dipakai sebagai condition state
+  - Install redux dev tools
+  - Install `npm i redux redux-thunk redux-devtools-extension react-redux next-redux-wrapper --save`
+  - Buat folder redux (reducer, action, constants)
+  - Buat store.js (config redux)
+
+  - Jika ada error, tambahkan di reducer untuk case clear error
+
+  - npm i next-absolute-url (untuk menghindari menulis localhost:3000 dsb ke semua fetch dan post axios) passing origin ke axios
